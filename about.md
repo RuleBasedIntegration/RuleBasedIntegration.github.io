@@ -4,7 +4,7 @@ The **ru**le-**b**ased **i**ntegrator **Rubi** is the result of independent rese
 
 Many people helped Albert in the development of **Rubi** by contributing knowledge, reporting bugs and/or testing the system.  For this, a special thanks goes to David Jeffrey, Daniel Lichtblau, David Stoutemyer, Martin Welz, and Nasser Abbasi.  In 2018, Patrick Scheibe made **Rubi** more accessible to users and developers by creating a dedicated [Rule-based Integration](https://github.com/RuleBasedIntegration) organization on **GitHub**.  The organization is the host for this website, and makes available to developers the **Rubi** source code, integration test suite, and comparative performance test results.  As part of creating that organization, Patrick worked closely with Albert to improve the **Rubi** interface and its **Mathematica** package code.
 
-### About Albert Rich
+### Albert Rich
 
 In 1978, David Stoutemyer and Albert co-founded *The Soft Warehouse* to develop and sell mathematical software for what eventually became known as "personal computers".  Albert was the author of the 8080, 8086 and Pentium assembly language implementations of **muLisp**, *An Artificial Intelligence Development System* the company sold.  He and David were the co-authors of the company's **muMath** (1979) and later **Derive** (1988) computer algebra systems.  Theresa Shelby wrote the **Visual C++** interface for **Derive for Windows** (1992).  The company incorporated as *Soft Warehouse, Inc.* in 1983, and was sold, along with rights to its software, to *Texas Instruments Inc.* in 1998.   
 
@@ -14,4 +14,4 @@ After a long career implementing computer algebra systems, Albert was convinced 
 * Filling "holes" in the decision tree used to select which rule to apply led to the discovery of some amazing new integration formulas.
 * The system's thousands of pattern matching rules could be "compiled" into a single, deeply nested if-then-else control construct.  This compilation would improve performance by at least an order of magnitude *and* make it possible to port the system to host computer algebra systems that do *not* support sophisticated pattern matching.
 
-### About Patrick
+### Patrick Scheibe
