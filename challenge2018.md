@@ -7,7 +7,7 @@ Candidate expressions must be formatted in Mathematica syntax and sent to `Alber
 
 ## Explanation
 
-The last element of the list of statistics displayed by Rubi's `Stat[Int[expn, var, Stats]]` command is the number of distinct
+The last element of the list of statistics displayed by Rubi's `Stat[Int[expn, var]]` command is the number of distinct
 rules required to integrate `expn` divided by the size of `expn`.
 This rule-to-size ratio provides a normalized measure of the amount of mathematical knowledge Rubi uses to integrate
 expressions.
