@@ -15,3 +15,7 @@ After a long career implementing computer algebra systems, Albert was convinced 
 * The system's thousands of pattern matching rules could be "compiled" into a single, deeply nested if-then-else control construct.  This compilation would improve performance by at least an order of magnitude *and* make it possible to port the system to host computer algebra systems that do *not* support sophisticated pattern matching.
 
 ### Patrick Scheibe
+
+Patrick started using computer algebra systems (CAS) at university when he took a course by [Hans-Gert Gräbe](https://www.hg-graebe.de) who did not restrict his material to one specific CAS but instead highlighted the strengths of different systems like MuPAD, Derive, Mathematica, Axiom, Maple, Maxima, and Reduce. Later, he discovered that his thesis mentor Jens-Peer Kuska was a Mathematica expert and highly gifted programmer.
+
+Therefore, Patrick is a Mathematica user since around version 4.2 and uses it on a daily basis for most of his symbolic and numerical calculations. Since 2007, he is working at the University Leipzig as a researcher for medical image processing. He is the author of the [Mathematica Plugin for IntelliJ](http://wlplugin.halirutan.de/) and a highly active member on [mathematica.stackexchange](https://mathematica.stackexchange.com/users/187/halirutan).
