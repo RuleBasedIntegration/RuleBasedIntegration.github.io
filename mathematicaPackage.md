@@ -18,7 +18,9 @@ and describe as clearly as possible what you have found.
 In Mathematica 11.2 or later, you can install the package directly from the online repository
 
 ```mma
-PacletInstall["https://github.com/RuleBasedIntegration/Rubi/releases/download/4.17/Rubi-4.17.paclet"]
+PacletInstall[
+  "https://github.com/RuleBasedIntegration/Rubi/releases/download/4.17/Rubi-4.17.paclet"
+]
 ```
 In earlier version of Mathematica, you can download the latest version of Rubi from the [releases section](https://github.com/RuleBasedIntegration/Rubi/releases) as
 a *paclet* file. To install the paclet use
