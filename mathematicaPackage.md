@@ -26,7 +26,7 @@ In earlier version of Mathematica, you can download the latest version of Rubi f
 a *paclet* file. To install the paclet use
 
 ```mma
-PacletInstall["path/to/Rubi-x.xx.paclet"]
+PacletInstall["path/to/Rubi-x.xx.x.x.paclet"]
 ```
 
 Another way is to download the complete repository by using the green *Clone or download* button and extract the zip
