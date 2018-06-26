@@ -71,7 +71,7 @@ Int[Sqrt[x]*x, x]
 (*  (2 x^(5/2))/5 *)
 ```
 
-Rubi can also compute the difference of the limits of the antiderivative `Int` produces at two points. By the Fundamental Theorem of Calculus (FTOC), if the antiderivative is continuous between these points, this difference will equal the definite integral; otherwise, it will not equal the definite integral.
+Rubi can also compute the difference of the limits of the antiderivative `Int` produces at two points. By the Fundamental Theorem of Calculus (FTOC), if the antiderivative is continuous between these points, this difference will equal the definite integral; otherwise, it will **not** equal the definite integral.
 
 ```mma
 Int[Sqrt[x]*x, {x, 1, 10}]
