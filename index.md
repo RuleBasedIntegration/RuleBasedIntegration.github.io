@@ -4,13 +4,19 @@ Rubi is an extensive system of symbolic integration rules that can be systematic
 
 ## How Rubi Compares with Other Symbolic Integrators
 
-Rubi dramatically out-performs Maple and Mathematica (the two major commercial computer algebra systems) on a grueling integration test suite consisting of over 70 thousand integrands and optimal antiderivatives. What constitutes an optimal antiderivative is defined as follows:
+Rubi dramatically out-performs Maple and Mathematica (the two major commercial computer algebra systems) on a grueling integration test suite consisting of over 70 thousand integrands and optimal antiderivatives. The result of integration can be divided into several classes:
 
-- Optimal: for Rubi, the number of results identical to the optimal antiderivative; for the other systems, the number of results no more than twice the size of the optimal antiderivative, based on leaf counts.
-- Nonoptimal: for Rubi, the number of results that are correct but not identical to the optimal antiderivative; for the other systems, the number of results that are more than twice the size of the optimal antideriative.
-- Fail: the number of problems the system returns unintegrated but that are actually integrable in terms of functions known by the system, plus the number of problems the system fails to integrate within a 120 second time limit.
+- **A** - Integral was solved and antiderivative is optimal in quality and leaf size.
+- **B** - Integral was solved and antiderivative is optimal in quality but the leaf size is
+larger than twice the optimal antiderivatives leaf size.
+- **C** - Integral was solved but the antiderivative is non-optimal in quality. This can be due to one or more of the following reasons
+    1. Antiderivative contains a hypergeometric function and the optimal antiderivative does not.
+    2. Antiderivative contains a special function and the optimal antiderivative does not.
+    3. Antiderivative contains the imaginary unit and the optimal antiderivative does not.
+- **F** - Integral was not solved. Either the integral was returned unevaluated within the time limit, or it timed out, or the CAS hanged or crashed or an exception was raised. 
 
-This chart shows the percentage of test suite problems for which these systems were able to find optimal antiderivatives.
+
+This chart shows the results of the test suite problems when run by different systems
 
 {:refdef: style="text-align: center;"}
 ![percentages](percentages.png)
