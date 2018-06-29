@@ -4,7 +4,7 @@ Rubi is an extensive system of symbolic integration rules that can be systematic
 
 ## How Rubi Compares with Other Symbolic Integrators
 
-Rubi dramatically out-performs other symbolic integrators, includeing Maple and Mathematica, on a grueling integration test suite consisting of over 70 thousand integrands and their optimal antiderivatives. The result of integration produced by the various systems is divided into several classes as follows:
+Rubi dramatically out-performs other symbolic integrators, including Maple and Mathematica, on a grueling integration test suite consisting of over 70 thousand integrands and their optimal antiderivatives. The result of integration produced by the various systems is divided into several classes as follows:
 
 - **A** - Integral was solved and antiderivative is optimal in quality and leaf size.
 - **B** - Integral was solved and antiderivative is optimal in quality but the leaf size is
