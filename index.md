@@ -21,3 +21,6 @@ An extensive report about testing the integration capabilities of several system
 ![percentages](percentages.png)
 {:refdef}
 
+## What if you have questions or suggestions?
+
+For bugs or feature requests, please use the [issue tracker on GitHub](https://github.com/RuleBasedIntegration/Rubi/issues). If you like to discuss certain parts of Rubi, feel free to join [our Gitter chat](https://gitter.im/Rule-Based-Integration/Lobby) using your GitHub login.
