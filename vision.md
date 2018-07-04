@@ -43,7 +43,7 @@ But since **Rubi 4.15** is slowed down by its use of pattern matching to search 
 
 All the integration rules, test suite problems and results demonstrating the above benefits are freely available on [Rubi's website](http://www.apmaths.uwo.ca/~arich/) and on GitHub's [RuleBasedIntegration/Rubi webpage](https://github.com/RuleBasedIntegration/Rubi).
 
-## Rule-based Decision Trees Uniquely Exist
+## Rule-based Decision Trees Exist and Are Unique
 
 Finally, it should be noted that **Rubi** is an ever improving, but imperfect, model of the actual integration decision tree existing in some Platonic sense.  In the same way, software simulating a hurricane is just an imperfect model of the actual hurricane blowing in the physical world.  So **Rubi** may be just a model, but she's a darn good-looking one.
 
