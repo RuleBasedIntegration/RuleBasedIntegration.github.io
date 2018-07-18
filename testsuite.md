@@ -14,4 +14,4 @@ Since the resulting test-suite is useful for evaluating the performance of *any*
 [3]: http://www.apmaths.uwo.ca/~arich/IntegrationProblems/MathematicaSyntaxFiles/MathematicaSyntaxFiles.html
 [4]: http://www.apmaths.uwo.ca/~arich/IntegrationProblems/MaximaSyntaxFiles/MaximaSyntaxFiles.html
 
-Note that the optimal antiderivatives (i.e. the correct answers) in the integration test-suite are valid for all real and complex values of their integration and other variables.  Therefore, when the test-suite is used to evaluate a system's symbolic integrator, all the variables in the problem should be declared complex if not by default.  For example, in Maxima variables are assummed to be real by default. 
+Note that the optimal antiderivatives (i.e. the correct answers) in the integration test-suite are valid for all real and complex values of their integration and other variables.  Therefore, when the test-suite is used to evaluate a system's symbolic integrator, all the variables in the problem should be declared complex if not by default.  For example, in Maxima variables are assumed to be real by default. 
