@@ -1,4 +1,4 @@
-## Test-suite for Rubi
+## Integration Test-suite
 
 Contemporaneous with the development of Rubi, a test-suite consisting of tens of thousands of integration problems was built to test every aspect of the system. Each problem is stored as a list of the integrand, the integration variable, the number of steps Rubi uses to integrate the problem, and the optimal antiderivative. 
 
