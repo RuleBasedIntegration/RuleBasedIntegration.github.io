@@ -15,6 +15,10 @@ and describe as clearly as possible what you have found.
 
 ## Installation
 
+**Important Note:** We have seen [one case](https://github.com/RuleBasedIntegration/Rubi/issues/4) where version 4.15.2.1 of Rubi cannot compute an antiderivative that the earlier version can do. If you find such problems, please try the former version you find on [Albert Rich's website](http://www.apmaths.uwo.ca/~arich/) and file an [issue](https://github.com/RuleBasedIntegration/Rubi/issues)!
+
+---
+
 In Mathematica 11.2 or later, you can install the package directly from the online repository
 
 ```mma
