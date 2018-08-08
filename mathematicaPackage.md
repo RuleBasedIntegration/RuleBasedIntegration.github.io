@@ -33,7 +33,7 @@ a *paclet* file. To install the paclet use
 PacletInstall["path/to/Rubi-x.xx.x.x.paclet"]
 ```
 
-Another way is to download the complete repository by using the green *Clone or download* button and extract the zip
+Another way is to download the complete repository as a [zip file](https://github.com/RuleBasedIntegration/Rubi/archive/master.zip) or by using the green *Clone or download* button and extract the zip
 to a place of your choice. The Rubi repository is much larger than the paclet since it contains all Rubi notebooks
 with the integration rules (that are definitely worth a look!).
 
