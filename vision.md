@@ -41,7 +41,7 @@ But since **Rubi 4.15** is slowed down by its use of pattern matching to search 
 
 * The decision tree of a rule-based system must provide an appropriate rule for *every* possible instance of a given form.  During development, "holes" in the tree indicate exactly where new rules can and need to be discovered.  Time and again during the development of **Rubi**, filling such holes has resulted in finding hitherto unknown (at least to me) integration formulas.  Thus the process of implementing a rule-based system often leads to the discovery of some exciting new mathematics. 
 
-All the integration rules, test suite problems and results demonstrating the above benefits are freely available on [Rubi's website](http://www.apmaths.uwo.ca/~arich/) and on GitHub's [RuleBasedIntegration/Rubi webpage](https://github.com/RuleBasedIntegration/Rubi).
+All the integration rules, test suite problems and results demonstrating the above benefits are freely available on [Rubi's website](https://rulebasedintegration.org/).
 
 ## Rule-based Decision Trees Exist and Are Unique
 
