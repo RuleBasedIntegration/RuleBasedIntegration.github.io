@@ -15,25 +15,21 @@ and describe as clearly as possible what you have found.
 
 ## Installation
 
-**Important Note:** We have seen [one case](https://github.com/RuleBasedIntegration/Rubi/issues/4) where version 4.15.2.1 of Rubi cannot compute an antiderivative that the earlier version can do. If you find such problems, please try the former version you find on [Albert Rich's website](http://www.apmaths.uwo.ca/~arich/) and file an [issue](https://github.com/RuleBasedIntegration/Rubi/issues)!
-
----
-
-In Mathematica 11.2 or later, you can install the package directly from the online repository
+In Mathematica 10.3.1 or later, you can install the package directly from the online repository
 
 ```mma
 PacletInstall[
-  "https://github.com/RuleBasedIntegration/Rubi/releases/download/4.15.2.1/Rubi-4.15.2.1.paclet"
+  "https://github.com/RuleBasedIntegration/Rubi/releases/download/4.16.0.2/Rubi-4.16.0.2.paclet"
 ]
 ```
-In earlier version of Mathematica, you can download the latest version of Rubi from the [releases section](https://github.com/RuleBasedIntegration/Rubi/releases) as
-a *paclet* file. To install the paclet use
+If you downloaded Rubi from the [releases section](https://github.com/RuleBasedIntegration/Rubi/releases) as
+a *paclet* file, you can install it with
 
 ```mma
 PacletInstall["path/to/Rubi-x.xx.x.x.paclet"]
 ```
 
-Another way is to download the complete repository as a [zip file](https://github.com/RuleBasedIntegration/Rubi/archive/master.zip) or by using the green *Clone or download* button and extract the zip
+Another way is to download the complete repository as a [zip file](https://github.com/RuleBasedIntegration/Rubi/archive/master.zip) or by using the green *Clone or download* button and to extract the zip
 to a place of your choice. The Rubi repository is much larger than the paclet since it contains all Rubi notebooks
 with the integration rules (that are definitely worth a look!).
 
@@ -53,7 +49,7 @@ After that, you can load it like any other normal package.
 
 ## Usage
 
-Rubi has 2 global settings that need to be set *before* you load the package if you want to use these features
+Rubi has 2 global settings that need to be set *before* you load the package if you want to change the behavior. Their default value is `True`
 
 ```mma
 $LoadShowSteps = True;
@@ -64,7 +60,7 @@ $LoadElementaryFunctionRules = True;
 antiderivative.
 2. `$LoadElementaryFunctionRules` needs to by `True` if you want to solve integrals that contain sine, tangents, exponentials, etc.
 
-Both settings increase the loading time of the package at the moment, but this might change in future.
+Both settings increase the loading time of the package at the moment, but this will change in future.
 
 ### Basic integration
 
@@ -145,3 +141,18 @@ The statistical output contains the following information
 - `"Ratio"`: the rule-to-size ratio of the integration, i.e. the quotient of `"NumberOfRules"` and `"InputLeafCount"`.
 - `"Rules"`: the rule-numbers of the distinct rules used.
 
+### Advanced inspection of the integration
+
+If you want to inspect integration steps or the statistics as a normal Mathematica expression instead of printing them in a visually pleasing form, the `Steps`, `Step`, and `Stats` function take an option `RubiPrintInformation` that can be set to `False`. The information about the integration is then returned together with the antiderivative:
+
+```mma
+Steps[Int[x, x], RubiPrintInformation -> False]
+```
+
+![Steps as expression](http://i.stack.imgur.com/locjv.png)
+
+The last integer in `RubiRule` corresponds to the index of the `Int`-*down value* which is in the above example
+
+```mma
+DownValues[Int][[30]]
+```
