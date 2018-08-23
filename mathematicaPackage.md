@@ -15,11 +15,12 @@ and describe as clearly as possible what you have found.
 
 ## Installation
 
-In Mathematica 10.3.1 or later, you can install the package directly from the online repository
+### Mathematica 10.3.1 or later
+You can install the package directly from the online repository
 
 ```mma
 PacletInstall[
-  "https://github.com/RuleBasedIntegration/Rubi/releases/download/4.16.0.2/Rubi-4.16.0.2.paclet"
+  "https://github.com/RuleBasedIntegration/Rubi/releases/download/4.16.0.3/Rubi-4.16.0.3.paclet"
 ]
 ```
 If you downloaded Rubi from the [releases section](https://github.com/RuleBasedIntegration/Rubi/releases) as
@@ -29,23 +30,31 @@ a *paclet* file, you can install it with
 PacletInstall["path/to/Rubi-x.xx.x.x.paclet"]
 ```
 
-Another way is to download the complete repository as a [zip file](https://github.com/RuleBasedIntegration/Rubi/archive/master.zip) or by using the green *Clone or download* button and to extract the zip
-to a place of your choice. The Rubi repository is much larger than the paclet since it contains all Rubi notebooks
-with the integration rules (that are definitely worth a look!).
+Mathematica will put the paclet into its paclet-repository and if you want to know at which location Rubi was installed, you can use `PacletFind["Rubi"] // InputForm` or access the location by using
 
-With the complete repository downloaded, you can use Rubi by loading it directly from the folder
+```mma
+First[PacletFind["Rubi"]]["Location"]
+```
+
+### Mathematica versions < 10.3.1
+
+Download [Rubi.zip](https://github.com/RuleBasedIntegration/Rubi/releases/download/4.16.0.3/Rubi-4.16.0.3.zip) and extract it. You can load Rubi directly from this folder with
 
 ```mma
 Get["path/to/Rubi/Rubi.m"]
 ```
 
-or you place the inner `Rubi` folder with all its content into the following directory
+or you place the `Rubi` folder with all its content into the following directory
 
 ```mma
 FileNameJoin[{$UserBaseDirectory, "Applications"}]
 ```
 
-After that, you can load it like any other normal package.
+After that, you can load it like any other normal package using
+
+```mma
+<<Rubi`
+```
 
 ## Usage
 
