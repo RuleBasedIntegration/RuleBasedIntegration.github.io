@@ -15,7 +15,7 @@ and describe as clearly as possible what you have found.
 
 ## Installation
 
-### Mathematica 10.3.1 or later
+### Mathematica versions 11.2-11.3
 You can install the package directly from the online repository
 
 ```mma
@@ -23,11 +23,13 @@ PacletInstall[
   "https://github.com/RuleBasedIntegration/Rubi/releases/download/4.16.0.3/Rubi-4.16.0.3.paclet"
 ]
 ```
-If you downloaded Rubi from the [releases section](https://github.com/RuleBasedIntegration/Rubi/releases) as
-a *paclet* file, you can install it with
+
+### Mathematica versions 9-11.2
+
+Download [Rubi-4.16.0.3.paclet](https://github.com/RuleBasedIntegration/Rubi/releases/download/4.16.0.3/Rubi-4.16.0.3.paclet) and install it from your local disk
 
 ```mma
-PacletInstall["path/to/Rubi-x.xx.x.x.paclet"]
+PacletInstall["path/to/downloads/Rubi-4.16.0.3.paclet"]
 ```
 
 Mathematica will put the paclet into its paclet-repository and if you want to know at which location Rubi was installed, you can use `PacletFind["Rubi"] // InputForm` or access the location by using
@@ -36,9 +38,9 @@ Mathematica will put the paclet into its paclet-repository and if you want to kn
 First[PacletFind["Rubi"]]["Location"]
 ```
 
-### Mathematica versions < 10.3.1
+### Mathematica versions 7-8
 
-Download [Rubi.zip](https://github.com/RuleBasedIntegration/Rubi/releases/download/4.16.0.3/Rubi-4.16.0.3.zip) and extract it. You can load Rubi directly from this folder with
+Download [Rubi-4.16.0.3.zip](https://github.com/RuleBasedIntegration/Rubi/releases/download/4.16.0.3/Rubi-4.16.0.3.zip) and extract it. You can load Rubi directly from this folder with
 
 ```mma
 Get["path/to/Rubi/Rubi.m"]
