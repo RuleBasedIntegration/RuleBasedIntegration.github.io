@@ -1,5 +1,7 @@
 ## Mathematica package for Rubi
 
+![release](https://img.shields.io/github/release/rulebasedintegration/rubi.svg) ![downloads](https://img.shields.io/github/downloads/rulebasedintegration/rubi/total.svg)
+
 The [Rubi Mathematica package](https://github.com/RuleBasedIntegration/Rubi) is the reference implementation
 of the integration rules.
 It provides an `Int[expr, var]` function that can, like Mathematica's `Integrate`, find the antiderivative of `expr` 
