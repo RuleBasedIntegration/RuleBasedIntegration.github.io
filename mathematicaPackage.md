@@ -54,7 +54,7 @@ After that, you can load it like any other normal package using
 
 ## Usage
 
-After successfull installation, you can load the Rubi package with
+After successfully installating the Rubi package, you can load it with
 
 ```mma
 <<Rubi`
