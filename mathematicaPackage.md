@@ -1,6 +1,6 @@
 ## Mathematica package for Rubi
 
-![release](https://img.shields.io/github/release/rulebasedintegration/rubi.svg) ![downloads](https://img.shields.io/github/downloads/rulebasedintegration/rubi/total.svg)
+![release](https://img.shields.io/github/release/rulebasedintegration/rubi.svg?longCache=true&style=for-the-badge) ![downloads](https://img.shields.io/github/downloads/rulebasedintegration/rubi/total.svg?longCache=true&style=for-the-badge)
 
 The [Rubi Mathematica package](https://github.com/RuleBasedIntegration/Rubi) is the reference implementation
 of the integration rules.
