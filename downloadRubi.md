@@ -2,53 +2,62 @@
 
 ![release](https://img.shields.io/github/release/rulebasedintegration/rubi.svg?longCache=true&style=for-the-badge) ![downloads](https://img.shields.io/github/downloads/rulebasedintegration/rubi/total.svg?longCache=true&style=for-the-badge)
 
-The instructions below describe how to download and install the current version of Rubi on computers running Mathematica 7 or later.
-The current, reference version of Rubi is 4.16.0.4.
+The instructions below describe how to download and install the Mathematica implementation of Rubi.
+The current, reference version of this implementation is 4.16.0.4.
+Mathematica 7 or later is required to host Rubi 4.16.0.4.
 
-Rubi was originally implemented using Mathematica as the host computer algebra system (CAS).
-However, recently the integration rules on which Rubi is based have been ported to other computer algebra systems.
-Currently these include:
+The original implementation of Rubi used Mathematica as the host computer algebra system (CAS).
+Recently the integration rules on which Rubi is based have been ported to other systems.
+Currently these ports include:
 
-* For the [SymJa CAS](???) (Symbolic Java) implementation of Rubi goto [download SymJa Rubi](???).
-* For the [SymPy CAS](???) (Symbolic Python) implementation of Rubi goto [download SymPy Rubi](???).
+* The [SymJa CAS](???) (Symbolic Java) port of Rubi available for download at [SymJa Rubi](???).
+* The [SymPy CAS](???) (Symbolic Python) port of Rubi available for download at [SymPy Rubi](???).
 
-These independently developed implementations of Rubi are still under development.
+These ports of Rubi were written independently and are still under development.
 Please address all questions and comments about them to their respective developers.
 
 
 ### Instructions for Mathematica 11 or later
 
-The `PacletInstall` command
+Use the `PacletInstall` command
 ```mma
 PacletInstall[
   "https://github.com/RuleBasedIntegration/Rubi/releases/download/4.16.0.4/Rubi-4.16.0.4.paclet"
 ]
 ```
-downloads the Rubi 4.16.0.4 paclet directly from the online repository on GitHub, and then installs it on your computer as a Mathematica package.
+to download the Rubi 4.16.0.4 paclet directly from the online repository on GitHub, and install it on your computer as a Mathematica package named Rubi.
 
-If Rubi has already been installed on your computer, use the command
+If a Rubi package has already been installed on your computer, use the command
 ```mma
 PacletInstall[
   "https://github.com/RuleBasedIntegration/Rubi/releases/download/4.16.0.4/Rubi-4.16.0.4.paclet",
   IgnoreVersion -> True
 ]
 ```
-to overwrite the previous version.
+to overwrite it with version 4.16.0.4.
 
-
-### Mathematica versions 9-11.2
-
-Download [Rubi-4.16.0.4.paclet](https://github.com/RuleBasedIntegration/Rubi/releases/download/4.16.0.4/Rubi-4.16.0.4.paclet) and install it from your local disk
-
+The `PacletInstall` command will put the Rubi package into Mathematica's repository for paclets.
+Use the command
 ```mma
-PacletInstall["path/to/downloads/Rubi-4.16.0.4.paclet"]
+PacletFind["Rubi"] // InputForm`
 ```
-
-Mathematica will put the paclet into its paclet-repository and if you want to know at which location Rubi was installed, you can use `PacletFind["Rubi"] // InputForm` or access the location by using
-
+to find Rubi's paclet repository, or use the command
 ```mma
 First[PacletFind["Rubi"]]["Location"]
 ```
+to access its location.
+
+
+### Instructions for Mathematica 9 and 10
+
+Download [Rubi-4.16.0.4.paclet](https://github.com/RuleBasedIntegration/Rubi/releases/download/4.16.0.4/Rubi-4.16.0.4.paclet) and then use the command
+```mma
+PacletInstall["path/to/downloads/Rubi-4.16.0.4.paclet"]
+```
+to install it on your computer as a Mathematica package named `Rubi`.
+
+Use a `PacletFind` command as described above to find the paclet repository Rubi was installed in.
+
 
 ### Mathematica versions 7-8
 
