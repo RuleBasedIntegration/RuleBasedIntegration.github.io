@@ -1,30 +1,40 @@
-## Mathematica package for Rubi
+## Download and Install Rubi
 
 ![release](https://img.shields.io/github/release/rulebasedintegration/rubi.svg?longCache=true&style=for-the-badge) ![downloads](https://img.shields.io/github/downloads/rulebasedintegration/rubi/total.svg?longCache=true&style=for-the-badge)
 
-The [Rubi Mathematica package](https://github.com/RuleBasedIntegration/Rubi) is the reference implementation
-of the integration rules.
-It provides an `Int[expr, var]` function that can, like Mathematica's `Integrate`, find the antiderivative of `expr` 
-with respect to `var`. 
-Further information about the Rubi package can be found here
+The instructions below describe how to download and install the current version of Rubi on computers running Mathematica 7 or later.
+The current, reference version of Rubi is 4.16.0.4.
 
-1. The [complete and open-source package code](https://github.com/RuleBasedIntegration/Rubi) on GitHub. It includes the
-source-notebooks that contain the integration rules and provides everything to build and use it as Mathematica package.
-2. The [Wiki of this repository](https://github.com/RuleBasedIntegration/Rubi/wiki) which will soon contain detailed
-information about Rubi's development process.
-3. If you find a bug or an expression that Rubi cannot integrate, please use the [issue tracker on GitHub](https://github.com/RuleBasedIntegration/Rubi/issues)
-and describe as clearly as possible what you have found.
+Rubi was originally implemented using Mathematica as the host computer algebra system (CAS).
+However, recently the integration rules on which Rubi is based have been ported to other computer algebra systems.
+Currently these include:
 
-## Installation
+* For the [SymJa CAS](???) (Symbolic Java) implementation of Rubi goto [download SymJa Rubi](???).
+* For the [SymPy CAS](???) (Symbolic Python) implementation of Rubi goto [download SymPy Rubi](???).
 
-### Mathematica versions 11.2-11.3
-You can install the package directly from the online repository
+These independently developed implementations of Rubi are still under development.
+Please address all questions and comments about them to their respective developers.
 
+
+### Instructions for Mathematica 11 or later
+
+The `PacletInstall` command
 ```mma
 PacletInstall[
   "https://github.com/RuleBasedIntegration/Rubi/releases/download/4.16.0.4/Rubi-4.16.0.4.paclet"
 ]
 ```
+downloads the Rubi 4.16.0.4 paclet directly from the online repository on GitHub, and then installs it on your computer as a Mathematica package.
+
+If Rubi has already been installed on your computer, use the command
+```mma
+PacletInstall[
+  "https://github.com/RuleBasedIntegration/Rubi/releases/download/4.16.0.4/Rubi-4.16.0.4.paclet",
+  IgnoreVersion -> True
+]
+```
+to overwrite the previous version.
+
 
 ### Mathematica versions 9-11.2
 
