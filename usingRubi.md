@@ -23,21 +23,21 @@ However, this initial load also saves a fast loading memory image of Rubi, so al
 
 ### Basic Int Commands
 
-`Int[expn, var]` returns the antiderivative (aka indefinite integral) of `expn` with respect to `var`.
-For example, the command
+The command `Int[expn, var]` returns the antiderivative (aka indefinite integral) of `expn` with respect to `var`.
+For example,
 ```mma
 Int[???, x]
 ```
 returns ???.
 
-`Int[{expn1, expn2, ...}, var]` returns a list of the antiderivatives of `expn1`, `expn2`, ... each with respect to `var`.
-For example, the command
+The command `Int[{expn1, expn2, ...}, var]` returns a list of the antiderivatives of `expn1`, `expn2`, ... each with respect to `var`.
+For example,
 ```mma
 Int[{???, ???}, x]
 ```
 returns ???.
 
-`Int[expn, {var, a, b}]` returns the limit of the antiderivative of `expn` as `var` approaches `b` minus the limit as `var` approaches `a`.
+The command `Int[expn, {var, a, b}]` returns the limit of the antiderivative of `expn` as `var` approaches `b` minus the limit as `var` approaches `a`.
 Note that by the *Fundamental Theorem of Calculus* (FTOC), this difference will equal the definite integral of `expn` from `a` to `b` *if and only if* the antiderivative is continuous between the two points.
 For example,
 ```mma
