@@ -21,7 +21,7 @@ The first time Rubi is loaded, it will take a minute or two to read in and initi
 However, this initial load also saves a fast loading memory image of Rubi, so all subsequent load commands will be almost instantaneouss. 
 
 
-### Basic Int Commands
+### The Int Commands
 
 The command `Int[expn, var]` returns the antiderivative (aka indefinite integral) of `expn` with respect to `var`.
 For example,
@@ -60,14 +60,14 @@ Integrate[???, {x, ???, ???}]
 since the antiderivative of ??? is *not* continuous between ??? and ???.
 
 
-### Inspecting integration steps
+### The Step commands
 
-Using `Steps` or `Step`, Rubi can show the list of integration rules and intermediate expressions.
-
+The command `Steps[Int[expn, var]]` displays all the steps in the integration of `expn` with respect to `var` and returns the antiderivative.
+For example,
 ```mma
 Steps[Int[(a + b*Sqrt[x])^d, x]]
 ```
-
+displays
 ![steps](http://i.imgur.com/jC1BTJs.png)
 
 The boxes on the right with red text are the integration rules and the boxes with blue text are intermediate results.
@@ -80,9 +80,13 @@ Furthermore, you can click on the blue intermediate results and they are copied 
 Mathematica input. The "Copy Steps" button at the bottom let's you copy the complete list of steps as raw Mathematica
 expressions like they are collected by Rubi.
 
-The `Step` function works similarly but only shows the first step of the integration.
+The command `Step[Int[expn, var]]` displays the first step in the integration of `expn` with respect to `var` and returns the intermediate result.
+Its display of the integration rule is the same as that used by the `Steps` command.
 
-### Integration statistics
+
+### The Stats command
+
+The command `Stats[Int[expn, var]]` displays stats about the integration before returning the antiderivative `expn` with respect to `var`.
 
 Rubi maintains a notion of how complex the computation of the antiderivative is. It is using the number of rules
 that were required and the sizes of the input and output expressions. 
@@ -114,6 +118,7 @@ The statistical output contains the following information
 - `"OutputLeafCount"`: the leaf count size of the found antiderivative.
 - `"Ratio"`: the rule-to-size ratio of the integration, i.e. the quotient of `"NumberOfRules"` and `"InputLeafCount"`.
 - `"Rules"`: the rule-numbers of the distinct rules used.
+
 
 ### Advanced inspection of the integration
 
