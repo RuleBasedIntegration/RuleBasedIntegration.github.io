@@ -1,43 +1,62 @@
 ## Using Rubi
 
-Loading Rubi defines the function `Int` using extensive system of integration rules.
-These rules are capable of finding optimal antiderivatives (aka indefinite integral) for large classes of expressions with respect to their variables.
-Calls on `Int` are analogous to Mathematica’s built-in `Integrate` function, but the rules `Int` uses are completely independent of `Integrate`.
+Loading Rubi defines the function `Int` using an extensive system of integration rules.
+These rules are capable of finding optimal antiderivatives for large classes of expressions with respect to their variables.
+Although calls on `Int` are similar in form and function to Mathematica’s built-in function `Integrate`, the rules `Int` uses to integrate expressions do not depend on `Integrate`.
 
 
 ### Loading Rubi
 
 After the Rubi package has been properly installed as described in the [Download Rubi](???) instructions, use the `Get` command
 ```mma
+Get["Rubi`"]
+```
+or the shorter form
+```mma
 <<Rubi`
 ```
-to load Rubi into Mathematica and make it ready for use.
+to load Rubi into Mathematica.
 
 The first time Rubi is loaded it will take a minute or two to read in and initialize the system.
-However, this initial load also saves a fast loading memory image of Rubi, so all subsequent Rubi load commands will be almost instantaneouss. 
+However, this initial load also saves a fast loading memory image of Rubi, so all subsequent load commands will be almost instantaneouss. 
 
-### Basic integration
 
-Rubi provides the command `Int[expr, x]` that computes the antiderivative of `expr` with respect to `x`
+### The basic Int commands
 
+`Int[expn, var]` returns the antiderivative (aka indefinite integral) of `expn` with respect to `var`.
+For example, the command
 ```mma
-Int[Sqrt[x]*x, x]
-(*  (2 x^(5/2))/5 *)
+Int[???, x]
+```
+returns ???.
+
+`Int[{expn1, expn2, ...}, var]` returns a list of the antiderivatives of `expn1`, `expn2`, ... each with respect to `var`.
+For example, the command
+```mma
+Int[{???, ???}, x]
+```
+returns ???.
+
+`Int[expn, {var, a, b}]` returns the limit of the antiderivative of `expn` as `var` approaches `b` minus the limit as `var` approaches `a`.
+Note that by the *Fundamental Theorem of Calculus* (FTOC), this difference will equal the definite integral of `expn` from `a` to `b` *if* the antiderivative is continuous between the two points.
+Otherwise, it will *not* equal the definite integral.
+For example, the command
+```mma
+Int[???, {x, ???, ???}]
+```
+returns ??? which equals
+```mma
+Integrate[???, {x, ???, ???}]
+```
+However,
+```mma
+Int[???, {x, ???, ???}]
+```
+returns ??? which does *not* equal
+```mma
+Integrate[???, {x, ???, ???}]
 ```
 
-Rubi can also compute the difference of the limits of the antiderivative `Int` produces at two points. By the Fundamental Theorem of Calculus (FTOC), if the antiderivative is continuous between these points, this difference will equal the definite integral; otherwise, it will **not** equal the definite integral.
-
-```mma
-Int[Sqrt[x]*x, {x, 1, 10}]
-(* -(2/5) + 40 Sqrt[10] *)
-```
-
-The expression to integrate can also be a list of expressions and then, each antiderivative is computed
-
-```mma
-Int[{x, x^2}, x]
-(* {x^2/2, x^3/3} *)
-```
 
 ### Inspecting integration steps
 
