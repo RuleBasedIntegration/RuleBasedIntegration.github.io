@@ -35,7 +35,7 @@ PacletInstall[
   IgnoreVersion -> True
 ]
 ```
-to overwrite it with version 4.16.0.4.
+to overwrite it with the latest version of Rubi.
 
 The above `PacletInstall` commands will put the Rubi package into Mathematica's paclet repository.
 Use the command
@@ -48,10 +48,10 @@ to see the full path name to the location of the Rubi package.
 ### Instructions for Mathematica 9 and 10
 
 Click [here](https://github.com/RuleBasedIntegration/Rubi/releases/download/4.16.0.4/Rubi-4.16.0.4.paclet) 
-to download the Rubi 4.16.0.4 paclet to the downloads directory on your computer.
+to download `Rubi-4.16.0.4.paclet` to the downloads directory on your computer.
 Then issue the `PacletInstall` command
 ```mma
-PacletInstall[FileNameJoin[{path,"Rubi-4.16.0.4.paclet"}]
+PacletInstall[FileNameJoin[{path, "Rubi-4.16.0.4.paclet"}]
 ```
 where `path` is the full path name of the downloads directory on your computer.
 This command will install the paclet on your computer as a package named Rubi in Mathematica's paclet repository.
@@ -62,13 +62,16 @@ First[PacletFind["Rubi"]]["Location"]
 to see the full path name to the location of the Rubi package.
 
 
-### Mathematica versions 7-8
+### Instructions for Mathematica 7 and 8
 
-Download [Rubi-4.16.0.4.zip](https://github.com/RuleBasedIntegration/Rubi/releases/download/4.16.0.4/Rubi-4.16.0.4.zip) and extract it. Place the `Rubi` folder with all its content into the following directory
-
+Click [here](https://github.com/RuleBasedIntegration/Rubi/releases/download/4.16.0.4/Rubi-4.16.0.4.zip)
+to download `Rubi-4.16.0.4.zip` to the downloads directory on your computer.
+Then extract from the zip file the `Rubi` folder with all its contents into the following directory
 ```mma
 FileNameJoin[{$UserBaseDirectory, "Applications"}]
 ```
+This will install the Rubi package in Mathematica's repository for packages. 
+
 
 ### Internals
 
