@@ -1,4 +1,4 @@
-## Using Rubi
+## Instructions for Using Rubi
 
 Loading Rubi defines the function `Int` using an extensive system of integration rules.
 These rules are capable of finding optimal antiderivatives for large classes of expressions with respect to their variables.
@@ -17,11 +17,11 @@ or the shorter form
 ```
 to load Rubi into Mathematica.
 
-The first time Rubi is loaded it will take a minute or two to read in and initialize the system.
+The first time Rubi is loaded, it will take a minute or two to read in and initialize the system.
 However, this initial load also saves a fast loading memory image of Rubi, so all subsequent load commands will be almost instantaneouss. 
 
 
-### The basic Int commands
+### Basic Int Commands
 
 `Int[expn, var]` returns the antiderivative (aka indefinite integral) of `expn` with respect to `var`.
 For example, the command
@@ -38,9 +38,8 @@ Int[{???, ???}, x]
 returns ???.
 
 `Int[expn, {var, a, b}]` returns the limit of the antiderivative of `expn` as `var` approaches `b` minus the limit as `var` approaches `a`.
-Note that by the *Fundamental Theorem of Calculus* (FTOC), this difference will equal the definite integral of `expn` from `a` to `b` *if* the antiderivative is continuous between the two points.
-Otherwise, it will *not* equal the definite integral.
-For example, the command
+Note that by the *Fundamental Theorem of Calculus* (FTOC), this difference will equal the definite integral of `expn` from `a` to `b` *if and only if* the antiderivative is continuous between the two points.
+For example,
 ```mma
 Int[???, {x, ???, ???}]
 ```
@@ -48,6 +47,8 @@ returns ??? which equals
 ```mma
 Integrate[???, {x, ???, ???}]
 ```
+since the antiderivative of ??? is continuous between ??? and ???.
+
 However,
 ```mma
 Int[???, {x, ???, ???}]
@@ -56,6 +57,7 @@ returns ??? which does *not* equal
 ```mma
 Integrate[???, {x, ???, ???}]
 ```
+since the antiderivative of ??? is *not* continuous between ??? and ???.
 
 
 ### Inspecting integration steps
