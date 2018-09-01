@@ -1,35 +1,20 @@
-## Mathematica package for Rubi
+## Using Rubi
 
-![release](https://img.shields.io/github/release/rulebasedintegration/rubi.svg?longCache=true&style=for-the-badge) ![downloads](https://img.shields.io/github/downloads/rulebasedintegration/rubi/total.svg?longCache=true&style=for-the-badge)
+Loading Rubi defines the function `Int` using extensive system of integration rules.
+These rules are capable of finding optimal antiderivatives (aka indefinite integral) for large classes of expressions with respect to their variables.
+Calls on `Int` are analogous to Mathematica’s built-in `Integrate` function, but the rules `Int` uses are completely independent of `Integrate`.
 
-The [Rubi Mathematica package](https://github.com/RuleBasedIntegration/Rubi) is the reference implementation
-of the integration rules.
-It provides an `Int[expr, var]` function that can, like Mathematica's `Integrate`, find the antiderivative of `expr` 
-with respect to `var`. 
-Further information about the Rubi package can be found here
 
-1. The [complete and open-source package code](https://github.com/RuleBasedIntegration/Rubi) on GitHub. It includes the
-source-notebooks that contain the integration rules and provides everything to build and use it as Mathematica package.
-2. The [Wiki of this repository](https://github.com/RuleBasedIntegration/Rubi/wiki) which will soon contain detailed
-information about Rubi's development process.
-3. If you find a bug or an expression that Rubi cannot integrate, please use the [issue tracker on GitHub](https://github.com/RuleBasedIntegration/Rubi/issues)
-and describe as clearly as possible what you have found.
+### Loading Rubi
 
-After that, you can load it like any other normal package using
-
+After the Rubi package has been properly installed as described in the [Download Rubi](???) instructions, use the `Get` command
 ```mma
 <<Rubi`
 ```
+to load Rubi into Mathematica and make it ready for use.
 
-## Usage
-
-After successfully installating the Rubi package, you can load it with
-
-```mma
-<<Rubi`
-```
-
-Loading Rubi the first will create a binary version of Rubi for your system. This may take a minute or two, but all subsequent calls to load Rubi will be almost instantaneouss. 
+The first time Rubi is loaded it will take a minute or two to read in and initialize the system.
+However, this initial load also saves a fast loading memory image of Rubi, so all subsequent Rubi load commands will be almost instantaneouss. 
 
 ### Basic integration
 
@@ -139,3 +124,18 @@ $LoadElementaryFunctionRules = True;
 1. `$LoadShowSteps` needs to be `True` if you want to see the list of integration rules that Rubi uses to compute an
 antiderivative.
 2. `$LoadElementaryFunctionRules` needs to by `True` if you want to solve integrals that contain sine, tangents, exponentials, etc.
+
+### Stuff for home page
+
+The [Rubi Mathematica package](https://github.com/RuleBasedIntegration/Rubi) is the reference implementation
+of the integration rules.
+It provides an `Int[expr, var]` function that can, like Mathematica's `Integrate`, find the antiderivative of `expr` 
+with respect to `var`. 
+Further information about the Rubi package can be found here
+
+1. The [complete and open-source package code](https://github.com/RuleBasedIntegration/Rubi) on GitHub. It includes the
+source-notebooks that contain the integration rules and provides everything to build and use it as Mathematica package.
+2. The [Wiki of this repository](https://github.com/RuleBasedIntegration/Rubi/wiki) which will soon contain detailed
+information about Rubi's development process.
+3. If you find a bug or an expression that Rubi cannot integrate, please use the [issue tracker on GitHub](https://github.com/RuleBasedIntegration/Rubi/issues)
+and describe as clearly as possible what you have found.
