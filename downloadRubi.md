@@ -1,6 +1,6 @@
 ## Download and Install Rubi
 
-![rubi](https://img.shields.io/github/release/rulebasedintegration/rubi.svg?longCache=true&style=for-the-badge) ![downloads](https://img.shields.io/github/downloads/rulebasedintegration/rubi/total.svg?longCache=true&style=for-the-badge)
+![release](https://img.shields.io/github/release/rulebasedintegration/rubi.svg?longCache=true&style=for-the-badge) ![downloads](https://img.shields.io/github/downloads/rulebasedintegration/rubi/total.svg?longCache=true&style=for-the-badge)
 
 The instructions below describe how to download and install the current release of the Mathematica implementation of Rubi.
 Mathematica version 7 or later is required to host it.
