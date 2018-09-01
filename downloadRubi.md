@@ -2,9 +2,8 @@
 
 ![release](https://img.shields.io/github/release/rulebasedintegration/rubi.svg?longCache=true&style=for-the-badge) ![downloads](https://img.shields.io/github/downloads/rulebasedintegration/rubi/total.svg?longCache=true&style=for-the-badge)
 
-The instructions below describe how to download and install the Mathematica implementation of Rubi.
-The current, reference version of this implementation is 4.16.0.4.
-Mathematica 7 or later is required to host it.
+The instructions below describe how to download and install the current release of the Mathematica implementation of Rubi.
+Mathematica version 7 or later is required to host it.
 
 The original implementation of Rubi used Mathematica as the host computer algebra system (CAS).
 Recently the integration rules on which Rubi is based have been ported to other systems.
@@ -25,7 +24,7 @@ PacletInstall[
   "https://github.com/RuleBasedIntegration/Rubi/releases/download/4.16.0.4/Rubi-4.16.0.4.paclet"
 ]
 ```
-to download the Rubi 4.16.0.4 paclet directly from the online repository on GitHub, and
+to download the current Rubi paclet directly from the online repository on GitHub, and
 then install it on your computer as a Mathematica package named Rubi.
 
 If a Rubi package has already been installed on your computer, use the command
