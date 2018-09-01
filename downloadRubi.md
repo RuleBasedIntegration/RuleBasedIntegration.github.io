@@ -16,7 +16,7 @@ These ports of Rubi were written independently and are still under development.
 Please address all questions and comments about them to their respective developers.
 
 
-### Instructions for Mathematica 11 or later
+### Instructions for Mathematica version 11.2 or later
 
 Use the `PacletInstall` command
 ```mma
@@ -44,7 +44,7 @@ First[PacletFind["Rubi"]]["Location"]
 to see the full path name to the location of the Rubi package.
 
 
-### Instructions for Mathematica 9 and 10
+### Instructions for Mathematica versions 9 and 10
 
 Click [here](https://github.com/RuleBasedIntegration/Rubi/releases/download/4.16.0.4/Rubi-4.16.0.4.paclet) 
 to download `Rubi-4.16.0.4.paclet` to the Downloads directory on your computer.
@@ -61,7 +61,7 @@ First[PacletFind["Rubi"]]["Location"]
 to see the full path name to the location of the Rubi package.
 
 
-### Instructions for Mathematica 7 and 8
+### Instructions for Mathematica versions 7 and 8
 
 Click [here](https://github.com/RuleBasedIntegration/Rubi/releases/download/4.16.0.4/Rubi-4.16.0.4.zip)
 to download `Rubi-4.16.0.4.zip` to the Downloads directory on your computer.
