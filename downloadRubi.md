@@ -36,16 +36,12 @@ PacletInstall[
 ```
 to overwrite it with version 4.16.0.4.
 
-The `PacletInstall` command will put the Rubi package into Mathematica's repository for paclets.
+The above `PacletInstall` commands will put the Rubi package into Mathematica's repository for paclets.
 Use the command
-```mma
-PacletFind["Rubi"] // InputForm`
-```
-to find Rubi's paclet repository, or use the command
 ```mma
 First[PacletFind["Rubi"]]["Location"]
 ```
-to access its location.
+to see the full path name of the directory the Rubi package is in.
 
 
 ### Instructions for Mathematica 9 and 10
@@ -54,7 +50,7 @@ Download [Rubi-4.16.0.4.paclet](https://github.com/RuleBasedIntegration/Rubi/rel
 ```mma
 PacletInstall["path/to/downloads/Rubi-4.16.0.4.paclet"]
 ```
-to install it on your computer as a Mathematica package named `Rubi`.
+to install it on your computer as a Mathematica package named Rubi.
 
 Use a `PacletFind` command as described above to find the paclet repository Rubi was installed in.
 
