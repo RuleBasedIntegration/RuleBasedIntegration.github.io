@@ -48,12 +48,12 @@ to see the full path name to the location of the Rubi package.
 ### Instructions for Mathematica 9 and 10
 
 Click [here](https://github.com/RuleBasedIntegration/Rubi/releases/download/4.16.0.4/Rubi-4.16.0.4.paclet) 
-to download `Rubi-4.16.0.4.paclet` to the downloads directory on your computer.
+to download `Rubi-4.16.0.4.paclet` to the Downloads directory on your computer.
 Then issue the `PacletInstall` command
 ```mma
 PacletInstall[FileNameJoin[{path, "Rubi-4.16.0.4.paclet"}]
 ```
-where `path` is the full path name of the downloads directory on your computer.
+where `path` is the full path name of the Downloads directory on your computer.
 This command will install the paclet on your computer as a package named Rubi in Mathematica's paclet repository.
 Use the command
 ```mma
@@ -65,7 +65,7 @@ to see the full path name to the location of the Rubi package.
 ### Instructions for Mathematica 7 and 8
 
 Click [here](https://github.com/RuleBasedIntegration/Rubi/releases/download/4.16.0.4/Rubi-4.16.0.4.zip)
-to download `Rubi-4.16.0.4.zip` to the downloads directory on your computer.
+to download `Rubi-4.16.0.4.zip` to the Downloads directory on your computer.
 Then extract from the zip file the `Rubi` folder with all its contents into the following directory
 ```mma
 FileNameJoin[{$UserBaseDirectory, "Applications"}]
@@ -73,16 +73,6 @@ FileNameJoin[{$UserBaseDirectory, "Applications"}]
 This will install the Rubi package in Mathematica's repository for packages. 
 
 
-### Internals
+## Uninstall Rubi
 
-#### Binary memory files of Rubi
-
-Starting with Rubi version 4.16.0.4, Rubi will store its state in the binary [MX format](http://reference.wolfram.com/language/ref/format/MX.html) after the package is loaded the first time. This reduces the loading time of the package to a fraction of a second. This format, however, is in general not system independend and Rubi needs to create these files for your specific operating system, Mathematica version, and Rubi version when you load the package the first time. If you change Rubi's configuration with the global variables mentioned in the next section, Rubi will create a separate MX file for each configuration.
-
-Important to the user is that once the MX file is created, Rubi will now load almost instantaneously. Secondly, if you need to delete the memory files for whatever reason, you can use
-
-```mma
-RubiClearMemoryImages[]
-```
-
-or you delete all `.mx` files inside the `Kernel` directory of your Rubi installation.
+???
