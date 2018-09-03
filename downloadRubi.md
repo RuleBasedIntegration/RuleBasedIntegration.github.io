@@ -9,7 +9,7 @@ The original implementation of Rubi used Mathematica as the host computer algebr
 Recently the integration rules on which Rubi is based have been ported to other systems.
 Currently these ports include:
 
-* The [SymJa CAS](https://github.com/axkr/symja_android_library) (Symbolic Java) incorporates Rubi's rules into its default integration framework and you can [try it online](https://symjaweb.appspot.com/) by calling e.g. `Integrate[Sin[x^2], x]`. Additionally, note that SymJa is used in the mobile app [Calculator N+](https://play.google.com/store/apps/details?id=com.duy.calculator.free).
+* The [SymJa CAS](https://github.com/axkr/symja_android_library) (Symbolic Java) which incorporates Rubi's rules into its default integration framework. You can [try it online](https://symjaweb.appspot.com/) by calling e.g. `Integrate[Sin[x^2], x]`. Additionally, note that SymJa is used in the mobile app [Calculator N+](https://play.google.com/store/apps/details?id=com.duy.calculator.free).
 * The [SymPy CAS](https://www.sympy.org/en/index.html) (Symbolic Python) port of Rubi is available in the [sympy/integrals/rubi](https://github.com/sympy/sympy/tree/master/sympy/integrals/rubi) subdirectory of the source-code. It also aims to include Rubi's integration rules.
 * [Expreduce](https://github.com/corywalker/expreduce) is an experimental term-rewriting language with similar syntax as Mathematica. Although this computer algebra system at this stage is extremely limited, it also tries to support Rubi rules.
 
