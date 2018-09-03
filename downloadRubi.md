@@ -2,6 +2,11 @@
 
 ![release](https://img.shields.io/github/release/rulebasedintegration/rubi.svg?longCache=true&style=for-the-badge) ![downloads](https://img.shields.io/github/downloads/rulebasedintegration/rubi/total.svg?longCache=true&style=for-the-badge)
 
+
+$$
+  \sin(x) = \sqrt{2+x}
+$$
+
 The instructions below describe how to download and install the current version of Rubi for Mathematica.
 Mathematica version 7 or later is required to host this version of Rubi.
 
