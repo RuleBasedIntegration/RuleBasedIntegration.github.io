@@ -10,6 +10,12 @@ $$
   \frac{x \sqrt{a^2x^2+1}}{4a}+C
 $$
 
+```ruby
+require 'redcarpet'
+markdown = Redcarpet.new("Hello World!")
+puts markdown.to_html
+```
+
 The instructions below describe how to download and install the current version of Rubi for Mathematica.
 Mathematica version 7 or later is required to host this version of Rubi.
 
