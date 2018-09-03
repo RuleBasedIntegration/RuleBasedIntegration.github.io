@@ -4,7 +4,10 @@
 
 
 $$
-  \sin(x) = \sqrt{2+x}
+  \int x\operatorname{arsinh}(ax)\,dx=
+  \frac{x^2\operatorname{arsinh}(ax)}{2}+
+  \frac{\operatorname{arsinh}(ax)}{4a^2}-
+  \frac{x \sqrt{a^2x^2+1}}{4a}+C
 $$
 
 The instructions below describe how to download and install the current version of Rubi for Mathematica.
