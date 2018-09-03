@@ -33,7 +33,7 @@ Please address all questions and comments about them to their respective develop
 ### Instructions for Mathematica version 11.2 or later
 
 Use the `PacletInstall` command
-```mma
+```mathematica
 PacletInstall[
   "https://github.com/RuleBasedIntegration/Rubi/releases/download/4.16.0.4/Rubi-4.16.0.4.paclet"
 ]
