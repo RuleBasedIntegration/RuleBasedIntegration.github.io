@@ -120,11 +120,12 @@ Stats[Int[(a + b*Sqrt[x])^d, x]]
 
 ![Stats](http://i.stack.imgur.com/c4aUZ.png)
 
-Each entry in the `Stats` can be accessed easily by either viewing the `InputForm` of the `Stats` ouput, or using accessor
+By default, `Stats` (as well as `Steps` and `Step`) prints its information but you can also *return* it for later inpspection.
+Each entry in the `Stats` can then be accessed easily by either viewing the `InputForm` of the `Stats` ouput, or using accessor
 like this
 
 ```mma
-{stats, result} = Stats[Int[(a + b*Sqrt[x])^d, x]];
+{stats, result} = Stats[Int[(a + b*Sqrt[x])^d, x], RubiPrintInformation -> False];
 stats["Steps"]
 stats["NumberOfRules"]
 stats["InputLeafCount"]
