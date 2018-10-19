@@ -1,13 +1,10 @@
-# Rubi Integration Rules
+# Rubi's Integration Rules
 
-This repository provides all Rubi integration rules in human readable form as PDF files.
-Rubi systematically applies precisely defined rules to efficiently integrate a large class of mathematical expressions.
-The rules are organized based on the type of the integrand and hierarchically arranged in the form of a decision tree.
-By answering true-or-false questions in the tree, it is easy for a human or computer to determine exactly which of the 
-more than 6600 rules is the right one to apply to a given integrand.
+Rubi systematically applies precisely defined rules to efficiently integrate large classes of mathematical expressions.
+All the integration rules are displayed in human readable form as PDF files and organized in a hierarchical tree based on the form of the integrand.
 
 The rules are displayed in mathematical notation followed by the equivalent Mathematica program code.
-The following types of comments precede many of the rules
+Comments preceding many of the rules document them as follows:
 
 - **Derivation** gives the integration technique used to derive a rule.
 - **Basis** gives the mathematical identity used to transform the integrand into a form easier to integrate.
@@ -19,12 +16,7 @@ The following types of comments precede many of the rules
   - **A&S** is the ["Handbook of Mathematical Functions"](https://isbnsearch.org/isbn/9780486612720),
    Milton Abramowitz and Irene A. Stegun, editors.
 
-In the following, you will find the complete outline of the organized rules. The outline reflects the directory structure
-under the `PdfFiles` directory. If you seek a human readable outline, please view the [README.txt](README.txt) file.
-
-# Rubi Integration Rules
-
-## 1 Algebraic functions
+## 1 Algebraic Function rules
 
 ### 1.1 Binomial products
 
@@ -100,12 +92,12 @@ under the `PdfFiles` directory. If you seek a human readable outline, please vie
 * <a href="PdfRuleFiles/1 Algebraic functions/1.3 Miscellaneous/1.3.3 Miscellaneous algebraic functions.pdf">1.3.3 Miscellaneous algebraic functions</a>
 * <a href="PdfRuleFiles/1 Algebraic functions/1.3 Miscellaneous/1.3.4 Normalizing algebraic functions.pdf">1.3.4 Normalizing algebraic functions</a>
 
-## 2 Exponentials
+## 2 Exponential Rules
 * <a href="PdfRuleFiles/2 Exponentials/2.1 (c+d x)^m (a+b (F^(g (e+f x)))^n)^p.pdf">2.1 (c+d x)^m (a+b (F^(g (e+f x)))^n)^p</a>
 * <a href="PdfRuleFiles/2 Exponentials/2.2 (c+d x)^m (F^(g (e+f x)))^n (a+b (F^(g (e+f x)))^n)^p.pdf">2.2 (c+d x)^m (F^(g (e+f x)))^n (a+b (F^(g (e+f x)))^n)^p</a>
 * <a href="PdfRuleFiles/2 Exponentials/2.3 Miscellaneous exponentials.pdf">2.3 Miscellaneous exponentials</a>
 
-## 3 Logarithms
+## 3 Logarithm Rules
 * <a href="PdfRuleFiles/3 Logarithms/3.1.1 (a+b log(c x^n))^p.pdf">3.1.1 (a+b log(c x^n))^p</a>
 * <a href="PdfRuleFiles/3 Logarithms/3.1.2 (d x)^m (a+b log(c x^n))^p.pdf">3.1.2 (d x)^m (a+b log(c x^n))^p</a>
 * <a href="PdfRuleFiles/3 Logarithms/3.1.3 (d+e x^r)^q (a+b log(c x^n))^p.pdf">3.1.3 (d+e x^r)^q (a+b log(c x^n))^p</a>
@@ -118,7 +110,7 @@ under the `PdfFiles` directory. If you seek a human readable outline, please vie
 * <a href="PdfRuleFiles/3 Logarithms/3.4 u (a+b log(c (d+e x^m)^n))^p.pdf">3.4 u (a+b log(c (d+e x^m)^n))^p</a>
 * <a href="PdfRuleFiles/3 Logarithms/3.5 Miscellaneous logarithms.pdf">3.5 Miscellaneous logarithms</a>
 
-## 4 Trig functions
+## 4 Trig Function Rules
 
 ### 4.1 Sine
 * <a href="PdfRuleFiles/4 Trig functions/4.1 Sine/4.1.0.1 (a sin)^m (b trg)^n.pdf">4.1.0.1 (a sin)^m (b trg)^n</a>
@@ -184,7 +176,7 @@ under the `PdfFiles` directory. If you seek a human readable outline, please vie
 * <a href="PdfRuleFiles/4 Trig functions/4.7 Miscellaneous/4.7.8 u trig(a+b log(c x^n))^p.pdf">4.7.8 u trig(a+b log(c x^n))^p</a>
 * <a href="PdfRuleFiles/4 Trig functions/4.7 Miscellaneous/4.7.9 Active trig functions.pdf">4.7.9 Active trig functions</a>
 
-## 5 Inverse trig functions
+## 5 Inverse Trig Function Rules
 
 ### 5.1 Inverse sine
 * <a href="PdfRuleFiles/5 Inverse trig functions/5.1 Inverse sine/5.1.1 (a+b arcsin(c x))^n.pdf">5.1.1 (a+b arcsin(c x))^n</a>
@@ -207,7 +199,7 @@ under the `PdfFiles` directory. If you seek a human readable outline, please vie
 * <a href="PdfRuleFiles/5 Inverse trig functions/5.5 Inverse secant/5.5.1 u (a+b arcsec(c x))^n.pdf">5.5.1 u (a+b arcsec(c x))^n</a>
 * <a href="PdfRuleFiles/5 Inverse trig functions/5.5 Inverse secant/5.5.2 Miscellaneous inverse secant.pdf">5.5.2 Miscellaneous inverse secant</a>
 
-## 6 Hyperbolic functions
+## 6 Hyperbolic Function Rules
 
 ### 6.1 Hyperbolic sine
 * <a href="PdfRuleFiles/6 Hyperbolic functions/6.1 Hyperbolic sine/6.1.10 (c+d x)^m (a+b sinh)^n.pdf">6.1.10 (c+d x)^m (a+b sinh)^n</a>
@@ -230,7 +222,7 @@ under the `PdfFiles` directory. If you seek a human readable outline, please vie
 * <a href="PdfRuleFiles/6 Hyperbolic functions/6.7 Miscellaneous/6.7.8 u hyper(a+b log(c x^n))^p.pdf">6.7.8 u hyper(a+b log(c x^n))^p</a>
 * <a href="PdfRuleFiles/6 Hyperbolic functions/6.7 Miscellaneous/6.7.9 Active hyperbolic functions.pdf">6.7.9 Active hyperbolic functions</a>
 
-## 7 Inverse hyperbolic functions
+## 7 Inverse Hyperbolic Function Rules
 
 ### 7.1 Inverse hyperbolic sine
 * <a href="PdfRuleFiles/7 Inverse hyperbolic functions/7.1 Inverse hyperbolic sine/7.1.1 (a+b arcsinh(c x))^n.pdf">7.1.1 (a+b arcsinh(c x))^n</a>
@@ -253,7 +245,7 @@ under the `PdfFiles` directory. If you seek a human readable outline, please vie
 * <a href="PdfRuleFiles/7 Inverse hyperbolic functions/7.5 Inverse hyperbolic secant/7.5.1 u (a+b arcsech(c x))^n.pdf">7.5.1 u (a+b arcsech(c x))^n</a>
 * <a href="PdfRuleFiles/7 Inverse hyperbolic functions/7.5 Inverse hyperbolic secant/7.5.2 Miscellaneous inverse hyperbolic secant.pdf">7.5.2 Miscellaneous inverse hyperbolic secant</a>
 
-## 8 Special functions
+## 8 Special Function Rules
 * <a href="PdfRuleFiles/8 Special functions/8.1 Error functions.pdf">8.1 Error functions</a>
 * <a href="PdfRuleFiles/8 Special functions/8.2 Fresnel integral functions.pdf">8.2 Fresnel integral functions</a>
 * <a href="PdfRuleFiles/8 Special functions/8.3 Exponential integral functions.pdf">8.3 Exponential integral functions</a>
@@ -264,7 +256,7 @@ under the `PdfFiles` directory. If you seek a human readable outline, please vie
 * <a href="PdfRuleFiles/8 Special functions/8.8 Polylogarithm function.pdf">8.8 Polylogarithm function</a>
 * <a href="PdfRuleFiles/8 Special functions/8.9 Product logarithm function.pdf">8.9 Product logarithm function</a>
 
-## 9 Miscellaneous
+## 9 Miscellaneous Rules
 * <a href="PdfRuleFiles/9 Miscellaneous/9.1 Integrand simplification rules.pdf">9.1 Integrand simplification rules</a>
 * <a href="PdfRuleFiles/9 Miscellaneous/9.2 Derivative integration rules.pdf">9.2 Derivative integration rules</a>
 * <a href="PdfRuleFiles/9 Miscellaneous/9.3 Piecewise linear functions.pdf">9.3 Piecewise linear functions</a>
