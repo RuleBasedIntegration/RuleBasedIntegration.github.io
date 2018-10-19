@@ -249,10 +249,6 @@ under the `PdfFiles` directory. If you seek a human readable outline, please vie
 * <a href="PdfRuleFiles/7 Inverse hyperbolic functions/7.3 Inverse hyperbolic tangent/7.3.6 Exponentials of inverse hyperbolic tangent.pdf">7.3.6 Exponentials of inverse hyperbolic tangent</a>
 * <a href="PdfRuleFiles/7 Inverse hyperbolic functions/7.3 Inverse hyperbolic tangent/7.3.7 Miscellaneous inverse hyperbolic tangent.pdf">7.3.7 Miscellaneous inverse hyperbolic tangent</a>
 
-* <a href="PdfRuleFiles/7 Inverse hyperbolic functions/7.2 Inverse hyperbolic tangent/7.2.2 u (a+b arctanh(c+d x))^p.pdf">7.2.2 u (a+b arctanh(c+d x))^p</a>
-* <a href="PdfRuleFiles/7 Inverse hyperbolic functions/7.2 Inverse hyperbolic tangent/7.2.3 Exponentials of inverse hyperbolic tangent.pdf">7.2.3 Exponentials of inverse hyperbolic tangent</a>
-* <a href="PdfRuleFiles/7 Inverse hyperbolic functions/7.2 Inverse hyperbolic tangent/7.2.4 Miscellaneous inverse hyperbolic tangent.pdf">7.2.4 Miscellaneous inverse hyperbolic tangent</a>
-
 ### 7.5 Inverse hyperbolic secant
 * <a href="PdfRuleFiles/7 Inverse hyperbolic functions/7.5 Inverse hyperbolic secant/7.5.1 u (a+b arcsech(c x))^n.pdf">7.5.1 u (a+b arcsech(c x))^n</a>
 * <a href="PdfRuleFiles/7 Inverse hyperbolic functions/7.5 Inverse hyperbolic secant/7.5.2 Miscellaneous inverse hyperbolic secant.pdf">7.5.2 Miscellaneous inverse hyperbolic secant</a>
