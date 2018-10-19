@@ -1,0 +1,96 @@
+# Maple integration test file: "7 Inverse hyperbolic functions\7.6 Inverse hyperbolic cosecant\7.6.2 Inverse hyperbolic cosecant functions.txt"
+
+lst:=[
+
+# Integration Problems Involving Inverse Hyperbolic Cosecants
+
+# Integrands of the form x^m ArcCsch[a+b x]^n
+[x^3*arccsch(a+b*x),x,8,-1/4*a^4*arccsch(a+b*x)/b^4+1/4*x^4*arccsch(a+b*x)+1/2*a*(1-2*a^2)*arctanh(sqrt(1+1/(a+b*x)^2))/b^4-1/12*(2-17*a^2)*(a+b*x)*sqrt(1+1/(a+b*x)^2)/b^4+1/12*x^2*(a+b*x)*sqrt(1+1/(a+b*x)^2)/b^2-1/3*a*(a+b*x)^2*sqrt(1+1/(a+b*x)^2)/b^4],
+[x^2*arccsch(a+b*x),x,7,1/3*a^3*arccsch(a+b*x)/b^3+1/3*x^3*arccsch(a+b*x)-1/6*(1-6*a^2)*arctanh(sqrt(1+1/(a+b*x)^2))/b^3-5/6*a*(a+b*x)*sqrt(1+1/(a+b*x)^2)/b^3+1/6*x*(a+b*x)*sqrt(1+1/(a+b*x)^2)/b^2],
+[x*arccsch(a+b*x),x,6,-1/2*a^2*arccsch(a+b*x)/b^2+1/2*x^2*arccsch(a+b*x)-a*arctanh(sqrt(1+1/(a+b*x)^2))/b^2+1/2*(a+b*x)*sqrt(1+1/(a+b*x)^2)/b^2],
+[arccsch(a+b*x)/x,x,14,-arccsch(a+b*x)*log(1-exp(2*arccsch(a+b*x)))+arccsch(a+b*x)*log(1-a*exp(arccsch(a+b*x))/(1-sqrt(1+a^2)))+arccsch(a+b*x)*log(1-a*exp(arccsch(a+b*x))/(1+sqrt(1+a^2)))-1/2*polylog(2,exp(2*arccsch(a+b*x)))+polylog(2,a*exp(arccsch(a+b*x))/(1-sqrt(1+a^2)))+polylog(2,a*exp(arccsch(a+b*x))/(1+sqrt(1+a^2)))],
+[arccsch(a+b*x)/x^2,x,6,-b*arccsch(a+b*x)/a-arccsch(a+b*x)/x+2*b*arctanh((a+tanh(1/2*arccsch(a+b*x)))/sqrt(1+a^2))/(a*sqrt(1+a^2))],
+[arccsch(a+b*x)/x^3,x,8,1/2*b^2*arccsch(a+b*x)/a^2-1/2*arccsch(a+b*x)/x^2-(1+2*a^2)*b^2*arctanh((a+tanh(1/2*arccsch(a+b*x)))/sqrt(1+a^2))/(a^2*(1+a^2)^(3/2))+1/2*b*(a+b*x)*sqrt(1+1/(a+b*x)^2)/(a*(1+a^2)*x)],
+[(e+f*x)^3*(a+b*arccsch(c+d*x))^2,x,20,b^2*f^2*(d*e-c*f)*x/d^3+1/12*b^2*f^3*(c+d*x)^2/d^4-1/4*(d*e-c*f)^4*(a+b*arccsch(c+d*x))^2/(d^4*f)+1/4*(e+f*x)^4*(a+b*arccsch(c+d*x))^2/f-2*b*f^2*(d*e-c*f)*(a+b*arccsch(c+d*x))*arctanh(exp(arccsch(c+d*x)))/d^4+4*b*(d*e-c*f)^3*(a+b*arccsch(c+d*x))*arctanh(exp(arccsch(c+d*x)))/d^4-1/3*b^2*f^3*log(c+d*x)/d^4+3*b^2*f*(d*e-c*f)^2*log(c+d*x)/d^4-b^2*f^2*(d*e-c*f)*polylog(2,-exp(arccsch(c+d*x)))/d^4+2*b^2*(d*e-c*f)^3*polylog(2,-exp(arccsch(c+d*x)))/d^4+b^2*f^2*(d*e-c*f)*polylog(2,exp(arccsch(c+d*x)))/d^4-2*b^2*(d*e-c*f)^3*polylog(2,exp(arccsch(c+d*x)))/d^4-1/3*b*f^3*(c+d*x)*(a+b*arccsch(c+d*x))*sqrt(1+1/(c+d*x)^2)/d^4+3*b*f*(d*e-c*f)^2*(c+d*x)*(a+b*arccsch(c+d*x))*sqrt(1+1/(c+d*x)^2)/d^4+b*f^2*(d*e-c*f)*(c+d*x)^2*(a+b*arccsch(c+d*x))*sqrt(1+1/(c+d*x)^2)/d^4+1/6*b*f^3*(c+d*x)^3*(a+b*arccsch(c+d*x))*sqrt(1+1/(c+d*x)^2)/d^4],
+[(e+f*x)^2*(a+b*arccsch(c+d*x))^2,x,17,1/3*b^2*f^2*x/d^2-1/3*(d*e-c*f)^3*(a+b*arccsch(c+d*x))^2/(d^3*f)+1/3*(e+f*x)^3*(a+b*arccsch(c+d*x))^2/f-2/3*b*f^2*(a+b*arccsch(c+d*x))*arctanh(exp(arccsch(c+d*x)))/d^3+4*b*(d*e-c*f)^2*(a+b*arccsch(c+d*x))*arctanh(exp(arccsch(c+d*x)))/d^3+2*b^2*f*(d*e-c*f)*log(c+d*x)/d^3-1/3*b^2*f^2*polylog(2,-exp(arccsch(c+d*x)))/d^3+2*b^2*(d*e-c*f)^2*polylog(2,-exp(arccsch(c+d*x)))/d^3+1/3*b^2*f^2*polylog(2,exp(arccsch(c+d*x)))/d^3-2*b^2*(d*e-c*f)^2*polylog(2,exp(arccsch(c+d*x)))/d^3+2*b*f*(d*e-c*f)*(c+d*x)*(a+b*arccsch(c+d*x))*sqrt(1+1/(c+d*x)^2)/d^3+1/3*b*f^2*(c+d*x)^2*(a+b*arccsch(c+d*x))*sqrt(1+1/(c+d*x)^2)/d^3],
+[(e+f*x)*(a+b*arccsch(c+d*x))^2,x,11,-1/2*(d*e-c*f)^2*(a+b*arccsch(c+d*x))^2/(d^2*f)+1/2*(e+f*x)^2*(a+b*arccsch(c+d*x))^2/f+4*b*(d*e-c*f)*(a+b*arccsch(c+d*x))*arctanh(exp(arccsch(c+d*x)))/d^2+b^2*f*log(c+d*x)/d^2+2*b^2*(d*e-c*f)*polylog(2,-exp(arccsch(c+d*x)))/d^2-2*b^2*(d*e-c*f)*polylog(2,exp(arccsch(c+d*x)))/d^2+b*f*(c+d*x)*(a+b*arccsch(c+d*x))*sqrt(1+1/(c+d*x)^2)/d^2],
+[(a+b*arccsch(c+d*x))^2,x,8,(c+d*x)*(a+b*arccsch(c+d*x))^2/d+4*b*(a+b*arccsch(c+d*x))*arctanh(exp(arccsch(c+d*x)))/d+2*b^2*polylog(2,-exp(arccsch(c+d*x)))/d-2*b^2*polylog(2,exp(arccsch(c+d*x)))/d],
+[(a+b*arccsch(c+d*x))^2/(e+f*x),x,17,-(a+b*arccsch(c+d*x))^2*log(1-exp(2*arccsch(c+d*x)))/f+(a+b*arccsch(c+d*x))^2*log(1+exp(arccsch(c+d*x))*(d*e-c*f)/(f-sqrt(d^2*e^2-2*c*d*e*f+(1+c^2)*f^2)))/f+(a+b*arccsch(c+d*x))^2*log(1+exp(arccsch(c+d*x))*(d*e-c*f)/(f+sqrt(d^2*e^2-2*c*d*e*f+(1+c^2)*f^2)))/f-b*(a+b*arccsch(c+d*x))*polylog(2,exp(2*arccsch(c+d*x)))/f+2*b*(a+b*arccsch(c+d*x))*polylog(2,-exp(arccsch(c+d*x))*(d*e-c*f)/(f-sqrt(d^2*e^2-2*c*d*e*f+(1+c^2)*f^2)))/f+2*b*(a+b*arccsch(c+d*x))*polylog(2,-exp(arccsch(c+d*x))*(d*e-c*f)/(f+sqrt(d^2*e^2-2*c*d*e*f+(1+c^2)*f^2)))/f+1/2*b^2*polylog(3,exp(2*arccsch(c+d*x)))/f-2*b^2*polylog(3,-exp(arccsch(c+d*x))*(d*e-c*f)/(f-sqrt(d^2*e^2-2*c*d*e*f+(1+c^2)*f^2)))/f-2*b^2*polylog(3,-exp(arccsch(c+d*x))*(d*e-c*f)/(f+sqrt(d^2*e^2-2*c*d*e*f+(1+c^2)*f^2)))/f],
+[(a+b*arccsch(c+d*x))^2/(e+f*x)^2,x,12,d*(a+b*arccsch(c+d*x))^2/(f*(d*e-c*f))-(a+b*arccsch(c+d*x))^2/(f*(e+f*x))-2*b*d*(a+b*arccsch(c+d*x))*log(1+exp(arccsch(c+d*x))*(d*e-c*f)/(f-sqrt(d^2*e^2-2*c*d*e*f+(1+c^2)*f^2)))/((d*e-c*f)*sqrt(d^2*e^2-2*c*d*e*f+(1+c^2)*f^2))+2*b*d*(a+b*arccsch(c+d*x))*log(1+exp(arccsch(c+d*x))*(d*e-c*f)/(f+sqrt(d^2*e^2-2*c*d*e*f+(1+c^2)*f^2)))/((d*e-c*f)*sqrt(d^2*e^2-2*c*d*e*f+(1+c^2)*f^2))-2*b^2*d*polylog(2,-exp(arccsch(c+d*x))*(d*e-c*f)/(f-sqrt(d^2*e^2-2*c*d*e*f+(1+c^2)*f^2)))/((d*e-c*f)*sqrt(d^2*e^2-2*c*d*e*f+(1+c^2)*f^2))+2*b^2*d*polylog(2,-exp(arccsch(c+d*x))*(d*e-c*f)/(f+sqrt(d^2*e^2-2*c*d*e*f+(1+c^2)*f^2)))/((d*e-c*f)*sqrt(d^2*e^2-2*c*d*e*f+(1+c^2)*f^2))],
+[(a+b*arccsch(c+d*x))^2/(e+f*x)^3,x,23,1/2*d^2*(a+b*arccsch(c+d*x))^2/(f*(d*e-c*f)^2)-1/2*(a+b*arccsch(c+d*x))^2/(f*(e+f*x)^2)+b^2*d^2*f*log(f+(d*e-c*f)/(c+d*x))/((d*e-c*f)^2*(d^2*e^2-2*c*d*e*f+(1+c^2)*f^2))+b*d^2*f^2*(a+b*arccsch(c+d*x))*log(1+exp(arccsch(c+d*x))*(d*e-c*f)/(f-sqrt(d^2*e^2-2*c*d*e*f+(1+c^2)*f^2)))/((d*e-c*f)^2*(d^2*e^2-2*c*d*e*f+(1+c^2)*f^2)^(3/2))-b*d^2*f^2*(a+b*arccsch(c+d*x))*log(1+exp(arccsch(c+d*x))*(d*e-c*f)/(f+sqrt(d^2*e^2-2*c*d*e*f+(1+c^2)*f^2)))/((d*e-c*f)^2*(d^2*e^2-2*c*d*e*f+(1+c^2)*f^2)^(3/2))+b^2*d^2*f^2*polylog(2,-exp(arccsch(c+d*x))*(d*e-c*f)/(f-sqrt(d^2*e^2-2*c*d*e*f+(1+c^2)*f^2)))/((d*e-c*f)^2*(d^2*e^2-2*c*d*e*f+(1+c^2)*f^2)^(3/2))-b^2*d^2*f^2*polylog(2,-exp(arccsch(c+d*x))*(d*e-c*f)/(f+sqrt(d^2*e^2-2*c*d*e*f+(1+c^2)*f^2)))/((d*e-c*f)^2*(d^2*e^2-2*c*d*e*f+(1+c^2)*f^2)^(3/2))-2*b*d^2*(a+b*arccsch(c+d*x))*log(1+exp(arccsch(c+d*x))*(d*e-c*f)/(f-sqrt(d^2*e^2-2*c*d*e*f+(1+c^2)*f^2)))/((d*e-c*f)^2*sqrt(d^2*e^2-2*c*d*e*f+(1+c^2)*f^2))+2*b*d^2*(a+b*arccsch(c+d*x))*log(1+exp(arccsch(c+d*x))*(d*e-c*f)/(f+sqrt(d^2*e^2-2*c*d*e*f+(1+c^2)*f^2)))/((d*e-c*f)^2*sqrt(d^2*e^2-2*c*d*e*f+(1+c^2)*f^2))-2*b^2*d^2*polylog(2,-exp(arccsch(c+d*x))*(d*e-c*f)/(f-sqrt(d^2*e^2-2*c*d*e*f+(1+c^2)*f^2)))/((d*e-c*f)^2*sqrt(d^2*e^2-2*c*d*e*f+(1+c^2)*f^2))+2*b^2*d^2*polylog(2,-exp(arccsch(c+d*x))*(d*e-c*f)/(f+sqrt(d^2*e^2-2*c*d*e*f+(1+c^2)*f^2)))/((d*e-c*f)^2*sqrt(d^2*e^2-2*c*d*e*f+(1+c^2)*f^2))-b*d^2*f*(a+b*arccsch(c+d*x))*sqrt(1+1/(c+d*x)^2)/((d*e-c*f)*(d^2*e^2-2*c*d*e*f+(1+c^2)*f^2)*(f+(d*e-c*f)/(c+d*x)))],
+
+# Integrands of the form x^m ArcCsch[a x^n]
+[x^3*arccsch(sqrt(x)),x,4,1/4*x^4*arccsch(sqrt(x))-1/4*(-1-x)^(3/2)*sqrt(x)/sqrt(-x)-3/20*(-1-x)^(5/2)*sqrt(x)/sqrt(-x)-1/28*(-1-x)^(7/2)*sqrt(x)/sqrt(-x)-1/4*sqrt(-1-x)*sqrt(x)/sqrt(-x)],
+[x^2*arccsch(sqrt(x)),x,4,1/3*x^3*arccsch(sqrt(x))+2/9*(-1-x)^(3/2)*sqrt(x)/sqrt(-x)+1/15*(-1-x)^(5/2)*sqrt(x)/sqrt(-x)+1/3*sqrt(-1-x)*sqrt(x)/sqrt(-x)],
+[x*arccsch(sqrt(x)),x,4,1/2*x^2*arccsch(sqrt(x))-1/6*(-1-x)^(3/2)*sqrt(x)/sqrt(-x)-1/2*sqrt(-1-x)*sqrt(x)/sqrt(-x)],
+[arccsch(sqrt(x)),x,3,x*arccsch(sqrt(x))+sqrt(-1-x)*sqrt(x)/sqrt(-x)],
+[arccsch(sqrt(x))/x,x,7,arccsch(sqrt(x))^2-2*arccsch(sqrt(x))*log(1-exp(2*arccsch(sqrt(x))))-polylog(2,exp(2*arccsch(sqrt(x))))],
+[arccsch(sqrt(x))/x^2,x,5,-arccsch(sqrt(x))/x+1/2*sqrt(-1-x)/(sqrt(-x)*sqrt(x))-1/2*arctan(sqrt(-1-x))*sqrt(x)/sqrt(-x)],
+[arccsch(sqrt(x))/x^3,x,6,-1/2*arccsch(sqrt(x))/x^2+1/8*sqrt(-1-x)/(x^(3/2)*sqrt(-x))-3/16*sqrt(-1-x)/(sqrt(-x)*sqrt(x))+3/16*arctan(sqrt(-1-x))*sqrt(x)/sqrt(-x)],
+[arccsch(sqrt(x))/x^4,x,7,-1/3*arccsch(sqrt(x))/x^3+1/18*sqrt(-1-x)/(x^(5/2)*sqrt(-x))-5/72*sqrt(-1-x)/(x^(3/2)*sqrt(-x))+5/48*sqrt(-1-x)/(sqrt(-x)*sqrt(x))-5/48*arctan(sqrt(-1-x))*sqrt(x)/sqrt(-x)],
+[arccsch(1/x),x,3,x*arcsinh(x)-sqrt(1+x^2)],
+[arccsch(a*x^n)/x,x,7,1/2*arccsch(a*x^n)^2/n-arccsch(a*x^n)*log(1-exp(2*arccsch(a*x^n)))/n-1/2*polylog(2,exp(2*arccsch(a*x^n)))/n],
+[arccsch(a*x^5)/x,x,7,1/10*arccsch(a*x^5)^2-1/5*arccsch(a*x^5)*log(1-exp(2*arccsch(a*x^5)))-1/10*polylog(2,exp(2*arccsch(a*x^5)))],
+
+# Integrands involving inverse hyperbolic cosecants of exponentials
+[arccsch(c*exp(a+b*x)),x,7,1/2*arccsch(c*exp(a+b*x))^2/b-arccsch(c*exp(a+b*x))*log(1-exp(2*arccsch(c*exp(a+b*x))))/b-1/2*polylog(2,exp(2*arccsch(c*exp(a+b*x))))/b],
+
+# Integrands involving exponentials of inverse hyperbolic cosecants
+
+# Integrands of the form x^m E^ArcCsch[a x^p]
+[exp(arccsch(a*x))*x^m,x,4,x^m/(a*m)+x^(1+m)*hypergeom([-1/2,1/2*(-1-m)],[1/2*(1-m)],(-1)/(a^2*x^2))/(1+m)],
+[exp(arccsch(a*x))*x^4,x,4,-2/15*(1+1/(a^2*x^2))^(3/2)*x^3/a^2+1/4*x^4/a+1/5*(1+1/(a^2*x^2))^(3/2)*x^5],
+[exp(arccsch(a*x))*x^3,x,7,1/3*x^3/a-1/8*arctanh(sqrt(1+1/(a^2*x^2)))/a^4+1/8*x^2*sqrt(1+1/(a^2*x^2))/a^2+1/4*x^4*sqrt(1+1/(a^2*x^2))],
+[exp(arccsch(a*x))*x^2,x,3,1/2*x^2/a+1/3*(1+1/(a^2*x^2))^(3/2)*x^3],
+[exp(arccsch(a*x))*x,x,6,x/a+1/2*arctanh(sqrt(1+1/(a^2*x^2)))/a^2+1/2*x^2*sqrt(1+1/(a^2*x^2))],
+[exp(arccsch(a*x)),x,5,exp(arccsch(a*x))*x-arccsch(a*x)/a+log(x)/a,-arccsch(a*x)/a+log(x)/a+x*sqrt(1+1/(a^2*x^2))],
+[exp(arccsch(a*x))/x,x,6,(-1)/(a*x)+arctanh(sqrt(1+1/(a^2*x^2)))-sqrt(1+1/(a^2*x^2))],
+[exp(arccsch(a*x))/x^2,x,5,(-1/2)/(a*x^2)-1/2*a*arccsch(a*x)-1/2*sqrt(1+1/(a^2*x^2))/x],
+[exp(arccsch(a*x))/x^3,x,3,-1/3*a^2*(1+1/(a^2*x^2))^(3/2)+(-1/3)/(a*x^3)],
+[exp(arccsch(a*x))/x^4,x,6,(-1/4)/(a*x^4)+1/8*a^3*arccsch(a*x)-1/4*sqrt(1+1/(a^2*x^2))/x^3-1/8*a^2*sqrt(1+1/(a^2*x^2))/x],
+[exp(arccsch(a*x))/x^5,x,5,1/3*a^4*(1+1/(a^2*x^2))^(3/2)-1/5*a^4*(1+1/(a^2*x^2))^(5/2)+(-1/5)/(a*x^5)],
+[exp(arccsch(a*x^2))*x^m,x,4,-x^(-1+m)/(a*(1-m))+x^(1+m)*hypergeom([-1/2,1/4*(-1-m)],[1/4*(3-m)],(-1)/(a^2*x^4))/(1+m)],
+[exp(arccsch(a*x^2))*x^4,x,8,1/3*x^3/a-2/5*sqrt(1+1/(a^2*x^4))/(a^2*(a+1/x^2)*x)+2/5*x*sqrt(1+1/(a^2*x^4))/a^2+1/5*x^5*sqrt(1+1/(a^2*x^4))+2/5*(a+1/x^2)*sqrt(cos(2*arccot(x*sqrt(a)))^2)/cos(2*arccot(x*sqrt(a)))*EllipticE(sin(2*arccot(x*sqrt(a))),sqrt(1/2))*sqrt((a^2+1/x^4)/(a+1/x^2)^2)/(a^(7/2)*sqrt(1+1/(a^2*x^4)))-1/5*(a+1/x^2)*sqrt(cos(2*arccot(x*sqrt(a)))^2)/cos(2*arccot(x*sqrt(a)))*EllipticF(sin(2*arccot(x*sqrt(a))),sqrt(1/2))*sqrt((a^2+1/x^4)/(a+1/x^2)^2)/(a^(7/2)*sqrt(1+1/(a^2*x^4)))],
+[exp(arccsch(a*x^2))*x^3,x,6,1/2*x^2/a+1/4*arctanh(sqrt(1+1/(a^2*x^4)))/a^2+1/4*x^4*sqrt(1+1/(a^2*x^4))],
+[exp(arccsch(a*x^2))*x^2,x,5,x/a+1/3*x^3*sqrt(1+1/(a^2*x^4))-1/3*(a+1/x^2)*sqrt(cos(2*arccot(x*sqrt(a)))^2)/cos(2*arccot(x*sqrt(a)))*EllipticF(sin(2*arccot(x*sqrt(a))),sqrt(1/2))*sqrt((a^2+1/x^4)/(a+1/x^2)^2)/(a^(5/2)*sqrt(1+1/(a^2*x^4)))],
+[exp(arccsch(a*x^2))*x,x,6,-1/2*arccsch(a*x^2)/a+log(x)/a+1/2*x^2*sqrt(1+1/(a^2*x^4))],
+[exp(arccsch(a*x^2)),x,7,(-1)/(a*x)-2*sqrt(1+1/(a^2*x^4))/((a+1/x^2)*x)+x*sqrt(1+1/(a^2*x^4))+2*(a+1/x^2)*sqrt(cos(2*arccot(x*sqrt(a)))^2)/cos(2*arccot(x*sqrt(a)))*EllipticE(sin(2*arccot(x*sqrt(a))),sqrt(1/2))*sqrt((a^2+1/x^4)/(a+1/x^2)^2)/(a^(3/2)*sqrt(1+1/(a^2*x^4)))-(a+1/x^2)*sqrt(cos(2*arccot(x*sqrt(a)))^2)/cos(2*arccot(x*sqrt(a)))*EllipticF(sin(2*arccot(x*sqrt(a))),sqrt(1/2))*sqrt((a^2+1/x^4)/(a+1/x^2)^2)/(a^(3/2)*sqrt(1+1/(a^2*x^4)))],
+[exp(arccsch(a*x^2))/x,x,6,(-1/2)/(a*x^2)+1/2*arctanh(sqrt(1+1/(a^2*x^4)))-1/2*sqrt(1+1/(a^2*x^4))],
+[exp(arccsch(a*x^2))/x^2,x,5,(-1/3)/(a*x^3)-1/3*sqrt(1+1/(a^2*x^4))/x-1/3*(a+1/x^2)*sqrt(cos(2*arccot(x*sqrt(a)))^2)/cos(2*arccot(x*sqrt(a)))*EllipticF(sin(2*arccot(x*sqrt(a))),sqrt(1/2))*sqrt((a^2+1/x^4)/(a+1/x^2)^2)/(sqrt(a)*sqrt(1+1/(a^2*x^4)))],
+[exp(arccsch(a*x^2))/x^3,x,6,(-1/4)/(a*x^4)-1/4*a*arccsch(a*x^2)-1/4*sqrt(1+1/(a^2*x^4))/x^2],
+[exp(arccsch(a*x^2))/x^4,x,7,(-1/5)/(a*x^5)-1/5*sqrt(1+1/(a^2*x^4))/x^3-2/5*a^2*sqrt(1+1/(a^2*x^4))/((a+1/x^2)*x)+2/5*(a+1/x^2)*sqrt(cos(2*arccot(x*sqrt(a)))^2)/cos(2*arccot(x*sqrt(a)))*EllipticE(sin(2*arccot(x*sqrt(a))),sqrt(1/2))*sqrt(a)*sqrt((a^2+1/x^4)/(a+1/x^2)^2)/sqrt(1+1/(a^2*x^4))-1/5*(a+1/x^2)*sqrt(cos(2*arccot(x*sqrt(a)))^2)/cos(2*arccot(x*sqrt(a)))*EllipticF(sin(2*arccot(x*sqrt(a))),sqrt(1/2))*sqrt(a)*sqrt((a^2+1/x^4)/(a+1/x^2)^2)/sqrt(1+1/(a^2*x^4))],
+[exp(arccsch(a*x^2))/x^5,x,3,-1/6*a^2*(1+1/(a^2*x^4))^(3/2)+(-1/6)/(a*x^6)],
+
+# Integrands of the form x^m E^(n ArcCsch[a x])
+
+# n>0
+[exp(2*arccsch(a*x))*x^m,x,5,-2*x^(-1+m)/(a^2*(1-m))+x^(1+m)/(1+m)+2*x^m*hypergeom([-1/2,-1/2*m],[1-1/2*m],(-1)/(a^2*x^2))/(a*m)],
+[exp(2*arccsch(a*x))*x^4,x,8,2/3*x^3/a^2+1/5*x^5-1/4*arctanh(sqrt(1+1/(a^2*x^2)))/a^5+1/4*x^2*sqrt(1+1/(a^2*x^2))/a^3+1/2*x^4*sqrt(1+1/(a^2*x^2))/a],
+[exp(2*arccsch(a*x))*x^3,x,4,x^2/a^2+2/3*(1+1/(a^2*x^2))^(3/2)*x^3/a+1/4*x^4],
+[exp(2*arccsch(a*x))*x^2,x,7,2*x/a^2+1/3*x^3+arctanh(sqrt(1+1/(a^2*x^2)))/a^3+x^2*sqrt(1+1/(a^2*x^2))/a],
+[exp(2*arccsch(a*x))*x,x,6,1/2*x^2-2*arccsch(a*x)/a^2+2*log(x)/a^2+2*x*sqrt(1+1/(a^2*x^2))/a],
+[exp(2*arccsch(a*x)),x,7,(-2)/(a^2*x)+x+2*arctanh(sqrt(1+1/(a^2*x^2)))/a-2*sqrt(1+1/(a^2*x^2))/a],
+[exp(2*arccsch(a*x))/x,x,6,(-1)/(a^2*x^2)-arccsch(a*x)+log(x)-sqrt(1+1/(a^2*x^2))/(a*x)],
+[exp(2*arccsch(a*x))/x^2,x,4,-2/3*a*(1+1/(a^2*x^2))^(3/2)+(-2/3)/(a^2*x^3)+(-1)/x,(-1/2)/x-1/2*a*sqrt(1+1/(a^2*x^2))-1/6*a*(1/(a*x)+sqrt(1+1/(a^2*x^2)))^3],
+[exp(2*arccsch(a*x))/x^3,x,7,(-1/2)/(a^2*x^4)+(-1/2)/x^2+1/4*a^2*arccsch(a*x)-1/2*sqrt(1+1/(a^2*x^2))/(a*x^3)-1/4*a*sqrt(1+1/(a^2*x^2))/x],
+[exp(2*arccsch(a*x))/x^4,x,6,2/3*a^3*(1+1/(a^2*x^2))^(3/2)-2/5*a^3*(1+1/(a^2*x^2))^(5/2)+(-2/5)/(a^2*x^5)+(-1/3)/x^3],
+[exp(2*arccsch(a*x))/x^5,x,8,(-1/3)/(a^2*x^6)+(-1/4)/x^4-1/8*a^4*arccsch(a*x)-1/3*sqrt(1+1/(a^2*x^2))/(a*x^5)-1/12*a*sqrt(1+1/(a^2*x^2))/x^3+1/8*a^3*sqrt(1+1/(a^2*x^2))/x],
+
+# n<0
+
+# Integrands of the form x^m E^(n ArcCsch[a x]) / (1-a^2 x^2)
+[exp(arccsch(c*x))*(d*x)^m/(1+c^2*x^2),x,4,-d*(d*x)^(-1+m)*hypergeom([1/2,1/2*(1-m)],[1/2*(3-m)],(-1)/(c^2*x^2))/(c^2*(1-m))+(d*x)^m*hypergeom([1,1/2*m],[1/2*(2+m)],-c^2*x^2)/(c*m)],
+[exp(arccsch(c*x))*x^5/(1+c^2*x^2),x,9,-x/c^5+1/3*x^3/c^3+arctan(c*x)/c^6+3/8*arctanh(sqrt(1+1/(c^2*x^2)))/c^6-3/8*x^2*sqrt(1+1/(c^2*x^2))/c^4+1/4*x^4*sqrt(1+1/(c^2*x^2))/c^2],
+[exp(arccsch(c*x))*x^4/(1+c^2*x^2),x,6,1/2*x^2/c^3-1/2*log(1+c^2*x^2)/c^5-2/3*x*sqrt(1+1/(c^2*x^2))/c^4+1/3*x^3*sqrt(1+1/(c^2*x^2))/c^2],
+[exp(arccsch(c*x))*x^3/(1+c^2*x^2),x,7,x/c^3-arctan(c*x)/c^4-1/2*arctanh(sqrt(1+1/(c^2*x^2)))/c^4+1/2*x^2*sqrt(1+1/(c^2*x^2))/c^2],
+[exp(arccsch(c*x))*x^2/(1+c^2*x^2),x,3,1/2*log(1+c^2*x^2)/c^3+x*sqrt(1+1/(c^2*x^2))/c^2],
+[exp(arccsch(c*x))*x/(1+c^2*x^2),x,5,arctan(c*x)/c^2+arctanh(sqrt(1+1/(c^2*x^2)))/c^2],
+[exp(arccsch(c*x))/(1+c^2*x^2),x,7,-arccsch(c*x)/c+log(x)/c-1/2*log(1+c^2*x^2)/c],
+[exp(arccsch(c*x))/(x*(1+c^2*x^2)),x,4,(-1)/(c*x)-arctan(c*x)-sqrt(1+1/(c^2*x^2))],
+[exp(arccsch(c*x))/(x^2*(1+c^2*x^2)),x,7,(-1/2)/(c*x^2)+1/2*c*arccsch(c*x)-c*log(x)+1/2*c*log(1+c^2*x^2)-1/2*sqrt(1+1/(c^2*x^2))/x],
+[exp(arccsch(c*x))/(x^3*(1+c^2*x^2)),x,7,-1/3*c^2*(1+1/(c^2*x^2))^(3/2)+(-1/3)/(c*x^3)+c/x+c^2*arctan(c*x)+c^2*sqrt(1+1/(c^2*x^2))],
+
+# Miscellaneous integrands involving inverse hyperbolic cosecants
+[arccsch(a+b*x)/(a*d/b+d*x),x,8,1/2*arccsch(a+b*x)^2/d-arccsch(a+b*x)*log(1-exp(2*arccsch(a+b*x)))/d-1/2*polylog(2,exp(2*arccsch(a+b*x)))/d],
+[x^3*arccsch(a+b*x^4),x,6,1/4*(a+b*x^4)*arccsch(a+b*x^4)/b+1/4*arctanh(sqrt(1+1/(a+b*x^4)^2))/b],
+[x^(-1+n)*arccsch(a+b*x^n),x,6,(a+b*x^n)*arccsch(a+b*x^n)/(b*n)+arctanh(sqrt(1+1/(a+b*x^n)^2))/(b*n)]]:

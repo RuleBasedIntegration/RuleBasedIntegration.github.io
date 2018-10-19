@@ -1,0 +1,19 @@
+# Maple integration test file: "5 Inverse trig functions\5.4 Inverse cotangent\5.4.2 Exponentials of inverse cotangent.txt"
+
+lst:=[
+
+# Integrands involving exponentials of inverse cotangent
+
+# Integrands involving exponentials of inverse cotangents
+[exp(arccot(x)),x,2,(4/5+8/5*I)*((-I+x)/x)^(1+1/2*I)*((I+x)/x)^(-1-1/2*I)*hypergeom([1+1/2*I,2],[2+1/2*I],(1+(-I)/x)/(1+I/x))],
+[exp(arccot(x))/(a+a*x^2),x,1,-exp(arccot(x))/a],
+[exp(arccot(x))/(a+a*x^2)^2,x,2,-2/5*exp(arccot(x))/a^2-1/5*exp(arccot(x))*(1-2*x)/(a^2*(1+x^2))],
+[exp(arccot(x))/(a+a*x^2)^3,x,3,-24/85*exp(arccot(x))/a^3-1/17*exp(arccot(x))*(1-4*x)/(a^3*(1+x^2)^2)-12/85*exp(arccot(x))*(1-2*x)/(a^3*(1+x^2))],
+[exp(arccot(x))/(a+a*x^2)^(3/2),x,1,-1/2*exp(arccot(x))*(1-x)/(a*sqrt(a+a*x^2))],
+[exp(arccot(x))/(a+a*x^2)^(5/2),x,2,-1/10*exp(arccot(x))*(1-3*x)/(a*(a+a*x^2)^(3/2))-3/10*exp(arccot(x))*(1-x)/(a^2*sqrt(a+a*x^2))],
+[exp(arccot(x))/(a+a*x^2)^(7/2),x,3,-1/26*exp(arccot(x))*(1-5*x)/(a*(a+a*x^2)^(5/2))-1/13*exp(arccot(x))*(1-3*x)/(a^2*(a+a*x^2)^(3/2))-3/13*exp(arccot(x))*(1-x)/(a^3*sqrt(a+a*x^2))],
+[exp(n*arccot(a*x))/(c+a^2*c*x^2)^(1/3),x,3,3*(1+1/(a^2*x^2))^(1/3)*((a+(-I)/x)/(a+I/x))^(1/6*(2-3*I*n))*(1+(-I)/(a*x))^(1/6*(-2+3*I*n))*(1+I/(a*x))^(1/6*(4-3*I*n))*x*hypergeom([-1/3,1/6*(2-3*I*n)],[2/3],2*I/((a+I/x)*x))/(c+a^2*c*x^2)^(1/3)],
+[exp(n*arccot(a*x))/(c+a^2*c*x^2)^(2/3),x,3,-3*(1+1/(a^2*x^2))^(2/3)*((a+(-I)/x)/(a+I/x))^(1/6*(4-3*I*n))*(1+(-I)/(a*x))^(1/6*(-4+3*I*n))*(1+I/(a*x))^(1/6*(2-3*I*n))*x*hypergeom([1/3,1/6*(4-3*I*n)],[4/3],2*I/((a+I/x)*x))/(c+a^2*c*x^2)^(2/3)],
+[exp(n*arccot(a*x))/(c+a^2*c*x^2)^(4/3),x,4,-3*exp(n*arccot(a*x))*(3*n-2*a*x)/(a*c*(4+9*n^2)*(c+a^2*c*x^2)^(1/3))-6*(1+1/(a^2*x^2))^(1/3)*((a+(-I)/x)/(a+I/x))^(1/6*(2-3*I*n))*(1+(-I)/(a*x))^(1/6*(-2+3*I*n))*(1+I/(a*x))^(1/6*(4-3*I*n))*x*hypergeom([-1/3,1/6*(2-3*I*n)],[2/3],2*I/((a+I/x)*x))/(c*(4+9*n^2)*(c+a^2*c*x^2)^(1/3))],
+[exp(n*arccot(a*x))/(c+a^2*c*x^2)^(5/3),x,4,-3*exp(n*arccot(a*x))*(3*n-4*a*x)/(a*c*(16+9*n^2)*(c+a^2*c*x^2)^(2/3))-12*(1+1/(a^2*x^2))^(2/3)*((a+(-I)/x)/(a+I/x))^(1/6*(4-3*I*n))*(1+(-I)/(a*x))^(1/6*(-4+3*I*n))*(1+I/(a*x))^(1/6*(2-3*I*n))*x*hypergeom([1/3,1/6*(4-3*I*n)],[4/3],2*I/((a+I/x)*x))/(c*(16+9*n^2)*(c+a^2*c*x^2)^(2/3))],
+[exp(n*arccot(a*x))/(c+a^2*c*x^2)^(7/3),x,5,-3*exp(n*arccot(a*x))*(3*n-8*a*x)/(a*c*(64+9*n^2)*(c+a^2*c*x^2)^(4/3))-120*exp(n*arccot(a*x))*(3*n-2*a*x)/(a*c^2*(4+9*n^2)*(64+9*n^2)*(c+a^2*c*x^2)^(1/3))-240*(1+1/(a^2*x^2))^(1/3)*((a+(-I)/x)/(a+I/x))^(1/6*(2-3*I*n))*(1+(-I)/(a*x))^(1/6*(-2+3*I*n))*(1+I/(a*x))^(1/6*(4-3*I*n))*x*hypergeom([-1/3,1/6*(2-3*I*n)],[2/3],2*I/((a+I/x)*x))/(c^2*(4+9*n^2)*(64+9*n^2)*(c+a^2*c*x^2)^(1/3))]]:
