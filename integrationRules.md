@@ -16,7 +16,7 @@ Comments preceding many of the rules document them as follows:
   - **A&S** is the ["Handbook of Mathematical Functions"](https://isbnsearch.org/isbn/9780486612720),
    Milton Abramowitz and Irene A. Stegun, editors.
 
-## 1 Algebraic Function rules
+## 1 Algebraic Function Rules
 
 ### 1.1 Binomial products
 
