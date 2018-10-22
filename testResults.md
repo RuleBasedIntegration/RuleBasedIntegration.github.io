@@ -20,7 +20,7 @@ An expression's type number is determined by the highest level of functions it i
 * 8 = Integrate functions
 * 9 = Unknown functions
 
-At the end of each PDF file is a pie chart summarizing the test results.  The pie chart for Rubi test results is divided into colored sectors as follows:
+At the end of each PDF file is a pie chart summarizing the test results.  The pie chart for Rubi test results is divided into colored slices as follows:
 
 * green = the number of optimal results
 * light green = the number of valid but suboptimal results
@@ -29,7 +29,7 @@ At the end of each PDF file is a pie chart summarizing the test results.  The pi
 * magenta = the number of problems that timed out after 120 seconds
 * red = the number of results that were *not* valid antiderivatives 
 
-The pie chart for Mathematica test results is divided into colored sectors as follows:
+The pie chart for Mathematica test results is divided into colored slices as follows:
 
 * green = the number of optimal results
 * light green = the number of results more than twice the size the optimal antiderivative
