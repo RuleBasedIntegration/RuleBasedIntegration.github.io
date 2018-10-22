@@ -36,7 +36,7 @@ An expression's type number is determined by the highest level of functions it i
 Because of their large size, Mathematica's test results on the 72,000+ integration problems in the test-suite are divided into separate pdf files based on the type of the integrand being tested.  At the end of each file is a pie chart summarizing the results.  The chart is divided into colored slices as follows:
 
 * green = the number of optimal results
-* light green = the number of results more than twice the size the optimal antiderivative
+* light green = the number of results more than twice the size of the optimal antiderivative
 * yellow = the number of results unnecessarily involving higher level functions or complex numbers
 * orange = the number of integrable problems that could not be integrated
 * red = the number of problems that timed out after 120 seconds
