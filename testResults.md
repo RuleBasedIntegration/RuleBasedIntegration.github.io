@@ -10,15 +10,15 @@ For each problem on which a system produces a deficient result, the following it
 
 An expression's type number is determined by the highest level of functions it involves:
 
-* 1 = Rational function
-* 2 = Algebraic function
-* 3 = Elementary function
-* 4 = Special function
-* 5 = Hypergeometric function
-* 6 = Appell function
-* 7 = Open-form function
-* 8 = Integrate function
-* 9 = Unknown function
+* 1 = Rational functions
+* 2 = Algebraic functions
+* 3 = Elementary functions
+* 4 = Special functions
+* 5 = Hypergeometric functions
+* 6 = Appell functions
+* 7 = Nonclosed-form functions (e.g. RootSum)
+* 8 = Integrate functions
+* 9 = Unknown functions
 
 At the end of each PDF file is a pie chart summarizing the test results.  The pie chart for Rubi test results is divided into colored sectors as follows:
 
@@ -27,7 +27,7 @@ At the end of each PDF file is a pie chart summarizing the test results.  The pi
 * yellow = the number of results unnecessarily involving higher level functions or complex numbers
 * orange = the number of integrable problems that could not be integrated
 * magenta = the number of problems that timed out after 120 seconds
-* red = the number of results that were invalid antiderivatives 
+* red = the number of results that were *not* valid antiderivatives 
 
 The pie chart for Mathematica test results is divided into colored sectors as follows:
 
@@ -39,7 +39,7 @@ The pie chart for Mathematica test results is divided into colored sectors as fo
 
 <a href="testResults/RubiTestResults.pdf">Rubi's integration test results</a> are available as a single pdf file.
 
-Because of its large size, the Mathematica test results are divided in seperate pdf files based on the type of the integrand.
+Because of their large size, the Mathematica test results are divided into separate pdf files based on the type of the integrand.
 
 ## 0 Independent test suites
 
