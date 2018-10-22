@@ -1,12 +1,12 @@
 # Integration Test Results
 
-The results of running Rubi and Mathematica on the integration test suite are available for viewing as pdf files.
+The results of running Rubi and Mathematica on the integration test-suite are available for viewing as pdf files.
 For each problem on which a system produces a deficient result, the following items are shown:
 
 * The problem number followed by an explanation why the result is deficient
 * The problem shown as an indefinite integral
-* The optimal antiderivative shown in blue and preceded by its type number, its leaf count size, and the number of steps Rubi uses to integrate it
-* The deficient result shown in black and preceded by its type number, its leaf count size, and if Rubi is the system being tested the number of steps Rubi uses to integrate it
+* The optimal antiderivative shown in blue and preceded by its type number, leaf count size, and the number of steps Rubi uses to integrate it
+* The deficient result shown in black and preceded by its type number, leaf count size, and if Rubi is the system being tested the number of steps Rubi uses to integrate it
 
 An expression's type number is determined by the highest level of functions it involves:
 
@@ -20,7 +20,9 @@ An expression's type number is determined by the highest level of functions it i
 * 8 = Integrate functions
 * 9 = Unknown functions
 
-At the end of each PDF file is a pie chart summarizing the test results.  The pie chart for Rubi test results is divided into colored slices as follows:
+## Rubi's Test Results
+
+The <a href="testResults/RubiTestResults.pdf">Rubi's test results</a> on the 72,000+ integration problems in the test-suite are available as a single pdf file.  At the end of the file is a pie chart summarizing the results.  The pie chart is divided into colored slices as follows:
 
 * green = the number of optimal results
 * light green = the number of valid but suboptimal results
@@ -29,7 +31,9 @@ At the end of each PDF file is a pie chart summarizing the test results.  The pi
 * magenta = the number of problems that timed out after 120 seconds
 * red = the number of results that were *not* valid antiderivatives 
 
-The pie chart for Mathematica test results is divided into colored slices as follows:
+## Mathematica's Test Results
+
+Because of their large size, the test results for Mathematica are divided into separate pdf files based on the type of the integrand being tested.  At the end of each file is a pie chart summarizing the results.  The pie chart is divided into colored slices as follows:
 
 * green = the number of optimal results
 * light green = the number of results more than twice the size the optimal antiderivative
@@ -37,11 +41,7 @@ The pie chart for Mathematica test results is divided into colored slices as fol
 * orange = the number of integrable problems that could not be integrated
 * red = the number of problems that timed out after 120 seconds
 
-<a href="testResults/RubiTestResults.pdf">Rubi's integration test results</a> are available as a single pdf file.
-
-Because of their large size, the Mathematica test results are divided into separate pdf files based on the type of the integrand.
-
-## 0 Independent test suites
+### 0 Independent test suites
 
 * <a href="testResults/MathematicaTestResults/0 Independent test suites/Mathematica 11.3 Integration Test Results for Apostol Problems.pdf">Apostol problems</a>
 * <a href="testResults/MathematicaTestResults/0 Independent test suites/Mathematica 11.3 Integration Test Results for Bondarenko Problems.pdf">Bondarenko problems</a>
@@ -56,7 +56,7 @@ Because of their large size, the Mathematica test results are divided into separ
 * <a href="testResults/MathematicaTestResults/0 Independent test suites/Mathematica 11.3 Integration Test Results for Welz Problems.pdf">Welz problems</a>
 * <a href="testResults/MathematicaTestResults/0 Independent test suites/Mathematica 11.3 Integration Test Results for Wester Problems.pdf">Wester problems</a>
 
-## 1 Algebraic functions
+### 1 Algebraic functions
 
 (Under construction)
 
