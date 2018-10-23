@@ -1,13 +1,11 @@
-## Instructions for Using Rubi
+# Instructions for Using Rubi
 
-Loading Rubi defines the function `Int` using an extensive system of integration rules.
-These rules are capable of finding optimal antiderivatives for large classes of expressions with respect to their variables.
-Although calls on `Int` are similar in form and function to Mathematica’s built-in function `Integrate`, the rules `Int` uses to integrate expressions do not depend on `Integrate`.
+Loading the Mathematica implementation of Rubi defines an extensive system of rules capable of integrating large classes of mathematical expressions. Although Rubi's `Int` command is similar in form and function to Mathematica’s `Integrate` command, the rules Rubi uses to integrate expressions do *not* in any way depend on Mathematica's built-in integrator.
 
 
-### Loading Rubi
+## Loading Rubi
 
-After the Rubi package has been properly installed as described in the [Download Rubi](???) instructions, use the `Get` command
+After the Rubi package has been properly installed as described in the [Rubi installation](https://rulebasedintegration.org/downloadRubi.html) instructions, use the command
 ```mma
 Get["Rubi`"]
 ```
@@ -17,14 +15,12 @@ or the shorter form
 ```
 to load Rubi into Mathematica.
 
-The first time Rubi is loaded, it will take a minute or two to read in and initialize the system.
-However, this initial load also saves a fast loading memory image of Rubi, so all subsequent load commands will be almost instantaneouss. 
+The first time Rubi is loaded, it will take a minute or two to read in and initialize the system. However, this initial load also saves a fast loading memory image of Rubi, so all subsequent load commands will be almost instantaneous. 
 
 
-### The Int Commands
+## Integrating expressions
 
-The command `Int[expn, var]` returns the antiderivative (aka indefinite integral) of `expn` with respect to `var`.
-For example,
+Use a Rubi command of the form `Int[expn, var]` to integrate `expn` with respect to `var` and return its antiderivative (aka its indefinite integral). For example,
 ```mma
 Int[???, x]
 ```
