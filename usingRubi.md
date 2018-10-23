@@ -20,7 +20,7 @@ The first time Rubi is loaded, it will take a minute or two to read in and initi
 
 ## Integrating expressions
 
-Use a Rubi `Int` command of the form `Int[expn, var]` to integrate `expn` with respect to `var`, and return its antiderivative (aka its indefinite integral). For example, the command
+Use a Rubi `Int` command of the form `Int[expn, var]` to integrate *expn* with respect to *var*, and return its antiderivative (aka its indefinite integral). For example, the command
 ```mma
 Int[x Sin[x]^2, x]
 ```
