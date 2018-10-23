@@ -1,4 +1,4 @@
-# Installation Instructions for Rubi
+# Instructions for Installing Rubi
 
 ![release](https://img.shields.io/github/release/rulebasedintegration/rubi.svg?longCache=true&style=for-the-badge) ![downloads](https://img.shields.io/github/downloads/rulebasedintegration/rubi/total.svg?longCache=true&style=for-the-badge)
 
