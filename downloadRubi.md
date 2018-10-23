@@ -60,7 +60,7 @@ to see the full path name to the location of the Rubi package.
 
 Click [here](https://github.com/RuleBasedIntegration/Rubi/releases/download/4.16.0.4/Rubi-4.16.0.4.zip)
 to download `Rubi-4.16.0.4.zip` to the Downloads directory on your computer.
-Then extract from the zip file the `Rubi` folder with all its contents into the following directory
+Then extract from the zip file the `Rubi` folder with all its contents into the directory returned by the Mathematica commmand
 
 ```mma
 FileNameJoin[{$UserBaseDirectory, "Applications"}]
@@ -71,13 +71,13 @@ This will install the Rubi package in Mathematica's repository for packages.
 
 # Instructions for Uninstalling Rubi
 
-To remove a paclet-based installation of Rubi for Mathematica version 9 or later, issue the command
+To remove a paclet-based installation of Rubi for Mathematica version 9 or later, issue the Mathematica command
 
 ```
 PacletUninstall["Rubi"]
 ```
 
-To remove a Rubi package for Mathematica 7 or later, delete the directory named "Rubi" from
+To remove the Rubi package for Mathematica 7 or later, delete the directory named "Rubi" from the directory returned by the Mathematica commmand
 
 ```mma
 FileNameJoin[{$UserBaseDirectory, "Applications"}]
