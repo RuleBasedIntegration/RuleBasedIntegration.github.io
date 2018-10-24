@@ -295,17 +295,50 @@ Because of their large size, Mathematica's test results on the 72,000+ integrati
 
 #### 6.1 Hyperbolic sine
 
+* <a href="testResults/MathematicaTestResults/6 Hyperbolic functions/6.1 Hyperbolic sine/Mathematica 11.3 Integration Test Results for 6.1.1 (c+d x)^m (a+b sinh)^n.pdf">6.1.1 (c+d x)^m (a+b sinh)^n</a>
+* <a href="testResults/MathematicaTestResults/6 Hyperbolic functions/6.1 Hyperbolic sine/Mathematica 11.3 Integration Test Results for 6.1.3 (e x)^m (a+b sinh(c+d x^n))^p.pdf">6.1.3 (e x)^m (a+b sinh(c+d x^n))^p</a>
+* <a href="testResults/MathematicaTestResults/6 Hyperbolic functions/6.1 Hyperbolic sine/Mathematica 11.3 Integration Test Results for 6.1.4 (d+e x)^m sinh(a+b x+c x^2)^n.pdf">6.1.4 (d+e x)^m sinh(a+b x+c x^2)^n</a>
+* <a href="testResults/MathematicaTestResults/6 Hyperbolic functions/6.1 Hyperbolic sine/Mathematica 11.3 Integration Test Results for 6.1.5 Hyperbolic sine functions.pdf">6.1.5 Hyperbolic sine functions</a>
+* <a href="testResults/MathematicaTestResults/6 Hyperbolic functions/6.1 Hyperbolic sine/Mathematica 11.3 Integration Test Results for 6.1.7 hyper^m (a+b sinh^n)^p.pdf">6.1.7 hyper^m (a+b sinh^n)^p</a>
+
 #### 6.2 Hyperbolic cosine
+
+* <a href="testResults/MathematicaTestResults/6 Hyperbolic functions/6.2 Hyperbolic cosine/Mathematica 11.3 Integration Test Results for 6.2.1 (c+d x)^m (a+b cosh)^n.pdf">6.2.1 (c+d x)^m (a+b cosh)^n</a>
+* <a href="testResults/MathematicaTestResults/6 Hyperbolic functions/6.2 Hyperbolic cosine/Mathematica 11.3 Integration Test Results for 6.2.2 (e x)^m (a+b x^n)^p cosh.pdf">6.2.2 (e x)^m (a+b x^n)^p cosh</a>
+* <a href="testResults/MathematicaTestResults/6 Hyperbolic functions/6.2 Hyperbolic cosine/Mathematica 11.3 Integration Test Results for 6.2.3 (e x)^m (a+b cosh(c+d x^n))^p.pdf">6.2.3 (e x)^m (a+b cosh(c+d x^n))^p</a>
+* <a href="testResults/MathematicaTestResults/6 Hyperbolic functions/6.2 Hyperbolic cosine/Mathematica 11.3 Integration Test Results for 6.2.4 (d+e x)^m cosh(a+b x+c x^2)^n.pdf">6.2.4 (d+e x)^m cosh(a+b x+c x^2)^n</a>
+* <a href="testResults/MathematicaTestResults/6 Hyperbolic functions/6.2 Hyperbolic cosine/Mathematica 11.3 Integration Test Results for 6.2.5 Hyperbolic cosine functions.pdf">6.2.5 Hyperbolic cosine functions</a>
+* <a href="testResults/MathematicaTestResults/6 Hyperbolic functions/6.2 Hyperbolic cosine/Mathematica 11.3 Integration Test Results for 6.2.7 hyper^m (a+b cosh^n)^p.pdf">6.2.7 hyper^m (a+b cosh^n)^p</a>
 
 #### 6.3 Hyperbolic tangent
 
+* <a href="testResults/MathematicaTestResults/6 Hyperbolic functions/6.3 Hyperbolic tangent/Mathematica 11.3 Integration Test Results for 6.3.1 (c+d x)^m (a+b tanh)^n.pdf">6.3.1 (c+d x)^m (a+b tanh)^n</a>
+* <a href="testResults/MathematicaTestResults/6 Hyperbolic functions/6.3 Hyperbolic tangent/Mathematica 11.3 Integration Test Results for 6.3.2 Hyperbolic tangent functions.pdf">6.3.2 Hyperbolic tangent functions</a>
+* <a href="testResults/MathematicaTestResults/6 Hyperbolic functions/6.3 Hyperbolic tangent/Mathematica 11.3 Integration Test Results for 6.3.7 (d hyper)^m (a+b (c tanh)^n)^p.pdf">6.3.7 (d hyper)^m (a+b (c tanh)^n)^p</a>
+
 #### 6.4 Hyperbolic cotangent
+
+* <a href="testResults/MathematicaTestResults/6 Hyperbolic functions/6.4 Hyperbolic cotangent/Mathematica 11.3 Integration Test Results for 6.4.1 (c+d x)^m (a+b coth)^n.pdf">6.4.1 (c+d x)^m (a+b coth)^n</a>
+* <a href="testResults/MathematicaTestResults/6 Hyperbolic functions/6.4 Hyperbolic cotangent/Mathematica 11.3 Integration Test Results for 6.4.2 Hyperbolic cotangent functions.pdf">6.4.2 Hyperbolic cotangent functions</a>
+* <a href="testResults/MathematicaTestResults/6 Hyperbolic functions/6.4 Hyperbolic cotangent/Mathematica 11.3 Integration Test Results for 6.4.7 (d hyper)^m (a+b (c coth)^n)^p.pdf">6.4.7 (d hyper)^m (a+b (c coth)^n)^p</a>
 
 #### 6.5 Hyperbolic secant
 
+* <a href="testResults/MathematicaTestResults/6 Hyperbolic functions/6.5 Hyperbolic secant/Mathematica 11.3 Integration Test Results for 6.5.1 (c+d x)^m (a+b sech)^n.pdf">6.5.1 (c+d x)^m (a+b sech)^n</a>
+* <a href="testResults/MathematicaTestResults/6 Hyperbolic functions/6.5 Hyperbolic secant/Mathematica 11.3 Integration Test Results for 6.5.2 (e x)^m (a+b sech(c+d x^n))^p.pdf">6.5.2 (e x)^m (a+b sech(c+d x^n))^p</a>
+* <a href="testResults/MathematicaTestResults/6 Hyperbolic functions/6.5 Hyperbolic secant/Mathematica 11.3 Integration Test Results for 6.5.3 Hyperbolic secant functions.pdf">6.5.3 Hyperbolic secant functions</a>
+* <a href="testResults/MathematicaTestResults/6 Hyperbolic functions/6.5 Hyperbolic secant/Mathematica 11.3 Integration Test Results for 6.5.7 (d hyper)^m (a+b (c sech)^n)^p.pdf">6.5.7 (d hyper)^m (a+b (c sech)^n)^p</a>
+
 #### 6.6 Hyperbolic cosecant
 
+* <a href="testResults/MathematicaTestResults/6 Hyperbolic functions/6.6 Hyperbolic cosecant/Mathematica 11.3 Integration Test Results for 6.6.1 (c+d x)^m (a+b csch)^n.pdf">6.6.1 (c+d x)^m (a+b csch)^n</a>
+* <a href="testResults/MathematicaTestResults/6 Hyperbolic functions/6.6 Hyperbolic cosecant/Mathematica 11.3 Integration Test Results for 6.6.2 (e x)^m (a+b csch(c+d x^n))^p.pdf">6.6.2 (e x)^m (a+b csch(c+d x^n))^p</a>
+* <a href="testResults/MathematicaTestResults/6 Hyperbolic functions/6.6 Hyperbolic cosecant/Mathematica 11.3 Integration Test Results for 6.6.3 Hyperbolic cosecant functions.pdf">6.6.3 Hyperbolic cosecant functions</a>
+* <a href="testResults/MathematicaTestResults/6 Hyperbolic functions/6.6 Hyperbolic cosecant/Mathematica 11.3 Integration Test Results for 6.6.7 (d hyper)^m (a+b (c csch)^n)^p.pdf">6.6.7 (d hyper)^m (a+b (c csch)^n)^p</a>
+
 #### 6.7 Miscellaneous
+
+* <a href="testResults/MathematicaTestResults/6 Hyperbolic functions/6.7 Miscellaneous/Mathematica 11.3 Integration Test Results for 6.7.1 Hyperbolic functions.pdf">6.7.1 Hyperbolic functions</a>
 
 
 ### 7 Inverse hyperbolic functions
