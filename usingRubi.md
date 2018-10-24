@@ -39,18 +39,20 @@ returns the list
 <div class="centertext"> $$\left\{x,\frac{x^2}{2},\frac{x^3}{3},\frac{x^4}{4},\frac{x^5}{5},\frac{x^6}{6}\right\}$$ </div>
 
 
-A Rubi command of the form `Int[expn, {var, a, b}]` integrates *expn* with respect to *var*, and returns the limit of its antiderivative as *var* approaches *b* minus the limit as *var* approaches *a*.  Note that by the *Fundamental Theorem of Calculus* (FTOC), this difference will equal the definite integral of *expn* from *a* to *b* **if and only if** the antiderivative is continuous between the two points.  For example, the command
+A Rubi command of the form `Int[expn, {var, a, b}]` integrates *expn* with respect to *var*, and returns the limit of its antiderivative as *var* approaches *b* minus the limit as *var* approaches *a*.  Note that by the *Fundamental Theorem of Calculus* (FTOC), this difference will equal the definite integral of *expn* from *a* to *b* **if and only if** the antiderivative is continuous between the two points.
+
+For example, the command
 ```mma
 Int[x Sin[x]^2, {x, 0, Pi}]
 ```
-returns $\frac{\pi ^2}{4}$ which which equals the definite integral of $x \sin ^2(x)$ from 0 to pi, since the antiderivative is continuous over this interval.  However, the command
+returns $\frac{\pi ^2}{4}$ which equals the definite integral of $x \sin ^2(x)$ from 0 to pi, since the antiderivative is continuous over this interval.  However, the command
 ```mma
-Int[???, {x, ???, ???}]
+Int[1/(1-x^2), {x, 0, 2}]
 ```
-returns ??? which does *not* equal the definite integral of ??? since the antiderivative is *not* continuous between ??? and ???.
+returns $\arctanh(2)$ although $\frac{1}{1-x^2}$ does *not* converge over the interval {0,2}.
 
 
-### The Step commands
+## The Step commands
 
 The command `Steps[Int[expn, var]]` displays all the steps in the integration of `expn` with respect to `var` and returns the antiderivative.
 For example,
