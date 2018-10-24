@@ -60,6 +60,10 @@ displays
 
 ![steps](http://i.imgur.com/jC1BTJs.png)
 
+and returns the antiderivative
+
+$$\frac{2 \left(a+b \sqrt{x}\right)^{d+2}}{b^2 (d+2)}-\frac{2 a \left(a+b \sqrt{x}\right)^{d+1}}{b^2 (d+1)}$$
+
 The boxes on the right with red text are the integration rules and the boxes with blue text are intermediate results.
 Rules can be opened by clicking on the triangle-opener and then the internal rule-number and more importantly the
 required conditions for this step are shown
@@ -88,6 +92,15 @@ and returns the antiderivative
 
 <div class="centertext"> $$\frac{2 \left(a+b \sqrt{x}\right)^{d+2}}{b^2 (d+2)}-\frac{2 a \left(a+b \sqrt{x}\right)^{d+1}}{b^2 (d+1)}$$ </div>
 
+The statistics provide the following information
+
+- `"Steps"`: the number of steps used to integrate the expression.
+- `"NumerOfRules`": the number of distinct rules used.
+- `"InputLeafCount"`: the leaf count size of the input expression.
+- `"OutputLeafCount"`: the leaf count size of the found antiderivative.
+- `"Ratio"`: the rule-to-size ratio of the integration, i.e. the quotient of `"NumberOfRules"` and `"InputLeafCount"`.
+- `"Rules"`: the rule-numbers of the distinct rules used.
+
 The statistics include a measure of the difficulty integrating an expression based on the number of distinct rules divided the leaf count size of the expression. 
 
 Each entry in the `Stats` can be accessed easily by either viewing the `InputForm` of the `Stats` ouput, or using accessor
@@ -102,15 +115,6 @@ stats["OutputLeafCount"]
 stats["Ratio"]
 stats["Rules"]
 ```
-
-The statistical output contains the following information
-
-- `"Steps"`: the number of recorded steps used to find the antiderivate.
-- `"NumerOfRules`": the number of distinct rules used.
-- `"InputLeafCount"`: the leaf count size of the input expression.
-- `"OutputLeafCount"`: the leaf count size of the found antiderivative.
-- `"Ratio"`: the rule-to-size ratio of the integration, i.e. the quotient of `"NumberOfRules"` and `"InputLeafCount"`.
-- `"Rules"`: the rule-numbers of the distinct rules used.
 
 
 ### Advanced inspection of the integration
