@@ -21,21 +21,22 @@ The first time Rubi is loaded, it will take a minute or two to read in and initi
 
 ## Integrating expressions
 
-Use a Rubi `Int` command of the form `Int[expn, var]` to integrate *expn* with respect to *var*, and return its antiderivative (aka its indefinite integral). For example, the command
+Use a Rubi command of the form `Int[expn, var]` to integrate *expn* with respect to *var*, and return its antiderivative (aka its indefinite integral).  For example, the command
 ```mma
 Int[x Sin[x]^2, x]
 ```
 returns the antiderivative
 <div class="centertext">
-$$\frac{x^2}{4}+\frac{\sin ^2(x)}{4}-\frac{1}{2} x \sin (x) \cos (x)$$.
+$$\frac{x^2}{4}+\frac{\sin ^2(x)}{4}-\frac{1}{2} x \sin (x) \cos (x)$$
 </div>
-
-The command `Int[{expn1, expn2, ...}, var]` returns a list of the antiderivatives of `expn1`, `expn2`, ... each with respect to `var`.
-For example,
+The a Rubi command of the form `Int[{expn1, expn2, ...}, var]` to integrate *expn1*, *expn2*, ... each with respect to *var*, and return their antiderivatives as a list.  For example, the command
 ```mma
-Int[{???, ???}, x]
+Int[Table[x^n, {n, 0, 5}], x]
 ```
-returns ???.
+returns the list
+<div class="centertext">
+\left\{x,\frac{x^2}{2},\frac{x^3}{3},\frac{x^4}{4},\frac{x^5}{5},\frac{x^6}{6}\right\}
+</div>
 
 The command `Int[expn, {var, a, b}]` returns the limit of the antiderivative of `expn` as `var` approaches `b` minus the limit as `var` approaches `a`.
 Note that by the *Fundamental Theorem of Calculus* (FTOC), this difference will equal the definite integral of `expn` from `a` to `b` *if and only if* the antiderivative is continuous between the two points.
