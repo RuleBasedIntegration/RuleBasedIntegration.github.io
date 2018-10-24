@@ -1,4 +1,3 @@
-<style> div.centertext {text-align: center;} </style>
 # Instructions for Using Rubi
 
 Loading the Mathematica implementation of Rubi defines an extensive system of rules capable of integrating large classes of mathematical expressions.  Although Rubi's **Int** commands are similar in form and function to Mathematica’s **Integrate** commands, the rules Rubi uses to integrate expressions do *not* in any way depend on Mathematica's built-in integrator.
@@ -27,6 +26,7 @@ Int[x Sin[x]^2, x]
 ```
 returns the antiderivative
 
+<style> div.centertext {text-align: center;} </style>
 <div class="centertext"> $$\frac{x^2}{4}+\frac{\sin ^2(x)}{4}-\frac{1}{2} x \sin (x) \cos (x)$$ </div>
 
 A Rubi command of the form **Int[{*expn1*, *expn2*, ...}, *var*]** integrates ***expn1***, ***expn2***, ... each with respect to ***var***, and returns a list of their antiderivatives.  For example, the command
@@ -35,7 +35,7 @@ Int[Table[x^n, {n, 0, 5}], x]
 ```
 returns the list
 
-<div class="centertext"> $$\left\{x,\frac{x^2}{2},\frac{x^3}{3},\frac{x^4}{4},\frac{x^5}{5},\frac{x^6}{6}\right\}$$ </div>
+$$\left\{x,\frac{x^2}{2},\frac{x^3}{3},\frac{x^4}{4},\frac{x^5}{5},\frac{x^6}{6}\right\}$$
 
 A Rubi command of the form **Int[*expn*, {*var*, *a*, *b*}]** integrates ***expn*** with respect to ***var***, and returns the limit of its antiderivative as ***var*** approaches ***b*** minus the limit as ***var*** approaches ***a***.  According to the *Fundamental Theorem of Calculus* (FTOC), this difference will equal the definite integral of ***expn*** from ***a*** to ***b*** *if and only if* the antiderivative is continuous between the two points.  For that reason, Rubi strives to return antiderivatives that are continuous on the real line to the maximum extent possible.
 
@@ -56,7 +56,7 @@ A Rubi command of the form **Steps[Int[*expn*, *var*]]** displays all the steps 
 ```mma
 Steps[Int[(a + b*Sqrt[x])^d, x]]
 ```
-displays the steps  w/o
+displays the steps
 
 ![steps](https://rulebasedintegration.org/RubiScreenShots/integrationSteps.png)
 
@@ -90,7 +90,7 @@ displays
 
 and returns the antiderivative
 
-<div class="centertext"> $$\frac{2 \left(a+b \sqrt{x}\right)^{d+2}}{b^2 (d+2)}-\frac{2 a \left(a+b \sqrt{x}\right)^{d+1}}{b^2 (d+1)}$$ </div>
+$$\frac{2 \left(a+b \sqrt{x}\right)^{d+2}}{b^2 (d+2)}-\frac{2 a \left(a+b \sqrt{x}\right)^{d+1}}{b^2 (d+1)}$$
 
 The statistics provide the following information
 
