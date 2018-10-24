@@ -21,7 +21,7 @@ The first time Rubi is loaded, it will take a minute or two to read in and initi
 
 ## Integrating expressions
 
-A Rubi command of the form **Int[*expn*, *var*]** integrates ***expn*** with respect to ***var***, and returns its antiderivative (aka its indefinite integral).  For example, the command
+A Rubi command of the form **Int[*expn*, *var*]** integrates ***expn*** with respect to ***var***, and returns its antiderivative (also called its indefinite integral).  For example, the command
 ```mma
 Int[x Sin[x]^2, x]
 ```
@@ -50,10 +50,9 @@ Int[1/(1-x^2), {x, 0, 2}]
 returns arctanh(2) although $\frac{1}{1-x^2}$ does *not* converge over the interval {0,2}.
 
 
-## The Step commands
+## Displaying integration steps
 
-The command `Steps[Int[expn, var]]` displays all the steps in the integration of `expn` with respect to `var` and returns the antiderivative.
-For example,
+A Rubi command of the form **Steps[Int[*expn*, *var*]]** displays all the steps while integrating of ***expn*** with respect to ***var***, and returns its antiderivative.  For example,
 ```mma
 Steps[Int[(a + b*Sqrt[x])^d, x]]
 ```
@@ -70,11 +69,10 @@ Furthermore, you can click on the blue intermediate results and they are copied 
 Mathematica input. The "Copy Steps" button at the bottom let's you copy the complete list of steps as raw Mathematica
 expressions like they are collected by Rubi.
 
-The command `Step[Int[expn, var]]` displays the first step in the integration of `expn` with respect to `var` and returns the intermediate result.
-Its display of the integration rule is the same as that used by the `Steps` command.
+A Rubi command of the form **Step[Int[*expn*, *var*]]** displays the first step of the integration of ***expn*** with respect to ***var***, and returns the intermediate result.  Its display of the integration rule is the same as that used by the **Steps** command.
 
 
-### The Stats command
+## The Stats command
 
 The command `Stats[Int[expn, var]]` displays stats about the integration before returning the antiderivative `expn` with respect to `var`.
 
