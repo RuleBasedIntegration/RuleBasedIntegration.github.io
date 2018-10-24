@@ -6,7 +6,7 @@ Loading the Mathematica implementation of Rubi defines an extensive system of ru
 
 ## Loading Rubi
 
-After the Rubi package has been properly installed as described in the [Rubi installation](https://rulebasedintegration.org/downloadRubi.html) instructions, use the command
+After the Rubi package has been properly installed as described in the [Rubi installation instructions](https://rulebasedintegration.org/downloadRubi.html), use the command
 ```mma
 Get["Rubi`"]
 ```
@@ -29,25 +29,21 @@ returns the antiderivative
 
 <div class="centertext"> $$\frac{x^2}{4}+\frac{\sin ^2(x)}{4}-\frac{1}{2} x \sin (x) \cos (x)$$ </div>
 
+
 A Rubi command of the form `Int[{expn1, expn2, ...}, var]` integrates *expn1*, *expn2*, ... each with respect to *var*, and returns a list of their antiderivatives.  For example, the command
 ```mma
 Int[Table[x^n, {n, 0, 5}], x]
 ```
 returns the list
 
-<div class="centertext"> \left\{x,\frac{x^2}{2},\frac{x^3}{3},\frac{x^4}{4},\frac{x^5}{5},\frac{x^6}{6}\right\} </div>
+<div class="centertext"> $$\left\{x,\frac{x^2}{2},\frac{x^3}{3},\frac{x^4}{4},\frac{x^5}{5},\frac{x^6}{6}\right\}$$ </div>
 
-A Rubi command of the form `Int[expn, {var, a, b}]` integrates *expn* with respect to *var*, and returns the limit of its antiderivative as *var* approaches *b* minus the limit as *var* approaches *a*.  Note that by the *Fundamental Theorem of Calculus* (FTOC), this difference will equal the definite integral of *expn* from *a* to *b* *if and only if* the antiderivative is continuous between the two points.  For example, the command
+
+A Rubi command of the form `Int[expn, {var, a, b}]` integrates *expn* with respect to *var*, and returns the limit of its antiderivative as *var* approaches *b* minus the limit as *var* approaches *a*.  Note that by the *Fundamental Theorem of Calculus* (FTOC), this difference will equal the definite integral of *expn* from *a* to *b* **if and only if** the antiderivative is continuous between the two points.  For example, the command
 ```mma
 Int[x Sin[x]^2, {x, 0, Pi}]
 ```
-returns
-
-<div class="centertext"> \left\{x,\frac{x^2}{2},\frac{x^3}{3},\frac{x^4}{4},\frac{x^5}{5},\frac{x^6}{6}\right\} </div>
-
-which which equals the definite integral of ??? from 0 to pi since the antiderivative is continuous over this interval.
-
-However,
+returns $\frac{\pi ^2}{4}$ which which equals the definite integral of $x \sin ^2(x)$ from 0 to pi, since the antiderivative is continuous over this interval.  However, the command
 ```mma
 Int[???, {x, ???, ???}]
 ```
