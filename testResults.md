@@ -150,13 +150,69 @@ Because of their large size, Mathematica's test results on the 72,000+ integrati
 
 ### 4 Trig functions
 
-* <a href="testResults/MathematicaTestResults/2 Exponentials/.pdf"></a>
+#### 4.1 Sine
+
+* <a href="testResults/MathematicaTestResults/4 Trig functions/4.1 Sine/.pdf"></a>
+
+#### 4.2 Cosine
+
+#### 4.3 Tangent
+
+#### 4.4 Cotangent
+
+#### 4.5 Secant
+
+#### 4.6 Cosecant
+
+#### 4.7 Miscellaneous
+
 
 ### 5 Inverse trig functions
 
+#### 5.1 Inverse sine
+
+#### 5.2 Inverse cosine
+
+#### 5.3 Inverse tangent
+
+#### 5.4 Inverse cotangent
+
+#### 5.5 Inverse secant
+
+#### 5.6 Inverse cosecant
+
+
 ### 6 Hyperbolic functions
 
+#### 6.1 Hyperbolic sine
+
+#### 6.2 Hyperbolic cosine
+
+#### 6.3 Hyperbolic tangent
+
+#### 6.4 Hyperbolic cotangent
+
+#### 6.5 Hyperbolic secant
+
+#### 6.6 Hyperbolic cosecant
+
+#### 6.7 Miscellaneous
+
+
 ### 7 Inverse hyperbolic functions
+
+#### 7.1 Inverse hyperbolic sine
+
+#### 7.2 Inverse hyperbolic cosine
+
+#### 7.3 Inverse hyperbolic tangent
+
+#### 7.4 Inverse hyperbolic cotangent
+
+#### 7.5 Inverse hyperbolic secant
+
+#### 7.6 Inverse hyperbolic cosecant
+
 
 ### 8 Special functions
 
