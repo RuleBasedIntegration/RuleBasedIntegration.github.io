@@ -1,3 +1,4 @@
+<style> div.centertext {text-align: center;} </style>
 # Instructions for Using Rubi
 
 Loading the Mathematica implementation of Rubi defines an extensive system of rules capable of integrating large classes of mathematical expressions. Although Rubi's `Int` commands are similar in form and function to Mathematica’s `Integrate` commands, the rules Rubi uses to integrate expressions do *not* in any way depend on Mathematica's built-in integrator.
@@ -25,9 +26,9 @@ Use a Rubi `Int` command of the form `Int[expn, var]` to integrate *expn* with r
 Int[x Sin[x]^2, x]
 ```
 returns the antiderivative
-<center>
+<div class="centertext">
 $$\frac{x^2}{4}+\frac{\sin ^2(x)}{4}-\frac{1}{2} x \sin (x) \cos (x)$$.
-</center>
+</div>
 
 The command `Int[{expn1, expn2, ...}, var]` returns a list of the antiderivatives of `expn1`, `expn2`, ... each with respect to `var`.
 For example,
