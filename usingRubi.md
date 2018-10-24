@@ -52,11 +52,12 @@ returns arctanh(2) although $\frac{1}{1-x^2}$ does *not* converge over the inter
 
 ## Displaying integration steps
 
-A Rubi command of the form **Steps[Int[*expn*, *var*]]** displays all the steps while integrating of ***expn*** with respect to ***var***, and returns its antiderivative.  For example,
+A Rubi command of the form **Steps[Int[*expn*, *var*]]** displays all the steps while integrating of ***expn*** with respect to ***var***, and returns its antiderivative.  For example, the command
 ```mma
 Steps[Int[(a + b*Sqrt[x])^d, x]]
 ```
 displays
+
 ![steps](http://i.imgur.com/jC1BTJs.png)
 
 The boxes on the right with red text are the integration rules and the boxes with blue text are intermediate results.
@@ -72,18 +73,22 @@ expressions like they are collected by Rubi.
 A Rubi command of the form **Step[Int[*expn*, *var*]]** displays the first step of the integration of ***expn*** with respect to ***var***, and returns the intermediate result.  Its display of the integration rule is the same as that used by the **Steps** command.
 
 
-## The Stats command
+## Displaying integration statistics
 
-The command `Stats[Int[expn, var]]` displays stats about the integration before returning the antiderivative `expn` with respect to `var`.
-
-Rubi maintains a notion of how complex the computation of the antiderivative is. It is using the number of rules
-that were required and the sizes of the input and output expressions. 
+A Rubi command of the form **Stats[Int[*expn*, *var*]]** integrates ***expn*** with respect to ***var***, and displays statistics about the integration before returning its antiderivative.  For example, the command
 
 ```mma
 Stats[Int[(a + b*Sqrt[x])^d, x]]
 ```
+displays
 
 ![Stats](http://i.stack.imgur.com/c4aUZ.png)
+
+and returns the antiderivative
+
+<div class="centertext"> $$\frac{2 \left(a+b \sqrt{x}\right)^{d+2}}{b^2 (d+2)}-\frac{2 a \left(a+b \sqrt{x}\right)^{d+1}}{b^2 (d+1)}$$ </div>
+
+The statistics include a measure of the difficulty integrating an expression based on the number of distinct rules divided the leaf count size of the expression. 
 
 Each entry in the `Stats` can be accessed easily by either viewing the `InputForm` of the `Stats` ouput, or using accessor
 like this
