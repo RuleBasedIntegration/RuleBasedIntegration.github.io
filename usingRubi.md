@@ -21,7 +21,7 @@ The first time Rubi is loaded, it will take a minute or two to read in and initi
 
 ## Integrating expressions
 
-A Rubi command of the form **Int[expn,var]** integrates *expn* with respect to *var*, and returns its antiderivative (aka its indefinite integral).  For example, the command
+A Rubi command of the form **Int[*expn*, *var*]** integrates ***expn*** with respect to ***var***, and returns its antiderivative (aka its indefinite integral).  For example, the command
 ```mma
 Int[x Sin[x]^2, x]
 ```
@@ -29,8 +29,7 @@ returns the antiderivative
 
 <div class="centertext"> $$\frac{x^2}{4}+\frac{\sin ^2(x)}{4}-\frac{1}{2} x \sin (x) \cos (x)$$ </div>
 
-
-A Rubi command of the form **Int[{*expn1*,*expn2*,...},*var*]** integrates ***expn1***, ***expn2***, ... each with respect to ***var***, and returns a list of their antiderivatives.  For example, the command
+A Rubi command of the form **Int[{*expn1*, *expn2*, ...}, *var*]** integrates ***expn1***, ***expn2***, ... each with respect to ***var***, and returns a list of their antiderivatives.  For example, the command
 ```mma
 Int[Table[x^n, {n, 0, 5}], x]
 ```
@@ -38,8 +37,7 @@ returns the list
 
 <div class="centertext"> $$\left\{x,\frac{x^2}{2},\frac{x^3}{3},\frac{x^4}{4},\frac{x^5}{5},\frac{x^6}{6}\right\}$$ </div>
 
-
-A Rubi command of the form `Int[expn, {var, a, b}]` integrates *expn* with respect to *var*, and returns the limit of its antiderivative as *var* approaches *b* minus the limit as *var* approaches *a*.  Note that by the *Fundamental Theorem of Calculus* (FTOC), this difference will equal the definite integral of *expn* from *a* to *b* **if and only if** the antiderivative is continuous between the two points.
+A Rubi command of the form **Int[*expn*, {*var*, *a*, *b*}]** integrates ***expn*** with respect to ***var***, and returns the limit of its antiderivative as ***var*** approaches ***b*** minus the limit as ***var*** approaches ***a***.  According to the *Fundamental Theorem of Calculus* (FTOC), this difference will equal the definite integral of ***expn*** from ***a*** to ***b*** *if and only if* the antiderivative is continuous between the two points.  For that reason, Rubi strives to return antiderivatives that are continuous on the real line to the maximum extent possible.
 
 For example, the command
 ```mma
@@ -49,7 +47,7 @@ returns $\frac{\pi ^2}{4}$ which equals the definite integral of $x \sin ^2(x)$ 
 ```mma
 Int[1/(1-x^2), {x, 0, 2}]
 ```
-returns $arctanh(2)$ although $\frac{1}{1-x^2}$ does *not* converge over the interval {0,2}.
+returns arctanh(2) although $\frac{1}{1-x^2}$ does *not* converge over the interval {0,2}.
 
 
 ## The Step commands
