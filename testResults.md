@@ -56,6 +56,7 @@ Because of their large size, Mathematica's test results on the 72,000+ integrati
 * <a href="testResults/MathematicaTestResults/0 Independent test suites/Mathematica 11.3 Integration Test Results for Welz Problems.pdf">Welz problems</a>
 * <a href="testResults/MathematicaTestResults/0 Independent test suites/Mathematica 11.3 Integration Test Results for Wester Problems.pdf">Wester problems</a>
 
+
 ### 1 Algebraic functions
 
 #### 1.1 Binomial products
@@ -136,6 +137,7 @@ Because of their large size, Mathematica's test results on the 72,000+ integrati
 * <a href="testResults/MathematicaTestResults/2 Exponentials/Mathematica 11.3 Integration Test Results for 2.2 (c+d x)^m (F^(g (e+f x)))^n (a+b (F^(g (e+f x)))^n)^p.pdf">2.2 (c+d x)^m (F^(g (e+f x)))^n (a+b (F^(g (e+f x)))^n)^p</a>
 * <a href="testResults/MathematicaTestResults/2 Exponentials/Mathematica 11.3 Integration Test Results for 2.3 Exponential functions.pdf">2.3 Exponential functions</a>
 
+
 ### 3 Logarithms
 
 * <a href="testResults/MathematicaTestResults/3 Logarithms/Mathematica 11.3 Integration Test Results for 3.1.2 (d x)^m (a+b log(c x^n))^p.pdf">3.1.2 (d x)^m (a+b log(c x^n))^p</a>
@@ -148,23 +150,106 @@ Because of their large size, Mathematica's test results on the 72,000+ integrati
 * <a href="testResults/MathematicaTestResults/3 Logarithms/Mathematica 11.3 Integration Test Results for 3.4 u (a+b log(c (d+e x^m)^n))^p.pdf">3.4 u (a+b log(c (d+e x^m)^n))^p</a>
 * <a href="testResults/MathematicaTestResults/3 Logarithms/Mathematica 11.3 Integration Test Results for 3.5 Logarithm functions.pdf">3.5 Logarithm functions</a>
 
+
 ### 4 Trig functions
 
 #### 4.1 Sine
 
-* <a href="testResults/MathematicaTestResults/4 Trig functions/4.1 Sine/.pdf"></a>
+* <a href="testResults/MathematicaTestResults/4 Trig functions/4.1 Sine/Mathematica 11.3 Integration Test Results for 4.1.0 (a sin)^m (b trg)^n.pdf">4.1.0 (a sin)^m (b trg)^n</a>
+* <a href="testResults/MathematicaTestResults/4 Trig functions/4.1 Sine/Mathematica 11.3 Integration Test Results for 4.1.1.1 (a+b sin)^n.pdf">4.1.1.1 (a+b sin)^n</a>
+* <a href="testResults/MathematicaTestResults/4 Trig functions/4.1 Sine/Mathematica 11.3 Integration Test Results for 4.1.1.2 (g cos)^p (a+b sin)^m.pdf">4.1.1.2 (g cos)^p (a+b sin)^m</a>
+* <a href="testResults/MathematicaTestResults/4 Trig functions/4.1 Sine/Mathematica 11.3 Integration Test Results for 4.1.1.3 (g tan)^p (a+b sin)^m.pdf">4.1.1.3 (g tan)^p (a+b sin)^m</a>
+* <a href="testResults/MathematicaTestResults/4 Trig functions/4.1 Sine/Mathematica 11.3 Integration Test Results for 4.1.2.1 (a+b sin)^m (c+d sin)^n.pdf">4.1.2.1 (a+b sin)^m (c+d sin)^n</a>
+* <a href="testResults/MathematicaTestResults/4 Trig functions/4.1 Sine/Mathematica 11.3 Integration Test Results for 4.1.2.2 (g cos)^p (a+b sin)^m (c+d sin)^n.pdf">4.1.2.2 (g cos)^p (a+b sin)^m (c+d sin)^n</a>
+* <a href="testResults/MathematicaTestResults/4 Trig functions/4.1 Sine/Mathematica 11.3 Integration Test Results for 4.1.2.3 (g sin)^p (a+b sin)^m (c+d sin)^n.pdf">4.1.2.3 (g sin)^p (a+b sin)^m (c+d sin)^n</a>
+* <a href="testResults/MathematicaTestResults/4 Trig functions/4.1 Sine/Mathematica 11.3 Integration Test Results for 4.1.3.1 (a+b sin)^m (c+d sin)^n (A+B sin).pdf">4.1.3.1 (a+b sin)^m (c+d sin)^n (A+B sin)</a>
+* <a href="testResults/MathematicaTestResults/4 Trig functions/4.1 Sine/Mathematica 11.3 Integration Test Results for 4.1.4.1 (a+b sin)^m (A+B sin+C sin^2).pdf">4.1.4.1 (a+b sin)^m (A+B sin+C sin^2)</a>
+* <a href="testResults/MathematicaTestResults/4 Trig functions/4.1 Sine/Mathematica 11.3 Integration Test Results for 4.1.4.2 (a+b sin)^m (c+d sin)^n (A+B sin+C sin^2).pdf">4.1.4.2 (a+b sin)^m (c+d sin)^n (A+B sin+C sin^2)</a>
+* <a href="testResults/MathematicaTestResults/4 Trig functions/4.1 Sine/Mathematica 11.3 Integration Test Results for 4.1.7 (d trig)^m (a+b (c sin)^n)^p.pdf">4.1.7 (d trig)^m (a+b (c sin)^n)^p</a>
+* <a href="testResults/MathematicaTestResults/4 Trig functions/4.1 Sine/Mathematica 11.3 Integration Test Results for 4.1.8 (a+b sin)^m (c+d trig)^n.pdf">4.1.8 (a+b sin)^m (c+d trig)^n</a>
+* <a href="testResults/MathematicaTestResults/4 Trig functions/4.1 Sine/Mathematica 11.3 Integration Test Results for 4.1.9 trig^m (a+b sin^n+c sin^(2 n))^p.pdf">4.1.9 trig^m (a+b sin^n+c sin^(2 n))^p</a>
+* <a href="testResults/MathematicaTestResults/4 Trig functions/4.1 Sine/Mathematica 11.3 Integration Test Results for 4.1.10 (c+d x)^m (a+b sin)^n.pdf">4.1.10 (c+d x)^m (a+b sin)^n</a>
+* <a href="testResults/MathematicaTestResults/4 Trig functions/4.1 Sine/Mathematica 11.3 Integration Test Results for 4.1.11 (e x)^m (a+b x^n)^p sin.pdf">4.1.11 (e x)^m (a+b x^n)^p sin</a>
+* <a href="testResults/MathematicaTestResults/4 Trig functions/4.1 Sine/Mathematica 11.3 Integration Test Results for 4.1.12 (e x)^m (a+b sin(c+d x^n))^p.pdf">4.1.12 (e x)^m (a+b sin(c+d x^n))^p</a>
+* <a href="testResults/MathematicaTestResults/4 Trig functions/4.1 Sine/Mathematica 11.3 Integration Test Results for 4.1.13 (d+e x)^m sin(a+b x+c x^2)^n.pdf">4.1.13 (d+e x)^m sin(a+b x+c x^2)^n</a>
 
 #### 4.2 Cosine
 
+* <a href="testResults/MathematicaTestResults/4 Trig functions/4.2 Cosine/.pdf"></a>
+* <a href="testResults/MathematicaTestResults/4 Trig functions/4.2 Cosine/.pdf"></a>
+* <a href="testResults/MathematicaTestResults/4 Trig functions/4.2 Cosine/.pdf"></a>
+* <a href="testResults/MathematicaTestResults/4 Trig functions/4.2 Cosine/.pdf"></a>
+* <a href="testResults/MathematicaTestResults/4 Trig functions/4.2 Cosine/.pdf"></a>
+* <a href="testResults/MathematicaTestResults/4 Trig functions/4.2 Cosine/.pdf"></a>
+* <a href="testResults/MathematicaTestResults/4 Trig functions/4.2 Cosine/.pdf"></a>
+* <a href="testResults/MathematicaTestResults/4 Trig functions/4.2 Cosine/.pdf"></a>
+* <a href="testResults/MathematicaTestResults/4 Trig functions/4.2 Cosine/.pdf"></a>
+* <a href="testResults/MathematicaTestResults/4 Trig functions/4.2 Cosine/.pdf"></a>
+* <a href="testResults/MathematicaTestResults/4 Trig functions/4.2 Cosine/.pdf"></a>
+* <a href="testResults/MathematicaTestResults/4 Trig functions/4.2 Cosine/.pdf"></a>
+* <a href="testResults/MathematicaTestResults/4 Trig functions/4.2 Cosine/.pdf"></a>
+* <a href="testResults/MathematicaTestResults/4 Trig functions/4.2 Cosine/.pdf"></a>
+* <a href="testResults/MathematicaTestResults/4 Trig functions/4.2 Cosine/.pdf"></a>
+* <a href="testResults/MathematicaTestResults/4 Trig functions/4.2 Cosine/.pdf"></a>
+
 #### 4.3 Tangent
+
+* <a href="testResults/MathematicaTestResults/4 Trig functions/4.3 Tangent/.pdf"></a>
+* <a href="testResults/MathematicaTestResults/4 Trig functions/4.3 Tangent/.pdf"></a>
+* <a href="testResults/MathematicaTestResults/4 Trig functions/4.3 Tangent/.pdf"></a>
+* <a href="testResults/MathematicaTestResults/4 Trig functions/4.3 Tangent/.pdf"></a>
+* <a href="testResults/MathematicaTestResults/4 Trig functions/4.3 Tangent/.pdf"></a>
+* <a href="testResults/MathematicaTestResults/4 Trig functions/4.3 Tangent/.pdf"></a>
+* <a href="testResults/MathematicaTestResults/4 Trig functions/4.3 Tangent/.pdf"></a>
+* <a href="testResults/MathematicaTestResults/4 Trig functions/4.3 Tangent/.pdf"></a>
+* <a href="testResults/MathematicaTestResults/4 Trig functions/4.3 Tangent/.pdf"></a>
+* <a href="testResults/MathematicaTestResults/4 Trig functions/4.3 Tangent/.pdf"></a>
 
 #### 4.4 Cotangent
 
+* <a href="testResults/MathematicaTestResults/4 Trig functions/4.4 Cotangent/.pdf"></a>
+* <a href="testResults/MathematicaTestResults/4 Trig functions/4.4 Cotangent/.pdf"></a>
+* <a href="testResults/MathematicaTestResults/4 Trig functions/4.4 Cotangent/.pdf"></a>
+* <a href="testResults/MathematicaTestResults/4 Trig functions/4.4 Cotangent/.pdf"></a>
+* <a href="testResults/MathematicaTestResults/4 Trig functions/4.4 Cotangent/.pdf"></a>
+* <a href="testResults/MathematicaTestResults/4 Trig functions/4.4 Cotangent/.pdf"></a>
+* <a href="testResults/MathematicaTestResults/4 Trig functions/4.4 Cotangent/.pdf"></a>
+
 #### 4.5 Secant
+
+* <a href="testResults/MathematicaTestResults/4 Trig functions/4.5 Secant/.pdf"></a>
+* <a href="testResults/MathematicaTestResults/4 Trig functions/4.5 Secant/.pdf"></a>
+* <a href="testResults/MathematicaTestResults/4 Trig functions/4.5 Secant/.pdf"></a>
+* <a href="testResults/MathematicaTestResults/4 Trig functions/4.5 Secant/.pdf"></a>
+* <a href="testResults/MathematicaTestResults/4 Trig functions/4.5 Secant/.pdf"></a>
+* <a href="testResults/MathematicaTestResults/4 Trig functions/4.5 Secant/.pdf"></a>
+* <a href="testResults/MathematicaTestResults/4 Trig functions/4.5 Secant/.pdf"></a>
+* <a href="testResults/MathematicaTestResults/4 Trig functions/4.5 Secant/.pdf"></a>
+* <a href="testResults/MathematicaTestResults/4 Trig functions/4.5 Secant/.pdf"></a>
+* <a href="testResults/MathematicaTestResults/4 Trig functions/4.5 Secant/.pdf"></a>
+* <a href="testResults/MathematicaTestResults/4 Trig functions/4.5 Secant/.pdf"></a>
+* <a href="testResults/MathematicaTestResults/4 Trig functions/4.5 Secant/.pdf"></a>
 
 #### 4.6 Cosecant
 
+* <a href="testResults/MathematicaTestResults/4 Trig functions/4.6 Cosecant/.pdf"></a>
+* <a href="testResults/MathematicaTestResults/4 Trig functions/4.6 Cosecant/.pdf"></a>
+* <a href="testResults/MathematicaTestResults/4 Trig functions/4.6 Cosecant/.pdf"></a>
+* <a href="testResults/MathematicaTestResults/4 Trig functions/4.6 Cosecant/.pdf"></a>
+* <a href="testResults/MathematicaTestResults/4 Trig functions/4.6 Cosecant/.pdf"></a>
+* <a href="testResults/MathematicaTestResults/4 Trig functions/4.6 Cosecant/.pdf"></a>
+* <a href="testResults/MathematicaTestResults/4 Trig functions/4.6 Cosecant/.pdf"></a>
+* <a href="testResults/MathematicaTestResults/4 Trig functions/4.6 Cosecant/.pdf"></a>
+
 #### 4.7 Miscellaneous
+
+* <a href="testResults/MathematicaTestResults/4 Trig functions/4.7 Miscellaneous/.pdf"></a>
+* <a href="testResults/MathematicaTestResults/4 Trig functions/4.7 Miscellaneous/.pdf"></a>
+* <a href="testResults/MathematicaTestResults/4 Trig functions/4.7 Miscellaneous/.pdf"></a>
+* <a href="testResults/MathematicaTestResults/4 Trig functions/4.7 Miscellaneous/.pdf"></a>
+* <a href="testResults/MathematicaTestResults/4 Trig functions/4.7 Miscellaneous/.pdf"></a>
+* <a href="testResults/MathematicaTestResults/4 Trig functions/4.7 Miscellaneous/.pdf"></a>
+* <a href="testResults/MathematicaTestResults/4 Trig functions/4.7 Miscellaneous/.pdf"></a>
 
 
 ### 5 Inverse trig functions
