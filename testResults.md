@@ -85,3 +85,61 @@ Because of their large size, Mathematica's test results on the 72,000+ integrati
 * <a href="testResults/MathematicaTestResults/1 Algebraic functions/1.1 Binomial products/1.1.3 General/Mathematica 11.3 Integration Test Results for 1.1.3.4 (e x)^m (a+b x^n)^p (c+d x^n)^q.pdf">1.1.3.4 (e x)^m (a+b x^n)^p (c+d x^n)^q</a>
 * <a href="testResults/MathematicaTestResults/1 Algebraic functions/1.1 Binomial products/1.1.3 General/Mathematica 11.3 Integration Test Results for 1.1.3.6 (g x)^m (a+b x^n)^p (c+d x^n)^q (e+f x^n)^r.pdf">1.1.3.6 (g x)^m (a+b x^n)^p (c+d x^n)^q (e+f x^n)^r</a>
 * <a href="testResults/MathematicaTestResults/1 Algebraic functions/1.1 Binomial products/1.1.3 General/Mathematica 11.3 Integration Test Results for 1.1.3.8 P(x) (c x)^m (a+b x^n)^p.pdf">1.1.3.8 P(x) (c x)^m (a+b x^n)^p</a>
+
+##### 1.1.4 Improper
+
+* <a href="testResults/MathematicaTestResults/1 Algebraic functions/1.1 Binomial products/1.1.4 Improper/Mathematica 11.3 Integration Test Results for 1.1.4.2 (c x)^m (a x^j+b x^n)^p.pdf">1.1.4.2 (c x)^m (a x^j+b x^n)^p</a>
+* <a href="testResults/MathematicaTestResults/1 Algebraic functions/1.1 Binomial products/1.1.4 Improper/Mathematica 11.3 Integration Test Results for 1.1.4.3 (e x)^m (a x^j+b x^k)^p (c+d x^n)^q.pdf">1.1.4.3 (e x)^m (a x^j+b x^k)^p (c+d x^n)^q</a>
+
+#### 1.2 Trinomial products
+
+##### 1.2.1 Quadratic
+
+* <a href="testResults/MathematicaTestResults/1 Algebraic functions/1.2 Trinomial products/1.2.1 Quadratic/.pdf"></a>
+* <a href="testResults/MathematicaTestResults/1 Algebraic functions/1.2 Trinomial products/1.2.1 Quadratic/.pdf"></a>
+* <a href="testResults/MathematicaTestResults/1 Algebraic functions/1.2 Trinomial products/1.2.1 Quadratic/.pdf"></a>
+* <a href="testResults/MathematicaTestResults/1 Algebraic functions/1.2 Trinomial products/1.2.1 Quadratic/.pdf"></a>
+* <a href="testResults/MathematicaTestResults/1 Algebraic functions/1.2 Trinomial products/1.2.1 Quadratic/.pdf"></a>
+* <a href="testResults/MathematicaTestResults/1 Algebraic functions/1.2 Trinomial products/1.2.1 Quadratic/.pdf"></a>
+* <a href="testResults/MathematicaTestResults/1 Algebraic functions/1.2 Trinomial products/1.2.1 Quadratic/.pdf"></a>
+
+##### 1.2.2 Quartic
+
+* <a href="testResults/MathematicaTestResults/1 Algebraic functions/1.2 Trinomial products/1.2.2 Quartic/.pdf"></a>
+* <a href="testResults/MathematicaTestResults/1 Algebraic functions/1.2 Trinomial products/1.2.2 Quartic/.pdf"></a>
+* <a href="testResults/MathematicaTestResults/1 Algebraic functions/1.2 Trinomial products/1.2.2 Quartic/.pdf"></a>
+* <a href="testResults/MathematicaTestResults/1 Algebraic functions/1.2 Trinomial products/1.2.2 Quartic/.pdf"></a>
+* <a href="testResults/MathematicaTestResults/1 Algebraic functions/1.2 Trinomial products/1.2.2 Quartic/.pdf"></a>
+* <a href="testResults/MathematicaTestResults/1 Algebraic functions/1.2 Trinomial products/1.2.2 Quartic/.pdf"></a>
+* <a href="testResults/MathematicaTestResults/1 Algebraic functions/1.2 Trinomial products/1.2.2 Quartic/.pdf"></a>
+
+##### 1.2.3 General
+
+* <a href="testResults/MathematicaTestResults/1 Algebraic functions/1.2 Trinomial products/1.2.3 General/.pdf"></a>
+* <a href="testResults/MathematicaTestResults/1 Algebraic functions/1.2 Trinomial products/1.2.3 General/.pdf"></a>
+* <a href="testResults/MathematicaTestResults/1 Algebraic functions/1.2 Trinomial products/1.2.3 General/.pdf"></a>
+* <a href="testResults/MathematicaTestResults/1 Algebraic functions/1.2 Trinomial products/1.2.3 General/.pdf"></a>
+
+##### 1.2.4 Improper
+
+* <a href="testResults/MathematicaTestResults/1 Algebraic functions/1.2 Trinomial products/1.2.4 Improper/.pdf"></a>
+
+#### 1.3 Miscellaneous
+
+* <a href="testResults/MathematicaTestResults/1 Algebraic functions/1.3 Miscellaneous/.pdf"></a>
+* <a href="testResults/MathematicaTestResults/1 Algebraic functions/1.3 Miscellaneous/.pdf"></a>
+
+
+### 2 Exponentials
+
+### 3 Logarithms
+
+### 4 Trig functions
+
+### 5 Inverse trig functions
+
+### 6 Hyperbolic functions
+
+### 7 Inverse hyperbolic functions
+
+### 8 Special functions
