@@ -345,15 +345,41 @@ Because of their large size, Mathematica's test results on the 72,000+ integrati
 
 #### 7.1 Inverse hyperbolic sine
 
+* <a href="testResults/MathematicaTestResults/7 Inverse hyperbolic functions/7.1 Inverse hyperbolic sine/Mathematica 11.3 Integration Test Results for 7.1.2 (d x)^m (a+b arcsinh(c x))^n.pdf">7.1.2 (d x)^m (a+b arcsinh(c x))^n</a>
+* <a href="testResults/MathematicaTestResults/7 Inverse hyperbolic functions/7.1 Inverse hyperbolic sine/Mathematica 11.3 Integration Test Results for 7.1.4a (f x)^m (d+c^2 d x^2)^p (a+b arcsinh(c x))^n.pdf">7.1.4a (f x)^m (d+c^2 d x^2)^p (a+b arcsinh(c x))^n</a>
+* <a href="testResults/MathematicaTestResults/7 Inverse hyperbolic functions/7.1 Inverse hyperbolic sine/Mathematica 11.3 Integration Test Results for 7.1.4b (f x)^m (d+e x^2)^p (a+b arcsinh(c x))^n.pdf">7.1.4b (f x)^m (d+e x^2)^p (a+b arcsinh(c x))^n</a>
+* <a href="testResults/MathematicaTestResults/7 Inverse hyperbolic functions/7.1 Inverse hyperbolic sine/Mathematica 11.3 Integration Test Results for 7.1.5 Inverse hyperbolic sine functions.pdf">7.1.5 Inverse hyperbolic sine functions</a>
+
 #### 7.2 Inverse hyperbolic cosine
+
+* <a href="testResults/MathematicaTestResults/7 Inverse hyperbolic functions/7.2 Inverse hyperbolic cosine/Mathematica 11.3 Integration Test Results for 7.2.2 (d x)^m (a+b arccosh(c x))^n.pdf">7.2.2 (d x)^m (a+b arccosh(c x))^n</a>
+* <a href="testResults/MathematicaTestResults/7 Inverse hyperbolic functions/7.2 Inverse hyperbolic cosine/Mathematica 11.3 Integration Test Results for 7.2.4a (f x)^m (d-c^2 d x^2)^p (a+b arccosh(c x))^n.pdf">7.2.4a (f x)^m (d-c^2 d x^2)^p (a+b arccosh(c x))^n</a>
+* <a href="testResults/MathematicaTestResults/7 Inverse hyperbolic functions/7.2 Inverse hyperbolic cosine/Mathematica 11.3 Integration Test Results for 7.2.4b (f x)^m (d+e x^2)^p (a+b arccosh(c x))^n.pdf">7.2.4b (f x)^m (d+e x^2)^p (a+b arccosh(c x))^n</a>
+* <a href="testResults/MathematicaTestResults/7 Inverse hyperbolic functions/7.2 Inverse hyperbolic cosine/Mathematica 11.3 Integration Test Results for 7.2.5 Inverse hyperbolic cosine functions.pdf">7.2.5 Inverse hyperbolic cosine functions</a>
 
 #### 7.3 Inverse hyperbolic tangent
 
+* <a href="testResults/MathematicaTestResults/7 Inverse hyperbolic functions/7.3 Inverse hyperbolic tangent/Mathematica 11.3 Integration Test Results for 7.3.2 (d x)^m (a+b arctanh(c x^n))^p.pdf">7.3.2 (d x)^m (a+b arctanh(c x^n))^p</a>
+* <a href="testResults/MathematicaTestResults/7 Inverse hyperbolic functions/7.3 Inverse hyperbolic tangent/Mathematica 11.3 Integration Test Results for 7.3.3 (d+e x)^m (a+b arctanh(c x^n))^p.pdf">7.3.3 (d+e x)^m (a+b arctanh(c x^n))^p</a>
+* <a href="testResults/MathematicaTestResults/7 Inverse hyperbolic functions/7.3 Inverse hyperbolic tangent/Mathematica 11.3 Integration Test Results for 7.3.4 u (a+b arctanh(c x))^p.pdf">7.3.4 u (a+b arctanh(c x))^p</a>
+* <a href="testResults/MathematicaTestResults/7 Inverse hyperbolic functions/7.3 Inverse hyperbolic tangent/Mathematica 11.3 Integration Test Results for 7.3.5 u (a+b arctanh(c+d x))^p.pdf">7.3.5 u (a+b arctanh(c+d x))^p</a>
+* <a href="testResults/MathematicaTestResults/7 Inverse hyperbolic functions/7.3 Inverse hyperbolic tangent/Mathematica 11.3 Integration Test Results for 7.3.6 Exponentials of inverse hyperbolic tangent functions.pdf">7.3.6 Exponentials of inverse hyperbolic tangent functions</a>
+* <a href="testResults/MathematicaTestResults/7 Inverse hyperbolic functions/7.3 Inverse hyperbolic tangent/Mathematica 11.3 Integration Test Results for 7.3.7 Inverse hyperbolic tangent functions.pdf">7.3.7 Inverse hyperbolic tangent functions</a>
+
 #### 7.4 Inverse hyperbolic cotangent
+
+* <a href="testResults/MathematicaTestResults/7 Inverse hyperbolic functions/7.4 Inverse hyperbolic cotangent/Mathematica 11.3 Integration Test Results for 7.4.1 Inverse hyperbolic cotangent functions.pdf">7.4.1 Inverse hyperbolic cotangent functions</a>
+* <a href="testResults/MathematicaTestResults/7 Inverse hyperbolic functions/7.4 Inverse hyperbolic cotangent/Mathematica 11.3 Integration Test Results for 7.4.2 Exponentials of inverse hyperbolic cotangent functions.pdf">7.4.2 Exponentials of inverse hyperbolic cotangent functions</a>
 
 #### 7.5 Inverse hyperbolic secant
 
+* <a href="testResults/MathematicaTestResults/7 Inverse hyperbolic functions/7.5 Inverse hyperbolic secant/Mathematica 11.3 Integration Test Results for 7.5.1 u (a+b arcsech(c x))^n.pdf">7.5.1 u (a+b arcsech(c x))^n</a>
+* <a href="testResults/MathematicaTestResults/7 Inverse hyperbolic functions/7.5 Inverse hyperbolic secant/Mathematica 11.3 Integration Test Results for 7.5.2 Inverse hyperbolic secant functions.pdf">7.5.2 Inverse hyperbolic secant functions</a>
+
 #### 7.6 Inverse hyperbolic cosecant
+
+* <a href="testResults/MathematicaTestResults/7 Inverse hyperbolic functions/7.6 Inverse hyperbolic cosecant/Mathematica 11.3 Integration Test Results for 7.6.1 u (a+b arccsch(c x))^n.pdf">7.6.1 u (a+b arccsch(c x))^n</a>
+* <a href="testResults/MathematicaTestResults/7 Inverse hyperbolic functions/7.6 Inverse hyperbolic cosecant/Mathematica 11.3 Integration Test Results for 7.6.2 Inverse hyperbolic cosecant functions.pdf">7.6.2 Inverse hyperbolic cosecant functions</a>
 
 
 ### 8 Special functions
