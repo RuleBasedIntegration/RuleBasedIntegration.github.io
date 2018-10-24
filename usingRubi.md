@@ -58,7 +58,7 @@ Steps[Int[(a + b*Sqrt[x])^d, x]]
 ```
 displays
 
-(https://rulebasedintegration.org/RubiScreenShots/integrationSteps.png)
+![steps](https://rulebasedintegration.org/RubiScreenShots/integrationSteps.png)
 
 and returns the antiderivative
 
