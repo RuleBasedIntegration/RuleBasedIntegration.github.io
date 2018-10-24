@@ -232,24 +232,24 @@ Because of their large size, Mathematica's test results on the 72,000+ integrati
 
 #### 4.6 Cosecant
 
-* <a href="testResults/MathematicaTestResults/4 Trig functions/4.6 Cosecant/.pdf"></a>
-* <a href="testResults/MathematicaTestResults/4 Trig functions/4.6 Cosecant/.pdf"></a>
-* <a href="testResults/MathematicaTestResults/4 Trig functions/4.6 Cosecant/.pdf"></a>
-* <a href="testResults/MathematicaTestResults/4 Trig functions/4.6 Cosecant/.pdf"></a>
-* <a href="testResults/MathematicaTestResults/4 Trig functions/4.6 Cosecant/.pdf"></a>
-* <a href="testResults/MathematicaTestResults/4 Trig functions/4.6 Cosecant/.pdf"></a>
-* <a href="testResults/MathematicaTestResults/4 Trig functions/4.6 Cosecant/.pdf"></a>
-* <a href="testResults/MathematicaTestResults/4 Trig functions/4.6 Cosecant/.pdf"></a>
+* <a href="testResults/MathematicaTestResults/4 Trig functions/4.6 Cosecant/Mathematica 11.3 Integration Test Results for 4.6.0 (a csc)^m (b trg)^n.pdf">4.6.0 (a csc)^m (b trg)^n</a>
+* <a href="testResults/MathematicaTestResults/4 Trig functions/4.6 Cosecant/Mathematica 11.3 Integration Test Results for 4.6.1.2 (d csc)^n (a+b csc)^m.pdf">4.6.1.2 (d csc)^n (a+b csc)^m</a>
+* <a href="testResults/MathematicaTestResults/4 Trig functions/4.6 Cosecant/Mathematica 11.3 Integration Test Results for 4.6.1.3 (d cos)^n (a+b csc)^m.pdf">4.6.1.3 (d cos)^n (a+b csc)^m</a>
+* <a href="testResults/MathematicaTestResults/4 Trig functions/4.6 Cosecant/Mathematica 11.3 Integration Test Results for 4.6.1.4 (d cot)^n (a+b csc)^m.pdf">4.6.1.4 (d cot)^n (a+b csc)^m</a>
+* <a href="testResults/MathematicaTestResults/4 Trig functions/4.6 Cosecant/Mathematica 11.3 Integration Test Results for 4.6.3.1 (a+b csc)^m (d csc)^n (A+B csc).pdf">4.6.3.1 (a+b csc)^m (d csc)^n (A+B csc)</a>
+* <a href="testResults/MathematicaTestResults/4 Trig functions/4.6 Cosecant/Mathematica 11.3 Integration Test Results for 4.6.4.2 (a+b csc)^m (d csc)^n (A+B csc+C csc^2).pdf">4.6.4.2 (a+b csc)^m (d csc)^n (A+B csc+C csc^2)</a>
+* <a href="testResults/MathematicaTestResults/4 Trig functions/4.6 Cosecant/Mathematica 11.3 Integration Test Results for 4.6.7 (d trig)^m (a+b (c csc)^n)^p.pdf">4.6.7 (d trig)^m (a+b (c csc)^n)^p</a>
+* <a href="testResults/MathematicaTestResults/4 Trig functions/4.6 Cosecant/Mathematica 11.3 Integration Test Results for 4.6.11 (e x)^m (a+b csc(c+d x^n))^p.pdf">4.6.11 (e x)^m (a+b csc(c+d x^n))^p</a>
 
 #### 4.7 Miscellaneous
 
-* <a href="testResults/MathematicaTestResults/4 Trig functions/4.7 Miscellaneous/.pdf"></a>
-* <a href="testResults/MathematicaTestResults/4 Trig functions/4.7 Miscellaneous/.pdf"></a>
-* <a href="testResults/MathematicaTestResults/4 Trig functions/4.7 Miscellaneous/.pdf"></a>
-* <a href="testResults/MathematicaTestResults/4 Trig functions/4.7 Miscellaneous/.pdf"></a>
-* <a href="testResults/MathematicaTestResults/4 Trig functions/4.7 Miscellaneous/.pdf"></a>
-* <a href="testResults/MathematicaTestResults/4 Trig functions/4.7 Miscellaneous/.pdf"></a>
-* <a href="testResults/MathematicaTestResults/4 Trig functions/4.7 Miscellaneous/.pdf"></a>
+* <a href="testResults/MathematicaTestResults/4 Trig functions/4.7 Miscellaneous/Mathematica 11.3 Integration Test Results for 4.7.1 (c trig)^m (d trig)^n.pdf">4.7.1 (c trig)^m (d trig)^n</a>
+* <a href="testResults/MathematicaTestResults/4 Trig functions/4.7 Miscellaneous/Mathematica 11.3 Integration Test Results for 4.7.2 trig^m (a trig+b trig)^n.pdf">4.7.2 trig^m (a trig+b trig)^n</a>
+* <a href="testResults/MathematicaTestResults/4 Trig functions/4.7 Miscellaneous/Mathematica 11.3 Integration Test Results for 4.7.3 (c+d x)^m trig^n trig^p.pdf">4.7.3 (c+d x)^m trig^n trig^p</a>
+* <a href="testResults/MathematicaTestResults/4 Trig functions/4.7 Miscellaneous/Mathematica 11.3 Integration Test Results for 4.7.4 x^m (a+b trig^n)^p.pdf">4.7.4 x^m (a+b trig^n)^p</a>
+* <a href="testResults/MathematicaTestResults/4 Trig functions/4.7 Miscellaneous/Mathematica 11.3 Integration Test Results for 4.7.5 x^m trig(a+b log(c x^n))^p.pdf">4.7.5 x^m trig(a+b log(c x^n))^p</a>
+* <a href="testResults/MathematicaTestResults/4 Trig functions/4.7 Miscellaneous/Mathematica 11.3 Integration Test Results for 4.7.6 f^(a+b x+c x^2) trig(d+e x+f x^2)^n.pdf">4.7.6 f^(a+b x+c x^2) trig(d+e x+f x^2)^n</a>
+* <a href="testResults/MathematicaTestResults/4 Trig functions/4.7 Miscellaneous/Mathematica 11.3 Integration Test Results for 4.7.7 Trig functions.pdf">4.7.7 Trig functions</a>
 
 
 ### 5 Inverse trig functions
