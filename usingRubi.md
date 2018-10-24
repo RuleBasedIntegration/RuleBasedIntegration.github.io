@@ -25,8 +25,9 @@ Use a Rubi `Int` command of the form `Int[expn, var]` to integrate *expn* with r
 Int[x Sin[x]^2, x]
 ```
 returns the antiderivative
-
+<center>
 $$\frac{x^2}{4}+\frac{\sin ^2(x)}{4}-\frac{1}{2} x \sin (x) \cos (x)$$.
+</center>
 
 The command `Int[{expn1, expn2, ...}, var]` returns a list of the antiderivatives of `expn1`, `expn2`, ... each with respect to `var`.
 For example,
