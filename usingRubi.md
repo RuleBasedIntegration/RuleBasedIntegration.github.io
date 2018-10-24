@@ -56,11 +56,9 @@ A Rubi command of the form **Steps[Int[*expn*, *var*]]** displays all the steps 
 ```mma
 Steps[Int[(a + b*Sqrt[x])^d, x]]
 ```
-displays the steps
+displays the steps  w/o
 
-<div class="centertext">
 ![steps](https://rulebasedintegration.org/RubiScreenShots/integrationSteps.png)
-</div>
 
 and returns the antiderivative
 
