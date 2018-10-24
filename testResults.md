@@ -175,35 +175,35 @@ Because of their large size, Mathematica's test results on the 72,000+ integrati
 
 #### 4.2 Cosine
 
-* <a href="testResults/MathematicaTestResults/4 Trig functions/4.2 Cosine/.pdf"></a>
-* <a href="testResults/MathematicaTestResults/4 Trig functions/4.2 Cosine/.pdf"></a>
-* <a href="testResults/MathematicaTestResults/4 Trig functions/4.2 Cosine/.pdf"></a>
-* <a href="testResults/MathematicaTestResults/4 Trig functions/4.2 Cosine/.pdf"></a>
-* <a href="testResults/MathematicaTestResults/4 Trig functions/4.2 Cosine/.pdf"></a>
-* <a href="testResults/MathematicaTestResults/4 Trig functions/4.2 Cosine/.pdf"></a>
-* <a href="testResults/MathematicaTestResults/4 Trig functions/4.2 Cosine/.pdf"></a>
-* <a href="testResults/MathematicaTestResults/4 Trig functions/4.2 Cosine/.pdf"></a>
-* <a href="testResults/MathematicaTestResults/4 Trig functions/4.2 Cosine/.pdf"></a>
-* <a href="testResults/MathematicaTestResults/4 Trig functions/4.2 Cosine/.pdf"></a>
-* <a href="testResults/MathematicaTestResults/4 Trig functions/4.2 Cosine/.pdf"></a>
-* <a href="testResults/MathematicaTestResults/4 Trig functions/4.2 Cosine/.pdf"></a>
-* <a href="testResults/MathematicaTestResults/4 Trig functions/4.2 Cosine/.pdf"></a>
-* <a href="testResults/MathematicaTestResults/4 Trig functions/4.2 Cosine/.pdf"></a>
-* <a href="testResults/MathematicaTestResults/4 Trig functions/4.2 Cosine/.pdf"></a>
-* <a href="testResults/MathematicaTestResults/4 Trig functions/4.2 Cosine/.pdf"></a>
+* <a href="testResults/MathematicaTestResults/4 Trig functions/4.2 Cosine/Mathematica 11.3 Integration Test Results for 4.2.0 (a cos)^m (b trg)^n.pdf">Mathematica 11.3 Integration Test Results for 4.2.0 (a cos)^m (b trg)^n</a>
+* <a href="testResults/MathematicaTestResults/4 Trig functions/4.2 Cosine/Mathematica 11.3 Integration Test Results for 4.2.1.1 (a+b cos)^n.pdf">Mathematica 11.3 Integration Test Results for 4.2.1.1 (a+b cos)^n</a>
+* <a href="testResults/MathematicaTestResults/4 Trig functions/4.2 Cosine/Mathematica 11.3 Integration Test Results for 4.2.1.2 (g sin)^p (a+b cos)^m.pdf">Mathematica 11.3 Integration Test Results for 4.2.1.2 (g sin)^p (a+b cos)^m</a>
+* <a href="testResults/MathematicaTestResults/4 Trig functions/4.2 Cosine/Mathematica 11.3 Integration Test Results for 4.2.1.3 (g tan)^p (a+b cos)^m.pdf">Mathematica 11.3 Integration Test Results for 4.2.1.3 (g tan)^p (a+b cos)^m</a>
+* <a href="testResults/MathematicaTestResults/4 Trig functions/4.2 Cosine/Mathematica 11.3 Integration Test Results for 4.2.2.1 (a+b cos)^m (c+d cos)^n.pdf">Mathematica 11.3 Integration Test Results for 4.2.2.1 (a+b cos)^m (c+d cos)^n</a>
+* <a href="testResults/MathematicaTestResults/4 Trig functions/4.2 Cosine/Mathematica 11.3 Integration Test Results for 4.2.2.2 (g sin)^p (a+b cos)^m (c+d cos)^n.pdf">Mathematica 11.3 Integration Test Results for 4.2.2.2 (g sin)^p (a+b cos)^m (c+d cos)^n</a>
+* <a href="testResults/MathematicaTestResults/4 Trig functions/4.2 Cosine/Mathematica 11.3 Integration Test Results for 4.2.2.3 (g cos)^p (a+b cos)^m (c+d cos)^n.pdf">Mathematica 11.3 Integration Test Results for 4.2.2.3 (g cos)^p (a+b cos)^m (c+d cos)^n</a>
+* <a href="testResults/MathematicaTestResults/4 Trig functions/4.2 Cosine/Mathematica 11.3 Integration Test Results for 4.2.3.1 (a+b cos)^m (c+d cos)^n (A+B cos).pdf">Mathematica 11.3 Integration Test Results for 4.2.3.1 (a+b cos)^m (c+d cos)^n (A+B cos)</a>
+* <a href="testResults/MathematicaTestResults/4 Trig functions/4.2 Cosine/Mathematica 11.3 Integration Test Results for 4.2.4.1 (a+b cos)^m (A+B cos+C cos^2).pdf">Mathematica 11.3 Integration Test Results for 4.2.4.1 (a+b cos)^m (A+B cos+C cos^2)</a>
+* <a href="testResults/MathematicaTestResults/4 Trig functions/4.2 Cosine/Mathematica 11.3 Integration Test Results for 4.2.4.2 (a+b cos)^m (c+d cos)^n (A+B cos+C cos^2).pdf">Mathematica 11.3 Integration Test Results for 4.2.4.2 (a+b cos)^m (c+d cos)^n (A+B cos+C cos^2)</a>
+* <a href="testResults/MathematicaTestResults/4 Trig functions/4.2 Cosine/Mathematica 11.3 Integration Test Results for 4.2.7 (d trig)^m (a+b (c cos)^n)^p.pdf">Mathematica 11.3 Integration Test Results for 4.2.7 (d trig)^m (a+b (c cos)^n)^p</a>
+* <a href="testResults/MathematicaTestResults/4 Trig functions/4.2 Cosine/Mathematica 11.3 Integration Test Results for 4.2.8 (a+b cos)^m (c+d trig)^n.pdf">Mathematica 11.3 Integration Test Results for 4.2.8 (a+b cos)^m (c+d trig)^n</a>
+* <a href="testResults/MathematicaTestResults/4 Trig functions/4.2 Cosine/Mathematica 11.3 Integration Test Results for 4.2.9 trig^m (a+b cos^n+c cos^(2 n))^p.pdf">Mathematica 11.3 Integration Test Results for 4.2.9 trig^m (a+b cos^n+c cos^(2 n))^p</a>
+* <a href="testResults/MathematicaTestResults/4 Trig functions/4.2 Cosine/Mathematica 11.3 Integration Test Results for 4.2.10 (c+d x)^m (a+b cos)^n.pdf">Mathematica 11.3 Integration Test Results for 4.2.10 (c+d x)^m (a+b cos)^n</a>
+* <a href="testResults/MathematicaTestResults/4 Trig functions/4.2 Cosine/Mathematica 11.3 Integration Test Results for 4.2.12 (e x)^m (a+b cos(c+d x^n))^p.pdf">Mathematica 11.3 Integration Test Results for 4.2.12 (e x)^m (a+b cos(c+d x^n))^p</a>
+* <a href="testResults/MathematicaTestResults/4 Trig functions/4.2 Cosine/Mathematica 11.3 Integration Test Results for 4.2.13 (d+e x)^m cos(a+b x+c x^2)^n.pdf">Mathematica 11.3 Integration Test Results for 4.2.13 (d+e x)^m cos(a+b x+c x^2)^n</a>
 
 #### 4.3 Tangent
 
-* <a href="testResults/MathematicaTestResults/4 Trig functions/4.3 Tangent/.pdf"></a>
-* <a href="testResults/MathematicaTestResults/4 Trig functions/4.3 Tangent/.pdf"></a>
-* <a href="testResults/MathematicaTestResults/4 Trig functions/4.3 Tangent/.pdf"></a>
-* <a href="testResults/MathematicaTestResults/4 Trig functions/4.3 Tangent/.pdf"></a>
-* <a href="testResults/MathematicaTestResults/4 Trig functions/4.3 Tangent/.pdf"></a>
-* <a href="testResults/MathematicaTestResults/4 Trig functions/4.3 Tangent/.pdf"></a>
-* <a href="testResults/MathematicaTestResults/4 Trig functions/4.3 Tangent/.pdf"></a>
-* <a href="testResults/MathematicaTestResults/4 Trig functions/4.3 Tangent/.pdf"></a>
-* <a href="testResults/MathematicaTestResults/4 Trig functions/4.3 Tangent/.pdf"></a>
-* <a href="testResults/MathematicaTestResults/4 Trig functions/4.3 Tangent/.pdf"></a>
+* <a href="testResults/MathematicaTestResults/4 Trig functions/4.3 Tangent/Mathematica 11.3 Integration Test Results for 4.3.0 (a trg)^m (b tan)^n.pdf">Mathematica 11.3 Integration Test Results for 4.3.0 (a trg)^m (b tan)^n</a>
+* <a href="testResults/MathematicaTestResults/4 Trig functions/4.3 Tangent/Mathematica 11.3 Integration Test Results for 4.3.1.2 (d sec)^m (a+b tan)^n.pdf">Mathematica 11.3 Integration Test Results for 4.3.1.2 (d sec)^m (a+b tan)^n</a>
+* <a href="testResults/MathematicaTestResults/4 Trig functions/4.3 Tangent/Mathematica 11.3 Integration Test Results for 4.3.1.3 (d sin)^m (a+b tan)^n.pdf">Mathematica 11.3 Integration Test Results for 4.3.1.3 (d sin)^m (a+b tan)^n</a>
+* <a href="testResults/MathematicaTestResults/4 Trig functions/4.3 Tangent/Mathematica 11.3 Integration Test Results for 4.3.2.1 (a+b tan)^m (c+d tan)^n.pdf">Mathematica 11.3 Integration Test Results for 4.3.2.1 (a+b tan)^m (c+d tan)^n</a>
+* <a href="testResults/MathematicaTestResults/4 Trig functions/4.3 Tangent/Mathematica 11.3 Integration Test Results for 4.3.3.1 (a+b tan)^m (c+d tan)^n (A+B tan).pdf">Mathematica 11.3 Integration Test Results for 4.3.3.1 (a+b tan)^m (c+d tan)^n (A+B tan)</a>
+* <a href="testResults/MathematicaTestResults/4 Trig functions/4.3 Tangent/Mathematica 11.3 Integration Test Results for 4.3.4.2 (a+b tan)^m (c+d tan)^n (A+B tan+C tan^2).pdf">Mathematica 11.3 Integration Test Results for 4.3.4.2 (a+b tan)^m (c+d tan)^n (A+B tan+C tan^2)</a>
+* <a href="testResults/MathematicaTestResults/4 Trig functions/4.3 Tangent/Mathematica 11.3 Integration Test Results for 4.3.7 (d trig)^m (a+b (c tan)^n)^p.pdf">Mathematica 11.3 Integration Test Results for 4.3.7 (d trig)^m (a+b (c tan)^n)^p</a>
+* <a href="testResults/MathematicaTestResults/4 Trig functions/4.3 Tangent/Mathematica 11.3 Integration Test Results for 4.3.9 trig^m (a+b tan^n+c tan^(2 n))^p.pdf">Mathematica 11.3 Integration Test Results for 4.3.9 trig^m (a+b tan^n+c tan^(2 n))^p</a>
+* <a href="testResults/MathematicaTestResults/4 Trig functions/4.3 Tangent/Mathematica 11.3 Integration Test Results for 4.3.10 (c+d x)^m (a+b tan)^n.pdf">Mathematica 11.3 Integration Test Results for 4.3.10 (c+d x)^m (a+b tan)^n</a>
+* <a href="testResults/MathematicaTestResults/4 Trig functions/4.3 Tangent/Mathematica 11.3 Integration Test Results for 4.3.11 (e x)^m (a+b tan(c+d x^n))^p.pdf">Mathematica 11.3 Integration Test Results for 4.3.11 (e x)^m (a+b tan(c+d x^n))^p</a>
 
 #### 4.4 Cotangent
 
