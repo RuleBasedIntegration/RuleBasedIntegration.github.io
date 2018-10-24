@@ -1,7 +1,7 @@
 <style> div.centertext {text-align: center;} </style>
 # Instructions for Using Rubi
 
-Loading the Mathematica implementation of Rubi defines an extensive system of rules capable of integrating large classes of mathematical expressions. Although Rubi's `Int` commands are similar in form and function to Mathematica’s `Integrate` commands, the rules Rubi uses to integrate expressions do *not* in any way depend on Mathematica's built-in integrator.
+Loading the Mathematica implementation of Rubi defines an extensive system of rules capable of integrating large classes of mathematical expressions.  Although Rubi's `Int` commands are similar in form and function to Mathematica’s `Integrate` commands, the rules Rubi uses to integrate expressions do *not* in any way depend on Mathematica's built-in integrator.
 
 
 ## Loading Rubi
@@ -16,35 +16,36 @@ or the shorter form
 ```
 to load Rubi into Mathematica.
 
-The first time Rubi is loaded, it will take a minute or two to read in and initialize the system. However, this initial load also saves a fast loading memory image of Rubi, so all subsequent load commands will be almost instantaneous. 
+The first time Rubi is loaded, it will take a minute or two to read in and initialize the system.  However, this initial load also saves a fast loading memory image of Rubi, so all subsequent load commands will be almost instantaneous. 
 
 
 ## Integrating expressions
 
-Use a Rubi command of the form `Int[expn, var]` to integrate *expn* with respect to *var*, and return its antiderivative (aka its indefinite integral).  For example, the command
+A Rubi command of the form `Int[expn, var]` integrates *expn* with respect to *var*, and returns its antiderivative (aka its indefinite integral).  For example, the command
 ```mma
 Int[x Sin[x]^2, x]
 ```
 returns the antiderivative
-<div class="centertext">
-$$\frac{x^2}{4}+\frac{\sin ^2(x)}{4}-\frac{1}{2} x \sin (x) \cos (x)$$
-</div>
-The a Rubi command of the form `Int[{expn1, expn2, ...}, var]` to integrate *expn1*, *expn2*, ... each with respect to *var*, and return their antiderivatives as a list.  For example, the command
+
+<div class="centertext"> $$\frac{x^2}{4}+\frac{\sin ^2(x)}{4}-\frac{1}{2} x \sin (x) \cos (x)$$ </div>
+
+A Rubi command of the form `Int[{expn1, expn2, ...}, var]` integrates *expn1*, *expn2*, ... each with respect to *var*, and returns a list of their antiderivatives.  For example, the command
 ```mma
 Int[Table[x^n, {n, 0, 5}], x]
 ```
 returns the list
-<div class="centertext">
-\left\{x,\frac{x^2}{2},\frac{x^3}{3},\frac{x^4}{4},\frac{x^5}{5},\frac{x^6}{6}\right\}
-</div>
 
-The command `Int[expn, {var, a, b}]` returns the limit of the antiderivative of `expn` as `var` approaches `b` minus the limit as `var` approaches `a`.
-Note that by the *Fundamental Theorem of Calculus* (FTOC), this difference will equal the definite integral of `expn` from `a` to `b` *if and only if* the antiderivative is continuous between the two points.
-For example,
+<div class="centertext"> \left\{x,\frac{x^2}{2},\frac{x^3}{3},\frac{x^4}{4},\frac{x^5}{5},\frac{x^6}{6}\right\} </div>
+
+A Rubi command of the form `Int[expn, {var, a, b}]` integrates *expn* with respect to *var*, and returns the limit of its antiderivative as *var* approaches *b* minus the limit as *var* approaches *a*.  Note that by the *Fundamental Theorem of Calculus* (FTOC), this difference will equal the definite integral of *expn* from *a* to *b* *if and only if* the antiderivative is continuous between the two points.  For example, the command
 ```mma
-Int[???, {x, ???, ???}]
+Int[x Sin[x]^2, {x, 0, Pi}]
 ```
-returns ??? which equals the definite integral of ??? since the antiderivative is continuous between ??? and ???.
+returns
+
+<div class="centertext"> \left\{x,\frac{x^2}{2},\frac{x^3}{3},\frac{x^4}{4},\frac{x^5}{5},\frac{x^6}{6}\right\} </div>
+
+which which equals the definite integral of ??? from 0 to pi since the antiderivative is continuous over this interval.
 
 However,
 ```mma
