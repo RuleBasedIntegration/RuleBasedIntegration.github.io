@@ -58,5 +58,30 @@ Because of their large size, Mathematica's test results on the 72,000+ integrati
 
 ### 1 Algebraic functions
 
-(Under construction)
+#### 1.1 Binomial products
 
+##### 1.1.1 Linear
+
+* <a href="testResults/MathematicaTestResults/1 Algebraic functions/1.1 Binomial products/1.1.1 Linear/Mathematica 11.3 Integration Test Results for 1.1.1.2 (a+b x)^m (c+d x)^n.pdf">1.1.1.2 (a+b x)^m (c+d x)^n</a>
+* <a href="testResults/MathematicaTestResults/1 Algebraic functions/1.1 Binomial products/1.1.1 Linear/Mathematica 11.3 Integration Test Results for 1.1.1.3 (a+b x)^m (c+d x)^n (e+f x)^p.pdf">1.1.1.3 (a+b x)^m (c+d x)^n (e+f x)^p</a>
+* <a href="testResults/MathematicaTestResults/1 Algebraic functions/1.1 Binomial products/1.1.1 Linear/Mathematica 11.3 Integration Test Results for 1.1.1.4 (a+b x)^m (c+d x)^n (e+f x)^p (g+h x)^q.pdf">1.1.1.4 (a+b x)^m (c+d x)^n (e+f x)^p (g+h x)^q</a>
+* <a href="testResults/MathematicaTestResults/1 Algebraic functions/1.1 Binomial products/1.1.1 Linear/Mathematica 11.3 Integration Test Results for 1.1.1.5 P(x) (a+b x)^m (c+d x)^n.pdf">1.1.1.5 P(x) (a+b x)^m (c+d x)^n</a>
+* <a href="testResults/MathematicaTestResults/1 Algebraic functions/1.1 Binomial products/1.1.1 Linear/Mathematica 11.3 Integration Test Results for 1.1.1.6 P(x) (a+b x)^m (c+d x)^n (e+f x)^p.pdf">1.1.1.6 P(x) (a+b x)^m (c+d x)^n (e+f x)^p</a>
+* <a href="testResults/MathematicaTestResults/1 Algebraic functions/1.1 Binomial products/1.1.1 Linear/Mathematica 11.3 Integration Test Results for 1.1.1.7 P(x) (a+b x)^m (c+d x)^n (e+f x)^p (g+h x)^q.pdf">1.1.1.7 P(x) (a+b x)^m (c+d x)^n (e+f x)^p (g+h x)^q</a>
+
+##### 1.1.2 Quadratic
+
+* <a href="testResults/MathematicaTestResults/1 Algebraic functions/1.1 Binomial products/1.1.2 Quadratic/Mathematica 11.3 Integration Test Results for 1.1.2.2 (c x)^m (a+b x^2)^p.pdf">1.1.2.2 (c x)^m (a+b x^2)^p</a>
+* <a href="testResults/MathematicaTestResults/1 Algebraic functions/1.1 Binomial products/1.1.2 Quadratic/Mathematica 11.3 Integration Test Results for 1.1.2.3 (a+b x^2)^p (c+d x^2)^q.pdf">1.1.2.3 (a+b x^2)^p (c+d x^2)^q</a>
+* <a href="testResults/MathematicaTestResults/1 Algebraic functions/1.1 Binomial products/1.1.2 Quadratic/Mathematica 11.3 Integration Test Results for 1.1.2.4 (e x)^m (a+b x^2)^p (c+d x^2)^q.pdf">1.1.2.4 (e x)^m (a+b x^2)^p (c+d x^2)^q</a>
+* <a href="testResults/MathematicaTestResults/1 Algebraic functions/1.1 Binomial products/1.1.2 Quadratic/Mathematica 11.3 Integration Test Results for 1.1.2.5 (a+b x^2)^p (c+d x^2)^q (e+f x^2)^r.pdf">1.1.2.5 (a+b x^2)^p (c+d x^2)^q (e+f x^2)^r</a>
+* <a href="testResults/MathematicaTestResults/1 Algebraic functions/1.1 Binomial products/1.1.2 Quadratic/Mathematica 11.3 Integration Test Results for 1.1.2.6 (g x)^m (a+b x^2)^p (c+d x^2)^q (e+f x^2)^r.pdf">1.1.2.6 (g x)^m (a+b x^2)^p (c+d x^2)^q (e+f x^2)^r</a>
+* <a href="testResults/MathematicaTestResults/1 Algebraic functions/1.1 Binomial products/1.1.2 Quadratic/Mathematica 11.3 Integration Test Results for 1.1.2.8 P(x) (c x)^m (a+b x^2)^p.pdf">1.1.2.8 P(x) (c x)^m (a+b x^2)^p</a>
+
+##### 1.1.3 General
+
+* <a href="testResults/MathematicaTestResults/1 Algebraic functions/1.1 Binomial products/1.1.3 General/Mathematica 11.3 Integration Test Results for 1.1.3.2 (c x)^m (a+b x^n)^p.pdf">1.1.3.2 (c x)^m (a+b x^n)^p</a>
+* <a href="testResults/MathematicaTestResults/1 Algebraic functions/1.1 Binomial products/1.1.3 General/Mathematica 11.3 Integration Test Results for 1.1.3.3 (a+b x^n)^p (c+d x^n)^q.pdf">1.1.3.3 (a+b x^n)^p (c+d x^n)^q</a>
+* <a href="testResults/MathematicaTestResults/1 Algebraic functions/1.1 Binomial products/1.1.3 General/Mathematica 11.3 Integration Test Results for 1.1.3.4 (e x)^m (a+b x^n)^p (c+d x^n)^q.pdf">1.1.3.4 (e x)^m (a+b x^n)^p (c+d x^n)^q</a>
+* <a href="testResults/MathematicaTestResults/1 Algebraic functions/1.1 Binomial products/1.1.3 General/Mathematica 11.3 Integration Test Results for 1.1.3.6 (g x)^m (a+b x^n)^p (c+d x^n)^q (e+f x^n)^r.pdf">1.1.3.6 (g x)^m (a+b x^n)^p (c+d x^n)^q (e+f x^n)^r</a>
+* <a href="testResults/MathematicaTestResults/1 Algebraic functions/1.1 Binomial products/1.1.3 General/Mathematica 11.3 Integration Test Results for 1.1.3.8 P(x) (c x)^m (a+b x^n)^p.pdf">1.1.3.8 P(x) (c x)^m (a+b x^n)^p</a>
