@@ -136,6 +136,6 @@ returns the rule Rubi uses to integrate the previous example.
 
 To provide options for reducing the amount of memory Rubi requires, there are two global variables that control what parts of the system are to be loaded.  Therefore, to have the desired effect these control variables need to be set *before* Rubi is loaded into Mathematica.  Their default value is **True** so all Rubi capabilities will be available.  However:
 
-* If **$LoadElementaryFunctionRules** is **False**, the rules for integrating expressions involving elementary functions (e.g. log, sine, arctangent, etc.) and higher-level functions (e.g. erf, polylogarithm, etc.) are *not* loaded.  However, the rules for integrating rational and algebraic functions are always loaded.
+* If **$LoadElementaryFunctionRules** is **False** at load-time, the rules for integrating expressions involving elementary functions (e.g. log, sine, arctangent, etc.) and higher-level functions (e.g. erf, polylogarithm, etc.) are *not* loaded.  However, the rules for integrating rational and algebraic functions are always loaded.
 
-* If **$LoadShowSteps** is **False**, the ability to show the steps used to integrate expressions integration rules will *not* be available.
+* If **$LoadShowSteps** is **False** at load-time, the ability to show the steps used to integrate expressions integration rules will *not* be available.
