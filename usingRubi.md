@@ -138,4 +138,4 @@ To provide options for reducing the amount of memory Rubi requires, there are tw
 
 * If **$LoadElementaryFunctionRules** is **False**, the rules for integrating expressions involving elementary functions (e.g. log, sine, arctangent, etc.) and higher-level functions (e.g. erf, polylogarithm, etc.) are *not* loaded.  However, the rules for integrating rational and algebraic functions are always loaded.
 
-* If **$LoadShowSteps** is **False** the ability to show the steps used to integrate expressions integration rules will *not* be available.
+* If **$LoadShowSteps** is **False**, the ability to show the steps used to integrate expressions integration rules will *not* be available.
