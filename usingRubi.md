@@ -115,10 +115,7 @@ The statistics provide the following information
 - `"Ratio"`: the rule-to-size ratio of the integration, i.e. the quotient of `"NumberOfRules"` and `"InputLeafCount"`.
 - `"Rules"`: the rule-numbers of the distinct rules used.
 
-
-### Advanced inspection of the integration
-
-If you want to inspect integration steps or the statistics as a normal Mathematica expression instead of printing them in a visually pleasing form, the `Steps`, `Step`, and `Stats` function take an option `RubiPrintInformation` that can be set to `False`. The information about the integration is then returned together with the antiderivative:
+To inspect integration steps or the statistics as a normal Mathematica expression instead of displaying them in a visually pleasing form, the **Steps**, **Step**, and **Stats** functions take an option **RubiPrintInformation** that can be set to **False**. The information about the integration is then returned together with the antiderivative:
 
 ```mma
 Steps[Int[x, x], RubiPrintInformation -> False]
