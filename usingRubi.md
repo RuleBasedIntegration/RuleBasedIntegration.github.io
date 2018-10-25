@@ -115,11 +115,13 @@ The statistics provide the following information
 - `"Ratio"`: the rule-to-size ratio of the integration, i.e. the quotient of `"NumberOfRules"` and `"InputLeafCount"`.
 - `"Rules"`: the rule-numbers of the distinct rules used.
 
-To inspect integration steps or the statistics as a normal Mathematica expression instead of displaying them in a visually pleasing form, the **Steps**, **Step**, and **Stats** functions take an option **RubiPrintInformation** that can be set to **False**. The information about the integration is then returned together with the antiderivative:
+To inspect integration steps or the statistics as a normal Mathematica expression instead of displaying them in a visually pleasing form, the **Steps**, **Step**, and **Stats** functions take an option **RubiPrintInformation** that can be set to **False**. The information about the integration is then returned together with the antiderivative.  For example,
 
 ```mma
 Steps[Int[x, x], RubiPrintInformation -> False]
 ```
+
+returns
 
 ![Steps as expression](https://rulebasedintegration.org/RubiScreenShots/integrationStepsExpression.png)
 
@@ -138,4 +140,4 @@ To provide options for reducing the amount of memory Rubi requires, there are tw
 
 * If **$LoadElementaryFunctionRules** is **False** at load-time, the rules for integrating expressions involving elementary functions (e.g. log, sine, arctangent, etc.) and higher-level functions (e.g. erf, polylogarithm, etc.) are *not* loaded.  However, the rules for integrating rational and algebraic functions are always loaded.
 
-* If **$LoadShowSteps** is **False** at load-time, the ability to show the steps used to integrate expressions integration rules will *not* be available.
+* If **$LoadShowSteps** is **False** at load-time, Rubi's ability to show the steps used to integrate expressions will *not* be available.
