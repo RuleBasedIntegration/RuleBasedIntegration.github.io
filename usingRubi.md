@@ -121,13 +121,16 @@ To inspect integration steps or the statistics as a normal Mathematica expressio
 Steps[Int[x, x], RubiPrintInformation -> False]
 ```
 
-![Steps as expression](http://i.stack.imgur.com/locjv.png)
+![Steps as expression](https://rulebasedintegration.org/RubiScreenShots/integrationStepsExpression.png)
 
-The last integer in `RubiRule` corresponds to the index of the `Int`-*down value* which is in the above example
+The last integer in **RubiRule** is the index of the integration rule applied in the list of **Int**'s downvalues.  For example, the **DownValue** command
 
 ```mma
 DownValues[Int][[30]]
 ```
+
+returns the rule Rubi uses to integrate the previous example.
+
 
 ### Internals
 
