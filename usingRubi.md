@@ -92,8 +92,8 @@ $$\frac{2 \left(a+b \sqrt{x}\right)^{d+2}}{b^2 (d+2)}-\frac{2 a \left(a+b \sqrt{
 
 The Rule-size-ratio statistic is a normalized measure of the difficulty integrating an expression.  It equals the number of distinct rules required to integrate the expression divided its leaf count size. 
 
-By default, `Stats` (as well as `Steps` and `Step`) prints its information but you can also *return* it for later inpspection.
-Each entry in the `Stats` can then be accessed easily by either viewing the `InputForm` of the `Stats` ouput, or using accessor
+By default, **Stats** (as well as **Steps** and **Step**) prints its information but you can also *return* it for later inpspection.
+Each entry in the **Stats** can then be accessed easily by either viewing the **InputForm** of the **Stats** output, or using accessor
 like this
 
 ```mma
