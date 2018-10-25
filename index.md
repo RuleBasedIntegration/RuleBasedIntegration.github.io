@@ -1,8 +1,8 @@
-## Welcome to Rubi, the page for Rule-based Integration
+# Welcome to Rubi, the Rule-based Integrator
 
 Rubi is an extensive system of symbolic integration rules that can be systematically applied to determine the antiderivative of a wide variety of mathematical expressions. Organized as a decision tree based on the form of the integrand, the 6600+ rules Rubi uses can be viewed in human-readable form or downloaded in machine-readable form. 
 
-## How Rubi Compares with Other Symbolic Integrators
+## Comparison with other symbolic integrators
 
 Rubi dramatically out-performs other symbolic integrators, including Maple and Mathematica, on a grueling integration test suite consisting of over 70 thousand integrands and their optimal antiderivatives. The result of integration produced by the various systems is divided into several classes as follows:
 
@@ -21,6 +21,12 @@ An extensive report about testing the integration capabilities of several system
 ![percentages](percentages.png)
 {:refdef}
 
-## What if you have questions or suggestions?
+## For more information on Rubi
 
-For bugs or feature requests, please use the [issue tracker on GitHub](https://github.com/RuleBasedIntegration/Rubi/issues). If you like to discuss certain parts of Rubi, feel free to join [our Gitter chat](https://gitter.im/Rule-Based-Integration/Lobby) using your GitHub login.
+* To discuss Rubi related isssues, you are welcome to join Rubi's chatroom on Gitter at https://gitter.im/Rule-Based-Integration/Lobby using your GitHub login.
+
+* To report bugs, request features or suggest new integration rules, please open an issue on GitHub at https://github.com/RuleBasedIntegration/Rubi/issues and describe as clearly as possible the bug, request or suggestion.
+
+* Rubi is a freely available system of integration rules.  The complete source code is available as Mathematica notebook files on GitHub at https://github.com/RuleBasedIntegration/Rubi.  The notebooks contain the integration rules in both human and machine-readable form, and everything required to build and use it as Mathematica package.
+
+* Rubi's Wiki-page  at https://github.com/RuleBasedIntegration/Rubi/wiki is intended to contain detailed information about Rubi's development process.
