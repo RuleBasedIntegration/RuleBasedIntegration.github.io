@@ -90,22 +90,14 @@ and returns the antiderivative
 
 $$\frac{2 \left(a+b \sqrt{x}\right)^{d+2}}{b^2 (d+2)}-\frac{2 a \left(a+b \sqrt{x}\right)^{d+1}}{b^2 (d+1)}$$
 
-The statistics provide the following information
+The Rule-size-ratio statistic is a normalized measure of the difficulty integrating an expression.  It equals the number of distinct rules required to integrate the expression divided its leaf count size. 
 
-- `"Steps"`: the number of steps used to integrate the expression.
-- `"NumerOfRules`": the number of distinct rules used.
-- `"InputLeafCount"`: the leaf count size of the input expression.
-- `"OutputLeafCount"`: the leaf count size of the found antiderivative.
-- `"Ratio"`: the rule-to-size ratio of the integration, i.e. the quotient of `"NumberOfRules"` and `"InputLeafCount"`.
-- `"Rules"`: the rule-numbers of the distinct rules used.
-
-The statistics include a measure of the difficulty integrating an expression based on the number of distinct rules divided the leaf count size of the expression. 
-
-Each entry in the `Stats` can be accessed easily by either viewing the `InputForm` of the `Stats` ouput, or using accessor
+By default, `Stats` (as well as `Steps` and `Step`) prints its information but you can also *return* it for later inpspection.
+Each entry in the `Stats` can then be accessed easily by either viewing the `InputForm` of the `Stats` ouput, or using accessor
 like this
 
 ```mma
-{stats, result} = Stats[Int[(a + b*Sqrt[x])^d, x]];
+{stats, result} = Stats[Int[(a + b*Sqrt[x])^d, x], RubiPrintInformation -> False];
 stats["Steps"]
 stats["NumberOfRules"]
 stats["InputLeafCount"]
@@ -113,6 +105,15 @@ stats["OutputLeafCount"]
 stats["Ratio"]
 stats["Rules"]
 ```
+
+The statistics provide the following information
+
+- `"Steps"`: the number of steps used to integrate the expression.
+- `"NumberOfRules`": the number of distinct rules used.
+- `"InputLeafCount"`: the leaf count size of the input expression.
+- `"OutputLeafCount"`: the leaf count size of the found antiderivative.
+- `"Ratio"`: the rule-to-size ratio of the integration, i.e. the quotient of `"NumberOfRules"` and `"InputLeafCount"`.
+- `"Rules"`: the rule-numbers of the distinct rules used.
 
 
 ### Advanced inspection of the integration
