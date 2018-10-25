@@ -66,13 +66,13 @@ $$\frac{2 \left(a+b \sqrt{x}\right)^{d+2}}{b^2 (d+2)}-\frac{2 a \left(a+b \sqrt{
 
 The boxes on the right are the integration formulas in red.  The boxes on the left are the intermediate results in blue.
 
-Click on the triangle left of a formula to display the integration rule including its number and application conditions.  For example, clicking on the triangle left of the first formula above changes the display to
+Click on the triangle left of a formula to display the complete integration rule including its number and application conditions.  For example, clicking on the triangle left of the first formula above changes the display to
 
 ![condition](https://rulebasedintegration.org/RubiScreenShots/integrationSteps2.png)
 
-Click on an intermediate results to copy it to the clipboard so you can enter it as Mathematica input. The "Copy Steps" button copies the complete list of steps as raw Mathematica expressions as they were collected by Rubi.
+Click on an intermediate result to copy it to the clipboard so it can be entered as Mathematica input. The "Copy Steps" button copies the complete list of steps as raw Mathematica expressions as they were collected by Rubi.
 
-A Rubi command of the form **Step[Int[*expn*, *var*]]** displays the first step of the integration of ***expn*** with respect to ***var***, and returns the intermediate result.  Its display of the integration rule is the same as that used by the **Steps** command.
+A Rubi command of the form **Step[Int[*expn*, *var*]]** displays just the first step of the integration of ***expn*** with respect to ***var***, and returns the intermediate result.  Its display of the integration rule is the same as that used by the **Steps** command.
 
 
 ## Displaying integration statistics
