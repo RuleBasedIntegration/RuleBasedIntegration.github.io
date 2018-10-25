@@ -66,7 +66,7 @@ $$\frac{2 \left(a+b \sqrt{x}\right)^{d+2}}{b^2 (d+2)}-\frac{2 a \left(a+b \sqrt{
 
 The boxes on the right are the integration formulas in red.  The boxes on the left are the intermediate results in blue.
 
-Click on the triangle left of a formula to display the complete integration rule including its number and application conditions.  For example, clicking on the triangle left of the first formula above changes the display to
+Click on the triangle left of a formula to display the complete integration rule including its number and application conditions.  For example, clicking on the triangle left of the first formula above changes the display of integration steps to
 
 ![condition](https://rulebasedintegration.org/RubiScreenShots/integrationSteps2.png)
 
@@ -84,7 +84,7 @@ Stats[Int[(a + b*Sqrt[x])^d, x]]
 ```
 displays
 
-![Stats](http://i.stack.imgur.com/c4aUZ.png)
+![Stats](https://rulebasedintegration.org/RubiScreenShots/integrationStats.png)
 
 and returns the antiderivative
 
