@@ -1,4 +1,4 @@
-# About Rubi's History and Developers
+# About Rubi's Development and Developers
 
 The **ru**le-**b**ased **i**ntegrator **Rubi** is the result of independent research begun by Albert Rich in 2008.  **Rubi** uses indefinite integration rules that were either adapted from the literature or derived as necessary to integrate all expressions of numerous general forms.  Currently it requires **Mathematica** version 7 or better.
 
