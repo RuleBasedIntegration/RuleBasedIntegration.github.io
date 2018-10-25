@@ -58,21 +58,19 @@ Steps[Int[(a + b*Sqrt[x])^d, x]]
 ```
 displays the steps
 
-![steps](https://rulebasedintegration.org/RubiScreenShots/integrationSteps.png)
+![steps](https://rulebasedintegration.org/RubiScreenShots/integrationSteps1.png)
 
 and returns the antiderivative
 
 $$\frac{2 \left(a+b \sqrt{x}\right)^{d+2}}{b^2 (d+2)}-\frac{2 a \left(a+b \sqrt{x}\right)^{d+1}}{b^2 (d+1)}$$
 
-The boxes on the right with red text are the integration rules and the boxes with blue text are intermediate results.
-Rules can be opened by clicking on the triangle-opener and then the internal rule-number and more importantly the
-required conditions for this step are shown
+The boxes on the right are the integration formulas in red.  The boxes on the left are the intermediate results in blue.
 
-![condition](http://i.imgur.com/W5l0aRF.png)
+Click on the triangle left of a formula to display the integration rule including its number and application conditions.  For example, clicking on the triangle left of the first formula above changes the display to
 
-Furthermore, you can click on the blue intermediate results and they are copied to the clipboard if you need them as
-Mathematica input. The "Copy Steps" button at the bottom let's you copy the complete list of steps as raw Mathematica
-expressions like they are collected by Rubi.
+![condition](https://rulebasedintegration.org/RubiScreenShots/integrationSteps2.png)
+
+Click on an intermediate results to copy it to the clipboard so you can enter it as Mathematica input. The "Copy Steps" button copies the complete list of steps as raw Mathematica expressions as they were collected by Rubi.
 
 A Rubi command of the form **Step[Int[*expn*, *var*]]** displays the first step of the integration of ***expn*** with respect to ***var***, and returns the intermediate result.  Its display of the integration rule is the same as that used by the **Steps** command.
 
