@@ -132,32 +132,10 @@ DownValues[Int][[30]]
 returns the rule Rubi uses to integrate the previous example.
 
 
-### Internals
+## Global control variables
 
-#### Global variables
+To provide options for reducing the amount of memory Rubi requires, there are two global variables that control what parts of the system are to be loaded.  Therefore, these control variables need to be set *before* Rubi is loaded into Mathematica.  Their default value is **True** so all Rubi capabilities will be available.
 
-For historical reasons, Rubi maintains 2 global settings that need to be set *before* you load the package if you want to change the behavior. Their default value is `True`. These variables were intended to decrease the loading time of the Rubi package. However, starting with Rubi version 4.16.0.4, Rubi will store its state in a binary format after the package is loaded the first time. Each subsequent calls to load Rubi will use the binary files instead and the package is usually loaded almost instantateously. The two global variables are:
+If **$LoadElementaryFunctionRules** is **False**, the rules for integrating expressions involving elementary functions (e.g. log, sine, arctangent, etc.) and higher-level functions (e.g. erf, polylogarithm, etc.) are *not* loaded.  However, the rules for integrating rational and algebraic functions are always loaded.
 
-```mma
-$LoadShowSteps = True;
-$LoadElementaryFunctionRules = True;
-```
-
-1. `$LoadShowSteps` needs to be `True` if you want to see the list of integration rules that Rubi uses to compute an
-antiderivative.
-2. `$LoadElementaryFunctionRules` needs to by `True` if you want to solve integrals that contain sine, tangents, exponentials, etc.
-
-### Stuff for home page
-
-The [Rubi Mathematica package](https://github.com/RuleBasedIntegration/Rubi) is the reference implementation
-of the integration rules.
-It provides an `Int[expr, var]` function that can, like Mathematica's `Integrate`, find the antiderivative of `expr` 
-with respect to `var`. 
-Further information about the Rubi package can be found here
-
-1. The [complete and open-source package code](https://github.com/RuleBasedIntegration/Rubi) on GitHub. It includes the
-source-notebooks that contain the integration rules and provides everything to build and use it as Mathematica package.
-2. The [Wiki of this repository](https://github.com/RuleBasedIntegration/Rubi/wiki) which will soon contain detailed
-information about Rubi's development process.
-3. If you find a bug or an expression that Rubi cannot integrate, please use the [issue tracker on GitHub](https://github.com/RuleBasedIntegration/Rubi/issues)
-and describe as clearly as possible what you have found.
+If **$LoadShowSteps** is **False** the ability to show the steps used to integrate expressions integration rules will *not* be available.
