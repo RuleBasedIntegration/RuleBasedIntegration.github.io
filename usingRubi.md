@@ -52,7 +52,7 @@ returns arctanh(2) although $\frac{1}{1-x^2}$ does *not* converge over the inter
 
 ## Displaying integration steps
 
-A Rubi command of the form **Steps[Int[*expn*, *var*]]** displays all the steps while integrating of ***expn*** with respect to ***var***, and returns its antiderivative.  For example, the command
+A Rubi command of the form **Steps[Int[*expn*, *var*]]** displays all the steps used to integrate ***expn*** with respect to ***var***, and returns its antiderivative.  For example, the command
 ```mma
 Steps[Int[(a + b*Sqrt[x])^d, x]]
 ```
