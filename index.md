@@ -18,7 +18,8 @@ larger than twice the optimal antiderivatives leaf size.
 An extensive report about testing the integration capabilities of several systems and information about the used software versions can be found on [the homepage of Nasser M. Abbasi](https://www.12000.org/my_notes/CAS_integration_tests/reports/rubi_4_15_2/). The following chart summarizes the results of the test suite problems when run by different systems.
 
 {:refdef: style="text-align: center;"}
-![percentages](percentages.png)
+Chart Under Construction
+{% ![percentages](percentages.png) %}
 {:refdef}
 
 ## For more information on Rubi
