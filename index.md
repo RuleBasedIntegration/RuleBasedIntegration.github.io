@@ -19,7 +19,6 @@ An extensive report about testing the integration capabilities of several system
 
 {:refdef: style="text-align: center;"}
 Chart Under Construction
-{% ![percentages](percentages.png) %}
 {:refdef}
 
 ## For more information on Rubi
