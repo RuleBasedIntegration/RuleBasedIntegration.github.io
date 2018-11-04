@@ -1,27 +1,32 @@
 # Welcome to Rubi, the Rule-based Integrator
 
-Rubi is an extensive system of symbolic integration rules that can be systematically applied to determine the antiderivative of a wide variety of mathematical expressions. Organized as a decision tree based on the form of the integrand, the 6600+ rules Rubi uses can be viewed in human-readable form or downloaded in machine-readable form. 
+By systematically applying its extensive, coherent collection of symbolic integration rules, Rubi is able to find the optimal antiderivative of large classes of mathematical expressions. Also Rubi can show the rules and intermediate steps required to integrate an expression, making the system a great tool for both learning and doing mathematics.
+
+The over 6700 rules Rubi uses are organized as a decision tree based on the form of the integrand. Click on [Rules](https://rulebasedintegration.org/integrationRules.html) to view the mathematical formula and application conditions for each rule expressed in standard 2-D mathematical notation.
+
+If the Mathematica computer algebra system is available on your computer, click on [Install Rubi](https://rulebasedintegration.org/downloadRubi.html) for instructions how to download and install the system. Then click on [Using Rubi](https://rulebasedintegration.org/usingRubi.html) to learn how to integrate expressions and optionally show the steps required to do so.
+
+An extensive test-suite of over 72,000 integration problems is used to test each new release of Rubi. Since it can also be used to test other symbolic integrators, the test-suite has been translated into the syntax of several popular computer algebra systems. Click on [Test Problem](https://rulebasedintegration.org/testProblems.html) to download the available translations of the test-suite. Click on [Test Results](https://rulebasedintegration.org/testResults.html) to view the very illuminating results of running the test-suite on Rubi and on Mathematica's built-in integrator.
+
+Click on [Vision](https://rulebasedintegration.org/vision.html) to read a short, plain-language essay describing the numerous advantages of organizing mathematical knowledge as a rule-based decision tree like Rubi does. Finally, click on [About](https://rulebasedintegration.org/about.html) to read about Rubi's development and developers.
+
 
 ## Comparison with other symbolic integrators
 
-Rubi dramatically out-performs other symbolic integrators, including Maple and Mathematica, on a grueling integration test suite consisting of over 70 thousand integrands and their optimal antiderivatives. The result of integration produced by the various systems is divided into several classes as follows:
+Rubi dramatically out-performs other symbolic integrators, including Maple and Mathematica, on a grueling test-suite of integration problems. Each problem consists of an integrand and its optimal antiderivative. For each problem the result produced by a system is given a grade as follows:
 
-- **A** - Integral was solved and antiderivative is optimal in quality and leaf size.
-- **B** - Integral was solved and antiderivative is optimal in quality but the leaf size is
-larger than twice the optimal antiderivatives leaf size.
-- **C** - Integral was solved but the antiderivative is non-optimal in quality. This can be due to one or more of the following reasons
-    1. Antiderivative contains a hypergeometric function and the optimal antiderivative does not.
-    2. Antiderivative contains a special function and the optimal antiderivative does not.
-    3. Antiderivative contains the imaginary unit and the optimal antiderivative does not.
-- **F** - Integral was not solved. Either the integral was returned unevaluated within the time limit, or it timed out, or the CAS hanged or crashed or an exception was raised. 
+- **A** - if the result is no more than twice the size of the optimal antiderivative *and* involves functions no higher-level than those in the optimal antiderivative.
+- **B** - if the result is more than twice the size of the optimal antiderivative.
+- **C** - if the result involves higher-level functions than those in the optimal antiderivative. For example, it involves special functions; whereas, the optimal antiderivative only involves elementary ones.
+- **F** - if the result involves an integral, no result is produced within 2 minutes, or the system hangs or crashes.
 
-An extensive report about testing the integration capabilities of several systems and information about the used software versions can be found on [the homepage of Nasser M. Abbasi](https://www.12000.org/my_notes/CAS_integration_tests/reports/rubi_4_15_2/). The following chart summarizes the results of the test suite problems when run by different systems.
+Nasser M. Abbasi has independently done extensive testing of the integration capabilities of several computer algebra systems. Detailed test results are available at his [Computer algebra independent integration tests](https://www.12000.org/my_notes/CAS_integration_tests/reports/rubi_4_15_2/) website. The following chart based on his test results summarizes the grades given Rubi, Mathematica and Maple on the integration test-suite:
 
 {:refdef: style="text-align: center;"}
 ![percentages](percentages.png)
 {:refdef}
 
-## For more information on Rubi
+## More information on Rubi
 
 * To discuss Rubi related isssues, you are welcome to join Rubi's chatroom on Gitter at [https://gitter.im/Rule-Based-Integration/Lobby](https://gitter.im/Rule-Based-Integration/Lobby) using your GitHub login.
 
