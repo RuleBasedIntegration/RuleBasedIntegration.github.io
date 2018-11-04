@@ -1,6 +1,6 @@
 # Welcome to Rubi, the Rule-based Integrator
 
-By systematically applying its extensive, coherent collection of symbolic integration rules, Rubi is able to find the optimal antiderivative of large classes of mathematical expressions. Also Rubi can show the rules and intermediate steps required to integrate an expression, making the system a great tool for both learning and doing mathematics.
+By systematically applying its extensive, coherent collection of symbolic integration rules, Rubi is able to find the optimal antiderivative of large classes of mathematical expressions. Also Rubi can show the rules and intermediate steps it uses to integrate an expression, making the system a great tool for both learning and doing mathematics.
 
 The over 6700 rules Rubi uses are organized as a decision tree based on the form of the integrand. Click on [Rules](https://rulebasedintegration.org/integrationRules.html) to view the mathematical formula and application conditions for each rule expressed in standard 2-D mathematical notation.
 
