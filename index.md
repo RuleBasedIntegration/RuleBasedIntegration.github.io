@@ -28,10 +28,10 @@ Nasser M. Abbasi has independently done extensive testing of the integration cap
 
 ## More information on Rubi
 
-* To discuss Rubi related isssues, you are welcome to join Rubi's chatroom on Gitter at [https://gitter.im/Rule-Based-Integration/Lobby](https://gitter.im/Rule-Based-Integration/Lobby) using your GitHub login.
+* To discuss Rubi related issues, you are welcome to join Rubi's chatroom on Gitter at [https://gitter.im/Rule-Based-Integration/Lobby](https://gitter.im/Rule-Based-Integration/Lobby) using your GitHub login.
 
 * To report bugs, request features or suggest new integration rules, please open an issue on GitHub at [https://github.com/RuleBasedIntegration/Rubi/issues](https://github.com/RuleBasedIntegration/Rubi/issues) and describe as clearly as possible the bug, request or suggestion.
 
 * Rubi is a freely available system of integration rules.  The complete source code is available as Mathematica notebook files on GitHub at [https://github.com/RuleBasedIntegration/Rubi](https://github.com/RuleBasedIntegration/Rubi).  The notebooks contain the integration rules in both human and machine-readable form, and everything required to build and use it as Mathematica package.
 
-* Rubi's Wiki-page  at [https://github.com/RuleBasedIntegration/Rubi/wiki](https://github.com/RuleBasedIntegration/Rubi/wiki) is intended to contain detailed information about Rubi's development process.
+* Rubi's Wiki-page at [https://github.com/RuleBasedIntegration/Rubi/wiki](https://github.com/RuleBasedIntegration/Rubi/wiki) is intended to contain detailed information about Rubi's development process.
