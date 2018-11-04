@@ -6,10 +6,12 @@ Loading the Mathematica implementation of Rubi defines an extensive system of ru
 ## Loading Rubi
 
 After the Rubi package has been properly installed as described in the [Rubi installation instructions](https://rulebasedintegration.org/downloadRubi.html), use the command
+
 ```mma
 Get["Rubi`"]
 ```
 or the shorter form
+
 ```mma
 <<Rubi`
 ```
@@ -30,6 +32,7 @@ returns the antiderivative
 <div class="centertext"> $$\frac{x^2}{4}+\frac{\sin ^2(x)}{4}-\frac{1}{2} x \sin (x) \cos (x)$$ </div>
 
 A Rubi command of the form **Int[{*expn1*, *expn2*, ...}, *var*]** integrates ***expn1***, ***expn2***, ... each with respect to ***var***, and returns a list of their antiderivatives.  For example, the command
+
 ```mma
 Int[Table[x^n, {n, 0, 5}], x]
 ```
@@ -40,10 +43,12 @@ $$\left\{x,\frac{x^2}{2},\frac{x^3}{3},\frac{x^4}{4},\frac{x^5}{5},\frac{x^6}{6}
 A Rubi command of the form **Int[*expn*, {*var*, *a*, *b*}]** integrates ***expn*** with respect to ***var***, and returns the limit of its antiderivative as ***var*** approaches ***b*** minus the limit as ***var*** approaches ***a***.  According to the *Fundamental Theorem of Calculus* (FTOC), this difference will equal the definite integral of ***expn*** from ***a*** to ***b*** *if and only if* the antiderivative is continuous between the two points.  For that reason, Rubi strives to return antiderivatives that are continuous on the real line to the maximum extent possible.
 
 For example, the command
+
 ```mma
 Int[x Sin[x]^2, {x, 0, Pi}]
 ```
 returns $\frac{\pi ^2}{4}$ which equals the definite integral of $x \sin ^2(x)$ from 0 to pi, since the antiderivative is continuous over this interval.  However, the command
+
 ```mma
 Int[1/(1-x^2), {x, 0, 2}]
 ```
@@ -53,12 +58,15 @@ returns arctanh(2) although $\frac{1}{1-x^2}$ does *not* converge over the inter
 ## Displaying integration steps
 
 A Rubi command of the form **Steps[Int[*expn*, *var*]]** displays all the steps used to integrate ***expn*** with respect to ***var***, and returns its antiderivative.  For example, the command
+
 ```mma
 Steps[Int[(a + b*Sqrt[x])^d, x]]
 ```
 displays the steps
 
+{:refdef: style="text-align: center;"}
 ![steps](https://rulebasedintegration.org/RubiScreenShots/integrationSteps1.png)
+{:refdef}
 
 and returns the antiderivative
 
@@ -68,7 +76,9 @@ The boxes on the right are the integration formulas in red.  The boxes on the le
 
 Click on the triangle left of a formula to display the complete integration rule including its number and application conditions.  For example, clicking on the triangle left of the first formula above changes the display of integration steps to
 
+{:refdef: style="text-align: center;"}
 ![condition](https://rulebasedintegration.org/RubiScreenShots/integrationSteps2.png)
+{:refdef}
 
 Click on an intermediate result to copy it to the clipboard so it can be entered as Mathematica input. The "Copy Steps" button copies the complete list of steps as raw Mathematica expressions as they were collected by Rubi.
 
@@ -84,7 +94,9 @@ Stats[Int[(a + b*Sqrt[x])^d, x]]
 ```
 displays
 
+{:refdef: style="text-align: center;"}
 ![Stats](https://rulebasedintegration.org/RubiScreenShots/integrationStats.png)
+{:refdef}
 
 and returns the antiderivative
 
@@ -123,7 +135,9 @@ Steps[Int[x, x], RubiPrintInformation -> False]
 
 returns
 
+{:refdef: style="text-align: center;"}
 ![Steps as expression](https://rulebasedintegration.org/RubiScreenShots/integrationStepsExpression.png)
+{:refdef}
 
 The last integer in **RubiRule** is the index of the integration rule applied in the list of **Int**'s downvalues.  For example, the **DownValue** command
 
