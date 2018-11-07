@@ -23,7 +23,7 @@ Rubi dramatically out-performs other symbolic integrators, including Maple and M
 Nasser M. Abbasi has independently done extensive testing of the integration capabilities of several computer algebra systems. Detailed test results are available at his [Computer algebra independent integration tests](https://www.12000.org/my_notes/CAS_integration_tests/reports/rubi_4_15_2/) website. The following chart based on his test results summarizes the grades given Rubi, Mathematica and Maple on the integration test-suite:
 
 {:refdef: style="text-align: center;"}
-![percentages](percentages.png)
+![integrationTestResultsChart](integrationTestResultsChart.png)
 {:refdef}
 
 ## More information on Rubi
