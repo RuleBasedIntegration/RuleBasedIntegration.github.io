@@ -26,6 +26,24 @@ Nasser M. Abbasi has independently done extensive testing of the integration cap
 ![integrationTestResultsChart](integrationTestResultsChart.png)
 {:refdef}
 
+
+## Articles referencing rule-based integration
+
+- Alexes Mes and Jed Stephens (2018). [An Application of Rubi: Series Expansion of the Quark Mass Renormalization Group Equation.](https://arxiv.org/abs/1811.04892) arXiv article.
+
+- Patrick Scheibe (2018). [Rubi - The Rule-based Integrator for Mathematica.](https://community.wolfram.com/groups/-/m/t/1421180) Wolfram Community post.
+
+- Patrick Scheibe (2018). [Rubi - A Rule-based Integrator for Mathematical Expressions.](http://halirutan.de/programming/Rubi/) Blog post.
+
+- David Jeffrey and Albert D. Rich (2016). [Developments in Rubi: Rule-based integration.]( https://www.unirioja.es/dptos/dmc/EACA2016/talks/Jeffrey.pdf) Presentation.
+
+- Albert D. Rich and David J. Jeffrey (2015?). [A knowledge repository for indefinite integration based on transformation rules.](http://www.apmaths.uwo.ca/~arich/A%20Rule-based%20Knowledge%20Repository.pdf) Workingpaper.
+
+- David J. Jeffrey, Albert D. Rich, and Junrui Hu (2015). [Rubi and integration as term re-writing.](https://www.researchgate.net/publication/277344311_RUBI_and_integration_as_term_re-writing) ACM Communications in Computer Algebra. 49. 34-34. 10.1145/2768577.2768649.
+
+- Albert D. Rich and David J. Jeffrey (2010). [Reducing expression size using rule-based integration.](http://www.apmaths.uwo.ca/~djeffrey/Offprints/Calc2010final.pdf) Workingpaper.
+
+
 ## More information on Rubi
 
 * To discuss Rubi related issues, you are welcome to join Rubi's chatroom on Gitter at [https://gitter.im/Rule-Based-Integration/Lobby](https://gitter.im/Rule-Based-Integration/Lobby) using your GitHub login.
