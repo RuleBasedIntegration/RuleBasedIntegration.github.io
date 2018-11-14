@@ -44,9 +44,9 @@ Nasser M. Abbasi has independently done extensive testing of the integration cap
 - Albert D. Rich and David J. Jeffrey (2010). [Reducing expression size using rule-based integration.](http://www.apmaths.uwo.ca/~djeffrey/Offprints/Calc2010final.pdf) Workingpaper.
 
 
-## More information on Rubi
+## Rule-based integration resources
 
-* To discuss Rubi related issues, you are welcome to join Rubi's chatroom on Gitter at [https://gitter.im/Rule-Based-Integration/Lobby](https://gitter.im/Rule-Based-Integration/Lobby) using your GitHub login.
+* To discuss issues related to rule-based integration, you are welcome to join Rubi's chatroom on Gitter at [https://gitter.im/Rule-Based-Integration/Lobby](https://gitter.im/Rule-Based-Integration/Lobby) using your GitHub login.
 
 * To report bugs, request features or suggest new integration rules, please open an issue on GitHub at [https://github.com/RuleBasedIntegration/Rubi/issues](https://github.com/RuleBasedIntegration/Rubi/issues) and describe as clearly as possible the bug, request or suggestion.
 
