@@ -29,9 +29,9 @@ Nasser M. Abbasi has independently done extensive testing of the integration cap
 
 ## Articles referencing rule-based integration
 
-- Alexes Mes and Jed Stephens (2018). [An Application of Rubi: Series Expansion of the Quark Mass Renormalization Group Equation.](https://arxiv.org/abs/1811.04892) arXiv article.
+- Alexes Mes and Jed Stephens (2018). [An Application of Rubi: Series Expansion of the Quark Mass Renormalization Group Equation.](https://arxiv.org/abs/1811.04892) arXiv:1811.04892.
 
-- Patrick Scheibe (2018). [Rubi - The Rule-based Integrator for Mathematica.](https://community.wolfram.com/groups/-/m/t/1421180) Wolfram Community post.
+- Patrick Scheibe (2018). [Rubi - The Rule-based Integrator for Mathematica.](https://community.wolfram.com/groups/-/m/t/1421180) Wolfram Community post 1421180.
 
 - Patrick Scheibe (2018). [Rubi - A Rule-based Integrator for Mathematical Expressions.](http://halirutan.de/programming/Rubi/) Blog post.
 
