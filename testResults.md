@@ -31,7 +31,7 @@ An expression's type number is determined by the highest level of functions it i
 * magenta = the number of problems that timed out after 120 seconds
 * red = the number of results that were *not* valid antiderivatives
 
-Also available for viewing are the results of running the *previous* version of Rubi on the *current* integration test-suite.  When new capabilities are incorporated into Rubi, problems are also added to the test-suite to thoroughly test them.  Thus the following test results showing the deficiencies of the previous version of Rubi highlight the new capabilities of the current version:
+Also available for viewing are the results of running the *previous* version of Rubi on the *current* integration test-suite.  When new capabilities are incorporated into Rubi, problems are also added to the test-suite to thoroughly test them.  Thus the following test results showing the deficiencies of the previous version of Rubi highlight the new capabilities of the current version.  But note that when "?" is shown as the number of steps required to find the optimal antiderivative, even the current version of Rubi is unable to produce the optimal antiderivative.
 
 * <a href="testResults/Rubi4.16.0TestResults/1 Rubi 4.16.0 Independent Integration Test Results.pdf">Independent Integration Test Results</a>
 * <a href="testResults/Rubi4.16.0TestResults/2 Rubi 4.16.0 Algebraic Function Integration Test Results.pdf"> Algebraic Function Integration Test Results</a>
