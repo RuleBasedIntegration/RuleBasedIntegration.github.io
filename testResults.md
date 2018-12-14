@@ -1,4 +1,4 @@
-# Integration Test-suite Results
+# Integration Test Results
 
 The results of running Rubi and Mathematica on the integration test-suite are available for viewing as pdf files.
 For each problem on which a system produces a deficient result, the following items are shown:
@@ -20,20 +20,33 @@ An expression's type number is determined by the highest level of functions it i
 * 8 = Integrate functions
 * 9 = Unrecognized functions
 
-## Rubi's Test Results
+## Rubi Test Results
 
-<a href="testResults/RubiTestResults.pdf">Rubi's test results</a> on the 72,000+ integration problems in the test-suite are available as a single pdf file.  At the end of the file is a pie chart summarizing the results.  The chart is divided into colored slices as follows:
+<a href="testResults/RubiTestResults.pdf">Test results</a> for the current version of Rubi on the 72,000+ integration problems in the test-suite are available for viewing as a single pdf file.  At the end of the file is a pie chart summarizing the results.  The chart is divided into colored slices as follows:
 
 * green = the number of optimal results
 * light green = the number of valid but suboptimal results
 * yellow = the number of results unnecessarily involving higher level functions or complex numbers
 * orange = the number of integrable problems that could not be integrated
 * magenta = the number of problems that timed out after 120 seconds
-* red = the number of results that were *not* valid antiderivatives 
+* red = the number of results that were *not* valid antiderivatives
 
-## Mathematica's Test Results
+Also available for viewing are the results of running the *previous* version of Rubi on the *current* integration test-suite.  When new capabilities are incorporated into Rubi, problems are also added to the test-suite to thoroughly test them.  Thus the following test results showing the deficiencies of the previous version of Rubi highlight the new capabilities of the current version:
 
-Because of their large size, Mathematica's test results on the 72,000+ integration problems in the test-suite are divided into separate pdf files based on the type of the integrand being tested.  At the end of each file is a pie chart summarizing the results.  The chart is divided into colored slices as follows:
+* <a href="testResults/Rubi4.16.0TestResults/1 Rubi 4.16.0 Independent Integration Test Results.pdf">Independent Integration Test Results</a>
+* <a href="testResults/Rubi4.16.0TestResults/2 Rubi 4.16.0 Algebraic Function Integration Test Results.pdf"> Algebraic Function Integration Test Results</a>
+* <a href="testResults/Rubi4.16.0TestResults/3 Rubi 4.16.0 Exponential and Logarithm Integration Test Results.pdf"> Exponential and Logarithm Integration Test Results</a>
+* <a href="testResults/Rubi4.16.0TestResults/4 Rubi 4.16.0 Trig Integration Test Results.pdf"> Trig Integration Test Results</a>
+* <a href="testResults/Rubi4.16.0TestResults/5 Rubi 4.16.0 Inverse Trig Integration Test Results.pdf"> Inverse Trig Integration Test Results</a>
+* <a href="testResults/Rubi4.16.0TestResults/6 Rubi 4.16.0 Hyperbolic Integration Test Results.pdf"> Hyperbolic Integration Test Results</a>
+* <a href="testResults/Rubi4.16.0TestResults/7 Rubi 4.16.0 Inverse Hyperbolic Integration Test Results.pdf"> Inverse Hyperbolic Integration Test Results</a>
+* <a href="testResults/Rubi4.16.0TestResults/8 Rubi 4.16.0 Special Function Integration Test Results.pdf"> Special Function Integration Test Results</a>
+* <a href="testResults/Rubi4.16.0TestResults/9 Rubi 4.16.0 Summary of Integration Test Results.pdf"> Summary of Integration Test Results</a>
+
+
+## Mathematica Test Results
+
+Because of their large size, test results for Mathematica 11.3 on the 72,000+ integration problems in the test-suite are divided into separate pdf files based on the type of the integrand being tested.  At the end of each file is a pie chart summarizing the results.  The chart is divided into colored slices as follows:
 
 * green = the number of optimal results
 * light green = the number of results more than twice the size of the optimal antiderivative
