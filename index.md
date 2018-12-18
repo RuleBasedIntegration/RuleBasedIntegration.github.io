@@ -29,6 +29,24 @@ Nasser M. Abbasi has independently done extensive testing of the integration cap
 
 ## Articles referencing rule-based integration
 
+If you used Rubi in your work and want to cite it appropriately, please refer to the article [published in the Journal of Open Source Software](https://doi.org/10.21105/joss.01073). For BibTeX, you can use the following entry:
+
+```bibtex
+@article{Rich2018,
+  title = {Rule-based integration: An extensive system of symbolic integration rules},
+  author = {Albert Rich and Patrick Scheibe and Nasser Abbasi},
+  doi = {10.21105/joss.01073},
+  date  = {2018-12},
+  publisher = {The Open Journal},
+  volume = {3},
+  number = {32},
+  pages = {1073},
+  journal = {Journal of Open Source Software}
+}
+```
+
+Additionally, there are several articles and online posts about Rubi. Below, you find a selection:
+
 - Albert Rich, Patrick Scheibe, and Nasser Abbasi (2018). [Rule-based integration: An extensive system of symbolic integration rules.](https://doi.org/10.21105/joss.01073) Journal of Open Source Software. 3.32, p1073 1-3, DOI: 10.21105/joss.
 
 - Alexes Mes and Jed Stephens (2018). [An Application of Rubi: Series Expansion of the Quark Mass Renormalization Group Equation.](https://arxiv.org/abs/1811.04892) arXiv:1811.04892.
