@@ -1,6 +1,6 @@
 # Instructions for Using Rubi
 
-Loading the Mathematica implementation of Rubi defines an extensive system of rules capable of integrating large classes of mathematical expressions.  Although Rubi's <font face="courier">Int</font> commands are similar in form and function to Mathematica’s <font face="courier">Integrate</font> commands, the rules Rubi uses to integrate expressions do *not* in any way depend on Mathematica's built-in integrator.
+Loading the Mathematica implementation of Rubi defines an extensive system of rules capable of integrating large classes of mathematical expressions.  Although Rubi's <font face="courier">**Int**</font> commands are similar in form and function to Mathematica’s <font face="courier">**Integrate**</font> commands, the rules Rubi uses to integrate expressions do *not* in any way depend on Mathematica's built-in integrator.
 
 
 ## Loading Rubi
