@@ -70,7 +70,7 @@ Comments preceding many of the rules document them as follows:
 * <a href="PdfRuleFiles/1 Algebraic functions/1.2 Trinomial products/1.2.2 Quartic/1.2.2.5 P(x) (a+b x^2+c x^4)^p.pdf">1.2.2.5 P(x) (a+b x^2+c x^4)^p</a>
 * <a href="PdfRuleFiles/1 Algebraic functions/1.2 Trinomial products/1.2.2 Quartic/1.2.2.6 P(x) (d x)^m (a+b x^2+c x^4)^p.pdf">1.2.2.6 P(x) (d x)^m (a+b x^2+c x^4)^p</a>
 * <a href="PdfRuleFiles/1 Algebraic functions/1.2 Trinomial products/1.2.2 Quartic/1.2.2.7 P(x) (d+e x^2)^q (a+b x^2+c x^4)^p.pdf">1.2.2.7 P(x) (d+e x^2)^q (a+b x^2+c x^4)^p</a>
-* <a href="PdfRuleFiles/1 Algebraic functions/1.2 Trinomial products/1.2.2 Quartic/1.2.2.8 P(x) (d+e x)^q (a+b x^2+c x^4)^p.pdf">1.2.2.7 P(x) (d+e x)^q (a+b x^2+c x^4)^p</a>
+* <a href="PdfRuleFiles/1 Algebraic functions/1.2 Trinomial products/1.2.2 Quartic/1.2.2.8 P(x) (d+e x)^q (a+b x^2+c x^4)^p.pdf">1.2.2.8 P(x) (d+e x)^q (a+b x^2+c x^4)^p</a>
 
 #### 1.2.3 General
 * <a href="PdfRuleFiles/1 Algebraic functions/1.2 Trinomial products/1.2.3 General/1.2.3.1 (a+b x^n+c x^(2 n))^p.pdf">1.2.3.1 (a+b x^n+c x^(2 n))^p</a>
@@ -231,6 +231,14 @@ Comments preceding many of the rules document them as follows:
 * <a href="PdfRuleFiles/7 Inverse hyperbolic functions/7.1 Inverse hyperbolic sine/7.1.4 (f x)^m (d+e x^2)^p (a+b arcsinh(c x))^n.pdf">7.1.4 (f x)^m (d+e x^2)^p (a+b arcsinh(c x))^n</a>
 * <a href="PdfRuleFiles/7 Inverse hyperbolic functions/7.1 Inverse hyperbolic sine/7.1.5 u (a+b arcsinh(c x))^n.pdf">7.1.5 u (a+b arcsinh(c x))^n</a>
 * <a href="PdfRuleFiles/7 Inverse hyperbolic functions/7.1 Inverse hyperbolic sine/7.1.6 Miscellaneous inverse hyperbolic sine.pdf">7.1.6 Miscellaneous inverse hyperbolic sine</a>
+
+### 7.2 Inverse hyperbolic cosine
+* <a href="PdfRuleFiles/7 Inverse hyperbolic functions/7.2 Inverse hyperbolic cosine/7.2.1 (a+b arccosh(c x))^n.pdf">7.2.1 (a+b arccosh(c x))^n</a>
+* <a href="PdfRuleFiles/7 Inverse hyperbolic functions/7.2 Inverse hyperbolic cosine/7.2.2 (d x)^m (a+b arccosh(c x))^n.pdf">7.2.2 (d x)^m (a+b arccosh(c x))^n</a>
+* <a href="PdfRuleFiles/7 Inverse hyperbolic functions/7.2 Inverse hyperbolic cosine/7.2.3 (d+e x^2)^p (a+b arccosh(c x))^n.pdf">7.2.3 (d+e x^2)^p (a+b arccosh(c x))^n</a>
+* <a href="PdfRuleFiles/7 Inverse hyperbolic functions/7.2 Inverse hyperbolic cosine/7.2.4 (f x)^m (d+e x^2)^p (a+b arccosh(c x))^n.pdf">7.2.4 (f x)^m (d+e x^2)^p (a+b arccosh(c x))^n</a>
+* <a href="PdfRuleFiles/7 Inverse hyperbolic functions/7.2 Inverse hyperbolic cosine/7.2.5 u (a+b arccosh(c x))^n.pdf">7.2.5 u (a+b arccosh(c x))^n</a>
+* <a href="PdfRuleFiles/7 Inverse hyperbolic functions/7.2 Inverse hyperbolic cosine/7.2.6 Miscellaneous inverse hyperbolic cosine.pdf">7.2.6 Miscellaneous inverse hyperbolic cosine</a>
 
 ### 7.3 Inverse hyperbolic tangent
 * <a href="PdfRuleFiles/7 Inverse hyperbolic functions/7.3 Inverse hyperbolic tangent/7.3.1 (a+b arctanh(c x^n))^p.pdf">7.3.1 (a+b arctanh(c x^n))^p</a>
