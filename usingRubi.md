@@ -22,7 +22,7 @@ The first time Rubi is loaded, it will take a minute or two to read in and initi
 
 ## Integrating expressions
 
-A Rubi command of the form **<font face="courier">Int[expn, var]</font>** integrates **<font face="courier">expn</font>** with respect to **<font face="courier">var</font>**, and returns its antiderivative (also called its indefinite integral).  For example, the command
+A Rubi command of the form **<font face="courier">Int[expn,var]</font>** integrates **<font face="courier">expn</font>** with respect to **<font face="courier">var</font>**, and returns its antiderivative (also called its indefinite integral).  For example, the command
 ```mma
 Int[x Sin[x]^2, x]
 ```
@@ -31,7 +31,7 @@ returns the antiderivative
 
 $$\frac{x^2}{4}+\frac{\sin ^2(x)}{4}-\frac{1}{2} x \sin (x) \cos (x)$$
 
-A Rubi command of the form **<font face="courier">Int[{*expn1*, *expn2*, ...}, *var*]** integrates ***<font face="courier">expn1***, ***<font face="courier">expn2***, ... each with respect to ***<font face="courier">var***, and returns a list of their antiderivatives.  For example, the command
+A Rubi command of the form **<font face="courier">Int[{expn1,expn2,...},var]</font>** integrates **<font face="courier">expn1</font>**, **<font face="courier">expn2</font>**, ... each with respect to **<font face="courier">var</font>**, and returns a list of their antiderivatives.  For example, the command
 
 ```mma
 Int[Table[x^n, {n, 0, 5}], x]
