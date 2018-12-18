@@ -22,7 +22,7 @@ An expression's type number is determined by the highest level of functions it i
 
 ## Rubi Test Results
 
-<a href="testResults/RubiTestResults.pdf">Test results</a> for the current version of Rubi on the 72,000+ integration problems in the test-suite are available for viewing as a single pdf file.  At the end of the file is a pie chart summarizing the results.  The chart is divided into colored slices as follows:
+Test results for both the current and previous versions of Rubi on the 72,000+ problems in the current integration test-suite are available for viewing as pdf files.  At the end of each file is a pie chart summarizing the results.  The chart is divided into colored slices as follows:
 
 * green = the number of optimal results
 * light green = the number of valid but suboptimal results
@@ -31,17 +31,17 @@ An expression's type number is determined by the highest level of functions it i
 * magenta = the number of problems that timed out after 120 seconds
 * red = the number of results that were *not* valid antiderivatives
 
-Also available for viewing are the results of running the *previous* version of Rubi on the *current* integration test-suite.  When new capabilities are incorporated into Rubi, problems are also added to the test-suite to thoroughly test them.  Thus the following test results showing the deficiencies of the previous version of Rubi highlight the new capabilities of the current version.  But note that when "?" is shown as the number of steps required to find the optimal antiderivative, even the current version of Rubi is unable to produce the optimal antiderivative.
+When new capabilities are incorporated into Rubi, problems are also added to the integration test-suite to thoroughly test them.  Thus the test results showing the deficiencies of the previous version of Rubi highlight the new capabilities of the current version.  But note that when "?" is shown as the number of steps required to find the optimal antiderivative, neither the current nor previous version of Rubi is able to produce the optimal antiderivative.
 
-* <a href="testResults/Rubi4.16.0TestResults/1 Rubi 4.16.0 Independent Integration Test Results.pdf">Independent Integration Test Results</a>
-* <a href="testResults/Rubi4.16.0TestResults/2 Rubi 4.16.0 Algebraic Function Integration Test Results.pdf"> Algebraic Function Integration Test Results</a>
-* <a href="testResults/Rubi4.16.0TestResults/3 Rubi 4.16.0 Exponential and Logarithm Integration Test Results.pdf"> Exponential and Logarithm Integration Test Results</a>
-* <a href="testResults/Rubi4.16.0TestResults/4 Rubi 4.16.0 Trig Integration Test Results.pdf"> Trig Integration Test Results</a>
-* <a href="testResults/Rubi4.16.0TestResults/5 Rubi 4.16.0 Inverse Trig Integration Test Results.pdf"> Inverse Trig Integration Test Results</a>
-* <a href="testResults/Rubi4.16.0TestResults/6 Rubi 4.16.0 Hyperbolic Integration Test Results.pdf"> Hyperbolic Integration Test Results</a>
-* <a href="testResults/Rubi4.16.0TestResults/7 Rubi 4.16.0 Inverse Hyperbolic Integration Test Results.pdf"> Inverse Hyperbolic Integration Test Results</a>
-* <a href="testResults/Rubi4.16.0TestResults/8 Rubi 4.16.0 Special Function Integration Test Results.pdf"> Special Function Integration Test Results</a>
-* <a href="testResults/Rubi4.16.0TestResults/9 Rubi 4.16.0 Summary of Integration Test Results.pdf"> Summary of Integration Test Results</a>
+* <a href="testResults/Rubi4.16.1TestResults/0 Independent test suites.pdf">Rubi 4.16.1 results</a> | <a href="testResults/Rubi4.16.0TestResults/0 Independent test suites.pdf">Rubi 4.16.0 results</a> | on independent integration test problems
+* <a href="testResults/Rubi4.16.1TestResults/1 Algebraic functions.pdf">Rubi 4.16.1 results</a> | <a href="testResults/Rubi4.16.0TestResults/1 Algebraic functions.pdf">Rubi 4.16.0 results</a> | on algebraic function integration test problems
+* <a href="testResults/Rubi4.16.1TestResults/2 Exponentials.pdf">Rubi 4.16.1 results</a> | <a href="testResults/Rubi4.16.0TestResults/2 Exponentials.pdf">Rubi 4.16.0 results</a> | on exponential function integration test problems
+* <a href="testResults/Rubi4.16.1TestResults/3 Logarithms.pdf">Rubi 4.16.1 results</a> | <a href="testResults/Rubi4.16.0TestResults/3 Logarithms.pdf">Rubi 4.16.0 results</a> | on logarithm function integration test problems
+* <a href="testResults/Rubi4.16.1TestResults/4 Trig functions.pdf">Rubi 4.16.1 results</a> | <a href="testResults/Rubi4.16.0TestResults/4 Trig functions.pdf">Rubi 4.16.0 results</a> | on trig function integration test problems
+* <a href="testResults/Rubi4.16.1TestResults/5 Inverse trig functions.pdf">Rubi 4.16.1 results</a> | <a href="testResults/Rubi4.16.0TestResults/5 Inverse trig functions.pdf">Rubi 4.16.0 results</a> | on inverse trig function integration test problems
+* <a href="testResults/Rubi4.16.1TestResults/6 Hyperbolic functions.pdf">Rubi 4.16.1 results</a> | <a href="testResults/Rubi4.16.0TestResults/6 Hyperbolic functions.pdf">Rubi 4.16.0 results</a> | on hyperbolic function integration test problems
+* <a href="testResults/Rubi4.16.1TestResults/7 Inverse hyperbolic functions.pdf">Rubi 4.16.1 results</a> | <a href="testResults/Rubi4.16.0TestResults/7 Inverse hyperbolic functions.pdf">Rubi 4.16.0 results</a> | on inverse hyperbolic function  integration test problems
+* <a href="testResults/Rubi4.16.1TestResults/8 Special functions.pdf">Rubi 4.16.1 results</a> | <a href="testResults/Rubi4.16.0TestResults/8 Special functions.pdf">Rubi 4.16.0 results</a> | on special function integration test problems
 
 
 ## Mathematica Test Results
