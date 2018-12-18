@@ -22,7 +22,7 @@ The first time Rubi is loaded, it will take a minute or two to read in and initi
 
 ## Integrating expressions
 
-A Rubi command of the form **<font face="courier">Int[*expn*, *var*]</font>** integrates ***<font face="courier">expn</font>*** with respect to ***<font face="courier">var</font>***, and returns its antiderivative (also called its indefinite integral).  For example, the command
+A Rubi command of the form **<font face="courier">Int[expn, var]</font>** integrates **<font face="courier">expn</font>** with respect to **<font face="courier">var</font>**, and returns its antiderivative (also called its indefinite integral).  For example, the command
 ```mma
 Int[x Sin[x]^2, x]
 ```
