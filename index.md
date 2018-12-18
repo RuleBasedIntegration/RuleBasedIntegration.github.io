@@ -29,6 +29,8 @@ Nasser M. Abbasi has independently done extensive testing of the integration cap
 
 ## Articles referencing rule-based integration
 
+- Albert Rich, Patrick Scheibe, and Nasser Abbasi (2018). [Rule-based integration: An extensive system of symbolic integration rules.](https://doi.org/10.21105/joss.01073) Journal of Open Source Software. 3.32, p1073 1-3, DOI: 10.21105/joss.
+
 - Alexes Mes and Jed Stephens (2018). [An Application of Rubi: Series Expansion of the Quark Mass Renormalization Group Equation.](https://arxiv.org/abs/1811.04892) arXiv:1811.04892.
 
 - Patrick Scheibe (2018). [Rubi - The Rule-based Integrator for Mathematica.](https://community.wolfram.com/groups/-/m/t/1421180) Wolfram Community post 1421180.
