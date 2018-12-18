@@ -40,7 +40,7 @@ returns the list
 
 $$\left\{x,\frac{x^2}{2},\frac{x^3}{3},\frac{x^4}{4},\frac{x^5}{5},\frac{x^6}{6}\right\}$$
 
-A Rubi command of the form **Int[*expn*, {*var*, *a*, *b*}]** integrates ***expn*** with respect to ***var***, and returns the limit of its antiderivative as ***var*** approaches ***b*** minus the limit as ***var*** approaches ***a***.  According to the *Fundamental Theorem of Calculus* (FTOC), this difference will equal the definite integral of ***expn*** from ***a*** to ***b*** *if and only if* the antiderivative is continuous between the two points.  For that reason, Rubi strives to return antiderivatives that are continuous on the real line to the maximum extent possible.
+A Rubi command of the form **<font face="courier">Int[expn,{var,a,b}]</font>** integrates **<font face="courier">expn</font>** with respect to **<font face="courier">var</font>**, and returns the limit of its antiderivative as **<font face="courier">var</font>** approaches **<font face="courier">b</font>** minus the limit as **<font face="courier">var</font>** approaches **<font face="courier">a</font>**.  According to the *Fundamental Theorem of Calculus* (FTOC), this difference will equal the definite integral of **<font face="courier">expn</font>** from **<font face="courier">a</font>** to **<font face="courier">b</font>** *if and only if* the antiderivative is continuous between the two points.  For that reason, Rubi strives to return antiderivatives that are continuous on the real line to the maximum extent possible.
 
 For example, the command
 
@@ -57,7 +57,7 @@ returns arctanh(2) although $\frac{1}{1-x^2}$ does *not* converge over the inter
 
 ## Displaying integration steps
 
-A Rubi command of the form **Steps[Int[*expn*, *var*]]** displays all the steps used to integrate ***expn*** with respect to ***var***, and returns its antiderivative.  For example, the command
+A Rubi command of the form **<font face="courier">Steps[Int[expn,var]]</font>** displays all the steps used to integrate **<font face="courier">expn</font>** with respect to **<font face="courier">var</font>**, and returns its antiderivative.  For example, the command
 
 ```mma
 Steps[Int[(a + b*Sqrt[x])^d, x]]
@@ -82,12 +82,12 @@ Click on the triangle left of a formula to display the complete integration rule
 
 Click on an intermediate result to copy it to the clipboard so it can be entered as Mathematica input. The "Copy Steps" button copies the complete list of steps as raw Mathematica expressions as they were collected by Rubi.
 
-A Rubi command of the form **Step[Int[*expn*, *var*]]** displays just the first step of the integration of ***expn*** with respect to ***var***, and returns the intermediate result.  Its display of the integration rule is the same as that used by the **Steps** command.
+A Rubi command of the form **<font face="courier">Step[Int[expn,var]]</font>** displays just the first step of the integration of **<font face="courier">expn</font>** with respect to **<font face="courier">var</font>**, and returns the intermediate result.  Its display of the integration rule is the same as that used by the **<font face="courier">Steps</font>** command.
 
 
 ## Displaying integration statistics
 
-A Rubi command of the form **Stats[Int[*expn*, *var*]]** integrates ***expn*** with respect to ***var***, and displays statistics about the integration before returning its antiderivative.  For example, the command
+A Rubi command of the form **<font face="courier">Stats[Int[expn,var]]</font>** integrates **<font face="courier">expn</font>** with respect to **<font face="courier">var</font>**, and displays statistics about the integration before returning its antiderivative.  For example, the command
 
 ```mma
 Stats[Int[(a + b*Sqrt[x])^d, x]]
@@ -104,8 +104,8 @@ $$\frac{2 \left(a+b \sqrt{x}\right)^{d+2}}{b^2 (d+2)}-\frac{2 a \left(a+b \sqrt{
 
 The Rule-size-ratio statistic is a normalized measure of the difficulty integrating an expression.  It equals the number of distinct rules required to integrate the expression divided its leaf count size. 
 
-By default, **Stats** (as well as **Steps** and **Step**) prints its information but you can also *return* it for later inspection.
-Each entry in the **Stats** can then be accessed easily by either viewing the **InputForm** of the **Stats** output, or using accessor
+By default, **<font face="courier">Stats</font>** (as well as **<font face="courier">Steps</font>** and **<font face="courier">Step</font>**) prints its information but you can also *return* it for later inspection.
+Each entry in the **<font face="courier">Stats</font>** can then be accessed easily by either viewing the **<font face="courier">InputForm</font>** of the **<font face="courier">Stats</font>** output, or using accessor
 like this
 
 ```mma
@@ -127,7 +127,7 @@ The statistics provide the following information
 - `"Ratio"`: the rule-to-size ratio of the integration, i.e. the quotient of `"NumberOfRules"` and `"InputLeafCount"`.
 - `"Rules"`: the rule-numbers of the distinct rules used.
 
-To inspect integration steps or the statistics as a normal Mathematica expression instead of displaying them in a visually pleasing form, the **Steps**, **Step**, and **Stats** functions take an option **RubiPrintInformation** that can be set to **False**. The information about the integration is then returned together with the antiderivative.  For example,
+To inspect integration steps or the statistics as a normal Mathematica expression instead of displaying them in a visually pleasing form, the **<font face="courier">Steps</font>**, **<font face="courier">Step</font>**, and **<font face="courier">Stats</font>** functions take an option **<font face="courier">RubiPrintInformation</font>** that can be set to **<font face="courier">False</font>**. The information about the integration is then returned together with the antiderivative.  For example,
 
 ```mma
 Steps[Int[x, x], RubiPrintInformation -> False]
@@ -139,7 +139,7 @@ returns
 ![Steps as expression](https://rulebasedintegration.org/RubiScreenShots/integrationStepsExpression.png)
 {:refdef}
 
-The last integer in **RubiRule** is the index of the integration rule applied in the list of **Int**'s downvalues.  For example, the **DownValue** command
+The last integer in **<font face="courier">RubiRule</font>** is the index of the integration rule applied in the list of **<font face="courier">Int</font>**'s downvalues.  For example, the **<font face="courier">DownValue</font>** command
 
 ```mma
 DownValues[Int][[30]]
@@ -150,8 +150,8 @@ returns the rule Rubi uses to integrate the previous example.
 
 ## Global control variables
 
-To provide options for reducing the amount of memory Rubi requires, there are two global variables that control what parts of the system are to be loaded.  Therefore, to have the desired effect these control variables need to be set *before* Rubi is loaded into Mathematica.  Their default value is **True** so all Rubi capabilities will be available.  However:
+To provide options for reducing the amount of memory Rubi requires, there are two global variables that control what parts of the system are to be loaded.  Therefore, to have the desired effect these control variables need to be set *before* Rubi is loaded into Mathematica.  Their default value is **<font face="courier">True</font>** so all Rubi capabilities will be available.  However:
 
-* If **$LoadElementaryFunctionRules** is **False** at load-time, the rules for integrating expressions involving elementary functions (e.g. log, sine, arctangent, etc.) and higher-level functions (e.g. erf, polylogarithm, etc.) are *not* loaded.  However, the rules for integrating rational and algebraic functions are always loaded.
+* If **<font face="courier">$LoadElementaryFunctionRules</font>** is **<font face="courier">False</font>** at load-time, the rules for integrating expressions involving elementary functions (e.g. log, sine, arctangent, etc.) and higher-level functions (e.g. erf, polylogarithm, etc.) are *not* loaded.  However, the rules for integrating rational and algebraic functions are always loaded.
 
-* If **$LoadShowSteps** is **False** at load-time, Rubi's ability to show the steps used to integrate expressions will *not* be available.
+* If **<font face="courier">$LoadShowSteps</font>** is **<font face="courier">False</font>** at load-time, Rubi's ability to show the steps used to integrate expressions will *not* be available.
