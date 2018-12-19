@@ -67,7 +67,6 @@ Because of their large size, test results for Mathematica 11.3 on the 72,000+ in
 <a href="testResults/Mathematica11.3TestResults/1 Albebraic functions/1.3 Miscellaneous.pdf">Mathematica 11.3 results</a> &emsp; on miscellaneous algebraic functions integration test problems<br>
 <br>
 <a href="testResults/Mathematica11.3TestResults/2 Exponentials.pdf">Mathematica 11.3 results</a> &emsp; on exponential function integration test problems<br>
-<br>
 <a href="testResults/Mathematica11.3TestResults/3 Logarithms.pdf">Mathematica 11.3 results</a> &emsp; on logarithm function integration test problems<br>
 <br>
 <a href="testResults/Mathematica11.3TestResults/5 Inverse trig functions/5.1 Inverse sine.pdf">Mathematica 11.3 results</a> &emsp; on inverse sine integration test problems<br>
