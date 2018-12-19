@@ -56,14 +56,14 @@ Because of their large size, test results for Mathematica 11.3 on the 72,000+ in
 
 <a href="testResults/Mathematica11.3TestResults/0 Independent test suites.pdf">Mathematica 11.3 results</a> &emsp; on independent integration problems<br>
 <br>
-<a href="testResults/Mathematica11.3TestResults/1 Albebraic functions/1.1 Binomial products/1.1.1 Linear.pdf">Mathematica 11.3 results</a> &emsp; on linear binomial algebraic products integration problems<br>
-<a href="testResults/Mathematica11.3TestResults/1 Albebraic functions/1.1 Binomial products/1.1.2 Quadratic.pdf">Mathematica 11.3 results</a> &emsp; on quadratic binomial algebraic products integration problems<br>
-<a href="testResults/Mathematica11.3TestResults/1 Albebraic functions/1.1 Binomial products/1.1.3 General.pdf">Mathematica 11.3 results</a> &emsp; on general binomial algebraic products integration problems<br>
-<a href="testResults/Mathematica11.3TestResults/1 Albebraic functions/1.1 Binomial products/1.1.4 Improper.pdf">Mathematica 11.3 results</a> &emsp; on improper binomial algebraic products integration problems<br>
-<a href="testResults/Mathematica11.3TestResults/1 Albebraic functions/1.2 Trinomial products/1.2.1 Quadratic.pdf">Mathematica 11.3 results</a> &emsp; on quadratic trinomial algebraic products integration problems<br>
-<a href="testResults/Mathematica11.3TestResults/1 Albebraic functions/1.2 Trinomial products/1.2.2 Quartic.pdf">Mathematica 11.3 results</a> &emsp; on quartic trinomial algebraic products integration problems<br>
-<a href="testResults/Mathematica11.3TestResults/1 Albebraic functions/1.2 Trinomial products/1.2.3 General.pdf">Mathematica 11.3 results</a> &emsp; on general trinomial algebraic products integration problems<br>
-<a href="testResults/Mathematica11.3TestResults/1 Albebraic functions/1.2 Trinomial products/1.2.4 Improper.pdf">Mathematica 11.3 results</a> &emsp; on improper trinomial algebraic products integration problems<br>
+<a href="testResults/Mathematica11.3TestResults/1 Albebraic functions/1.1 Binomial products/1.1.1 Linear.pdf">Mathematica 11.3 results</a> &emsp; on linear binomial products integration problems<br>
+<a href="testResults/Mathematica11.3TestResults/1 Albebraic functions/1.1 Binomial products/1.1.2 Quadratic.pdf">Mathematica 11.3 results</a> &emsp; on quadratic binomial products integration problems<br>
+<a href="testResults/Mathematica11.3TestResults/1 Albebraic functions/1.1 Binomial products/1.1.3 General.pdf">Mathematica 11.3 results</a> &emsp; on general binomial products integration problems<br>
+<a href="testResults/Mathematica11.3TestResults/1 Albebraic functions/1.1 Binomial products/1.1.4 Improper.pdf">Mathematica 11.3 results</a> &emsp; on improper binomial products integration problems<br>
+<a href="testResults/Mathematica11.3TestResults/1 Albebraic functions/1.2 Trinomial products/1.2.1 Quadratic.pdf">Mathematica 11.3 results</a> &emsp; on quadratic trinomial products integration problems<br>
+<a href="testResults/Mathematica11.3TestResults/1 Albebraic functions/1.2 Trinomial products/1.2.2 Quartic.pdf">Mathematica 11.3 results</a> &emsp; on quartic trinomial products integration problems<br>
+<a href="testResults/Mathematica11.3TestResults/1 Albebraic functions/1.2 Trinomial products/1.2.3 General.pdf">Mathematica 11.3 results</a> &emsp; on general trinomial products integration problems<br>
+<a href="testResults/Mathematica11.3TestResults/1 Albebraic functions/1.2 Trinomial products/1.2.4 Improper.pdf">Mathematica 11.3 results</a> &emsp; on improper trinomial products integration problems<br>
 <a href="testResults/Mathematica11.3TestResults/1 Albebraic functions/1.3 Miscellaneous.pdf">Mathematica 11.3 results</a> &emsp; on miscellaneous algebraic functions integration problems<br>
 <br>
 <a href="testResults/Mathematica11.3TestResults/2 Exponentials.pdf">Mathematica 11.3 results</a> &emsp; on exponential function integration problems<br>
