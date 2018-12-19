@@ -31,15 +31,15 @@ Test results for both the current and previous versions of Rubi on the 72,000+ p
 * magenta = the number of problems that timed out after 120 seconds
 * red = the number of results that were *not* valid antiderivatives
 
-<a href="testResults/Rubi4.16.1TestResults/0 Independent test suites.pdf">Rubi 4.16.1 results</a> &emsp; <a href="testResults/Rubi4.16.0TestResults/0 Independent test suites.pdf">Rubi 4.16.0 results</a> &emsp; on independent integration test problems<br>
-<a href="testResults/Rubi4.16.1TestResults/1 Algebraic functions.pdf">Rubi 4.16.1 results</a> &emsp; <a href="testResults/Rubi4.16.0TestResults/1 Algebraic functions.pdf">Rubi 4.16.0 results</a> &emsp; on algebraic function integration test problems<br>
-<a href="testResults/Rubi4.16.1TestResults/2 Exponentials.pdf">Rubi 4.16.1 results</a> &emsp; <a href="testResults/Rubi4.16.0TestResults/2 Exponentials.pdf">Rubi 4.16.0 results</a> &emsp; on exponential function integration test problems<br>
-<a href="testResults/Rubi4.16.1TestResults/3 Logarithms.pdf">Rubi 4.16.1 results</a> &emsp; <a href="testResults/Rubi4.16.0TestResults/3 Logarithms.pdf">Rubi 4.16.0 results</a> &emsp; on logarithm function integration test problems<br>
-<a href="testResults/Rubi4.16.1TestResults/4 Trig functions.pdf">Rubi 4.16.1 results</a> &emsp; <a href="testResults/Rubi4.16.0TestResults/4 Trig functions.pdf">Rubi 4.16.0 results</a> &emsp; on trig function integration test problems<br>
-<a href="testResults/Rubi4.16.1TestResults/5 Inverse trig functions.pdf">Rubi 4.16.1 results</a> &emsp; <a href="testResults/Rubi4.16.0TestResults/5 Inverse trig functions.pdf">Rubi 4.16.0 results</a> &emsp; on inverse trig function integration test problems<br>
-<a href="testResults/Rubi4.16.1TestResults/6 Hyperbolic functions.pdf">Rubi 4.16.1 results</a> &emsp; <a href="testResults/Rubi4.16.0TestResults/6 Hyperbolic functions.pdf">Rubi 4.16.0 results</a> &emsp; on hyperbolic function integration test problems<br>
-<a href="testResults/Rubi4.16.1TestResults/7 Inverse hyperbolic functions.pdf">Rubi 4.16.1 results</a> &emsp; <a href="testResults/Rubi4.16.0TestResults/7 Inverse hyperbolic functions.pdf">Rubi 4.16.0 results</a> &emsp; on inverse hyperbolic function  integration test problems<br>
-<a href="testResults/Rubi4.16.1TestResults/8 Special functions.pdf">Rubi 4.16.1 results</a> &emsp; <a href="testResults/Rubi4.16.0TestResults/8 Special functions.pdf">Rubi 4.16.0 results</a> &emsp; on special function integration test problems
+<a href="testResults/Rubi4.16.1TestResults/0 Independent test suites.pdf">Rubi 4.16.1 results</a> &emsp; <a href="testResults/Rubi4.16.0TestResults/0 Independent test suites.pdf">Rubi 4.16.0 results</a> &emsp; on independent integration problems<br>
+<a href="testResults/Rubi4.16.1TestResults/1 Algebraic functions.pdf">Rubi 4.16.1 results</a> &emsp; <a href="testResults/Rubi4.16.0TestResults/1 Algebraic functions.pdf">Rubi 4.16.0 results</a> &emsp; on algebraic function integration problems<br>
+<a href="testResults/Rubi4.16.1TestResults/2 Exponentials.pdf">Rubi 4.16.1 results</a> &emsp; <a href="testResults/Rubi4.16.0TestResults/2 Exponentials.pdf">Rubi 4.16.0 results</a> &emsp; on exponential function integration problems<br>
+<a href="testResults/Rubi4.16.1TestResults/3 Logarithms.pdf">Rubi 4.16.1 results</a> &emsp; <a href="testResults/Rubi4.16.0TestResults/3 Logarithms.pdf">Rubi 4.16.0 results</a> &emsp; on logarithm function integration problems<br>
+<a href="testResults/Rubi4.16.1TestResults/4 Trig functions.pdf">Rubi 4.16.1 results</a> &emsp; <a href="testResults/Rubi4.16.0TestResults/4 Trig functions.pdf">Rubi 4.16.0 results</a> &emsp; on trig function integration problems<br>
+<a href="testResults/Rubi4.16.1TestResults/5 Inverse trig functions.pdf">Rubi 4.16.1 results</a> &emsp; <a href="testResults/Rubi4.16.0TestResults/5 Inverse trig functions.pdf">Rubi 4.16.0 results</a> &emsp; on inverse trig function integration problems<br>
+<a href="testResults/Rubi4.16.1TestResults/6 Hyperbolic functions.pdf">Rubi 4.16.1 results</a> &emsp; <a href="testResults/Rubi4.16.0TestResults/6 Hyperbolic functions.pdf">Rubi 4.16.0 results</a> &emsp; on hyperbolic function integration problems<br>
+<a href="testResults/Rubi4.16.1TestResults/7 Inverse hyperbolic functions.pdf">Rubi 4.16.1 results</a> &emsp; <a href="testResults/Rubi4.16.0TestResults/7 Inverse hyperbolic functions.pdf">Rubi 4.16.0 results</a> &emsp; on inverse hyperbolic function  integration problems<br>
+<a href="testResults/Rubi4.16.1TestResults/8 Special functions.pdf">Rubi 4.16.1 results</a> &emsp; <a href="testResults/Rubi4.16.0TestResults/8 Special functions.pdf">Rubi 4.16.0 results</a> &emsp; on special function integration problems
 
 When new capabilities are incorporated into Rubi, problems are also added to the integration test-suite to thoroughly test them.  Thus the test results showing the deficiencies of the previous version of Rubi highlight the new capabilities of the current version.  But note that when "?" is shown as the number of steps required to find the optimal antiderivative, neither the current nor previous version of Rubi is able to produce the optimal antiderivative.
 
@@ -54,44 +54,44 @@ Because of their large size, test results for Mathematica 11.3 on the 72,000+ in
 * orange = the number of integrable problems that could not be integrated
 * red = the number of problems that timed out after 120 seconds
 
-<a href="testResults/Mathematica11.3TestResults/0 Independent test suites.pdf">Mathematica 11.3 results</a> &emsp; on independent integration test problems<br>
+<a href="testResults/Mathematica11.3TestResults/0 Independent test suites.pdf">Mathematica 11.3 results</a> &emsp; on independent integration problems<br>
 <br>
-<a href="testResults/Mathematica11.3TestResults/1 Albebraic functions/1.1 Binomial products/1.1.1 Linear.pdf">Mathematica 11.3 results</a> &emsp; on linear binomial algebraic products integration test problems<br>
-<a href="testResults/Mathematica11.3TestResults/1 Albebraic functions/1.1 Binomial products/1.1.2 Quadratic.pdf">Mathematica 11.3 results</a> &emsp; on quadratic binomial algebraic products integration test problems<br>
-<a href="testResults/Mathematica11.3TestResults/1 Albebraic functions/1.1 Binomial products/1.1.3 General.pdf">Mathematica 11.3 results</a> &emsp; on general binomial algebraic products integration test problems<br>
-<a href="testResults/Mathematica11.3TestResults/1 Albebraic functions/1.1 Binomial products/1.1.4 Improper.pdf">Mathematica 11.3 results</a> &emsp; on improper binomial algebraic products integration test problems<br>
-<a href="testResults/Mathematica11.3TestResults/1 Albebraic functions/1.2 Trinomial products/1.2.1 Quadratic.pdf">Mathematica 11.3 results</a> &emsp; on quadratic trinomial algebraic products integration test problems<br>
-<a href="testResults/Mathematica11.3TestResults/1 Albebraic functions/1.2 Trinomial products/1.2.2 Quartic.pdf">Mathematica 11.3 results</a> &emsp; on quartic trinomial algebraic products integration test problems<br>
-<a href="testResults/Mathematica11.3TestResults/1 Albebraic functions/1.2 Trinomial products/1.2.3 General.pdf">Mathematica 11.3 results</a> &emsp; on general trinomial algebraic products integration test problems<br>
-<a href="testResults/Mathematica11.3TestResults/1 Albebraic functions/1.2 Trinomial products/1.2.4 Improper.pdf">Mathematica 11.3 results</a> &emsp; on improper trinomial algebraic products integration test problems<br>
-<a href="testResults/Mathematica11.3TestResults/1 Albebraic functions/1.3 Miscellaneous.pdf">Mathematica 11.3 results</a> &emsp; on miscellaneous algebraic functions integration test problems<br>
+<a href="testResults/Mathematica11.3TestResults/1 Albebraic functions/1.1 Binomial products/1.1.1 Linear.pdf">Mathematica 11.3 results</a> &emsp; on linear binomial algebraic products integration problems<br>
+<a href="testResults/Mathematica11.3TestResults/1 Albebraic functions/1.1 Binomial products/1.1.2 Quadratic.pdf">Mathematica 11.3 results</a> &emsp; on quadratic binomial algebraic products integration problems<br>
+<a href="testResults/Mathematica11.3TestResults/1 Albebraic functions/1.1 Binomial products/1.1.3 General.pdf">Mathematica 11.3 results</a> &emsp; on general binomial algebraic products integration problems<br>
+<a href="testResults/Mathematica11.3TestResults/1 Albebraic functions/1.1 Binomial products/1.1.4 Improper.pdf">Mathematica 11.3 results</a> &emsp; on improper binomial algebraic products integration problems<br>
+<a href="testResults/Mathematica11.3TestResults/1 Albebraic functions/1.2 Trinomial products/1.2.1 Quadratic.pdf">Mathematica 11.3 results</a> &emsp; on quadratic trinomial algebraic products integration problems<br>
+<a href="testResults/Mathematica11.3TestResults/1 Albebraic functions/1.2 Trinomial products/1.2.2 Quartic.pdf">Mathematica 11.3 results</a> &emsp; on quartic trinomial algebraic products integration problems<br>
+<a href="testResults/Mathematica11.3TestResults/1 Albebraic functions/1.2 Trinomial products/1.2.3 General.pdf">Mathematica 11.3 results</a> &emsp; on general trinomial algebraic products integration problems<br>
+<a href="testResults/Mathematica11.3TestResults/1 Albebraic functions/1.2 Trinomial products/1.2.4 Improper.pdf">Mathematica 11.3 results</a> &emsp; on improper trinomial algebraic products integration problems<br>
+<a href="testResults/Mathematica11.3TestResults/1 Albebraic functions/1.3 Miscellaneous.pdf">Mathematica 11.3 results</a> &emsp; on miscellaneous algebraic functions integration problems<br>
 <br>
-<a href="testResults/Mathematica11.3TestResults/2 Exponentials.pdf">Mathematica 11.3 results</a> &emsp; on exponential function integration test problems<br>
-<a href="testResults/Mathematica11.3TestResults/3 Logarithms.pdf">Mathematica 11.3 results</a> &emsp; on logarithm function integration test problems<br>
+<a href="testResults/Mathematica11.3TestResults/2 Exponentials.pdf">Mathematica 11.3 results</a> &emsp; on exponential function integration problems<br>
+<a href="testResults/Mathematica11.3TestResults/3 Logarithms.pdf">Mathematica 11.3 results</a> &emsp; on logarithm function integration problems<br>
 <br>
-<a href="testResults/Mathematica11.3TestResults/5 Inverse trig functions/5.1 Inverse sine.pdf">Mathematica 11.3 results</a> &emsp; on inverse sine integration test problems<br>
-<a href="testResults/Mathematica11.3TestResults/5 Inverse trig functions/5.2 Inverse cosine.pdf">Mathematica 11.3 results</a> &emsp; on inverse cosine integration test problems<br>
-<a href="testResults/Mathematica11.3TestResults/5 Inverse trig functions/5.3 Inverse tangent.pdf">Mathematica 11.3 results</a> &emsp; on inverse tangent integration test problems<br>
-<a href="testResults/Mathematica11.3TestResults/5 Inverse trig functions/5.4 Inverse cotangent.pdf">Mathematica 11.3 results</a> &emsp; on inverse cotangent integration test problems<br>
-<a href="testResults/Mathematica11.3TestResults/5 Inverse trig functions/5.5 Inverse secant.pdf">Mathematica 11.3 results</a> &emsp; on inverse secant integration test problems<br>
-<a href="testResults/Mathematica11.3TestResults/5 Inverse trig functions/5.6 Inverse cosecant.pdf">Mathematica 11.3 results</a> &emsp; on inverse cosecant integration test problems<br>
+<a href="testResults/Mathematica11.3TestResults/5 Inverse trig functions/5.1 Inverse sine.pdf">Mathematica 11.3 results</a> &emsp; on inverse sine integration problems<br>
+<a href="testResults/Mathematica11.3TestResults/5 Inverse trig functions/5.2 Inverse cosine.pdf">Mathematica 11.3 results</a> &emsp; on inverse cosine integration problems<br>
+<a href="testResults/Mathematica11.3TestResults/5 Inverse trig functions/5.3 Inverse tangent.pdf">Mathematica 11.3 results</a> &emsp; on inverse tangent integration problems<br>
+<a href="testResults/Mathematica11.3TestResults/5 Inverse trig functions/5.4 Inverse cotangent.pdf">Mathematica 11.3 results</a> &emsp; on inverse cotangent integration problems<br>
+<a href="testResults/Mathematica11.3TestResults/5 Inverse trig functions/5.5 Inverse secant.pdf">Mathematica 11.3 results</a> &emsp; on inverse secant integration problems<br>
+<a href="testResults/Mathematica11.3TestResults/5 Inverse trig functions/5.6 Inverse cosecant.pdf">Mathematica 11.3 results</a> &emsp; on inverse cosecant integration problems<br>
 <br>
-<a href="testResults/Mathematica11.3TestResults/6 Hyperbolic functions/6.1 Hyperbolic sine.pdf">Mathematica 11.3 results</a> &emsp; on hyperbolic sine integration test problems<br>
-<a href="testResults/Mathematica11.3TestResults/6 Hyperbolic functions/6.2 Hyperbolic cosine.pdf">Mathematica 11.3 results</a> &emsp; on hyperbolic cosine integration test problems<br>
-<a href="testResults/Mathematica11.3TestResults/6 Hyperbolic functions/6.3 Hyperbolic tangent.pdf">Mathematica 11.3 results</a> &emsp; on hyperbolic tangent integration test problems<br>
-<a href="testResults/Mathematica11.3TestResults/6 Hyperbolic functions/6.4 Hyperbolic cotangent.pdf">Mathematica 11.3 results</a> &emsp; on hyperbolic cotangent integration test problems<br>
-<a href="testResults/Mathematica11.3TestResults/6 Hyperbolic functions/6.5 Hyperbolic secant.pdf">Mathematica 11.3 results</a> &emsp; on hyperbolic secant integration test problems<br>
-<a href="testResults/Mathematica11.3TestResults/6 Hyperbolic functions/6.6 Hyperbolic cosecant.pdf">Mathematica 11.3 results</a> &emsp; on hyperbolic cosecant integration test problems<br>
-<a href="testResults/Mathematica11.3TestResults/6 Hyperbolic functions/6.7 Miscellaneous.pdf">Mathematica 11.3 results</a> &emsp; on miscellaneous hyperbolic function integration test problems<br>
+<a href="testResults/Mathematica11.3TestResults/6 Hyperbolic functions/6.1 Hyperbolic sine.pdf">Mathematica 11.3 results</a> &emsp; on hyperbolic sine integration problems<br>
+<a href="testResults/Mathematica11.3TestResults/6 Hyperbolic functions/6.2 Hyperbolic cosine.pdf">Mathematica 11.3 results</a> &emsp; on hyperbolic cosine integration problems<br>
+<a href="testResults/Mathematica11.3TestResults/6 Hyperbolic functions/6.3 Hyperbolic tangent.pdf">Mathematica 11.3 results</a> &emsp; on hyperbolic tangent integration problems<br>
+<a href="testResults/Mathematica11.3TestResults/6 Hyperbolic functions/6.4 Hyperbolic cotangent.pdf">Mathematica 11.3 results</a> &emsp; on hyperbolic cotangent integration problems<br>
+<a href="testResults/Mathematica11.3TestResults/6 Hyperbolic functions/6.5 Hyperbolic secant.pdf">Mathematica 11.3 results</a> &emsp; on hyperbolic secant integration problems<br>
+<a href="testResults/Mathematica11.3TestResults/6 Hyperbolic functions/6.6 Hyperbolic cosecant.pdf">Mathematica 11.3 results</a> &emsp; on hyperbolic cosecant integration problems<br>
+<a href="testResults/Mathematica11.3TestResults/6 Hyperbolic functions/6.7 Miscellaneous.pdf">Mathematica 11.3 results</a> &emsp; on miscellaneous hyperbolic function integration problems<br>
 <br>
-<a href="testResults/Mathematica11.3TestResults/7 Inverse hyperbolic functions/7.1 Inverse hyperbolic sine.pdf">Mathematica 11.3 results</a> &emsp; on inverse hyperbolic sine integration test problems<br>
-<a href="testResults/Mathematica11.3TestResults/7 Inverse hyperbolic functions/7.2 Inverse hyperbolic cosine.pdf">Mathematica 11.3 results</a> &emsp; on inverse hyperbolic cosine integration test problems<br>
-<a href="testResults/Mathematica11.3TestResults/7 Inverse hyperbolic functions/7.3 Inverse hyperbolic tangent.pdf">Mathematica 11.3 results</a> &emsp; on inverse hyperbolic tangent integration test problems<br>
-<a href="testResults/Mathematica11.3TestResults/7 Inverse hyperbolic functions/7.4 Inverse hyperbolic cotangent.pdf">Mathematica 11.3 results</a> &emsp; on inverse hyperbolic cotangent integration test problems<br>
-<a href="testResults/Mathematica11.3TestResults/7 Inverse hyperbolic functions/7.5 Inverse hyperbolic secant.pdf">Mathematica 11.3 results</a> &emsp; on inverse hyperbolic secant integration test problems<br>
-<a href="testResults/Mathematica11.3TestResults/7 Inverse hyperbolic functions/7.6 Inverse hyperbolic cosecant.pdf">Mathematica 11.3 results</a> &emsp; on inverse hyperbolic cosecant integration test problems<br>
+<a href="testResults/Mathematica11.3TestResults/7 Inverse hyperbolic functions/7.1 Inverse hyperbolic sine.pdf">Mathematica 11.3 results</a> &emsp; on inverse hyperbolic sine integration problems<br>
+<a href="testResults/Mathematica11.3TestResults/7 Inverse hyperbolic functions/7.2 Inverse hyperbolic cosine.pdf">Mathematica 11.3 results</a> &emsp; on inverse hyperbolic cosine integration problems<br>
+<a href="testResults/Mathematica11.3TestResults/7 Inverse hyperbolic functions/7.3 Inverse hyperbolic tangent.pdf">Mathematica 11.3 results</a> &emsp; on inverse hyperbolic tangent integration problems<br>
+<a href="testResults/Mathematica11.3TestResults/7 Inverse hyperbolic functions/7.4 Inverse hyperbolic cotangent.pdf">Mathematica 11.3 results</a> &emsp; on inverse hyperbolic cotangent integration problems<br>
+<a href="testResults/Mathematica11.3TestResults/7 Inverse hyperbolic functions/7.5 Inverse hyperbolic secant.pdf">Mathematica 11.3 results</a> &emsp; on inverse hyperbolic secant integration problems<br>
+<a href="testResults/Mathematica11.3TestResults/7 Inverse hyperbolic functions/7.6 Inverse hyperbolic cosecant.pdf">Mathematica 11.3 results</a> &emsp; on inverse hyperbolic cosecant integration problems<br>
 <br>
-<a href="testResults/Mathematica11.3TestResults/8 Special functions.pdf">Mathematica 11.3 results</a> &emsp; on special function integration test problems<br>
+<a href="testResults/Mathematica11.3TestResults/8 Special functions.pdf">Mathematica 11.3 results</a> &emsp; on special function integration problems<br>
 
 
 ### 4 Trig functions
