@@ -54,20 +54,11 @@ Because of their large size, test results for Mathematica 11.3 on the 72,000+ in
 * orange = the number of integrable problems that could not be integrated
 * red = the number of problems that timed out after 120 seconds
 
-### 0 Independent test-suites
-
-* <a href="testResults/MathematicaTestResults/0 Independent test suites/Mathematica 11.3 Integration Test Results for Apostol Problems.pdf">Apostol problems</a>
-* <a href="testResults/MathematicaTestResults/0 Independent test suites/Mathematica 11.3 Integration Test Results for Bondarenko Problems.pdf">Bondarenko problems</a>
-* <a href="testResults/MathematicaTestResults/0 Independent test suites/Mathematica 11.3 Integration Test Results for Bronstein Problems.pdf">Bronstein problems</a>
-* <a href="testResults/MathematicaTestResults/0 Independent test suites/Mathematica 11.3 Integration Test Results for Charlwood Problems.pdf">Charlwood problems</a>
-* <a href="testResults/MathematicaTestResults/0 Independent test suites/Mathematica 11.3 Integration Test Results for Hearn Problems.pdf">Hearn problems</a>
-* <a href="testResults/MathematicaTestResults/0 Independent test suites/Mathematica 11.3 Integration Test Results for Hebisch Problems.pdf">Hebisch problems</a>
-* <a href="testResults/MathematicaTestResults/0 Independent test suites/Mathematica 11.3 Integration Test Results for Jeffrey Problems.pdf">Jeffrey problems</a>
-* <a href="testResults/MathematicaTestResults/0 Independent test suites/Mathematica 11.3 Integration Test Results for Moses Problems.pdf">Moses problems</a>
-* <a href="testResults/MathematicaTestResults/0 Independent test suites/Mathematica 11.3 Integration Test Results for Stewart Problems.pdf">Stewart problems</a>
-* <a href="testResults/MathematicaTestResults/0 Independent test suites/Mathematica 11.3 Integration Test Results for Timofeev Problems.pdf">Timofeev problems</a>
-* <a href="testResults/MathematicaTestResults/0 Independent test suites/Mathematica 11.3 Integration Test Results for Welz Problems.pdf">Welz problems</a>
-* <a href="testResults/MathematicaTestResults/0 Independent test suites/Mathematica 11.3 Integration Test Results for Wester Problems.pdf">Wester problems</a>
+<a href="testResults/Mathematica11.3TestResults/0 Independent test suites.pdf">Mathematica 11.3 results</a> &emsp; on independent integration test problems<br>
+<a href="testResults/Mathematica11.3TestResults/2 Exponentials.pdf">Mathematica 11.3 results</a> &emsp; on exponential function integration test problems<br>
+<a href="testResults/Mathematica11.3TestResults/3 Logarithms.pdf">Mathematica 11.3 results</a> &emsp; on logarithm function integration test problems<br>
+<a href="testResults/Mathematica11.3TestResults/8 Special functions.pdf">Mathematica 11.3 results</a> &emsp; on special function integration test problems<br>
+<a href="testResults/Mathematica11.3TestResults/.pdf">Mathematica 11.3 results</a> &emsp; on integration test problems<br>
 
 
 ### 1 Algebraic functions
@@ -142,26 +133,6 @@ Because of their large size, test results for Mathematica 11.3 on the 72,000+ in
 
 * <a href="testResults/MathematicaTestResults/1 Algebraic functions/1.3 Miscellaneous/Mathematica 11.3 Integration Test Results for 1.3.1 Rational functions.pdf">1.3.1 Rational functions</a>
 * <a href="testResults/MathematicaTestResults/1 Algebraic functions/1.3 Miscellaneous/Mathematica 11.3 Integration Test Results for 1.3.2 Algebraic functions.pdf">1.3.2 Algebraic functions</a>
-
-
-### 2 Exponentials
-
-* <a href="testResults/MathematicaTestResults/2 Exponentials/Mathematica 11.3 Integration Test Results for 2.1 u (F^(c (a+b x)))^n.pdf">2.1 u (F^(c (a+b x)))^n</a>
-* <a href="testResults/MathematicaTestResults/2 Exponentials/Mathematica 11.3 Integration Test Results for 2.2 (c+d x)^m (F^(g (e+f x)))^n (a+b (F^(g (e+f x)))^n)^p.pdf">2.2 (c+d x)^m (F^(g (e+f x)))^n (a+b (F^(g (e+f x)))^n)^p</a>
-* <a href="testResults/MathematicaTestResults/2 Exponentials/Mathematica 11.3 Integration Test Results for 2.3 Exponential functions.pdf">2.3 Exponential functions</a>
-
-
-### 3 Logarithms
-
-* <a href="testResults/MathematicaTestResults/3 Logarithms/Mathematica 11.3 Integration Test Results for 3.1.2 (d x)^m (a+b log(c x^n))^p.pdf">3.1.2 (d x)^m (a+b log(c x^n))^p</a>
-* <a href="testResults/MathematicaTestResults/3 Logarithms/Mathematica 11.3 Integration Test Results for 3.1.4 (f x)^m (d+e x^r)^q (a+b log(c x^n))^p.pdf">3.1.4 (f x)^m (d+e x^r)^q (a+b log(c x^n))^p</a>
-* <a href="testResults/MathematicaTestResults/3 Logarithms/Mathematica 11.3 Integration Test Results for 3.1.5 u (a+b log(c x^n))^p.pdf">3.1.5 u (a+b log(c x^n))^p</a>
-* <a href="testResults/MathematicaTestResults/3 Logarithms/Mathematica 11.3 Integration Test Results for 3.2.1 (f+g x)^m (A+B log(e ((a+b x) over (c+d x))^n))^p.pdf">3.2.1 (f+g x)^m (A+B log(e ((a+b x) over (c+d x))^n))^p</a>
-* <a href="testResults/MathematicaTestResults/3 Logarithms/Mathematica 11.3 Integration Test Results for 3.2.2 (f+g x)^m (h+i x)^q (A+B log(e ((a+b x) over (c+d x))^n))^p.pdf">3.2.2 (f+g x)^m (h+i x)^q (A+B log(e ((a+b x) over (c+d x))^n))^p</a>
-* <a href="testResults/MathematicaTestResults/3 Logarithms/Mathematica 11.3 Integration Test Results for 3.2.3 u log(e (f (a+b x)^p (c+d x)^q)^r)^s.pdf">3.2.3 u log(e (f (a+b x)^p (c+d x)^q)^r)^s</a>
-* <a href="testResults/MathematicaTestResults/3 Logarithms/Mathematica 11.3 Integration Test Results for 3.3 u (a+b log(c (d+e x)^n))^p.pdf">3.3 u (a+b log(c (d+e x)^n))^p</a>
-* <a href="testResults/MathematicaTestResults/3 Logarithms/Mathematica 11.3 Integration Test Results for 3.4 u (a+b log(c (d+e x^m)^n))^p.pdf">3.4 u (a+b log(c (d+e x^m)^n))^p</a>
-* <a href="testResults/MathematicaTestResults/3 Logarithms/Mathematica 11.3 Integration Test Results for 3.5 Logarithm functions.pdf">3.5 Logarithm functions</a>
 
 
 ### 4 Trig functions
@@ -393,18 +364,3 @@ Because of their large size, test results for Mathematica 11.3 on the 72,000+ in
 
 * <a href="testResults/MathematicaTestResults/7 Inverse hyperbolic functions/7.6 Inverse hyperbolic cosecant/Mathematica 11.3 Integration Test Results for 7.6.1 u (a+b arccsch(c x))^n.pdf">7.6.1 u (a+b arccsch(c x))^n</a>
 * <a href="testResults/MathematicaTestResults/7 Inverse hyperbolic functions/7.6 Inverse hyperbolic cosecant/Mathematica 11.3 Integration Test Results for 7.6.2 Inverse hyperbolic cosecant functions.pdf">7.6.2 Inverse hyperbolic cosecant functions</a>
-
-
-### 8 Special functions
-
-* <a href="testResults/MathematicaTestResults/8 Special functions/Mathematica 11.3 Integration Test Results for 8.1 Error functions.pdf">8.1 Error functions</a>
-* <a href="testResults/MathematicaTestResults/8 Special functions/Mathematica 11.3 Integration Test Results for 8.2 Fresnel integral functions.pdf">8.2 Fresnel integral functions</a>
-* <a href="testResults/MathematicaTestResults/8 Special functions/Mathematica 11.3 Integration Test Results for 8.3 Exponential integral functions.pdf">8.3 Exponential integral functions</a>
-* <a href="testResults/MathematicaTestResults/8 Special functions/Mathematica 11.3 Integration Test Results for 8.4 Trig integral functions.pdf">8.4 Trig integral functions</a>
-* <a href="testResults/MathematicaTestResults/8 Special functions/Mathematica 11.3 Integration Test Results for 8.5 Hyperbolic integral functions.pdf">8.5 Hyperbolic integral functions</a>
-* <a href="testResults/MathematicaTestResults/8 Special functions/Mathematica 11.3 Integration Test Results for 8.6 Gamma functions.pdf">8.6 Gamma functions</a>
-* <a href="testResults/MathematicaTestResults/8 Special functions/Mathematica 11.3 Integration Test Results for 8.7 Zeta function.pdf">8.7 Zeta function</a>
-* <a href="testResults/MathematicaTestResults/8 Special functions/Mathematica 11.3 Integration Test Results for 8.8 Polylogarithm function.pdf">8.8 Polylogarithm function</a>
-* <a href="testResults/MathematicaTestResults/8 Special functions/Mathematica 11.3 Integration Test Results for 8.9 Product logarithm function.pdf">8.9 Product logarithm function</a>
-* <a href="testResults/MathematicaTestResults/8 Special functions/Mathematica 11.3 Integration Test Results for 8.10 Formal derivatives.pdf">8.10 Formal derivatives</a>
-
