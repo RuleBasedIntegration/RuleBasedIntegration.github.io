@@ -24,7 +24,7 @@ Use the **<font face="courier">PacletInstall</font>** command
 
 ```mathematica
 PacletInstall[
-  "https://github.com/RuleBasedIntegration/Rubi/releases/download/4.16.0.4/Rubi-4.16.0.4.paclet"
+  "https://github.com/RuleBasedIntegration/Rubi/releases/download/4.16.1.0/Rubi-4.16.1.0.paclet"
 ]
 ```
 to download the current Rubi paclet directly from the online repository on GitHub, and
@@ -41,11 +41,11 @@ to see the full path name to the location of the Rubi package.
 
 ## Instructions for Mathematica 9 or later 
 
-Click [here](https://github.com/RuleBasedIntegration/Rubi/releases/download/4.16.0.4/Rubi-4.16.0.4.paclet) 
-to download **<font face="courier">Rubi-4.16.0.4.paclet</font>** to the Downloads directory on your computer.
+Click [here](https://github.com/RuleBasedIntegration/Rubi/releases/download/4.16.1.0/Rubi-4.16.1.0.paclet) 
+to download **<font face="courier">Rubi-4.16.1.0.paclet</font>** to the Downloads directory on your computer.
 Then issue the **<font face="courier">PacletInstall</font>** command
 ```mma
-PacletInstall[FileNameJoin[{path, "Rubi-4.16.0.4.paclet"}]
+PacletInstall[FileNameJoin[{path, "Rubi-4.16.1.0.paclet"}]
 ```
 where **<font face="courier">path</font>** is the full path name of the Downloads directory on your computer.
 This command will install the paclet on your computer as a package named Rubi in Mathematica's paclet repository.
@@ -58,8 +58,8 @@ to see the full path name to the location of the Rubi package.
 
 ## Instructions for Mathematica 7 or later
 
-Click [here](https://github.com/RuleBasedIntegration/Rubi/releases/download/4.16.0.4/Rubi-4.16.0.4.zip)
-to download **<font face="courier">Rubi-4.16.0.4.zip</font>** to the Downloads directory on your computer.
+Click [here](https://github.com/RuleBasedIntegration/Rubi/releases/download/4.16.1.0/Rubi-4.16.1.0.zip)
+to download **<font face="courier">Rubi-4.16.1.0.zip</font>** to the Downloads directory on your computer.
 Then extract from the zip file the **<font face="courier">Rubi</font>** folder with all its contents into the directory returned by the Mathematica commmand
 
 ```mma
