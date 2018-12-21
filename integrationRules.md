@@ -1,9 +1,10 @@
 # Rubi's Integration Rules
 
 Rubi systematically applies precisely defined rules to efficiently integrate large classes of mathematical expressions.
-All the integration rules are displayed in human readable form as PDF files and organized in a hierarchical tree based on the form of the integrand.
+The integration rules, expressed in both human and machine-readable form, are available for downloading as PDF files and as Mathematica notebook files.
+The files are organized in a hierarchical tree based on the form of the integrand.
 
-The rules are displayed in mathematical notation followed by the equivalent Mathematica program code.
+The rules are displayed in standard, 2-dimensional mathematical notation, and followed by the equivalent Mathematica program code.
 Comments preceding many of the rules document them as follows:
 
 - **Derivation** gives the integration technique used to derive a rule.
@@ -21,33 +22,35 @@ Comments preceding many of the rules document them as follows:
 ### 1.1 Binomial products
 
 #### 1.1.1 Linear binomials
-* <a href="PdfRuleFiles/1 Algebraic functions/1.1 Binomial products/1.1.1 Linear/1.1.1.1 (a+b x)^m.pdf">1.1.1.1 (a+b x)^m</a>
-* <a href="PdfRuleFiles/1 Algebraic functions/1.1 Binomial products/1.1.1 Linear/1.1.1.2 (a+b x)^m (c+d x)^n.pdf">1.1.1.2 (a+b x)^m (c+d x)^n</a>
-* <a href="PdfRuleFiles/1 Algebraic functions/1.1 Binomial products/1.1.1 Linear/1.1.1.3 (a+b x)^m (c+d x)^n (e+f x)^p.pdf">1.1.1.3 (a+b x)^m (c+d x)^n (e+f x)^p</a>
-* <a href="PdfRuleFiles/1 Algebraic functions/1.1 Binomial products/1.1.1 Linear/1.1.1.4 (a+b x)^m (c+d x)^n (e+f x)^p (g+h x)^q.pdf">1.1.1.4 (a+b x)^m (c+d x)^n (e+f x)^p (g+h x)^q</a>
-* <a href="PdfRuleFiles/1 Algebraic functions/1.1 Binomial products/1.1.1 Linear/1.1.1.5 P(x) (a+b x)^m (c+d x)^n.pdf">1.1.1.5 P(x) (a+b x)^m (c+d x)^n</a>
-* <a href="PdfRuleFiles/1 Algebraic functions/1.1 Binomial products/1.1.1 Linear/1.1.1.6 P(x) (a+b x)^m (c+d x)^n (e+f x)^p.pdf">1.1.1.6 P(x) (a+b x)^m (c+d x)^n (e+f x)^p</a>
-* <a href="PdfRuleFiles/1 Algebraic functions/1.1 Binomial products/1.1.1 Linear/1.1.1.7 P(x) (a+b x)^m (c+d x)^n (e+f x)^p (g+h x)^q.pdf">1.1.1.7 P(x) (a+b x)^m (c+d x)^n (e+f x)^p (g+h x)^q</a>
+* <a href="PdfRuleFiles/1 Algebraic functions/1.1 Binomial products/1.1.1 Linear/1.1.1.1 (a+b x)^m.pdf">PDF file</a> &emsp; 
+<a href="NotebookRuleFiles/1 Algebraic functions/1.1 Binomial products/1.1.1 Linear/1.1.1.1 (a+b x)^m.nb">Notebook file</a> &emsp; 1.1.1.1 (a+b x)^m<br>
+* <a href="PdfRuleFiles/1 Algebraic functions/1.1 Binomial products/1.1.1 Linear/1.1.1.2 (a+b x)^m (c+d x)^n.pdf">PDF file</a> &emsp; 
+<a href="NotebookRuleFiles/1 Algebraic functions/1.1 Binomial products/1.1.1 Linear/1.1.1.2 (a+b x)^m (c+d x)^n.nb">Notebook file</a> &emsp; 1.1.1.2 (a+b x)^m (c+d x)^n<br>
+* <a href="PdfRuleFiles/1 Algebraic functions/1.1 Binomial products/1.1.1 Linear/1.1.1.3 (a+b x)^m (c+d x)^n (e+f x)^p.pdf">PDF file</a> &emsp; <a href="NotebookRuleFiles/1 Algebraic functions/1.1 Binomial products/1.1.1 Linear/1.1.1.3 (a+b x)^m (c+d x)^n (e+f x)^p.nb">Notebook file</a> &emsp; 1.1.1.3 (a+b x)^m (c+d x)^n (e+f x)^p<br>
+* <a href="PdfRuleFiles/1 Algebraic functions/1.1 Binomial products/1.1.1 Linear/1.1.1.4 (a+b x)^m (c+d x)^n (e+f x)^p (g+h x)^q.pdf">PDF file</a> &emsp; <a href="NotebookRuleFiles/1 Algebraic functions/1.1 Binomial products/1.1.1 Linear/1.1.1.4 (a+b x)^m (c+d x)^n (e+f x)^p (g+h x)^q.nb">Notebook file</a> &emsp; 1.1.1.4 (a+b x)^m (c+d x)^n (e+f x)^p (g+h x)^q<br>
+* <a href="PdfRuleFiles/1 Algebraic functions/1.1 Binomial products/1.1.1 Linear/1.1.1.5 P(x) (a+b x)^m (c+d x)^n.pdf">PDF file</a> &emsp; <a href="NotebookRuleFiles/1 Algebraic functions/1.1 Binomial products/1.1.1 Linear/1.1.1.5 P(x) (a+b x)^m (c+d x)^n.nb">Notebook file</a> &emsp; 1.1.1.5 P(x) (a+b x)^m (c+d x)^n<br>
+* <a href="PdfRuleFiles/1 Algebraic functions/1.1 Binomial products/1.1.1 Linear/1.1.1.6 P(x) (a+b x)^m (c+d x)^n (e+f x)^p.pdf">PDF file</a> &emsp; <a href="NotebookRuleFiles/1 Algebraic functions/1.1 Binomial products/1.1.1 Linear/1.1.1.6 P(x) (a+b x)^m (c+d x)^n (e+f x)^p.nb">Notebook file</a> &emsp; 1.1.1.6 P(x) (a+b x)^m (c+d x)^n (e+f x)^p<br>
+* <a href="PdfRuleFiles/1 Algebraic functions/1.1 Binomial products/1.1.1 Linear/1.1.1.7 P(x) (a+b x)^m (c+d x)^n (e+f x)^p (g+h x)^q.pdf">PDF file</a> &emsp; <a href="NotebookRuleFiles/1 Algebraic functions/1.1 Binomial products/1.1.1 Linear/1.1.1.7 P(x) (a+b x)^m (c+d x)^n (e+f x)^p (g+h x)^q.nb">Notebook file</a> &emsp; 1.1.1.7 P(x) (a+b x)^m (c+d x)^n (e+f x)^p (g+h x)^q<br>
 
 #### 1.1.2 Quadratic binomials
-* <a href="PdfRuleFiles/1 Algebraic functions/1.1 Binomial products/1.1.2 Quadratic/1.1.2.x P(x) (a+b x^2)^p.pdf">1.1.2.x P(x) (a+b x^2)^p</a>
-* <a href="PdfRuleFiles/1 Algebraic functions/1.1 Binomial products/1.1.2 Quadratic/1.1.2.y P(x) (c x)^m (a+b x^2)^p.pdf">1.1.2.y P(x) (c x)^m (a+b x^2)^p</a>
+* <a href="PdfRuleFiles/1 Algebraic functions/1.1 Binomial products/1.1.2 Quadratic/1.1.2.x P(x) (a+b x^2)^p.pdf">PDF file</a> &emsp; <a href="NotebookRuleFiles/1 Algebraic functions/1.1 Binomial products/1.1.2 Quadratic/1.1.2.x P(x) (a+b x^2)^p.nb">Notebook file</a> &emsp; 1.1.2.x P(x) (a+b x^2)^p<br>
+* <a href="PdfRuleFiles/1 Algebraic functions/1.1 Binomial products/1.1.2 Quadratic/1.1.2.y P(x) (c x)^m (a+b x^2)^p.pdf">PDF file</a> &emsp; <a href="NotebookRuleFiles/1 Algebraic functions/1.1 Binomial products/1.1.2 Quadratic/1.1.2.y P(x) (c x)^m (a+b x^2)^p.nb">Notebook file</a> &emsp; 1.1.2.y P(x) (c x)^m (a+b x^2)^p<br>
 
 #### 1.1.3 General binomials
-* <a href="PdfRuleFiles/1 Algebraic functions/1.1 Binomial products/1.1.3 General/1.1.3.1 (a+b x^n)^p.pdf">1.1.3.1 (a+b x^n)^p</a>
-* <a href="PdfRuleFiles/1 Algebraic functions/1.1 Binomial products/1.1.3 General/1.1.3.2 (c x)^m (a+b x^n)^p.pdf">1.1.3.2 (c x)^m (a+b x^n)^p</a>
-* <a href="PdfRuleFiles/1 Algebraic functions/1.1 Binomial products/1.1.3 General/1.1.3.3 (a+b x^n)^p (c+d x^n)^q.pdf">1.1.3.3 (a+b x^n)^p (c+d x^n)^q</a>
-* <a href="PdfRuleFiles/1 Algebraic functions/1.1 Binomial products/1.1.3 General/1.1.3.4 (e x)^m (a+b x^n)^p (c+d x^n)^q.pdf">1.1.3.4 (e x)^m (a+b x^n)^p (c+d x^n)^q</a>
-* <a href="PdfRuleFiles/1 Algebraic functions/1.1 Binomial products/1.1.3 General/1.1.3.5 (a+b x^n)^p (c+d x^n)^q (e+f x^n)^r.pdf">1.1.3.5 (a+b x^n)^p (c+d x^n)^q (e+f x^n)^r</a>
-* <a href="PdfRuleFiles/1 Algebraic functions/1.1 Binomial products/1.1.3 General/1.1.3.6 (g x)^m (a+b x^n)^p (c+d x^n)^q (e+f x^n)^r.pdf">1.1.3.6 (g x)^m (a+b x^n)^p (c+d x^n)^q (e+f x^n)^r</a>
-* <a href="PdfRuleFiles/1 Algebraic functions/1.1 Binomial products/1.1.3 General/1.1.3.7 P(x) (a+b x^n)^p.pdf">1.1.3.7 P(x) (a+b x^n)^p</a>
-* <a href="PdfRuleFiles/1 Algebraic functions/1.1 Binomial products/1.1.3 General/1.1.3.8 P(x) (c x)^m (a+b x^n)^p.pdf">1.1.3.8 P(x) (c x)^m (a+b x^n)^p</a>
+* <a href="PdfRuleFiles/1 Algebraic functions/1.1 Binomial products/1.1.3 General/1.1.3.1 (a+b x^n)^p.pdf">PDF file</a> &emsp; <a href="NotebookRuleFiles/1 Algebraic functions/1.1 Binomial products/1.1.3 General/1.1.3.1 (a+b x^n)^p.nb">Notebook file</a> &emsp; 1.1.3.1 (a+b x^n)^p<br>
+* <a href="PdfRuleFiles/1 Algebraic functions/1.1 Binomial products/1.1.3 General/1.1.3.2 (c x)^m (a+b x^n)^p.pdf">PDF file</a> &emsp; <a href="NotebookRuleFiles/1 Algebraic functions/1.1 Binomial products/1.1.3 General/1.1.3.2 (c x)^m (a+b x^n)^p.nb">Notebook file</a> &emsp; 1.1.3.2 (c x)^m (a+b x^n)^p<br>
+* <a href="PdfRuleFiles/1 Algebraic functions/1.1 Binomial products/1.1.3 General/1.1.3.3 (a+b x^n)^p (c+d x^n)^q.pdf">PDF file</a> &emsp; <a href="NotebookRuleFiles/1 Algebraic functions/1.1 Binomial products/1.1.3 General/1.1.3.3 (a+b x^n)^p (c+d x^n)^q.nb">Notebook file</a> &emsp; 1.1.3.3 (a+b x^n)^p (c+d x^n)^q<br>
+* <a href="PdfRuleFiles/1 Algebraic functions/1.1 Binomial products/1.1.3 General/1.1.3.4 (e x)^m (a+b x^n)^p (c+d x^n)^q.pdf">PDF file</a> &emsp; <a href="NotebookRuleFiles/1 Algebraic functions/1.1 Binomial products/1.1.3 General/1.1.3.4 (e x)^m (a+b x^n)^p (c+d x^n)^q.nb">Notebook file</a> &emsp; 1.1.3.4 (e x)^m (a+b x^n)^p (c+d x^n)^q<br>
+* <a href="PdfRuleFiles/1 Algebraic functions/1.1 Binomial products/1.1.3 General/1.1.3.5 (a+b x^n)^p (c+d x^n)^q (e+f x^n)^r.pdf">PDF file</a> &emsp; <a href="NotebookRuleFiles/1 Algebraic functions/1.1 Binomial products/1.1.3 General/1.1.3.5 (a+b x^n)^p (c+d x^n)^q (e+f x^n)^r.nb">Notebook file</a> &emsp; 1.1.3.5 (a+b x^n)^p (c+d x^n)^q (e+f x^n)^r<br>
+* <a href="PdfRuleFiles/1 Algebraic functions/1.1 Binomial products/1.1.3 General/1.1.3.6 (g x)^m (a+b x^n)^p (c+d x^n)^q (e+f x^n)^r.pdf">PDF file</a> &emsp; <a href="NotebookRuleFiles/1 Algebraic functions/1.1 Binomial products/1.1.3 General/1.1.3.6 (g x)^m (a+b x^n)^p (c+d x^n)^q (e+f x^n)^r.nb">Notebook file</a> &emsp; 1.1.3.6 (g x)^m (a+b x^n)^p (c+d x^n)^q (e+f x^n)^r<br>
+* <a href="PdfRuleFiles/1 Algebraic functions/1.1 Binomial products/1.1.3 General/1.1.3.7 P(x) (a+b x^n)^p.pdf">PDF file</a> &emsp; <a href="NotebookRuleFiles/1 Algebraic functions/1.1 Binomial products/1.1.3 General/1.1.3.7 P(x) (a+b x^n)^p.nb">Notebook file</a> &emsp; 1.1.3.7 P(x) (a+b x^n)^p<br>
+* <a href="PdfRuleFiles/1 Algebraic functions/1.1 Binomial products/1.1.3 General/1.1.3.8 P(x) (c x)^m (a+b x^n)^p.pdf">PDF file</a> &emsp; <a href="NotebookRuleFiles/1 Algebraic functions/1.1 Binomial products/1.1.3 General/1.1.3.8 P(x) (c x)^m (a+b x^n)^p.nb">Notebook file</a> &emsp; 1.1.3.8 P(x) (c x)^m (a+b x^n)^p<br>
 
 #### 1.1.4 Improper binomials
-* <a href="PdfRuleFiles/1 Algebraic functions/1.1 Binomial products/1.1.4 Improper/1.1.4.1 (a x^j+b x^n)^p.pdf">1.1.4.1 (a x^j+b x^n)^p</a>
-* <a href="PdfRuleFiles/1 Algebraic functions/1.1 Binomial products/1.1.4 Improper/1.1.4.2 (c x)^m (a x^j+b x^n)^p.pdf">1.1.4.2 (c x)^m (a x^j+b x^n)^p</a>
-* <a href="PdfRuleFiles/1 Algebraic functions/1.1 Binomial products/1.1.4 Improper/1.1.4.3 (e x)^m (a x^j+b x^k)^p (c+d x^n)^q.pdf">1.1.4.3 (e x)^m (a x^j+b x^k)^p (c+d x^n)^q</a>
-* <a href="PdfRuleFiles/1 Algebraic functions/1.1 Binomial products/1.1.4 Improper/1.1.4.4 P(x) (c x)^m (a x^j+b x^n)^p.pdf">1.1.4.4 P(x) (c x)^m (a x^j+b x^n)^p</a>
+* <a href="PdfRuleFiles/1 Algebraic functions/1.1 Binomial products/1.1.4 Improper/1.1.4.1 (a x^j+b x^n)^p.pdf">PDF file</a> &emsp; <a href="NotebookRuleFiles/1 Algebraic functions/1.1 Binomial products/1.1.4 Improper/1.1.4.1 (a x^j+b x^n)^p.nb">Notebook file</a> &emsp; 1.1.4.1 (a x^j+b x^n)^p<br>
+* <a href="PdfRuleFiles/1 Algebraic functions/1.1 Binomial products/1.1.4 Improper/1.1.4.2 (c x)^m (a x^j+b x^n)^p.pdf">PDF file</a> &emsp; <a href="NotebookRuleFiles/1 Algebraic functions/1.1 Binomial products/1.1.4 Improper/1.1.4.2 (c x)^m (a x^j+b x^n)^p.nb">Notebook file</a> &emsp; 1.1.4.2 (c x)^m (a x^j+b x^n)^p<br>
+* <a href="PdfRuleFiles/1 Algebraic functions/1.1 Binomial products/1.1.4 Improper/1.1.4.3 (e x)^m (a x^j+b x^k)^p (c+d x^n)^q.pdf">PDF file</a> &emsp; <a href="NotebookRuleFiles/1 Algebraic functions/1.1 Binomial products/1.1.4 Improper/1.1.4.3 (e x)^m (a x^j+b x^k)^p (c+d x^n)^q.nb">Notebook file</a> &emsp; 1.1.4.3 (e x)^m (a x^j+b x^k)^p (c+d x^n)^q<br>
+* <a href="PdfRuleFiles/1 Algebraic functions/1.1 Binomial products/1.1.4 Improper/1.1.4.4 P(x) (c x)^m (a x^j+b x^n)^p.pdf">PDF file</a> &emsp; <a href="NotebookRuleFiles/1 Algebraic functions/1.1 Binomial products/1.1.4 Improper/1.1.4.4 P(x) (c x)^m (a x^j+b x^n)^p.nb">Notebook file</a> &emsp; 1.1.4.4 P(x) (c x)^m (a x^j+b x^n)^p<br>
 
 ### 1.2 Trinomial products
 
