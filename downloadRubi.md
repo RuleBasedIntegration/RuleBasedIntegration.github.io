@@ -25,7 +25,7 @@ Start Mathematica and issue the **<font face="courier">PacletInstall</font>** co
 ```mathematica
 PacletInstall["https://rulebasedintegration.org/Rubi-4.16.1.0.paclet"]
 ```
-This command downloads the latest version of Rubi and installs it on your computer as a package in Mathematica's paclet repository.
+This downloads the latest version of Rubi and installs it on your computer as a package in Mathematica's Paclets repository for packages.
 Use the command
 
 ```mma
@@ -42,7 +42,7 @@ Then start Mathematica and issue the **<font face="courier">PacletInstall</font>
 PacletInstall[FileNameJoin[{path, "Rubi-4.16.1.0.paclet"}]
 ```
 where **<font face="courier">path</font>** is the full path name of the Downloads directory on your computer.
-This command installs the latest version of Rubi on your computer as a package in Mathematica's paclet repository.
+This installs the latest version of Rubi on your computer as a package in Mathematica's Paclets repository for packages.
 Use the command
 ```mma
 First[PacletFind["Rubi"]]["Location"]
@@ -57,7 +57,7 @@ Then extract from the zip file the **<font face="courier">Rubi</font>** folder w
 ```mma
 FileNameJoin[{$UserBaseDirectory, "Applications"}]
 ```
-This installs the Rubi package in Mathematica's repository for packages. 
+This installs the Rubi package on your computer in Mathematica's Applications repository for packages. 
 
 
 # Instructions for Uninstalling Rubi
