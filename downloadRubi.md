@@ -57,7 +57,7 @@ Then extract from the zip file the **<font face="courier">Rubi</font>** folder w
 ```mma
 FileNameJoin[{$UserBaseDirectory, "Applications"}]
 ```
-This installs the Rubi package on your computer in Mathematica's Applications repository for packages. 
+This installs the latest version of Rubi on your computer in Mathematica's Applications repository for packages. 
 
 
 # Instructions for Uninstalling Rubi
