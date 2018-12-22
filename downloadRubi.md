@@ -23,9 +23,7 @@ So the following provides installation instructions for the various versions of 
 Use the **<font face="courier">PacletInstall</font>** command
 
 ```mathematica
-PacletInstall[
-  "https://github.com/RuleBasedIntegration/Rubi/releases/download/4.16.1.0/Rubi-4.16.1.0.paclet"
-]
+PacletInstall["https://rulebasedintegration.org/Rubi-4.16.1.0.paclet"]
 ```
 to download the current Rubi paclet directly from the online repository on GitHub, and
 then install it on your computer as a Mathematica package named Rubi.
@@ -41,8 +39,7 @@ to see the full path name to the location of the Rubi package.
 
 ## Instructions for Mathematica 9 or later 
 
-Click [here](https://github.com/RuleBasedIntegration/Rubi/releases/download/4.16.1.0/Rubi-4.16.1.0.paclet) 
-to download **<font face="courier">Rubi-4.16.1.0.paclet</font>** to the Downloads directory on your computer.
+Click [here](https://rulebasedintegration.org/Rubi-4.16.1.0.paclet) to download **<font face="courier">Rubi-4.16.1.0.paclet</font>** to the Downloads directory on your computer.
 Then issue the **<font face="courier">PacletInstall</font>** command
 ```mma
 PacletInstall[FileNameJoin[{path, "Rubi-4.16.1.0.paclet"}]
@@ -58,8 +55,7 @@ to see the full path name to the location of the Rubi package.
 
 ## Instructions for Mathematica 7 or later
 
-Click [here](https://github.com/RuleBasedIntegration/Rubi/releases/download/4.16.1.0/Rubi-4.16.1.0.zip)
-to download **<font face="courier">Rubi-4.16.1.0.zip</font>** to the Downloads directory on your computer.
+Click [here](https://rulebasedintegration.org/Rubi-4.16.1.0.zip) to download **<font face="courier">Rubi-4.16.1.0.zip</font>** to the Downloads directory on your computer.
 Then extract from the zip file the **<font face="courier">Rubi</font>** folder with all its contents into the directory returned by the Mathematica commmand
 
 ```mma
