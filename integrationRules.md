@@ -97,7 +97,7 @@ Comments preceding many of the rules document them as follows:
 
 ## 2 Exponential Rules
 * <a href="PdfRuleFiles/2 Exponentials/2.1 (c+d x)^m (a+b (F^(g (e+f x)))^n)^p.pdf">PDF file</a> &emsp; <a href="NotebookRuleFiles/2 Exponentials/2.1 (c+d x)^m (a+b (F^(g (e+f x)))^n)^p.nb">Notebook file</a> &emsp; 2.1 (c+d x)^m (a+b (F^(g (e+f x)))^n)^p<br>
-* <a href="PdfRuleFiles/2 Exponentials/2.2 (c+d x)^m (F^(g (e+f x)))^n (a+b (F^(g (e+f x)))^n)^p.pdf">PDF file</a> &emsp; <a href="NotebookRuleFiles/2 Exponentials/2.2 (c+d x)^m (F^(g (e+f x)))^n (a+b (F^(g (e+f x)))^n)^p^p.nb">Notebook file</a> &emsp; 2.2 (c+d x)^m (F^(g (e+f x)))^n (a+b (F^(g (e+f x)))^n)^p<br>
+* <a href="PdfRuleFiles/2 Exponentials/2.2 (c+d x)^m (F^(g (e+f x)))^n (a+b (F^(g (e+f x)))^n)^p.pdf">PDF file</a> &emsp; <a href="NotebookRuleFiles/2 Exponentials/2.2 (c+d x)^m (F^(g (e+f x)))^n (a+b (F^(g (e+f x)))^n)^p.nb">Notebook file</a> &emsp; 2.2 (c+d x)^m (F^(g (e+f x)))^n (a+b (F^(g (e+f x)))^n)^p<br>
 * <a href="PdfRuleFiles/2 Exponentials/2.3 Miscellaneous exponentials.pdf">PDF file</a> &emsp; <a href="NotebookRuleFiles/2 Exponentials/2.3 Miscellaneous exponentials.nb">Notebook file</a> &emsp; 2.3 Miscellaneous exponentials<br>
 
 ## 3 Logarithm Rules
