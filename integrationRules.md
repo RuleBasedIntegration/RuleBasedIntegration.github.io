@@ -96,22 +96,22 @@ Comments preceding many of the rules document them as follows:
 * <a href="PdfRuleFiles/1 Algebraic functions/1.3 Miscellaneous/1.3.4 Normalizing algebraic functions.pdf">PDF file</a> &emsp; <a href="NotebookRuleFiles/1 Algebraic functions/1.3 Miscellaneous/1.3.4 Normalizing algebraic functions.nb">Notebook file</a> &emsp; 1.3.4 Normalizing algebraic functions<br>
 
 ## 2 Exponential Rules
-* <a href="PdfRuleFiles/2 Exponentials/2.1 (c+d x)^m (a+b (F^(g (e+f x)))^n)^p.pdf">2.1 (c+d x)^m (a+b (F^(g (e+f x)))^n)^p</a>
-* <a href="PdfRuleFiles/2 Exponentials/2.2 (c+d x)^m (F^(g (e+f x)))^n (a+b (F^(g (e+f x)))^n)^p.pdf">2.2 (c+d x)^m (F^(g (e+f x)))^n (a+b (F^(g (e+f x)))^n)^p</a>
-* <a href="PdfRuleFiles/2 Exponentials/2.3 Miscellaneous exponentials.pdf">2.3 Miscellaneous exponentials</a>
+* <a href="PdfRuleFiles/2 Exponentials/2.1 (c+d x)^m (a+b (F^(g (e+f x)))^n)^p.pdf">PDF file</a> &emsp; <a href="NotebookRuleFiles/2 Exponentials/2.1 (c+d x)^m (a+b (F^(g (e+f x)))^n)^p.nb">Notebook file</a> &emsp; 2.1 (c+d x)^m (a+b (F^(g (e+f x)))^n)^p<br>
+* <a href="PdfRuleFiles/2 Exponentials/2.2 (c+d x)^m (F^(g (e+f x)))^n (a+b (F^(g (e+f x)))^n)^p.pdf">PDF file</a> &emsp; <a href="NotebookRuleFiles/2 Exponentials/2.2 (c+d x)^m (F^(g (e+f x)))^n (a+b (F^(g (e+f x)))^n)^p^p.nb">Notebook file</a> &emsp; 2.2 (c+d x)^m (F^(g (e+f x)))^n (a+b (F^(g (e+f x)))^n)^p<br>
+* <a href="PdfRuleFiles/2 Exponentials/2.3 Miscellaneous exponentials.pdf">PDF file</a> &emsp; <a href="NotebookRuleFiles/2 Exponentials/2.3 Miscellaneous exponentials.nb">Notebook file</a> &emsp; 2.3 Miscellaneous exponentials<br>
 
 ## 3 Logarithm Rules
-* <a href="PdfRuleFiles/3 Logarithms/3.1.1 (a+b log(c x^n))^p.pdf">3.1.1 (a+b log(c x^n))^p</a>
-* <a href="PdfRuleFiles/3 Logarithms/3.1.2 (d x)^m (a+b log(c x^n))^p.pdf">3.1.2 (d x)^m (a+b log(c x^n))^p</a>
-* <a href="PdfRuleFiles/3 Logarithms/3.1.3 (d+e x^r)^q (a+b log(c x^n))^p.pdf">3.1.3 (d+e x^r)^q (a+b log(c x^n))^p</a>
-* <a href="PdfRuleFiles/3 Logarithms/3.1.4 (f x)^m (d+e x^r)^q (a+b log(c x^n))^p.pdf">3.1.4 (f x)^m (d+e x^r)^q (a+b log(c x^n))^p</a>
-* <a href="PdfRuleFiles/3 Logarithms/3.1.5 u (a+b log(c x^n))^p.pdf">3.1.5 u (a+b log(c x^n))^p</a>
-* <a href="PdfRuleFiles/3 Logarithms/3.2.1 (f+g x)^m (A+B log(e ((a+b x) over (c+d x))^n))^p.pdf">3.2.1 (f+g x)^m (A+B log(e ((a+b x) over (c+d x))^n))^p</a>
-* <a href="PdfRuleFiles/3 Logarithms/3.2.2 (f+g x)^m (h+i x)^q (A+B log(e ((a+b x) over (c+d x))^n))^p.pdf">3.2.2 (f+g x)^m (h+i x)^q (A+B log(e ((a+b x) over (c+d x))^n))^p</a>
-* <a href="PdfRuleFiles/3 Logarithms/3.2.3 u log(e (f (a+b x)^p (c+d x)^q)^r)^s.pdf">3.2.3 u log(e (f (a+b x)^p (c+d x)^q)^r)^s</a>
-* <a href="PdfRuleFiles/3 Logarithms/3.3 u (a+b log(c (d+e x)^n))^p.pdf">3.3 u (a+b log(c (d+e x)^n))^p</a>
-* <a href="PdfRuleFiles/3 Logarithms/3.4 u (a+b log(c (d+e x^m)^n))^p.pdf">3.4 u (a+b log(c (d+e x^m)^n))^p</a>
-* <a href="PdfRuleFiles/3 Logarithms/3.5 Miscellaneous logarithms.pdf">3.5 Miscellaneous logarithms</a>
+* <a href="PdfRuleFiles/3 Logarithms/3.1.1 (a+b log(c x^n))^p.pdf">PDF file</a> &emsp; <a href="NotebookRuleFiles/3 Logarithms/3.1.1 (a+b log(c x^n))^p.nb">Notebook file</a> &emsp; 3.1.1 (a+b log(c x^n))^p<br>
+* <a href="PdfRuleFiles/3 Logarithms/3.1.2 (d x)^m (a+b log(c x^n))^p.pdf">PDF file</a> &emsp; <a href="NotebookRuleFiles/3 Logarithms/3.1.2 (d x)^m (a+b log(c x^n))^p.nb">Notebook file</a> &emsp; 3.1.2 (d x)^m (a+b log(c x^n))^p<br>
+* <a href="PdfRuleFiles/3 Logarithms/3.1.3 (d+e x^r)^q (a+b log(c x^n))^p.pdf">PDF file</a> &emsp; <a href="NotebookRuleFiles/3 Logarithms/3.1.3 (d+e x^r)^q (a+b log(c x^n))^p.nb">Notebook file</a> &emsp; 3.1.3 (d+e x^r)^q (a+b log(c x^n))^p<br>
+* <a href="PdfRuleFiles/3 Logarithms/3.1.4 (f x)^m (d+e x^r)^q (a+b log(c x^n))^p.pdf">PDF file</a> &emsp; <a href="NotebookRuleFiles/3 Logarithms/3.1.4 (f x)^m (d+e x^r)^q (a+b log(c x^n))^p.nb">Notebook file</a> &emsp; 3.1.4 (f x)^m (d+e x^r)^q (a+b log(c x^n))^p<br>
+* <a href="PdfRuleFiles/3 Logarithms/3.1.5 u (a+b log(c x^n))^p.pdf">PDF file</a> &emsp; <a href="NotebookRuleFiles/3 Logarithms/3.1.5 u (a+b log(c x^n))^p.nb">Notebook file</a> &emsp; 3.1.5 u (a+b log(c x^n))^p<br>
+* <a href="PdfRuleFiles/3 Logarithms/3.2.1 (f+g x)^m (A+B log(e ((a+b x) over (c+d x))^n))^p.pdf">PDF file</a> &emsp; <a href="NotebookRuleFiles/3 Logarithms/3.2.1 (f+g x)^m (A+B log(e ((a+b x) over (c+d x))^n))^p.nb">Notebook file</a> &emsp; 3.2.1 (f+g x)^m (A+B log(e ((a+b x) over (c+d x))^n))^p<br>
+* <a href="PdfRuleFiles/3 Logarithms/3.2.2 (f+g x)^m (h+i x)^q (A+B log(e ((a+b x) over (c+d x))^n))^p.pdf">PDF file</a> &emsp; <a href="NotebookRuleFiles/3 Logarithms/3.2.2 (f+g x)^m (h+i x)^q (A+B log(e ((a+b x) over (c+d x))^n))^p.nb">Notebook file</a> &emsp; 3.2.2 (f+g x)^m (h+i x)^q (A+B log(e ((a+b x) over (c+d x))^n))^p<br>
+* <a href="PdfRuleFiles/3 Logarithms/3.2.3 u log(e (f (a+b x)^p (c+d x)^q)^r)^s.pdf">PDF file</a> &emsp; <a href="NotebookRuleFiles/3 Logarithms/3.2.3 u log(e (f (a+b x)^p (c+d x)^q)^r)^s.nb">Notebook file</a> &emsp; 3.2.3 u log(e (f (a+b x)^p (c+d x)^q)^r)^s<br>
+* <a href="PdfRuleFiles/3 Logarithms/3.3 u (a+b log(c (d+e x)^n))^p.pdf">PDF file</a> &emsp; <a href="NotebookRuleFiles/3 Logarithms/3.3 u (a+b log(c (d+e x)^n))^p.nb">Notebook file</a> &emsp; 3.3 u (a+b log(c (d+e x)^n))^p<br>
+* <a href="PdfRuleFiles/3 Logarithms/3.4 u (a+b log(c (d+e x^m)^n))^p.pdf">PDF file</a> &emsp; <a href="NotebookRuleFiles/3 Logarithms/3.4 u (a+b log(c (d+e x^m)^n))^p.nb">Notebook file</a> &emsp; 3.4 u (a+b log(c (d+e x^m)^n))^p<br>
+* <a href="PdfRuleFiles/3 Logarithms/3.5 Miscellaneous logarithms.pdf">PDF file</a> &emsp; <a href="NotebookRuleFiles/3 Logarithms/3.5 Miscellaneous logarithms.nb">Notebook file</a> &emsp; 3.5 Miscellaneous logarithms<br>
 
 ## 4 Trig Function Rules
 
