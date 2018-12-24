@@ -1,6 +1,6 @@
 # Integration Test Problems
 
-Contemporaneous with the development of Rubi, a test-suite consisting of tens of thousands of integration problems was built to test every aspect of the system.  The test-suite files are organized into categories based on the form of the problem's integrand.  Each problem is stored as a list of the integrand, the integration variable, the number of steps Rubi uses to integrate the problem, and the optimal antiderivative. 
+Contemporaneous with the development of Rubi, a test-suite consisting of tens of thousands of integration problems has been built to test every aspect of the system.  The test-suite files are organized into categories based on the form of the problems' integrands.  Each problem is stored as a list of the integrand, the integration variable, the number of steps Rubi uses to integrate the problem, and the optimal antiderivative. 
 
 ## Integration Test-suites
 
