@@ -8,7 +8,7 @@ The rules in the files are displayed in standard, 2-dimensional mathematical not
 
 * **<font face="courier">Derivation</font>** gives the integration technique used to derive a rule.
 - **<font face="courier">Basis</font>** gives the mathematical identity used to transform the integrand into a form easier to integrate.
-- **<font face="courier">Reference** gives the number assigned to the rule in one or more of the following integration tables:
+- **<font face="courier">Reference</font>** gives the number assigned to the rule in one or more of the following integration tables:
   - **<font face="courier">G&R</font>** is the ["Table of Integrals, Series, and Products"](https://isbnsearch.org/isbn/9780122947551),
    fifth edition, I.S. Gradshteyn, I.M. Ryzhik, and Alan Jeffrey, editors.
   - **<font face="courier">CRC</font>** is the ["CRC Standard Mathematical Tables and Formulae"](https://isbnsearch.org/isbn/9780849306297),
