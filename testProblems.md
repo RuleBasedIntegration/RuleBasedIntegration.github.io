@@ -4,7 +4,7 @@ Contemporaneous with the development of Rubi, a test-suite consisting of tens of
 
 Since the resulting test-suite is useful for evaluating the performance of *any* symbolic integrator, the problems have been translated into the syntax of several popular computer algebra systems.  The integration test-suite is freely available as a zip file in the following formats:
 
-- [Axiom syntax][1]
+* [Axiom syntax](/TestFiles/AxiomSyntaxFiles/AxiomSyntaxTestFiles.zip)
 - [Maple syntax][2]
 - [Mathematica syntax][3]
 - [Maxima syntax][4]
