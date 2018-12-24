@@ -95,10 +95,12 @@ Comments preceding many of the rules document them as follows:
 * <a href="PdfRuleFiles/1 Algebraic functions/1.3 Miscellaneous/1.3.3 Miscellaneous algebraic functions.pdf">PDF file</a> &emsp; <a href="NotebookRuleFiles/1 Algebraic functions/1.3 Miscellaneous/1.3.3 Miscellaneous algebraic functions.nb">Notebook file</a> &emsp; 1.3.3 Miscellaneous algebraic functions<br>
 * <a href="PdfRuleFiles/1 Algebraic functions/1.3 Miscellaneous/1.3.4 Normalizing algebraic functions.pdf">PDF file</a> &emsp; <a href="NotebookRuleFiles/1 Algebraic functions/1.3 Miscellaneous/1.3.4 Normalizing algebraic functions.nb">Notebook file</a> &emsp; 1.3.4 Normalizing algebraic functions<br>
 
+
 ## 2 Exponential Rules
 * <a href="PdfRuleFiles/2 Exponentials/2.1 (c+d x)^m (a+b (F^(g (e+f x)))^n)^p.pdf">PDF file</a> &emsp; <a href="NotebookRuleFiles/2 Exponentials/2.1 (c+d x)^m (a+b (F^(g (e+f x)))^n)^p.nb">Notebook file</a> &emsp; 2.1 (c+d x)^m (a+b (F^(g (e+f x)))^n)^p<br>
 * <a href="PdfRuleFiles/2 Exponentials/2.2 (c+d x)^m (F^(g (e+f x)))^n (a+b (F^(g (e+f x)))^n)^p.pdf">PDF file</a> &emsp; <a href="NotebookRuleFiles/2 Exponentials/2.2 (c+d x)^m (F^(g (e+f x)))^n (a+b (F^(g (e+f x)))^n)^p.nb">Notebook file</a> &emsp; 2.2 (c+d x)^m (F^(g (e+f x)))^n (a+b (F^(g (e+f x)))^n)^p<br>
 * <a href="PdfRuleFiles/2 Exponentials/2.3 Miscellaneous exponentials.pdf">PDF file</a> &emsp; <a href="NotebookRuleFiles/2 Exponentials/2.3 Miscellaneous exponentials.nb">Notebook file</a> &emsp; 2.3 Miscellaneous exponentials<br>
+
 
 ## 3 Logarithm Rules
 * <a href="PdfRuleFiles/3 Logarithms/3.1.1 (a+b log(c x^n))^p.pdf">PDF file</a> &emsp; <a href="NotebookRuleFiles/3 Logarithms/3.1.1 (a+b log(c x^n))^p.nb">Notebook file</a> &emsp; 3.1.1 (a+b log(c x^n))^p<br>
@@ -112,6 +114,7 @@ Comments preceding many of the rules document them as follows:
 * <a href="PdfRuleFiles/3 Logarithms/3.3 u (a+b log(c (d+e x)^n))^p.pdf">PDF file</a> &emsp; <a href="NotebookRuleFiles/3 Logarithms/3.3 u (a+b log(c (d+e x)^n))^p.nb">Notebook file</a> &emsp; 3.3 u (a+b log(c (d+e x)^n))^p<br>
 * <a href="PdfRuleFiles/3 Logarithms/3.4 u (a+b log(c (d+e x^m)^n))^p.pdf">PDF file</a> &emsp; <a href="NotebookRuleFiles/3 Logarithms/3.4 u (a+b log(c (d+e x^m)^n))^p.nb">Notebook file</a> &emsp; 3.4 u (a+b log(c (d+e x^m)^n))^p<br>
 * <a href="PdfRuleFiles/3 Logarithms/3.5 Miscellaneous logarithms.pdf">PDF file</a> &emsp; <a href="NotebookRuleFiles/3 Logarithms/3.5 Miscellaneous logarithms.nb">Notebook file</a> &emsp; 3.5 Miscellaneous logarithms<br>
+
 
 ## 4 Trig Function Rules
 
@@ -179,6 +182,7 @@ Comments preceding many of the rules document them as follows:
 * <a href="PdfRuleFiles/4 Trig functions/4.7 Miscellaneous/4.7.8 u trig(a+b log(c x^n))^p.pdf">PDF file</a> &emsp; <a href="NotebookRuleFiles/4 Trig functions/4.7 Miscellaneous/4.7.8 u trig(a+b log(c x^n))^p.nb">Notebook file</a> &emsp; 4.7.8 u trig(a+b log(c x^n))^p<br>
 * <a href="PdfRuleFiles/4 Trig functions/4.7 Miscellaneous/4.7.9 Active trig functions.pdf">PDF file</a> &emsp; <a href="NotebookRuleFiles/4 Trig functions/4.7 Miscellaneous/4.7.9 Active trig functions.nb">Notebook file</a> &emsp; 4.7.9 Active trig functions<br>
 
+
 ## 5 Inverse Trig Function Rules
 
 ### 5.1 Inverse sine and cosine
@@ -206,72 +210,73 @@ Comments preceding many of the rules document them as follows:
 ## 6 Hyperbolic Function Rules
 
 ### 6.1 Hyperbolic sine and cosine
-* <a href="PdfRuleFiles/5 Inverse trig functions/5.1 Inverse sine/.pdf">PDF file</a> &emsp; <a href="NotebookRuleFiles/5 Inverse trig functions/5.1 Inverse sine/.nb">Notebook file</a> &emsp; <br>
-
-* <a href="PdfRuleFiles/6 Hyperbolic functions/6.1 Hyperbolic sine/6.1.10 (c+d x)^m (a+b sinh)^n.pdf">6.1.10 (c+d x)^m (a+b sinh)^n</a>
-* <a href="PdfRuleFiles/6 Hyperbolic functions/6.1 Hyperbolic sine/6.1.11 (e x)^m (a+b x^n)^p sinh.pdf">6.1.11 (e x)^m (a+b x^n)^p sinh</a>
-* <a href="PdfRuleFiles/6 Hyperbolic functions/6.1 Hyperbolic sine/6.1.12 (e x)^m (a+b sinh(c+d x^n))^p.pdf">6.1.12 (e x)^m (a+b sinh(c+d x^n))^p</a>
-* <a href="PdfRuleFiles/6 Hyperbolic functions/6.1 Hyperbolic sine/6.1.13 (d+e x)^m sinh(a+b x+c x^2)^n.pdf">6.1.13 (d+e x)^m sinh(a+b x+c x^2)^n</a>
+* <a href="PdfRuleFiles/6 Hyperbolic functions/6.1 Hyperbolic sine/6.1.10 (c+d x)^m (a+b sinh)^n.pdf">PDF file</a> &emsp; <a href="NotebookRuleFiles/6 Hyperbolic functions/6.1 Hyperbolic sine/6.1.10 (c+d x)^m (a+b sinh)^n.nb">Notebook file</a> &emsp; 6.1.10 (c+d x)^m (a+b sinh)^n<br>
+* <a href="PdfRuleFiles/6 Hyperbolic functions/6.1 Hyperbolic sine/6.1.11 (e x)^m (a+b x^n)^p sinh.pdf">PDF file</a> &emsp; <a href="NotebookRuleFiles/6 Hyperbolic functions/6.1 Hyperbolic sine/6.1.11 (e x)^m (a+b x^n)^p sinh.nb">Notebook file</a> &emsp; 6.1.11 (e x)^m (a+b x^n)^p sinh<br>
+* <a href="PdfRuleFiles/6 Hyperbolic functions/6.1 Hyperbolic sine/6.1.12 (e x)^m (a+b sinh(c+d x^n))^p.pdf">PDF file</a> &emsp; <a href="NotebookRuleFiles/6 Hyperbolic functions/6.1 Hyperbolic sine/6.1.12 (e x)^m (a+b sinh(c+d x^n))^p.nb">Notebook file</a> &emsp; 6.1.12 (e x)^m (a+b sinh(c+d x^n))^p<br>
+* <a href="PdfRuleFiles/6 Hyperbolic functions/6.1 Hyperbolic sine/6.1.13 (d+e x)^m sinh(a+b x+c x^2)^n.pdf">PDF file</a> &emsp; <a href="NotebookRuleFiles/6 Hyperbolic functions/6.1 Hyperbolic sine/6.1.13 (d+e x)^m sinh(a+b x+c x^2)^n.nb">Notebook file</a> &emsp; 6.1.13 (d+e x)^m sinh(a+b x+c x^2)^n<br>
 
 ### 6.3 Hyperbolic tangent and cotangent
-* <a href="PdfRuleFiles/6 Hyperbolic functions/6.3 Hyperbolic tangent/6.3.10 (c+d x)^m (a+b tanh)^n.pdf">6.3.10 (c+d x)^m (a+b tanh)^n</a>
-* <a href="PdfRuleFiles/6 Hyperbolic functions/6.3 Hyperbolic tangent/6.3.11 (e x)^m (a+b tanh(c+d x^n))^p.pdf">6.3.11 (e x)^m (a+b tanh(c+d x^n))^p</a>
-* <a href="PdfRuleFiles/6 Hyperbolic functions/6.3 Hyperbolic tangent/6.3.12 (d+e x)^m tanh(a+b x+c x^2)^n.pdf">6.3.12 (d+e x)^m tanh(a+b x+c x^2)^n</a>
+* <a href="PdfRuleFiles/6 Hyperbolic functions/6.3 Hyperbolic tangent/6.3.10 (c+d x)^m (a+b tanh)^n.pdf">PDF file</a> &emsp; <a href="NotebookRuleFiles/6 Hyperbolic functions/6.3 Hyperbolic tangent/6.3.10 (c+d x)^m (a+b tanh)^n.nb">Notebook file</a> &emsp; 6.3.10 (c+d x)^m (a+b tanh)^n<br>
+* <a href="PdfRuleFiles/6 Hyperbolic functions/6.3 Hyperbolic tangent/6.3.11 (e x)^m (a+b tanh(c+d x^n))^p.pdf">PDF file</a> &emsp; <a href="NotebookRuleFiles/6 Hyperbolic functions/6.3 Hyperbolic tangent/6.3.11 (e x)^m (a+b tanh(c+d x^n))^p.nb">Notebook file</a> &emsp; 6.3.11 (e x)^m (a+b tanh(c+d x^n))^p<br>
+* <a href="PdfRuleFiles/6 Hyperbolic functions/6.3 Hyperbolic tangent/6.3.12 (d+e x)^m tanh(a+b x+c x^2)^n.pdf">PDF file</a> &emsp; <a href="NotebookRuleFiles/6 Hyperbolic functions/6.3 Hyperbolic tangent/6.3.12 (d+e x)^m tanh(a+b x+c x^2)^n.nb">Notebook file</a> &emsp; 6.3.12 (d+e x)^m tanh(a+b x+c x^2)^n<br>
 
 ### 6.5 Hyperbolic secant and cosecant
-* <a href="PdfRuleFiles/6 Hyperbolic functions/6.5 Hyperbolic secant/6.5.10 (c+d x)^m (a+b sech)^n.pdf">6.5.10 (c+d x)^m (a+b sech)^n</a>
-* <a href="PdfRuleFiles/6 Hyperbolic functions/6.5 Hyperbolic secant/6.5.11 (e x)^m (a+b sech(c+d x^n))^p.pdf">6.5.11 (e x)^m (a+b sech(c+d x^n))^p</a>
+* <a href="PdfRuleFiles/6 Hyperbolic functions/6.5 Hyperbolic secant/6.5.10 (c+d x)^m (a+b sech)^n.pdf">PDF file</a> &emsp; <a href="NotebookRuleFiles/6 Hyperbolic functions/6.5 Hyperbolic secant/6.5.10 (c+d x)^m (a+b sech)^n.nb">Notebook file</a> &emsp; 6.5.10 (c+d x)^m (a+b sech)^n<br>
+* <a href="PdfRuleFiles/6 Hyperbolic functions/6.5 Hyperbolic secant/6.5.11 (e x)^m (a+b sech(c+d x^n))^p.pdf">PDF file</a> &emsp; <a href="NotebookRuleFiles/6 Hyperbolic functions/6.5 Hyperbolic secant/6.5.11 (e x)^m (a+b sech(c+d x^n))^p.nb">Notebook file</a> &emsp; 6.5.11 (e x)^m (a+b sech(c+d x^n))^p<br>
 
 ### 6.7 Miscellaneous hyperbolic functions
-* <a href="PdfRuleFiles/6 Hyperbolic functions/6.7 Miscellaneous/6.7.6 (c+d x)^m hyper(a+b x)^n hyper(a+b x)^p.pdf">6.7.6 (c+d x)^m hyper(a+b x)^n hyper(a+b x)^p</a>
-* <a href="PdfRuleFiles/6 Hyperbolic functions/6.7 Miscellaneous/6.7.7 F^(c (a+b x)) hyper(d+e x)^n.pdf">6.7.7 F^(c (a+b x)) hyper(d+e x)^n</a>
-* <a href="PdfRuleFiles/6 Hyperbolic functions/6.7 Miscellaneous/6.7.8 u hyper(a+b log(c x^n))^p.pdf">6.7.8 u hyper(a+b log(c x^n))^p</a>
-* <a href="PdfRuleFiles/6 Hyperbolic functions/6.7 Miscellaneous/6.7.9 Active hyperbolic functions.pdf">6.7.9 Active hyperbolic functions</a>
+* <a href="PdfRuleFiles/6 Hyperbolic functions/6.7 Miscellaneous/6.7.6 (c+d x)^m hyper(a+b x)^n hyper(a+b x)^p.pdf">PDF file</a> &emsp; <a href="NotebookRuleFiles/6 Hyperbolic functions/6.7 Miscellaneous/6.7.6 (c+d x)^m hyper(a+b x)^n hyper(a+b x)^p.nb">Notebook file</a> &emsp; 6.7.6 (c+d x)^m hyper(a+b x)^n hyper(a+b x)^p<br>
+* <a href="PdfRuleFiles/6 Hyperbolic functions/6.7 Miscellaneous/6.7.7 F^(c (a+b x)) hyper(d+e x)^n.pdf">PDF file</a> &emsp; <a href="NotebookRuleFiles/6 Hyperbolic functions/6.7 Miscellaneous/6.7.7 F^(c (a+b x)) hyper(d+e x)^n.nb">Notebook file</a> &emsp; 6.7.7 F^(c (a+b x)) hyper(d+e x)^n<br>
+* <a href="PdfRuleFiles/6 Hyperbolic functions/6.7 Miscellaneous/6.7.8 u hyper(a+b log(c x^n))^p.pdf">PDF file</a> &emsp; <a href="NotebookRuleFiles/6 Hyperbolic functions/6.7 Miscellaneous/6.7.8 u hyper(a+b log(c x^n))^p.nb">Notebook file</a> &emsp; 6.7.8 u hyper(a+b log(c x^n))^p<br>
+* <a href="PdfRuleFiles/6 Hyperbolic functions/6.7 Miscellaneous/6.7.9 Active hyperbolic functions.pdf">PDF file</a> &emsp; <a href="NotebookRuleFiles/6 Hyperbolic functions/6.7 Miscellaneous/6.7.9 Active hyperbolic functions.nb">Notebook file</a> &emsp; 6.7.9 Active hyperbolic functions<br>
+
 
 ## 7 Inverse Hyperbolic Function Rules
 
 ### 7.1 Inverse hyperbolic sine
-* <a href="PdfRuleFiles/7 Inverse hyperbolic functions/7.1 Inverse hyperbolic sine/7.1.1 (a+b arcsinh(c x))^n.pdf">7.1.1 (a+b arcsinh(c x))^n</a>
-* <a href="PdfRuleFiles/7 Inverse hyperbolic functions/7.1 Inverse hyperbolic sine/7.1.2 (d x)^m (a+b arcsinh(c x))^n.pdf">7.1.2 (d x)^m (a+b arcsinh(c x))^n</a>
-* <a href="PdfRuleFiles/7 Inverse hyperbolic functions/7.1 Inverse hyperbolic sine/7.1.3 (d+e x^2)^p (a+b arcsinh(c x))^n.pdf">7.1.3 (d+e x^2)^p (a+b arcsinh(c x))^n</a>
-* <a href="PdfRuleFiles/7 Inverse hyperbolic functions/7.1 Inverse hyperbolic sine/7.1.4 (f x)^m (d+e x^2)^p (a+b arcsinh(c x))^n.pdf">7.1.4 (f x)^m (d+e x^2)^p (a+b arcsinh(c x))^n</a>
-* <a href="PdfRuleFiles/7 Inverse hyperbolic functions/7.1 Inverse hyperbolic sine/7.1.5 u (a+b arcsinh(c x))^n.pdf">7.1.5 u (a+b arcsinh(c x))^n</a>
-* <a href="PdfRuleFiles/7 Inverse hyperbolic functions/7.1 Inverse hyperbolic sine/7.1.6 Miscellaneous inverse hyperbolic sine.pdf">7.1.6 Miscellaneous inverse hyperbolic sine</a>
+* <a href="PdfRuleFiles/7 Inverse hyperbolic functions/7.1 Inverse hyperbolic sine/7.1.1 (a+b arcsinh(c x))^n.pdf">PDF file</a> &emsp; <a href="NotebookRuleFiles/7 Inverse hyperbolic functions/7.1 Inverse hyperbolic sine/7.1.1 (a+b arcsinh(c x))^n.nb">Notebook file</a> &emsp; 7.1.1 (a+b arcsinh(c x))^n<br>
+* <a href="PdfRuleFiles/7 Inverse hyperbolic functions/7.1 Inverse hyperbolic sine/7.1.2 (d x)^m (a+b arcsinh(c x))^n.pdf">PDF file</a> &emsp; <a href="NotebookRuleFiles/7 Inverse hyperbolic functions/7.1 Inverse hyperbolic sine/7.1.2 (d x)^m (a+b arcsinh(c x))^n.nb">Notebook file</a> &emsp; 7.1.2 (d x)^m (a+b arcsinh(c x))^n<br>
+* <a href="PdfRuleFiles/7 Inverse hyperbolic functions/7.1 Inverse hyperbolic sine/7.1.3 (d+e x^2)^p (a+b arcsinh(c x))^n.pdf">PDF file</a> &emsp; <a href="NotebookRuleFiles/7 Inverse hyperbolic functions/7.1 Inverse hyperbolic sine/7.1.3 (d+e x^2)^p (a+b arcsinh(c x))^n.nb">Notebook file</a> &emsp; 7.1.3 (d+e x^2)^p (a+b arcsinh(c x))^n<br>
+* <a href="PdfRuleFiles/7 Inverse hyperbolic functions/7.1 Inverse hyperbolic sine/7.1.4 (f x)^m (d+e x^2)^p (a+b arcsinh(c x))^n.pdf">PDF file</a> &emsp; <a href="NotebookRuleFiles/7 Inverse hyperbolic functions/7.1 Inverse hyperbolic sine/7.1.4 (f x)^m (d+e x^2)^p (a+b arcsinh(c x))^n.nb">Notebook file</a> &emsp; 7.1.4 (f x)^m (d+e x^2)^p (a+b arcsinh(c x))^n<br>
+* <a href="PdfRuleFiles/7 Inverse hyperbolic functions/7.1 Inverse hyperbolic sine/7.1.5 u (a+b arcsinh(c x))^n.pdf">PDF file</a> &emsp; <a href="NotebookRuleFiles/7 Inverse hyperbolic functions/7.1 Inverse hyperbolic sine/7.1.5 u (a+b arcsinh(c x))^n.nb">Notebook file</a> &emsp; 7.1.5 u (a+b arcsinh(c x))^n<br>
+* <a href="PdfRuleFiles/7 Inverse hyperbolic functions/7.1 Inverse hyperbolic sine/7.1.6 Miscellaneous inverse hyperbolic sine.pdf">PDF file</a> &emsp; <a href="NotebookRuleFiles/7 Inverse hyperbolic functions/7.1 Inverse hyperbolic sine/7.1.6 Miscellaneous inverse hyperbolic sine.nb">Notebook file</a> &emsp; 7.1.6 Miscellaneous inverse hyperbolic sine<br>
 
 ### 7.2 Inverse hyperbolic cosine
-* <a href="PdfRuleFiles/7 Inverse hyperbolic functions/7.2 Inverse hyperbolic cosine/7.2.1 (a+b arccosh(c x))^n.pdf">7.2.1 (a+b arccosh(c x))^n</a>
-* <a href="PdfRuleFiles/7 Inverse hyperbolic functions/7.2 Inverse hyperbolic cosine/7.2.2 (d x)^m (a+b arccosh(c x))^n.pdf">7.2.2 (d x)^m (a+b arccosh(c x))^n</a>
-* <a href="PdfRuleFiles/7 Inverse hyperbolic functions/7.2 Inverse hyperbolic cosine/7.2.3 (d+e x^2)^p (a+b arccosh(c x))^n.pdf">7.2.3 (d+e x^2)^p (a+b arccosh(c x))^n</a>
-* <a href="PdfRuleFiles/7 Inverse hyperbolic functions/7.2 Inverse hyperbolic cosine/7.2.4 (f x)^m (d+e x^2)^p (a+b arccosh(c x))^n.pdf">7.2.4 (f x)^m (d+e x^2)^p (a+b arccosh(c x))^n</a>
-* <a href="PdfRuleFiles/7 Inverse hyperbolic functions/7.2 Inverse hyperbolic cosine/7.2.5 u (a+b arccosh(c x))^n.pdf">7.2.5 u (a+b arccosh(c x))^n</a>
-* <a href="PdfRuleFiles/7 Inverse hyperbolic functions/7.2 Inverse hyperbolic cosine/7.2.6 Miscellaneous inverse hyperbolic cosine.pdf">7.2.6 Miscellaneous inverse hyperbolic cosine</a>
+* <a href="PdfRuleFiles/7 Inverse hyperbolic functions/7.2 Inverse hyperbolic cosine/7.2.1 (a+b arccosh(c x))^n.pdf">PDF file</a> &emsp; <a href="NotebookRuleFiles/7 Inverse hyperbolic functions/7.2 Inverse hyperbolic cosine/.7.2.1 (a+b arccosh(c x))^nnb">Notebook file</a> &emsp; 7.2.1 (a+b arccosh(c x))^n<br>
+* <a href="PdfRuleFiles/7 Inverse hyperbolic functions/7.2 Inverse hyperbolic cosine/7.2.2 (d x)^m (a+b arccosh(c x))^n.pdf">PDF file</a> &emsp; <a href="NotebookRuleFiles/7 Inverse hyperbolic functions/7.2 Inverse hyperbolic cosine/7.2.2 (d x)^m (a+b arccosh(c x))^n.nb">Notebook file</a> &emsp; 7.2.2 (d x)^m (a+b arccosh(c x))^n<br>
+* <a href="PdfRuleFiles/7 Inverse hyperbolic functions/7.2 Inverse hyperbolic cosine/7.2.3 (d+e x^2)^p (a+b arccosh(c x))^n.pdf">PDF file</a> &emsp; <a href="NotebookRuleFiles/7 Inverse hyperbolic functions/7.2 Inverse hyperbolic cosine/7.2.3 (d+e x^2)^p (a+b arccosh(c x))^n.nb">Notebook file</a> &emsp; 7.2.3 (d+e x^2)^p (a+b arccosh(c x))^n<br>
+* <a href="PdfRuleFiles/7 Inverse hyperbolic functions/7.2 Inverse hyperbolic cosine/7.2.4 (f x)^m (d+e x^2)^p (a+b arccosh(c x))^n.pdf">PDF file</a> &emsp; <a href="NotebookRuleFiles/7 Inverse hyperbolic functions/7.2 Inverse hyperbolic cosine/7.2.4 (f x)^m (d+e x^2)^p (a+b arccosh(c x))^n.nb">Notebook file</a> &emsp; 7.2.4 (f x)^m (d+e x^2)^p (a+b arccosh(c x))^n<br>
+* <a href="PdfRuleFiles/7 Inverse hyperbolic functions/7.2 Inverse hyperbolic cosine/7.2.5 u (a+b arccosh(c x))^n.pdf">PDF file</a> &emsp; <a href="NotebookRuleFiles/7 Inverse hyperbolic functions/7.2 Inverse hyperbolic cosine/7.2.5 u (a+b arccosh(c x))^n.nb">Notebook file</a> &emsp; 7.2.5 u (a+b arccosh(c x))^n<br>
+* <a href="PdfRuleFiles/7 Inverse hyperbolic functions/7.2 Inverse hyperbolic cosine/7.2.6 Miscellaneous inverse hyperbolic cosine.pdf">PDF file</a> &emsp; <a href="NotebookRuleFiles/7 Inverse hyperbolic functions/7.2 Inverse hyperbolic cosine/7.2.6 Miscellaneous inverse hyperbolic cosine.nb">Notebook file</a> &emsp; 7.2.6 Miscellaneous inverse hyperbolic cosine<br>
 
 ### 7.3 Inverse hyperbolic tangent and cotangent
-* <a href="PdfRuleFiles/7 Inverse hyperbolic functions/7.3 Inverse hyperbolic tangent/7.3.1 (a+b arctanh(c x^n))^p.pdf">7.3.1 (a+b arctanh(c x^n))^p</a>
-* <a href="PdfRuleFiles/7 Inverse hyperbolic functions/7.3 Inverse hyperbolic tangent/7.3.2 (d x)^m (a+b arctanh(c x^n))^p.pdf">7.3.2 (d x)^m (a+b arctanh(c x^n))^p</a>
-* <a href="PdfRuleFiles/7 Inverse hyperbolic functions/7.3 Inverse hyperbolic tangent/7.3.3 (d+e x)^m (a+b arctanh(c x^n))^p.pdf">7.3.3 (d+e x)^m (a+b arctanh(c x^n))^p</a>
-* <a href="PdfRuleFiles/7 Inverse hyperbolic functions/7.3 Inverse hyperbolic tangent/7.3.4 u (a+b arctanh(c x))^p.pdf">7.3.4 u (a+b arctanh(c x))^p</a>
-* <a href="PdfRuleFiles/7 Inverse hyperbolic functions/7.3 Inverse hyperbolic tangent/7.3.5 u (a+b arctanh(c+d x))^p.pdf">7.3.5 u (a+b arctanh(c+d x))^p</a>
-* <a href="PdfRuleFiles/7 Inverse hyperbolic functions/7.3 Inverse hyperbolic tangent/7.3.6 Exponentials of inverse hyperbolic tangent.pdf">7.3.6 Exponentials of inverse hyperbolic tangent</a>
-* <a href="PdfRuleFiles/7 Inverse hyperbolic functions/7.3 Inverse hyperbolic tangent/7.3.7 Miscellaneous inverse hyperbolic tangent.pdf">7.3.7 Miscellaneous inverse hyperbolic tangent</a>
+* <a href="PdfRuleFiles/7 Inverse hyperbolic functions/7.3 Inverse hyperbolic tangent/7.3.1 (a+b arctanh(c x^n))^p.pdf">PDF file</a> &emsp; <a href="NotebookRuleFiles/7 Inverse hyperbolic functions/7.3 Inverse hyperbolic tangent/7.3.1 (a+b arctanh(c x^n))^p.nb">Notebook file</a> &emsp; 7.3.1 (a+b arctanh(c x^n))^p<br>
+* <a href="PdfRuleFiles/7 Inverse hyperbolic functions/7.3 Inverse hyperbolic tangent/7.3.2 (d x)^m (a+b arctanh(c x^n))^p.pdf">PDF file</a> &emsp; <a href="NotebookRuleFiles/7 Inverse hyperbolic functions/7.3 Inverse hyperbolic tangent/7.3.2 (d x)^m (a+b arctanh(c x^n))^p.nb">Notebook file</a> &emsp; 7.3.2 (d x)^m (a+b arctanh(c x^n))^p<br>
+* <a href="PdfRuleFiles/7 Inverse hyperbolic functions/7.3 Inverse hyperbolic tangent/7.3.3 (d+e x)^m (a+b arctanh(c x^n))^p.pdf">PDF file</a> &emsp; <a href="NotebookRuleFiles/7 Inverse hyperbolic functions/7.3 Inverse hyperbolic tangent/7.3.3 (d+e x)^m (a+b arctanh(c x^n))^p.nb">Notebook file</a> &emsp; 7.3.3 (d+e x)^m (a+b arctanh(c x^n))^p<br>
+* <a href="PdfRuleFiles/7 Inverse hyperbolic functions/7.3 Inverse hyperbolic tangent/7.3.4 u (a+b arctanh(c x))^p.pdf">PDF file</a> &emsp; <a href="NotebookRuleFiles/7 Inverse hyperbolic functions/7.3 Inverse hyperbolic tangent/7.3.4 u (a+b arctanh(c x))^p.nb">Notebook file</a> &emsp; 7.3.4 u (a+b arctanh(c x))^p<br>
+* <a href="PdfRuleFiles/7 Inverse hyperbolic functions/7.3 Inverse hyperbolic tangent/7.3.5 u (a+b arctanh(c+d x))^p.pdf">PDF file</a> &emsp; <a href="NotebookRuleFiles/7 Inverse hyperbolic functions/7.3 Inverse hyperbolic tangent/7.3.5 u (a+b arctanh(c+d x))^p.nb">Notebook file</a> &emsp; 7.3.5 u (a+b arctanh(c+d x))^p<br>
+* <a href="PdfRuleFiles/7 Inverse hyperbolic functions/7.3 Inverse hyperbolic tangent/7.3.6 Exponentials of inverse hyperbolic tangent.pdf">PDF file</a> &emsp; <a href="NotebookRuleFiles/7 Inverse hyperbolic functions/7.3 Inverse hyperbolic tangent/7.3.6 Exponentials of inverse hyperbolic tangent.nb">Notebook file</a> &emsp; 7.3.6 Exponentials of inverse hyperbolic tangent<br>
+* <a href="PdfRuleFiles/7 Inverse hyperbolic functions/7.3 Inverse hyperbolic tangent/7.3.7 Miscellaneous inverse hyperbolic tangent.pdf">PDF file</a> &emsp; <a href="NotebookRuleFiles/7 Inverse hyperbolic functions/7.3 Inverse hyperbolic tangent/7.3.7 Miscellaneous inverse hyperbolic tangent.nb">Notebook file</a> &emsp; 7.3.7 Miscellaneous inverse hyperbolic tangent<br>
 
 ### 7.5 Inverse hyperbolic secant and cosecant
-* <a href="PdfRuleFiles/7 Inverse hyperbolic functions/7.5 Inverse hyperbolic secant/7.5.1 u (a+b arcsech(c x))^n.pdf">7.5.1 u (a+b arcsech(c x))^n</a>
-* <a href="PdfRuleFiles/7 Inverse hyperbolic functions/7.5 Inverse hyperbolic secant/7.5.2 Miscellaneous inverse hyperbolic secant.pdf">7.5.2 Miscellaneous inverse hyperbolic secant</a>
+* <a href="PdfRuleFiles/7 Inverse hyperbolic functions/7.5 Inverse hyperbolic secant/7.5.1 u (a+b arcsech(c x))^n.pdf">PDF file</a> &emsp; <a href="NotebookRuleFiles/7 Inverse hyperbolic functions/7.5 Inverse hyperbolic secant/7.5.1 u (a+b arcsech(c x))^n.nb">Notebook file</a> &emsp; 7.5.1 u (a+b arcsech(c x))^n<br>
+* <a href="PdfRuleFiles/7 Inverse hyperbolic functions/7.5 Inverse hyperbolic secant/7.5.2 Miscellaneous inverse hyperbolic secant.pdf">PDF file</a> &emsp; <a href="NotebookRuleFiles/7 Inverse hyperbolic functions/7.5 Inverse hyperbolic secant/7.5.2 Miscellaneous inverse hyperbolic secant.nb">Notebook file</a> &emsp; 7.5.2 Miscellaneous inverse hyperbolic secant<br>
+
 
 ## 8 Special Function Rules
-* <a href="PdfRuleFiles/8 Special functions/8.1 Error functions.pdf">8.1 Error functions</a>
-* <a href="PdfRuleFiles/8 Special functions/8.2 Fresnel integral functions.pdf">8.2 Fresnel integral functions</a>
-* <a href="PdfRuleFiles/8 Special functions/8.3 Exponential integral functions.pdf">8.3 Exponential integral functions</a>
-* <a href="PdfRuleFiles/8 Special functions/8.4 Trig integral functions.pdf">8.4 Trig integral functions</a>
-* <a href="PdfRuleFiles/8 Special functions/8.5 Hyperbolic integral functions.pdf">8.5 Hyperbolic integral functions</a>
-* <a href="PdfRuleFiles/8 Special functions/8.6 Gamma functions.pdf">8.6 Gamma functions</a>
-* <a href="PdfRuleFiles/8 Special functions/8.7 Zeta function.pdf">8.7 Zeta function</a>
-* <a href="PdfRuleFiles/8 Special functions/8.8 Polylogarithm function.pdf">8.8 Polylogarithm function</a>
-* <a href="PdfRuleFiles/8 Special functions/8.9 Product logarithm function.pdf">8.9 Product logarithm function</a>
+* <a href="PdfRuleFiles/8 Special functions/8.1 Error functions.pdf">PDF file</a> &emsp; <a href="NotebookRuleFiles/8 Special functions/8.1 Error functions.nb">Notebook file</a> &emsp; 8.1 Error functions<br>
+* <a href="PdfRuleFiles/8 Special functions/8.2 Fresnel integral functions.pdf">PDF file</a> &emsp; <a href="NotebookRuleFiles/8 Special functions/8.2 Fresnel integral functions.nb">Notebook file</a> &emsp; 8.2 Fresnel integral functions<br>
+* <a href="PdfRuleFiles/8 Special functions/8.3 Exponential integral functions.pdf">PDF file</a> &emsp; <a href="NotebookRuleFiles/8 Special functions/8.3 Exponential integral functions.nb">Notebook file</a> &emsp; 8.3 Exponential integral functions<br>
+* <a href="PdfRuleFiles/8 Special functions/8.4 Trig integral functions.pdf">PDF file</a> &emsp; <a href="NotebookRuleFiles/8 Special functions/8.4 Trig integral functions.nb">Notebook file</a> &emsp; 8.4 Trig integral functions<br>
+* <a href="PdfRuleFiles/8 Special functions/8.5 Hyperbolic integral functions.pdf">PDF file</a> &emsp; <a href="NotebookRuleFiles/8 Special functions/8.5 Hyperbolic integral functions.nb">Notebook file</a> &emsp; 8.5 Hyperbolic integral functions<br>
+* <a href="PdfRuleFiles/8 Special functions/8.6 Gamma functions.pdf">PDF file</a> &emsp; <a href="NotebookRuleFiles/8 Special functions/8.6 Gamma functions.nb">Notebook file</a> &emsp; 8.6 Gamma functions<br>
+* <a href="PdfRuleFiles/8 Special functions/8.7 Zeta function.pdf">PDF file</a> &emsp; <a href="NotebookRuleFiles/8 Special functions/8.7 Zeta function.nb">Notebook file</a> &emsp; 8.7 Zeta function<br>
+* <a href="PdfRuleFiles/8 Special functions/8.8 Polylogarithm function.pdf">PDF file</a> &emsp; <a href="NotebookRuleFiles/8 Special functions/8.8 Polylogarithm function.nb">Notebook file</a> &emsp; 8.8 Polylogarithm function<br>
+* <a href="PdfRuleFiles/8 Special functions/8.9 Product logarithm function.pdf">PDF file</a> &emsp; <a href="NotebookRuleFiles/8 Special functions/8.9 Product logarithm function.nb">Notebook file</a> &emsp; 8.9 Product logarithm function<br>
+
 
 ## 9 Miscellaneous Rules
-* <a href="PdfRuleFiles/9 Miscellaneous/9.1 Integrand simplification rules.pdf">9.1 Integrand simplification rules</a>
-* <a href="PdfRuleFiles/9 Miscellaneous/9.2 Derivative integration rules.pdf">9.2 Derivative integration rules</a>
-* <a href="PdfRuleFiles/9 Miscellaneous/9.3 Piecewise linear functions.pdf">9.3 Piecewise linear functions</a>
-* <a href="PdfRuleFiles/9 Miscellaneous/9.4 Miscellaneous integration rules.pdf">9.4 Miscellaneous integration rules</a>
+* <a href="PdfRuleFiles/9 Miscellaneous/9.1 Integrand simplification rules.pdf">PDF file</a> &emsp; <a href="NotebookRuleFiles/9 Miscellaneous/9.1 Integrand simplification rules.nb">Notebook file</a> &emsp; 9.1 Integrand simplification rules<br>
+* <a href="PdfRuleFiles/9 Miscellaneous/9.2 Derivative integration rules.pdf">PDF file</a> &emsp; <a href="NotebookRuleFiles/9 Miscellaneous/9.2 Derivative integration rules.nb">Notebook file</a> &emsp; 9.2 Derivative integration rules<br>
+* <a href="PdfRuleFiles/9 Miscellaneous/9.3 Piecewise linear functions.pdf">PDF file</a> &emsp; <a href="NotebookRuleFiles/9 Miscellaneous/9.3 Piecewise linear functions.nb">Notebook file</a> &emsp; 9.3 Piecewise linear functions<br>
+* <a href="PdfRuleFiles/9 Miscellaneous/9.4 Miscellaneous integration rules.pdf">PDF file</a> &emsp; <a href="NotebookRuleFiles/9 Miscellaneous/9.4 Miscellaneous integration rules.nb">Notebook file</a> &emsp; 9.4 Miscellaneous integration rules<br>
