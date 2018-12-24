@@ -116,68 +116,68 @@ Comments preceding many of the rules document them as follows:
 ## 4 Trig Function Rules
 
 ### 4.1 Sine and cosine
-* <a href="PdfRuleFiles/4 Trig functions/4.1 Sine/4.1.0.1 (a sin)^m (b trg)^n.pdf">4.1.0.1 (a sin)^m (b trg)^n</a>
-* <a href="PdfRuleFiles/4 Trig functions/4.1 Sine/4.1.0.2 (a trg)^m (b tan)^n.pdf">4.1.0.2 (a trg)^m (b tan)^n</a>
-* <a href="PdfRuleFiles/4 Trig functions/4.1 Sine/4.1.0.3 (a csc)^m (b sec)^n.pdf">4.1.0.3 (a csc)^m (b sec)^n</a>
-* <a href="PdfRuleFiles/4 Trig functions/4.1 Sine/4.1.1.1 (a+b sin)^n.pdf">4.1.1.1 (a+b sin)^n</a>
-* <a href="PdfRuleFiles/4 Trig functions/4.1 Sine/4.1.1.2 (g cos)^p (a+b sin)^m.pdf">4.1.1.2 (g cos)^p (a+b sin)^m</a>
-* <a href="PdfRuleFiles/4 Trig functions/4.1 Sine/4.1.1.3 (g tan)^p (a+b sin)^m.pdf">4.1.1.3 (g tan)^p (a+b sin)^m</a>
-* <a href="PdfRuleFiles/4 Trig functions/4.1 Sine/4.1.2.1 (a+b sin)^m (c+d sin)^n.pdf">4.1.2.1 (a+b sin)^m (c+d sin)^n</a>
-* <a href="PdfRuleFiles/4 Trig functions/4.1 Sine/4.1.2.2 (g cos)^p (a+b sin)^m (c+d sin)^n.pdf">4.1.2.2 (g cos)^p (a+b sin)^m (c+d sin)^n</a>
-* <a href="PdfRuleFiles/4 Trig functions/4.1 Sine/4.1.2.3 (g sin)^p (a+b sin)^m (c+d sin)^n.pdf">4.1.2.3 (g sin)^p (a+b sin)^m (c+d sin)^n</a>
-* <a href="PdfRuleFiles/4 Trig functions/4.1 Sine/4.1.3.1 (a+b sin)^m (c+d sin)^n (A+B sin).pdf">4.1.3.1 (a+b sin)^m (c+d sin)^n (A+B sin)</a>
-* <a href="PdfRuleFiles/4 Trig functions/4.1 Sine/4.1.4.1 (a+b sin)^m (A+B sin+C sin^2).pdf">4.1.4.1 (a+b sin)^m (A+B sin+C sin^2)</a>
-* <a href="PdfRuleFiles/4 Trig functions/4.1 Sine/4.1.4.2 (a+b sin)^m (c+d sin)^n (A+B sin+C sin^2).pdf">4.1.4.2 (a+b sin)^m (c+d sin)^n (A+B sin+C sin^2)</a>
-* <a href="PdfRuleFiles/4 Trig functions/4.1 Sine/4.1.5 trig^m (a cos+b sin)^n.pdf">4.1.5 trig^m (a cos+b sin)^n</a>
-* <a href="PdfRuleFiles/4 Trig functions/4.1 Sine/4.1.6 (a+b cos+c sin)^n.pdf">4.1.6 (a+b cos+c sin)^n</a>
-* <a href="PdfRuleFiles/4 Trig functions/4.1 Sine/4.1.7 (d trig)^m (a+b (c sin)^n)^p.pdf">4.1.7 (d trig)^m (a+b (c sin)^n)^p</a>
-* <a href="PdfRuleFiles/4 Trig functions/4.1 Sine/4.1.8 trig^m (a+b cos^p+c sin^q)^n.pdf">4.1.8 trig^m (a+b cos^p+c sin^q)^n</a>
-* <a href="PdfRuleFiles/4 Trig functions/4.1 Sine/4.1.9 trig^m (a+b sin^n+c sin^(2 n))^p.pdf">4.1.9 trig^m (a+b sin^n+c sin^(2 n))^p</a>
-* <a href="PdfRuleFiles/4 Trig functions/4.1 Sine/4.1.10 (c+d x)^m (a+b sin)^n.pdf">4.1.10 (c+d x)^m (a+b sin)^n</a>
-* <a href="PdfRuleFiles/4 Trig functions/4.1 Sine/4.1.11 (e x)^m (a+b x^n)^p sin.pdf">4.1.11 (e x)^m (a+b x^n)^p sin</a>
-* <a href="PdfRuleFiles/4 Trig functions/4.1 Sine/4.1.12 (e x)^m (a+b sin(c+d x^n))^p.pdf">4.1.12 (e x)^m (a+b sin(c+d x^n))^p</a>
-* <a href="PdfRuleFiles/4 Trig functions/4.1 Sine/4.1.13 (d+e x)^m sin(a+b x+c x^2)^n.pdf">4.1.13 (d+e x)^m sin(a+b x+c x^2)^n</a>
+* <a href="PdfRuleFiles/4 Trig functions/4.1 Sine/4.1.0.1 (a sin)^m (b trg)^n.pdf">PDF file</a> &emsp; <a href="NotebookRuleFiles/4 Trig functions/4.1 Sine/4.1.0.1 (a sin)^m (b trg)^n.nb">Notebook file</a> &emsp; 4.1.0.1 (a sin)^m (b trg)^n<br>
+* <a href="PdfRuleFiles/4 Trig functions/4.1 Sine/4.1.0.2 (a trg)^m (b tan)^n.pdf">PDF file</a> &emsp; <a href="NotebookRuleFiles/4 Trig functions/4.1 Sine/4.1.0.2 (a trg)^m (b tan)^n.nb">Notebook file</a> &emsp; 4.1.0.2 (a trg)^m (b tan)^n<br>
+* <a href="PdfRuleFiles/4 Trig functions/4.1 Sine/4.1.0.3 (a csc)^m (b sec)^n.pdf">PDF file</a> &emsp; <a href="NotebookRuleFiles/4 Trig functions/4.1 Sine/4.1.0.3 (a csc)^m (b sec)^n.nb">Notebook file</a> &emsp; 4.1.0.3 (a csc)^m (b sec)^n<br>
+* <a href="PdfRuleFiles/4 Trig functions/4.1 Sine/4.1.1.1 (a+b sin)^n.pdf">PDF file</a> &emsp; <a href="NotebookRuleFiles/4 Trig functions/4.1 Sine/4.1.1.1 (a+b sin)^n.nb">Notebook file</a> &emsp; 4.1.1.1 (a+b sin)^n<br>
+* <a href="PdfRuleFiles/4 Trig functions/4.1 Sine/4.1.1.2 (g cos)^p (a+b sin)^m.pdf">PDF file</a> &emsp; <a href="NotebookRuleFiles/4 Trig functions/4.1 Sine/4.1.1.2 (g cos)^p (a+b sin)^m.nb">Notebook file</a> &emsp; 4.1.1.2 (g cos)^p (a+b sin)^m<br>
+* <a href="PdfRuleFiles/4 Trig functions/4.1 Sine/4.1.1.3 (g tan)^p (a+b sin)^m.pdf">PDF file</a> &emsp; <a href="NotebookRuleFiles/4 Trig functions/4.1 Sine/4.1.1.3 (g tan)^p (a+b sin)^m.nb">Notebook file</a> &emsp; 4.1.1.3 (g tan)^p (a+b sin)^m<br>
+* <a href="PdfRuleFiles/4 Trig functions/4.1 Sine/4.1.2.1 (a+b sin)^m (c+d sin)^n.pdf">PDF file</a> &emsp; <a href="NotebookRuleFiles/4 Trig functions/4.1 Sine/4.1.2.1 (a+b sin)^m (c+d sin)^n.nb">Notebook file</a> &emsp; 4.1.2.1 (a+b sin)^m (c+d sin)^n<br>
+* <a href="PdfRuleFiles/4 Trig functions/4.1 Sine/4.1.2.2 (g cos)^p (a+b sin)^m (c+d sin)^n.pdf">PDF file</a> &emsp; <a href="NotebookRuleFiles/4 Trig functions/4.1 Sine/4.1.2.2 (g cos)^p (a+b sin)^m (c+d sin)^n.nb">Notebook file</a> &emsp; 4.1.2.2 (g cos)^p (a+b sin)^m (c+d sin)^n<br>
+* <a href="PdfRuleFiles/4 Trig functions/4.1 Sine/4.1.2.3 (g sin)^p (a+b sin)^m (c+d sin)^n.pdf">PDF file</a> &emsp; <a href="NotebookRuleFiles/4 Trig functions/4.1 Sine/4.1.2.3 (g sin)^p (a+b sin)^m (c+d sin)^n.nb">Notebook file</a> &emsp; 4.1.2.3 (g sin)^p (a+b sin)^m (c+d sin)^n<br>
+* <a href="PdfRuleFiles/4 Trig functions/4.1 Sine/4.1.3.1 (a+b sin)^m (c+d sin)^n (A+B sin).pdf">PDF file</a> &emsp; <a href="NotebookRuleFiles/4 Trig functions/4.1 Sine/4.1.3.1 (a+b sin)^m (c+d sin)^n (A+B sin).nb">Notebook file</a> &emsp; 4.1.3.1 (a+b sin)^m (c+d sin)^n (A+B sin)<br>
+* <a href="PdfRuleFiles/4 Trig functions/4.1 Sine/4.1.4.1 (a+b sin)^m (A+B sin+C sin^2).pdf">PDF file</a> &emsp; <a href="NotebookRuleFiles/4 Trig functions/4.1 Sine/4.1.4.1 (a+b sin)^m (A+B sin+C sin^2).nb">Notebook file</a> &emsp; 4.1.4.1 (a+b sin)^m (A+B sin+C sin^2)<br>
+* <a href="PdfRuleFiles/4 Trig functions/4.1 Sine/4.1.4.2 (a+b sin)^m (c+d sin)^n (A+B sin+C sin^2).pdf">PDF file</a> &emsp; <a href="NotebookRuleFiles/4 Trig functions/4.1 Sine/4.1.4.2 (a+b sin)^m (c+d sin)^n (A+B sin+C sin^2).nb">Notebook file</a> &emsp; 4.1.4.2 (a+b sin)^m (c+d sin)^n (A+B sin+C sin^2)<br>
+* <a href="PdfRuleFiles/4 Trig functions/4.1 Sine/4.1.5 trig^m (a cos+b sin)^n.pdf">PDF file</a> &emsp; <a href="NotebookRuleFiles/4 Trig functions/4.1 Sine/4.1.5 trig^m (a cos+b sin)^n.nb">Notebook file</a> &emsp; 4.1.5 trig^m (a cos+b sin)^n<br>
+* <a href="PdfRuleFiles/4 Trig functions/4.1 Sine/4.1.6 (a+b cos+c sin)^n.pdf">PDF file</a> &emsp; <a href="NotebookRuleFiles/4 Trig functions/4.1 Sine/4.1.6 (a+b cos+c sin)^n.nb">Notebook file</a> &emsp; 4.1.6 (a+b cos+c sin)^n<br>
+* <a href="PdfRuleFiles/4 Trig functions/4.1 Sine/4.1.7 (d trig)^m (a+b (c sin)^n)^p.pdf">PDF file</a> &emsp; <a href="NotebookRuleFiles/4 Trig functions/4.1 Sine/4.1.7 (d trig)^m (a+b (c sin)^n)^p.nb">Notebook file</a> &emsp; 4.1.7 (d trig)^m (a+b (c sin)^n)^p<br>
+* <a href="PdfRuleFiles/4 Trig functions/4.1 Sine/4.1.8 trig^m (a+b cos^p+c sin^q)^n.pdf">PDF file</a> &emsp; <a href="NotebookRuleFiles/4 Trig functions/4.1 Sine/4.1.8 trig^m (a+b cos^p+c sin^q)^n.nb">Notebook file</a> &emsp; 4.1.8 trig^m (a+b cos^p+c sin^q)^n<br>
+* <a href="PdfRuleFiles/4 Trig functions/4.1 Sine/4.1.9 trig^m (a+b sin^n+c sin^(2 n))^p.pdf">PDF file</a> &emsp; <a href="NotebookRuleFiles/4 Trig functions/4.1 Sine/4.1.9 trig^m (a+b sin^n+c sin^(2 n))^p.nb">Notebook file</a> &emsp; 4.1.9 trig^m (a+b sin^n+c sin^(2 n))^p<br>
+* <a href="PdfRuleFiles/4 Trig functions/4.1 Sine/4.1.10 (c+d x)^m (a+b sin)^n.pdf">PDF file</a> &emsp; <a href="NotebookRuleFiles/4 Trig functions/4.1 Sine/4.1.10 (c+d x)^m (a+b sin)^n.nb">Notebook file</a> &emsp; 4.1.10 (c+d x)^m (a+b sin)^n<br>
+* <a href="PdfRuleFiles/4 Trig functions/4.1 Sine/4.1.11 (e x)^m (a+b x^n)^p sin.pdf">PDF file</a> &emsp; <a href="NotebookRuleFiles/4 Trig functions/4.1 Sine/4.1.11 (e x)^m (a+b x^n)^p sin.nb">Notebook file</a> &emsp; 4.1.11 (e x)^m (a+b x^n)^p sin<br>
+* <a href="PdfRuleFiles/4 Trig functions/4.1 Sine/4.1.12 (e x)^m (a+b sin(c+d x^n))^p.pdf">PDF file</a> &emsp; <a href="NotebookRuleFiles/4 Trig functions/4.1 Sine/4.1.12 (e x)^m (a+b sin(c+d x^n))^p.nb">Notebook file</a> &emsp; 4.1.12 (e x)^m (a+b sin(c+d x^n))^p<br>
+* <a href="PdfRuleFiles/4 Trig functions/4.1 Sine/4.1.13 (d+e x)^m sin(a+b x+c x^2)^n.pdf">PDF file</a> &emsp; <a href="NotebookRuleFiles/4 Trig functions/4.1 Sine/4.1.13 (d+e x)^m sin(a+b x+c x^2)^n.nb">Notebook file</a> &emsp; 4.1.13 (d+e x)^m sin(a+b x+c x^2)^n<br>
 
 ### 4.3 Tangent and cotangent
-* <a href="PdfRuleFiles/4 Trig functions/4.3 Tangent/4.3.1.1 (a+b tan)^n.pdf">4.3.1.1 (a+b tan)^n</a>
-* <a href="PdfRuleFiles/4 Trig functions/4.3 Tangent/4.3.1.2 (d sec)^m (a+b tan)^n.pdf">4.3.1.2 (d sec)^m (a+b tan)^n</a>
-* <a href="PdfRuleFiles/4 Trig functions/4.3 Tangent/4.3.1.3 (d sin)^m (a+b tan)^n.pdf">4.3.1.3 (d sin)^m (a+b tan)^n</a>
-* <a href="PdfRuleFiles/4 Trig functions/4.3 Tangent/4.3.2.1 (a+b tan)^m (c+d tan)^n.pdf">4.3.2.1 (a+b tan)^m (c+d tan)^n</a>
-* <a href="PdfRuleFiles/4 Trig functions/4.3 Tangent/4.3.2.3 (g tan)^p (a+b tan)^m (c+d tan)^n.pdf">4.3.2.3 (g tan)^p (a+b tan)^m (c+d tan)^n</a>
-* <a href="PdfRuleFiles/4 Trig functions/4.3 Tangent/4.3.3.1 (a+b tan)^m (c+d tan)^n (A+B tan).pdf">4.3.3.1 (a+b tan)^m (c+d tan)^n (A+B tan)</a>
-* <a href="PdfRuleFiles/4 Trig functions/4.3 Tangent/4.3.4.1 (a+b tan)^m (A+B tan+C tan^2).pdf">4.3.4.1 (a+b tan)^m (A+B tan+C tan^2)</a>
-* <a href="PdfRuleFiles/4 Trig functions/4.3 Tangent/4.3.4.2 (a+b tan)^m (c+d tan)^n (A+B tan+C tan^2).pdf">4.3.4.2 (a+b tan)^m (c+d tan)^n (A+B tan+C tan^2)</a>
-* <a href="PdfRuleFiles/4 Trig functions/4.3 Tangent/4.3.7 (d trig)^m (a+b (c tan)^n)^p.pdf">4.3.7 (d trig)^m (a+b (c tan)^n)^p</a>
-* <a href="PdfRuleFiles/4 Trig functions/4.3 Tangent/4.3.9 trig^m (a+b tan^n+c tan^(2 n))^p.pdf">4.3.9 trig^m (a+b tan^n+c tan^(2 n))^p</a>
-* <a href="PdfRuleFiles/4 Trig functions/4.3 Tangent/4.3.10 (c+d x)^m (a+b tan)^n.pdf">4.3.10 (c+d x)^m (a+b tan)^n</a>
-* <a href="PdfRuleFiles/4 Trig functions/4.3 Tangent/4.3.11 (e x)^m (a+b tan(c+d x^n))^p.pdf">4.3.11 (e x)^m (a+b tan(c+d x^n))^p</a>
-* <a href="PdfRuleFiles/4 Trig functions/4.3 Tangent/4.3.12 (d+e x)^m tan(a+b x+c x^2)^n.pdf">4.3.12 (d+e x)^m tan(a+b x+c x^2)^n</a>
+* <a href="PdfRuleFiles/4 Trig functions/4.3 Tangent/4.3.1.1 (a+b tan)^n.pdf">PDF file</a> &emsp; <a href="NotebookRuleFiles/4 Trig functions/4.3 Tangent/4.3.1.1 (a+b tan)^n.nb">Notebook file</a> &emsp; 4.3.1.1 (a+b tan)^n<br>
+* <a href="PdfRuleFiles/4 Trig functions/4.3 Tangent/4.3.1.2 (d sec)^m (a+b tan)^n.pdf">PDF file</a> &emsp; <a href="NotebookRuleFiles/4 Trig functions/4.3 Tangent/4.3.1.2 (d sec)^m (a+b tan)^n.nb">Notebook file</a> &emsp; 4.3.1.2 (d sec)^m (a+b tan)^n<br>
+* <a href="PdfRuleFiles/4 Trig functions/4.3 Tangent/4.3.1.3 (d sin)^m (a+b tan)^n.pdf">PDF file</a> &emsp; <a href="NotebookRuleFiles/4 Trig functions/4.3 Tangent/4.3.1.3 (d sin)^m (a+b tan)^n.nb">Notebook file</a> &emsp; 4.3.1.3 (d sin)^m (a+b tan)^n<br>
+* <a href="PdfRuleFiles/4 Trig functions/4.3 Tangent/4.3.2.1 (a+b tan)^m (c+d tan)^n.pdf">PDF file</a> &emsp; <a href="NotebookRuleFiles/4 Trig functions/4.3 Tangent/4.3.2.1 (a+b tan)^m (c+d tan)^n.nb">Notebook file</a> &emsp; 4.3.2.1 (a+b tan)^m (c+d tan)^n<br>
+* <a href="PdfRuleFiles/4 Trig functions/4.3 Tangent/4.3.2.3 (g tan)^p (a+b tan)^m (c+d tan)^n.pdf">PDF file</a> &emsp; <a href="NotebookRuleFiles/4 Trig functions/4.3 Tangent/4.3.2.3 (g tan)^p (a+b tan)^m (c+d tan)^n.nb">Notebook file</a> &emsp; 4.3.2.3 (g tan)^p (a+b tan)^m (c+d tan)^n<br>
+* <a href="PdfRuleFiles/4 Trig functions/4.3 Tangent/4.3.3.1 (a+b tan)^m (c+d tan)^n (A+B tan).pdf">PDF file</a> &emsp; <a href="NotebookRuleFiles/4 Trig functions/4.3 Tangent/4.3.3.1 (a+b tan)^m (c+d tan)^n (A+B tan).nb">Notebook file</a> &emsp; 4.3.3.1 (a+b tan)^m (c+d tan)^n (A+B tan)<br>
+* <a href="PdfRuleFiles/4 Trig functions/4.3 Tangent/4.3.4.1 (a+b tan)^m (A+B tan+C tan^2).pdf">PDF file</a> &emsp; <a href="NotebookRuleFiles/4 Trig functions/4.3 Tangent/4.3.4.1 (a+b tan)^m (A+B tan+C tan^2).nb">Notebook file</a> &emsp; 4.3.4.1 (a+b tan)^m (A+B tan+C tan^2)<br>
+* <a href="PdfRuleFiles/4 Trig functions/4.3 Tangent/4.3.4.2 (a+b tan)^m (c+d tan)^n (A+B tan+C tan^2).pdf">PDF file</a> &emsp; <a href="NotebookRuleFiles/4 Trig functions/4.3 Tangent/4.3.4.2 (a+b tan)^m (c+d tan)^n (A+B tan+C tan^2).nb">Notebook file</a> &emsp; 4.3.4.2 (a+b tan)^m (c+d tan)^n (A+B tan+C tan^2)<br>
+* <a href="PdfRuleFiles/4 Trig functions/4.3 Tangent/4.3.7 (d trig)^m (a+b (c tan)^n)^p.pdf">PDF file</a> &emsp; <a href="NotebookRuleFiles/4 Trig functions/4.3 Tangent/4.3.7 (d trig)^m (a+b (c tan)^n)^p.nb">Notebook file</a> &emsp; 4.3.7 (d trig)^m (a+b (c tan)^n)^p<br>
+* <a href="PdfRuleFiles/4 Trig functions/4.3 Tangent/4.3.9 trig^m (a+b tan^n+c tan^(2 n))^p.pdf">PDF file</a> &emsp; <a href="NotebookRuleFiles/4 Trig functions/4.3 Tangent/4.3.9 trig^m (a+b tan^n+c tan^(2 n))^p.nb">Notebook file</a> &emsp; 4.3.9 trig^m (a+b tan^n+c tan^(2 n))^p<br>
+* <a href="PdfRuleFiles/4 Trig functions/4.3 Tangent/4.3.10 (c+d x)^m (a+b tan)^n.pdf">PDF file</a> &emsp; <a href="NotebookRuleFiles/4 Trig functions/4.3 Tangent/4.3.10 (c+d x)^m (a+b tan)^n.nb">Notebook file</a> &emsp; 4.3.10 (c+d x)^m (a+b tan)^n<br>
+* <a href="PdfRuleFiles/4 Trig functions/4.3 Tangent/4.3.11 (e x)^m (a+b tan(c+d x^n))^p.pdf">PDF file</a> &emsp; <a href="NotebookRuleFiles/4 Trig functions/4.3 Tangent/4.3.11 (e x)^m (a+b tan(c+d x^n))^p.nb">Notebook file</a> &emsp; 4.3.11 (e x)^m (a+b tan(c+d x^n))^p<br>
+* <a href="PdfRuleFiles/4 Trig functions/4.3 Tangent/4.3.12 (d+e x)^m tan(a+b x+c x^2)^n.pdf">PDF file</a> &emsp; <a href="NotebookRuleFiles/4 Trig functions/4.3 Tangent/4.3.12 (d+e x)^m tan(a+b x+c x^2)^n.nb">Notebook file</a> &emsp; 4.3.12 (d+e x)^m tan(a+b x+c x^2)^n<br>
 
 ### 4.5 Secant and cosecant
-* <a href="PdfRuleFiles/4 Trig functions/4.5 Secant/4.5.1.1 (a+b sec)^n.pdf">4.5.1.1 (a+b sec)^n</a>
-* <a href="PdfRuleFiles/4 Trig functions/4.5 Secant/4.5.1.2 (d sec)^n (a+b sec)^m.pdf">4.5.1.2 (d sec)^n (a+b sec)^m</a>
-* <a href="PdfRuleFiles/4 Trig functions/4.5 Secant/4.5.1.3 (d sin)^n (a+b sec)^m.pdf">4.5.1.3 (d sin)^n (a+b sec)^m</a>
-* <a href="PdfRuleFiles/4 Trig functions/4.5 Secant/4.5.1.4 (d tan)^n (a+b sec)^m.pdf">4.5.1.4 (d tan)^n (a+b sec)^m</a>
-* <a href="PdfRuleFiles/4 Trig functions/4.5 Secant/4.5.2.1 (a+b sec)^m (c+d sec)^n.pdf">4.5.2.1 (a+b sec)^m (c+d sec)^n</a>
-* <a href="PdfRuleFiles/4 Trig functions/4.5 Secant/4.5.2.2 (g sec)^p (a+b sec)^m (c+d sec)^n.pdf">4.5.2.2 (g sec)^p (a+b sec)^m (c+d sec)^n</a>
-* <a href="PdfRuleFiles/4 Trig functions/4.5 Secant/4.5.3.1 (a+b sec)^m (d sec)^n (A+B sec).pdf">4.5.3.1 (a+b sec)^m (d sec)^n (A+B sec)</a>
-* <a href="PdfRuleFiles/4 Trig functions/4.5 Secant/4.5.4.1 (a+b sec)^m (A+B sec+C sec^2).pdf">4.5.4.1 (a+b sec)^m (A+B sec+C sec^2)</a>
-* <a href="PdfRuleFiles/4 Trig functions/4.5 Secant/4.5.4.2 (a+b sec)^m (d sec)^n (A+B sec+C sec^2).pdf">4.5.4.2 (a+b sec)^m (d sec)^n (A+B sec+C sec^2)</a>
-* <a href="PdfRuleFiles/4 Trig functions/4.5 Secant/4.5.7 (d trig)^m (a+b (c sec)^n)^p.pdf">4.5.7 (d trig)^m (a+b (c sec)^n)^p</a>
-* <a href="PdfRuleFiles/4 Trig functions/4.5 Secant/4.5.9 trig^m (a+b sec^n+c sec^(2 n))^p.pdf">4.5.9 trig^m (a+b sec^n+c sec^(2 n))^p</a>
-* <a href="PdfRuleFiles/4 Trig functions/4.5 Secant/4.5.10 (c+d x)^m (a+b sec)^n.pdf">4.5.10 (c+d x)^m (a+b sec)^n</a>
-* <a href="PdfRuleFiles/4 Trig functions/4.5 Secant/4.5.11 (e x)^m (a+b sec(c+d x^n))^p.pdf">4.5.11 (e x)^m (a+b sec(c+d x^n))^p</a>
+* <a href="PdfRuleFiles/4 Trig functions/4.5 Secant/4.5.1.1 (a+b sec)^n.pdf">PDF file</a> &emsp; <a href="NotebookRuleFiles/4 Trig functions/4.5 Secant/4.5.1.1 (a+b sec)^n.nb">Notebook file</a> &emsp; 4.5.1.1 (a+b sec)^n<br>
+* <a href="PdfRuleFiles/4 Trig functions/4.5 Secant/4.5.1.2 (d sec)^n (a+b sec)^m.pdf">PDF file</a> &emsp; <a href="NotebookRuleFiles/4 Trig functions/4.5 Secant/4.5.1.2 (d sec)^n (a+b sec)^m.nb">Notebook file</a> &emsp; 4.5.1.2 (d sec)^n (a+b sec)^m<br>
+* <a href="PdfRuleFiles/4 Trig functions/4.5 Secant/4.5.1.3 (d sin)^n (a+b sec)^m.pdf">PDF file</a> &emsp; <a href="NotebookRuleFiles/4 Trig functions/4.5 Secant/4.5.1.3 (d sin)^n (a+b sec)^m.nb">Notebook file</a> &emsp; 4.5.1.3 (d sin)^n (a+b sec)^m<br>
+* <a href="PdfRuleFiles/4 Trig functions/4.5 Secant/4.5.1.4 (d tan)^n (a+b sec)^m.pdf">PDF file</a> &emsp; <a href="NotebookRuleFiles/4 Trig functions/4.5 Secant/4.5.1.4 (d tan)^n (a+b sec)^m.nb">Notebook file</a> &emsp; 4.5.1.4 (d tan)^n (a+b sec)^m<br>
+* <a href="PdfRuleFiles/4 Trig functions/4.5 Secant/4.5.2.1 (a+b sec)^m (c+d sec)^n.pdf">PDF file</a> &emsp; <a href="NotebookRuleFiles/4 Trig functions/4.5 Secant/4.5.2.1 (a+b sec)^m (c+d sec)^n.nb">Notebook file</a> &emsp; 4.5.2.1 (a+b sec)^m (c+d sec)^n<br>
+* <a href="PdfRuleFiles/4 Trig functions/4.5 Secant/4.5.2.2 (g sec)^p (a+b sec)^m (c+d sec)^n.pdf">PDF file</a> &emsp; <a href="NotebookRuleFiles/4 Trig functions/4.5 Secant/4.5.2.2 (g sec)^p (a+b sec)^m (c+d sec)^n.nb">Notebook file</a> &emsp; 4.5.2.2 (g sec)^p (a+b sec)^m (c+d sec)^n<br>
+* <a href="PdfRuleFiles/4 Trig functions/4.5 Secant/4.5.3.1 (a+b sec)^m (d sec)^n (A+B sec).pdf">PDF file</a> &emsp; <a href="NotebookRuleFiles/4 Trig functions/4.5 Secant/4.5.3.1 (a+b sec)^m (d sec)^n (A+B sec).nb">Notebook file</a> &emsp; 4.5.3.1 (a+b sec)^m (d sec)^n (A+B sec)<br>
+* <a href="PdfRuleFiles/4 Trig functions/4.5 Secant/4.5.4.1 (a+b sec)^m (A+B sec+C sec^2).pdf">PDF file</a> &emsp; <a href="NotebookRuleFiles/4 Trig functions/4.5 Secant/4.5.4.1 (a+b sec)^m (A+B sec+C sec^2).nb">Notebook file</a> &emsp; 4.5.4.1 (a+b sec)^m (A+B sec+C sec^2)<br>
+* <a href="PdfRuleFiles/4 Trig functions/4.5 Secant/4.5.4.2 (a+b sec)^m (d sec)^n (A+B sec+C sec^2).pdf">PDF file</a> &emsp; <a href="NotebookRuleFiles/4 Trig functions/4.5 Secant/4.5.4.2 (a+b sec)^m (d sec)^n (A+B sec+C sec^2).nb">Notebook file</a> &emsp; 4.5.4.2 (a+b sec)^m (d sec)^n (A+B sec+C sec^2)<br>
+* <a href="PdfRuleFiles/4 Trig functions/4.5 Secant/4.5.7 (d trig)^m (a+b (c sec)^n)^p.pdf">PDF file</a> &emsp; <a href="NotebookRuleFiles/4 Trig functions/4.5 Secant/4.5.7 (d trig)^m (a+b (c sec)^n)^p.nb">Notebook file</a> &emsp; 4.5.7 (d trig)^m (a+b (c sec)^n)^p<br>
+* <a href="PdfRuleFiles/4 Trig functions/4.5 Secant/4.5.9 trig^m (a+b sec^n+c sec^(2 n))^p.pdf">PDF file</a> &emsp; <a href="NotebookRuleFiles/4 Trig functions/4.5 Secant/4.5.9 trig^m (a+b sec^n+c sec^(2 n))^p.nb">Notebook file</a> &emsp; 4.5.9 trig^m (a+b sec^n+c sec^(2 n))^p<br>
+* <a href="PdfRuleFiles/4 Trig functions/4.5 Secant/4.5.10 (c+d x)^m (a+b sec)^n.pdf">PDF file</a> &emsp; <a href="NotebookRuleFiles/4 Trig functions/4.5 Secant/4.5.10 (c+d x)^m (a+b sec)^n.nb">Notebook file</a> &emsp; 4.5.10 (c+d x)^m (a+b sec)^n<br>
+* <a href="PdfRuleFiles/4 Trig functions/4.5 Secant/4.5.11 (e x)^m (a+b sec(c+d x^n))^p.pdf">PDF file</a> &emsp; <a href="NotebookRuleFiles/4 Trig functions/4.5 Secant/4.5.11 (e x)^m (a+b sec(c+d x^n))^p.nb">Notebook file</a> &emsp; 4.5.11 (e x)^m (a+b sec(c+d x^n))^p<br>
 
 ### 4.7 Miscellaneous trig functions
-* <a href="PdfRuleFiles/4 Trig functions/4.7 Miscellaneous/4.7.1 Sine normalization rules.pdf">4.7.1 Sine normalization rules</a>
-* <a href="PdfRuleFiles/4 Trig functions/4.7 Miscellaneous/4.7.2 Tangent normalization rules.pdf">4.7.2 Tangent normalization rules</a>
-* <a href="PdfRuleFiles/4 Trig functions/4.7 Miscellaneous/4.7.3 Secant normalization rules.pdf">4.7.3 Secant normalization rules</a>
-* <a href="PdfRuleFiles/4 Trig functions/4.7 Miscellaneous/4.7.4 (c trig)^m (d trig)^n.pdf">4.7.4 (c trig)^m (d trig)^n</a>
-* <a href="PdfRuleFiles/4 Trig functions/4.7 Miscellaneous/4.7.5 Inert trig functions.pdf">4.7.5 Inert trig functions</a>
-* <a href="PdfRuleFiles/4 Trig functions/4.7 Miscellaneous/4.7.6 (c+d x)^m trig(a+b x)^n trig(a+b x)^p.pdf">4.7.6 (c+d x)^m trig(a+b x)^n trig(a+b x)^p</a>
-* <a href="PdfRuleFiles/4 Trig functions/4.7 Miscellaneous/4.7.7 F^(c (a+b x)) trig(d+e x)^n.pdf">4.7.7 F^(c (a+b x)) trig(d+e x)^n</a>
-* <a href="PdfRuleFiles/4 Trig functions/4.7 Miscellaneous/4.7.8 u trig(a+b log(c x^n))^p.pdf">4.7.8 u trig(a+b log(c x^n))^p</a>
-* <a href="PdfRuleFiles/4 Trig functions/4.7 Miscellaneous/4.7.9 Active trig functions.pdf">4.7.9 Active trig functions</a>
+* <a href="PdfRuleFiles/4 Trig functions/4.7 Miscellaneous/4.7.1 Sine normalization rules.pdf">PDF file</a> &emsp; <a href="NotebookRuleFiles/4 Trig functions/4.7 Miscellaneous/4.7.1 Sine normalization rules.nb">Notebook file</a> &emsp; 4.7.1 Sine normalization rules<br>
+* <a href="PdfRuleFiles/4 Trig functions/4.7 Miscellaneous/4.7.2 Tangent normalization rules.pdf">PDF file</a> &emsp; <a href="NotebookRuleFiles/4 Trig functions/4.7 Miscellaneous/4.7.2 Tangent normalization rules.nb">Notebook file</a> &emsp; 4.7.2 Tangent normalization rules<br>
+* <a href="PdfRuleFiles/4 Trig functions/4.7 Miscellaneous/4.7.3 Secant normalization rules.pdf">PDF file</a> &emsp; <a href="NotebookRuleFiles/4 Trig functions/4.7 Miscellaneous/4.7.3 Secant normalization rules.nb">Notebook file</a> &emsp; 4.7.3 Secant normalization rules<br>
+* <a href="PdfRuleFiles/4 Trig functions/4.7 Miscellaneous/4.7.4 (c trig)^m (d trig)^n.pdf">PDF file</a> &emsp; <a href="NotebookRuleFiles/4 Trig functions/4.7 Miscellaneous/4.7.4 (c trig)^m (d trig)^n.nb">Notebook file</a> &emsp; 4.7.4 (c trig)^m (d trig)^n<br>
+* <a href="PdfRuleFiles/4 Trig functions/4.7 Miscellaneous/4.7.5 Inert trig functions.pdf">PDF file</a> &emsp; <a href="NotebookRuleFiles/4 Trig functions/4.7 Miscellaneous/4.7.5 Inert trig functions.nb">Notebook file</a> &emsp; 4.7.5 Inert trig functions<br>
+* <a href="PdfRuleFiles/4 Trig functions/4.7 Miscellaneous/4.7.6 (c+d x)^m trig(a+b x)^n trig(a+b x)^p.pdf">PDF file</a> &emsp; <a href="NotebookRuleFiles/4 Trig functions/4.7 Miscellaneous/4.7.6 (c+d x)^m trig(a+b x)^n trig(a+b x)^p.nb">Notebook file</a> &emsp; 4.7.6 (c+d x)^m trig(a+b x)^n trig(a+b x)^p<br>
+* <a href="PdfRuleFiles/4 Trig functions/4.7 Miscellaneous/4.7.7 F^(c (a+b x)) trig(d+e x)^n.pdf">PDF file</a> &emsp; <a href="NotebookRuleFiles/4 Trig functions/4.7 Miscellaneous/4.7.7 F^(c (a+b x)) trig(d+e x)^n.nb">Notebook file</a> &emsp; 4.7.7 F^(c (a+b x)) trig(d+e x)^n<br>
+* <a href="PdfRuleFiles/4 Trig functions/4.7 Miscellaneous/4.7.8 u trig(a+b log(c x^n))^p.pdf">PDF file</a> &emsp; <a href="NotebookRuleFiles/4 Trig functions/4.7 Miscellaneous/4.7.8 u trig(a+b log(c x^n))^p.nb">Notebook file</a> &emsp; 4.7.8 u trig(a+b log(c x^n))^p<br>
+* <a href="PdfRuleFiles/4 Trig functions/4.7 Miscellaneous/4.7.9 Active trig functions.pdf">PDF file</a> &emsp; <a href="NotebookRuleFiles/4 Trig functions/4.7 Miscellaneous/4.7.9 Active trig functions.nb">Notebook file</a> &emsp; 4.7.9 Active trig functions<br>
 
 ## 5 Inverse Trig Function Rules
 
