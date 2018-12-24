@@ -1,21 +1,21 @@
 # Rubi's Integration Rules
 
-Rubi systematically applies precisely defined rules to efficiently integrate large classes of mathematical expressions.
-The integration rules, expressed in both human and machine-readable form, are available for downloading as PDF files and as Mathematica notebook files.
-The files are organized in a hierarchical tree based on the form of the integrand.
+Rubi systematically applies precisely defined rules to efficiently integrate large classes of mathematical expressions. The integration rules, expressed in both human and machine-readable form, are available for viewing as PDF files and for downloading as Mathematica notebook files. The file links below are organized into categories based on the form of the integrand.
 
-The rules are displayed in standard, 2-dimensional mathematical notation, and followed by the equivalent Mathematica program code.
-Comments preceding many of the rules document them as follows:
+Zip files of hierarchically organized directory structures containing all the rule files are also available for downloading by clicking on <a href="PdfRuleFiles/Rubi-4.16.1.0.zip">PDF rule files</a> or <a href="NotebookRuleFiles/Rubi-4.16.1.0.zip">Notebook rule files</a>.
 
-- **Derivation** gives the integration technique used to derive a rule.
-- **Basis** gives the mathematical identity used to transform the integrand into a form easier to integrate.
-- **Reference** gives the number assigned to the rule in one or more of the following integration tables:
-  - **G&R** is the ["Table of Integrals, Series, and Products"](https://isbnsearch.org/isbn/9780122947551),
+The rules in the files are displayed in standard, 2-dimensional mathematical notation, and followed by the equivalent Mathematica program code. Comments preceding many of the rules document them as follows:
+
+* **<font face="courier">Derivation</font>** gives the integration technique used to derive a rule.
+- **<font face="courier">Basis</font>** gives the mathematical identity used to transform the integrand into a form easier to integrate.
+- **<font face="courier">Reference** gives the number assigned to the rule in one or more of the following integration tables:
+  - **<font face="courier">G&R</font>** is the ["Table of Integrals, Series, and Products"](https://isbnsearch.org/isbn/9780122947551),
    fifth edition, I.S. Gradshteyn, I.M. Ryzhik, and Alan Jeffrey, editors.
-  - **CRC** is the ["CRC Standard Mathematical Tables and Formulae"](https://isbnsearch.org/isbn/9780849306297),
+  - **<font face="courier">CRC</font>** is the ["CRC Standard Mathematical Tables and Formulae"](https://isbnsearch.org/isbn/9780849306297),
    29th edition, William H. Beyer, editor.
-  - **A&S** is the ["Handbook of Mathematical Functions"](https://isbnsearch.org/isbn/9780486612720),
+  - **<font face="courier">A&S</font>** is the ["Handbook of Mathematical Functions"](https://isbnsearch.org/isbn/9780486612720),
    Milton Abramowitz and Irene A. Stegun, editors.
+
 
 ## 1 Algebraic Function Rules
 
