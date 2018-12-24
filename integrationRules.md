@@ -182,29 +182,32 @@ Comments preceding many of the rules document them as follows:
 ## 5 Inverse Trig Function Rules
 
 ### 5.1 Inverse sine and cosine
-* <a href="PdfRuleFiles/5 Inverse trig functions/5.1 Inverse sine/5.1.1 (a+b arcsin(c x))^n.pdf">5.1.1 (a+b arcsin(c x))^n</a>
-* <a href="PdfRuleFiles/5 Inverse trig functions/5.1 Inverse sine/5.1.2 (d x)^m (a+b arcsin(c x))^n.pdf">5.1.2 (d x)^m (a+b arcsin(c x))^n</a>
-* <a href="PdfRuleFiles/5 Inverse trig functions/5.1 Inverse sine/5.1.3 (d+e x^2)^p (a+b arcsin(c x))^n.pdf">5.1.3 (d+e x^2)^p (a+b arcsin(c x))^n</a>
-* <a href="PdfRuleFiles/5 Inverse trig functions/5.1 Inverse sine/5.1.4 (f x)^m (d+e x^2)^p (a+b arcsin(c x))^n.pdf">5.1.4 (f x)^m (d+e x^2)^p (a+b arcsin(c x))^n</a>
-* <a href="PdfRuleFiles/5 Inverse trig functions/5.1 Inverse sine/5.1.5 u (a+b arcsin(c x))^n.pdf">5.1.5 u (a+b arcsin(c x))^n</a>
-* <a href="PdfRuleFiles/5 Inverse trig functions/5.1 Inverse sine/5.1.6 Miscellaneous inverse sine.pdf">5.1.6 Miscellaneous inverse sine</a>
+* <a href="PdfRuleFiles/5 Inverse trig functions/5.1 Inverse sine/5.1.1 (a+b arcsin(c x))^n.pdf">PDF file</a> &emsp; <a href="NotebookRuleFiles/5 Inverse trig functions/5.1 Inverse sine/5.1.1 (a+b arcsin(c x))^n.nb">Notebook file</a> &emsp; 5.1.1 (a+b arcsin(c x))^n<br>
+* <a href="PdfRuleFiles/5 Inverse trig functions/5.1 Inverse sine/5.1.2 (d x)^m (a+b arcsin(c x))^n.pdf">PDF file</a> &emsp; <a href="NotebookRuleFiles/5 Inverse trig functions/5.1 Inverse sine/5.1.2 (d x)^m (a+b arcsin(c x))^n.nb">Notebook file</a> &emsp; 5.1.2 (d x)^m (a+b arcsin(c x))^n<br>
+* <a href="PdfRuleFiles/5 Inverse trig functions/5.1 Inverse sine/5.1.3 (d+e x^2)^p (a+b arcsin(c x))^n.pdf">PDF file</a> &emsp; <a href="NotebookRuleFiles/5 Inverse trig functions/5.1 Inverse sine/5.1.3 (d+e x^2)^p (a+b arcsin(c x))^n.nb">Notebook file</a> &emsp; 5.1.3 (d+e x^2)^p (a+b arcsin(c x))^n<br>
+* <a href="PdfRuleFiles/5 Inverse trig functions/5.1 Inverse sine/5.1.4 (f x)^m (d+e x^2)^p (a+b arcsin(c x))^n.pdf">PDF file</a> &emsp; <a href="NotebookRuleFiles/5 Inverse trig functions/5.1 Inverse sine/5.1.4 (f x)^m (d+e x^2)^p (a+b arcsin(c x))^n.nb">Notebook file</a> &emsp; 5.1.4 (f x)^m (d+e x^2)^p (a+b arcsin(c x))^n<br>
+* <a href="PdfRuleFiles/5 Inverse trig functions/5.1 Inverse sine/5.1.5 u (a+b arcsin(c x))^n.pdf">PDF file</a> &emsp; <a href="NotebookRuleFiles/5 Inverse trig functions/5.1 Inverse sine/5.1.5 u (a+b arcsin(c x))^n.nb">Notebook file</a> &emsp; 5.1.5 u (a+b arcsin(c x))^n<br>
+* <a href="PdfRuleFiles/5 Inverse trig functions/5.1 Inverse sine/5.1.6 Miscellaneous inverse sine.pdf">PDF file</a> &emsp; <a href="NotebookRuleFiles/5 Inverse trig functions/5.1 Inverse sine/5.1.6 Miscellaneous inverse sine.nb">Notebook file</a> &emsp; 5.1.6 Miscellaneous inverse sine<br>
 
 ### 5.3 Inverse tangent and cotangent
-* <a href="PdfRuleFiles/5 Inverse trig functions/5.3 Inverse tangent/5.3.1 (a+b arctan(c x^n))^p.pdf">5.3.1 (a+b arctan(c x^n))^p</a>
-* <a href="PdfRuleFiles/5 Inverse trig functions/5.3 Inverse tangent/5.3.2 (d x)^m (a+b arctan(c x^n))^p.pdf">5.3.2 (d x)^m (a+b arctan(c x^n))^p</a>
-* <a href="PdfRuleFiles/5 Inverse trig functions/5.3 Inverse tangent/5.3.3 (d+e x)^m (a+b arctan(c x^n))^p.pdf">5.3.3 (d+e x)^m (a+b arctan(c x^n))^p</a>
-* <a href="PdfRuleFiles/5 Inverse trig functions/5.3 Inverse tangent/5.3.4 u (a+b arctan(c x))^p.pdf">5.3.4 u (a+b arctan(c x))^p</a>
-* <a href="PdfRuleFiles/5 Inverse trig functions/5.3 Inverse tangent/5.3.5 u (a+b arctan(c+d x))^p.pdf">5.3.5 u (a+b arctan(c+d x))^p</a>
-* <a href="PdfRuleFiles/5 Inverse trig functions/5.3 Inverse tangent/5.3.6 Exponentials of inverse tangent.pdf">5.3.6 Exponentials of inverse tangent</a>
-* <a href="PdfRuleFiles/5 Inverse trig functions/5.3 Inverse tangent/5.3.7 Miscellaneous inverse tangent.pdf">5.3.7 Miscellaneous inverse tangent</a>
+* <a href="PdfRuleFiles/5 Inverse trig functions/5.3 Inverse tangent/5.3.1 (a+b arctan(c x^n))^p.pdf">PDF file</a> &emsp; <a href="NotebookRuleFiles/5 Inverse trig functions/5.3 Inverse tangent/5.3.1 (a+b arctan(c x^n))^p.nb">Notebook file</a> &emsp; 5.3.1 (a+b arctan(c x^n))^p<br>
+* <a href="PdfRuleFiles/5 Inverse trig functions/5.3 Inverse tangent/5.3.2 (d x)^m (a+b arctan(c x^n))^p.pdf">PDF file</a> &emsp; <a href="NotebookRuleFiles/5 Inverse trig functions/5.3 Inverse tangent/5.3.2 (d x)^m (a+b arctan(c x^n))^p.nb">Notebook file</a> &emsp; 5.3.2 (d x)^m (a+b arctan(c x^n))^p<br>
+* <a href="PdfRuleFiles/5 Inverse trig functions/5.3 Inverse tangent/5.3.3 (d+e x)^m (a+b arctan(c x^n))^p.pdf">PDF file</a> &emsp; <a href="NotebookRuleFiles/5 Inverse trig functions/5.3 Inverse tangent/5.3.3 (d+e x)^m (a+b arctan(c x^n))^p.nb">Notebook file</a> &emsp; 5.3.3 (d+e x)^m (a+b arctan(c x^n))^p<br>
+* <a href="PdfRuleFiles/5 Inverse trig functions/5.3 Inverse tangent/5.3.4 u (a+b arctan(c x))^p.pdf">PDF file</a> &emsp; <a href="NotebookRuleFiles/5 Inverse trig functions/5.3 Inverse tangent/5.3.4 u (a+b arctan(c x))^p.nb">Notebook file</a> &emsp; 5.3.4 u (a+b arctan(c x))^p<br>
+* <a href="PdfRuleFiles/5 Inverse trig functions/5.3 Inverse tangent/5.3.5 u (a+b arctan(c+d x))^p.pdf">PDF file</a> &emsp; <a href="NotebookRuleFiles/5 Inverse trig functions/5.3 Inverse tangent/5.3.5 u (a+b arctan(c+d x))^p.nb">Notebook file</a> &emsp; 5.3.5 u (a+b arctan(c+d x))^p<br>
+* <a href="PdfRuleFiles/5 Inverse trig functions/5.3 Inverse tangent/5.3.6 Exponentials of inverse tangent.pdf">PDF file</a> &emsp; <a href="NotebookRuleFiles/5 Inverse trig functions/5.3 Inverse tangent/5.3.6 Exponentials of inverse tangent.nb">Notebook file</a> &emsp; 5.3.6 Exponentials of inverse tangent<br>
+* <a href="PdfRuleFiles/5 Inverse trig functions/5.3 Inverse tangent/5.3.7 Miscellaneous inverse tangent.pdf">PDF file</a> &emsp; <a href="NotebookRuleFiles/5 Inverse trig functions/5.3 Inverse tangent/5.3.7 Miscellaneous inverse tangent.nb">Notebook file</a> &emsp; 5.3.7 Miscellaneous inverse tangent<br>
 
 ### 5.5 Inverse secant and cosecant
-* <a href="PdfRuleFiles/5 Inverse trig functions/5.5 Inverse secant/5.5.1 u (a+b arcsec(c x))^n.pdf">5.5.1 u (a+b arcsec(c x))^n</a>
-* <a href="PdfRuleFiles/5 Inverse trig functions/5.5 Inverse secant/5.5.2 Miscellaneous inverse secant.pdf">5.5.2 Miscellaneous inverse secant</a>
+* <a href="PdfRuleFiles/5 Inverse trig functions/5.5 Inverse secant/5.5.1 u (a+b arcsec(c x))^n.pdf">PDF file</a> &emsp; <a href="NotebookRuleFiles/5 Inverse trig functions/5.5 Inverse secant/5.5.1 u (a+b arcsec(c x))^n.nb">Notebook file</a> &emsp; 5.5.1 u (a+b arcsec(c x))^n<br>
+* <a href="PdfRuleFiles/5 Inverse trig functions/5.5 Inverse secant/5.5.2 Miscellaneous inverse secant.pdf">PDF file</a> &emsp; <a href="NotebookRuleFiles/5 Inverse trig functions/5.5 Inverse secant/5.5.2 Miscellaneous inverse secant.nb">Notebook file</a> &emsp; 5.5.2 Miscellaneous inverse secant<br>
+
 
 ## 6 Hyperbolic Function Rules
 
 ### 6.1 Hyperbolic sine and cosine
+* <a href="PdfRuleFiles/5 Inverse trig functions/5.1 Inverse sine/.pdf">PDF file</a> &emsp; <a href="NotebookRuleFiles/5 Inverse trig functions/5.1 Inverse sine/.nb">Notebook file</a> &emsp; <br>
+
 * <a href="PdfRuleFiles/6 Hyperbolic functions/6.1 Hyperbolic sine/6.1.10 (c+d x)^m (a+b sinh)^n.pdf">6.1.10 (c+d x)^m (a+b sinh)^n</a>
 * <a href="PdfRuleFiles/6 Hyperbolic functions/6.1 Hyperbolic sine/6.1.11 (e x)^m (a+b x^n)^p sinh.pdf">6.1.11 (e x)^m (a+b x^n)^p sinh</a>
 * <a href="PdfRuleFiles/6 Hyperbolic functions/6.1 Hyperbolic sine/6.1.12 (e x)^m (a+b sinh(c+d x^n))^p.pdf">6.1.12 (e x)^m (a+b sinh(c+d x^n))^p</a>
