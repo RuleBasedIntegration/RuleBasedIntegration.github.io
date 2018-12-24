@@ -66,7 +66,7 @@ This defines the functions **<font face="courier">TestRubi</font>** and **<font 
 ```
 summarizes the significance of **<font face="courier">TestRubi</font>**'s arguments.
 
-The following are the names of the top-level test-suites:
+The following are the top-level test-suite names:
 * 0 Independent test suites
 * 1 Algebraic functions
 * 2 Exponentials
@@ -82,3 +82,12 @@ So to test Rubi on the independently created test-suites, issue the command
 TestRubi["0 Independent test suites"]
 ```
 This will create a notebook showing the problems for which Rubi is unable to produce the optimal antiderivative. 
+
+If you have several hours of computer time available, issue the command 
+```mma
+TestRubi[""]
+```
+to test all 72,000+ problems in the test-suite.  If you have several days of computer time available, issue the command
+```mma
+TestMathematica[""]
+```
