@@ -77,17 +77,19 @@ The following are the top-level test-suite names:
 * 7 Inverse hyperbolic functions
 * 8 Special functions
 
-So to test Rubi on the independently created test-suites, issue the command
+So to test Rubi and Mathematica on the independently created test-suites, [Load Rubi](/usingRubi.html) and the test program.  Then issue the commands
 ```mma
 TestRubi["0 Independent test suites"]
+TestMathematica["0 Independent test suites"]
 ```
-This will create a notebook showing the problems for which Rubi is unable to produce the optimal antiderivative. 
+This will create two notebooks showing the problems for which Rubi and Mathematica are unable to produce optimal antiderivative. 
 
-If you have several hours of computer time available, issue the command 
+If you have several *hours* of computer time available to test all 72,000+ problems in the test-suite, issue the command 
 ```mma
 TestRubi[""]
 ```
-to test all 72,000+ problems in the test-suite.  If you have several days of computer time available, issue the command
+If you have several *days* of computer time available, issue the command
 ```mma
 TestMathematica[""]
 ```
+Have fun.
