@@ -64,9 +64,7 @@ This defines the functions **<font face="courier">TestRubi</font>** and **<font 
 ```mma
 ? TestRubi
 ```
-summarizes the significance of **<font face="courier">TestRubi</font>**'s arguments.
-
-The following are the top-level test-suite names:
+summarizes the significance of **<font face="courier">TestRubi</font>**'s arguments.  The following are the top-level test-suite names:
 * 0 Independent test suites
 * 1 Algebraic functions
 * 2 Exponentials
@@ -77,7 +75,7 @@ The following are the top-level test-suite names:
 * 7 Inverse hyperbolic functions
 * 8 Special functions
 
-So to test Rubi and Mathematica on the independently created test-suites, [Load Rubi](/usingRubi.html) and the test program.  Then issue the commands
+So to test Rubi and Mathematica on the independently created test-suites, [Load Rubi](https://rulebasedintegration.org/usingRubi.html) and the test program.  Then issue the commands
 ```mma
 TestRubi["0 Independent test suites"]
 TestMathematica["0 Independent test suites"]
