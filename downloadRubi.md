@@ -66,7 +66,7 @@ To remove a paclet-based installation of Rubi for Mathematica version 9 or later
 PacletUninstall["Rubi"]
 ```
 
-To remove the Rubi package for Mathematica 7 or later, delete the directory named "Rubi" from the directory returned by the Mathematica commmand
+To remove the Rubi package for Mathematica 7 or later, delete the **<font face="courier">Rubi</font>** folder from the directory returned by the Mathematica commmand
 
 ```mma
 FileNameJoin[{$UserBaseDirectory, "Applications"}]
