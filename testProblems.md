@@ -1,6 +1,6 @@
 # Integration Test Problems
 
-Contemporaneous with the development of Rubi, a test-suite consisting of tens of thousands of integration problems has been built to test every aspect of the system.  The test-suite files are organized into categories based on the form of the problems' integrands.  Each problem is stored as a list of the integrand, the integration variable, the number of steps Rubi uses to integrate the problem, and the optimal antiderivative. 
+Contemporaneous with the development of Rubi, a test-suite currently consisting of over 72,000 integration problems has been built to test every aspect of the system.  The test-suite files are organized into categories based on the form of the problems' integrands.  Each problem is stored as a list of the integrand, the integration variable, the number of steps Rubi uses to integrate the problem, and the optimal antiderivative. 
 
 ## The Integration Test-suites
 
@@ -80,9 +80,9 @@ So to test Rubi and Mathematica on the independently created test-suites, [Load 
 TestRubi["0 Independent test suites"]
 TestMathematica["0 Independent test suites"]
 ```
-This will create two notebooks showing the problems for which Rubi and Mathematica are unable to produce optimal antiderivative. 
+This will create two notebooks showing the problems for which Rubi and Mathematica are unable to produce optimal antiderivative.  Click on the [Test Results](/testResults.html) menu option to see how deficient results are displayed in these notebooks.
 
-If you have several *hours* of computer time available to test all 72,000+ problems in the test-suite, issue the command 
+If you have several *hours* of computer time available to test the over 72,000 problems in the test-suite, issue the command 
 ```mma
 TestRubi[""]
 ```
