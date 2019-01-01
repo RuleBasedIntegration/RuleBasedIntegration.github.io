@@ -22,7 +22,7 @@ An expression's type number is determined by the highest level of functions it i
 
 ## Rubi 4.16.1 Test Results
 
-Test results for both the current and previous versions of Rubi on the 72,000+ problems in the current integration test-suite are available for viewing as pdf files.  At the end of each file is a pie chart summarizing the results.  The chart is divided into colored slices as follows:
+Test results for both the current and previous versions of Rubi on the over 72,000 problems in the current integration test-suite are available for viewing as pdf files.  At the end of each file is a pie chart summarizing the results.  The chart is divided into colored slices as follows:
 
 * green = the number of optimal results
 * light green = the number of valid but suboptimal results
@@ -46,7 +46,7 @@ When new capabilities are incorporated into Rubi, problems are also added to the
 
 ## Mathematica 11.3 Test Results
 
-Because of their large size, test results for Mathematica 11.3 on the 72,000+ integration problems in the test-suite are divided into separate pdf files based on the type of the integrand being tested.  At the end of each file is a pie chart summarizing the results.  The chart is divided into colored slices as follows:
+Because of their large size, test results for Mathematica 11.3 on the over 72,000 integration problems in the test-suite are divided into separate pdf files based on the type of the integrand being tested.  At the end of each file is a pie chart summarizing the results.  The chart is divided into colored slices as follows:
 
 * green = the number of optimal results
 * light green = the number of results more than twice the size of the optimal antiderivative
