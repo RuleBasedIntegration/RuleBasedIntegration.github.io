@@ -1,14 +1,13 @@
 # Integration Test Results
 
-The results of running Rubi and Mathematica on the integration test-suite are available for viewing as pdf files.
-For each problem on which a system produces a deficient result, the following items are shown:
+The results of running Rubi and Mathematica's built-in integrator on the integration test-suite are available for viewing by clicking on the links below.  For each problem on which a system produces a deficient result, the following items are shown:
 
-* The problem number followed by an explanation why the result is deficient
+* The problem number followed by a brief explanation why the result is deficient
 * The problem shown as an indefinite integral
 * The optimal antiderivative shown in blue and preceded by its type number, leaf count size, and the number of steps Rubi uses to integrate it
 * The deficient result shown in black and preceded by its type number, leaf count size, and if Rubi is the system being tested the number of steps Rubi uses to integrate it
 
-An expression's type number is determined by the highest level of functions it involves:
+The type number of an expression indicates the highest function type level it involves.  A test result is considered deficient if its type number is greater than the type number of the optimal antiderivative.  The following summarizes the levels of the various function types:
 
 * 1 = Rational functions
 * 2 = Algebraic functions
@@ -19,6 +18,7 @@ An expression's type number is determined by the highest level of functions it i
 * 7 = Nonclosed-form functions (e.g. RootSum)
 * 8 = Integrate functions
 * 9 = Unrecognized functions
+
 
 ## Rubi 4.16.1 Test Results
 
