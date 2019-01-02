@@ -60,11 +60,11 @@ After the test program has been installed, load it using the Mathematica's **<fo
 ```mma
 Get["IntegrationTestProgram`"]
 ```
-This defines the functions **<font face="courier">TestRubi</font>** and **<font face="courier">TestMathematica</font>** for testing Rubi and Mathematica's built-in integrator, respectively.  Also defined are several control variables including **<font face="courier">$PercentToTest</font>** and **<font face="courier">$TestOnlyElementary</font>**.  Usage help for these functions and control variables is available.  For example,
+This defines the command functions **<font face="courier">TestRubi</font>** and **<font face="courier">TestMathematica</font>** that test Rubi and Mathematica's built-in integrator, respectively.  Also defined are several control variables including **<font face="courier">$PercentToTest</font>** and **<font face="courier">$TestOnlyElementary</font>**.  Usage help for these functions and control variables is available.  For example,
 ```mma
 ? TestRubi
 ```
-summarizes the significance of **<font face="courier">TestRubi</font>**'s arguments.  The following are the top-level test-suite names:
+summarizes the significance of **<font face="courier">TestRubi</font>**'s arguments.  The following are the top-level directory names of the test-suites that are available:
 * 0 Independent test suites
 * 1 Algebraic functions
 * 2 Exponentials
@@ -75,7 +75,7 @@ summarizes the significance of **<font face="courier">TestRubi</font>**'s argume
 * 7 Inverse hyperbolic functions
 * 8 Special functions
 
-So to test Rubi and Mathematica on the independently created test-suites, [Load Rubi](https://rulebasedintegration.org/usingRubi.html) and the test program.  Then issue the commands
+So to test Rubi and Mathematica on collections of integration problems created independently of Rubi's developers, [Load Rubi](https://rulebasedintegration.org/usingRubi.html) and the test program.  Then issue the commands
 ```mma
 TestRubi["0 Independent test suites"]
 TestMathematica["0 Independent test suites"]
