@@ -80,7 +80,7 @@ So to test Rubi and Mathematica on collections of integration problems created i
 TestRubi["0 Independent test suites"]
 TestMathematica["0 Independent test suites"]
 ```
-This will create two notebooks showing the problems for which Rubi and Mathematica are unable to produce optimal antiderivative.  Click on the [Test Results](/testResults.html) menu option to see how deficient results are displayed in these notebooks.
+This will create two notebooks showing the problems for which Rubi and Mathematica are unable to produce optimal antiderivatives.  Click on the [Test Results](/testResults.html) menu option to see how deficient results are displayed in these notebooks.
 
 If you have several *hours* of computer time available to test the over 72,000 problems in the test-suite, issue the command 
 ```mma
