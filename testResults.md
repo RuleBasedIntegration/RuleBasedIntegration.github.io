@@ -104,3 +104,8 @@ At the end of each file is a pie chart summarizing the results.  The chart is di
 <a href="testResults/Mathematica11.3TestResults/7 Inverse hyperbolic functions/7.6 Inverse hyperbolic cosecant.pdf">Mathematica results</a> &emsp; <a href="testResults/Maple2018.2TestResults/7 Inverse hyperbolic functions/7.6 Inverse hyperbolic cosecant.pdf">Maple results</a> &emsp; on inverse hyperbolic cosecant integration problems<br>
 <br>
 <a href="testResults/Mathematica11.3TestResults/8 Special functions.pdf">Mathematica results</a> &emsp; <a href="testResults/Maple2018.2TestResults/8 Special functions.pdf">Maple results</a> &emsp; on special function integration problems<br>
+
+First Header | Second Header
+------------ | -------------
+Content from cell 1 | Content from cell 2
+Content in the first column | Content in the second column
