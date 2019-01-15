@@ -48,7 +48,7 @@ When new capabilities are incorporated into Rubi, problems are also added to the
 
 ## Mathematica and Maple Test Results
 
-Test results for Mathematica 11.3 and Maple 2018.2 on the current integration test-suite are also available for viewing as pdf files.  The results are divided into separate pdf files based on the type of integrand being tested.  Because of the large size and number of deficient results, Maple was tested on about a randomly chosen quarter of the problems in the test-suite to avoid crashing the system.
+Test results for Mathematica 11.3 and Maple 2018.2 on the current integration test-suite are also available for viewing as pdf files.  The results are divided into separate pdf files based on the type of integrand being tested.  Because of the large size and number of deficient results, Maple was tested on a randomly chosen quarter of the problems in the test-suite to avoid crashing the system.
 
 At the end of each file is a pie chart summarizing the results.  The chart is divided into colored slices as follows:
 
