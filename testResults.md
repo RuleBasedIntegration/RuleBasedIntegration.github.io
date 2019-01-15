@@ -20,9 +20,11 @@ The type number of an expression indicates the highest function type level it in
 * 9 = Unrecognized functions
 
 
-## Rubi 4.16.1 Test Results
+## Rubi Test Results
 
-Test results for both the current and previous versions of Rubi on the over 72,000 problems in the current integration test-suite are available for viewing as pdf files.  At the end of each file is a pie chart summarizing the results.  The chart is divided into colored slices as follows:
+Test results for both the current and previous versions of Rubi on the over 72,000 problems in the current integration test-suite are available for viewing as pdf files.  The results are divided into separate pdf files based on the type of integrand being tested.
+
+At the end of each file is a pie chart summarizing the results.  The chart is divided into colored slices as follows:
 
 * green = the number of optimal results
 * light green = the number of valid but suboptimal results
@@ -44,9 +46,11 @@ Test results for both the current and previous versions of Rubi on the over 72,0
 When new capabilities are incorporated into Rubi, problems are also added to the integration test-suite to thoroughly test them.  Thus the test results showing the deficiencies of the previous version of Rubi highlight the new capabilities of the current version.  But note that when "?" is shown as the number of steps required to find the optimal antiderivative, neither the current nor previous version of Rubi is able to produce the optimal antiderivative.
 
 
-## Mathematica 11.3 Test Results
+## Mathematica and Maple Test Results
 
-Because of their large size, test results for Mathematica 11.3 on the over 72,000 integration problems in the test-suite are divided into separate pdf files based on the type of the integrand being tested.  At the end of each file is a pie chart summarizing the results.  The chart is divided into colored slices as follows:
+Test results for Mathematica 11.3 and Maple 2018.2 on the current integration test-suite are also available for viewing as pdf files.  The results are divided into separate pdf files based on the type of integrand being tested.  Because of the large size and number of deficient results, Maple 2018.2 was tested on about a randomly chosen quarter of the problems in the test-suite to avoid crashing the system.
+
+At the end of each file is a pie chart summarizing the results.  The chart is divided into colored slices as follows:
 
 * green = the number of optimal results
 * light green = the number of results more than twice the size of the optimal antiderivative
