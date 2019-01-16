@@ -29,11 +29,11 @@ At the end of each file is a pie chart summarizing the results.  The chart is di
 * green = the number of optimal results
 * light green = the number of valid but suboptimal results
 * yellow = the number of results unnecessarily involving higher level functions or complex numbers
-* orange = the number of integrable problems that could not be integrated
+* orange = the number of integrable problems that were not integrated
 * magenta = the number of problems that timed out after 120 seconds
 * red = the number of results that were *not* valid antiderivatives
 
-<a href="testResults/Rubi4.16.1TestResults/0 Independent test suites.pdf">Rubi 4.16.1 results</a> &emsp; <a href="testResults/Rubi4.16.0TestResults/0 Independent test suites.pdf">Rubi 4.16.0 results</a> &emsp; on independent integration problems<br>
+<a href="testResults/Rubi4.16.1TestResults/0 Independent test suites.pdf">Rubi 4.16.1 results</a> &emsp; <a href="testResults/Rubi4.16.0TestResults/0 Independent test suites.pdf">Rubi 4.16.0 results</a> &emsp; on independent test-suites<br>
 <a href="testResults/Rubi4.16.1TestResults/1 Algebraic functions.pdf">Rubi 4.16.1 results</a> &emsp; <a href="testResults/Rubi4.16.0TestResults/1 Algebraic functions.pdf">Rubi 4.16.0 results</a> &emsp; on algebraic function integration problems<br>
 <a href="testResults/Rubi4.16.1TestResults/2 Exponentials.pdf">Rubi 4.16.1 results</a> &emsp; <a href="testResults/Rubi4.16.0TestResults/2 Exponentials.pdf">Rubi 4.16.0 results</a> &emsp; on exponential function integration problems<br>
 <a href="testResults/Rubi4.16.1TestResults/3 Logarithms.pdf">Rubi 4.16.1 results</a> &emsp; <a href="testResults/Rubi4.16.0TestResults/3 Logarithms.pdf">Rubi 4.16.0 results</a> &emsp; on logarithm function integration problems<br>
@@ -55,10 +55,10 @@ At the end of each file is a pie chart summarizing the results.  The chart is di
 * green = the number of optimal results
 * light green = the number of results more than twice the size of the optimal antiderivative
 * yellow = the number of results unnecessarily involving higher level functions or complex numbers
-* orange = the number of integrable problems that could not be integrated
+* orange = the number of integrable problems that were not integrated
 * red = the number of problems that timed out after 120 seconds
 
-<a href="testResults/Mathematica11.3TestResults/0 Independent test suites.pdf">Mathematica results</a> &emsp; <a href="testResults/Maple2018.2TestResults/0 Independent test suites.pdf">Maple results</a> &emsp; on independent integration problems<br>
+<a href="testResults/Mathematica11.3TestResults/0 Independent test suites.pdf">Mathematica results</a> &emsp; <a href="testResults/Maple2018.2TestResults/0 Independent test suites.pdf">Maple results</a> &emsp; on independent test-suites<br>
 <br>
 <a href="testResults/Mathematica11.3TestResults/1 Algebraic functions/1.1 Binomial products/1.1.1 Linear.pdf">Mathematica results</a> &emsp; <a>Maple results</a> &emsp; on linear binomial products integration problems<br>
 <a href="testResults/Mathematica11.3TestResults/1 Algebraic functions/1.1 Binomial products/1.1.2 Quadratic.pdf">Mathematica results</a> &emsp; <a href="testResults/Maple2018.2TestResults/1 Algebraic functions/1.1 Binomial products/1.1.2 Quadratic.pdf">Maple results</a> &emsp; on quadratic binomial products integration problems<br>
@@ -105,7 +105,25 @@ At the end of each file is a pie chart summarizing the results.  The chart is di
 <br>
 <a href="testResults/Mathematica11.3TestResults/8 Special functions.pdf">Mathematica results</a> &emsp; <a href="testResults/Maple2018.2TestResults/8 Special functions.pdf">Maple results</a> &emsp; on special function integration problems<br>
 
-First Header | Second Header
------------- | -------------
-Content from cell 1 | Content from cell 2
-Content in the first column | Content in the second column
+
+## Test Result Summary
+
+The following table summarizes the results produced by Rubi, Mathematica and Maple on the integration test-suite.  The first column gives the number of problems for the integrand type specified in the last column.  The column for each integrator provides the following information:
+
+* the number of optimal results
+* the number of results more than twice the size of the optimal antiderivative
+* the number of results unnecessarily involving higher level functions or complex numbers
+* the number of integrable problems that were not integrated or timed out after 120 seconds<br><br>
+
+Total |     Rubi 4.16.1      |      Mathematica 11.3       |        Maple 2018.2       | Integrand type
+----- | -------------------  | --------------------------  | ------------------------- | -----------------
+1892  | 1838 : 28 : 7 : 19   | 1579 : 123 : 149 : 41       | 1481 : 181 : 57 : 173     | Independent test-suites 
+26125 | 26092 : 9 : 13 : 11  | 19886 : 1252 : 4342 : 645   | 15613 : 5909 : 221 : 4382 | Algebraic functions
+965   | 963 : 0 : 0 : 2      | 844 : 50 : 9 : 62           |  | Exponentials
+3085  | 3078 : 1 : 0 : 6     | 2387 : 377 : 199 : 122      |  | Logarithms
+22551 | 22515 : 12 : 5 : 19  | 13443 : 3445 : 4436 : 1227  |  | Trig functions
+4585  | 4582 : 1 : 0 : 2     | 3965 : 225 : 193 : 202      |  | Inverse trig functions
+5166  | 5164 : 0 : 2 : 0     | 3989 : 503 : 386 : 288      |  | Hyperbolic functions
+6626  | 6624 : 0 : 0 : 2     | 5544 : 158 : 559 : 365      |  | Inverse hyperbolic functions
+1949  | 1947 : 2 : 0 : 0     | 1541 : 71 : 21 : 316        |  | Special functions
+72944 | 72803 : 53 : 27 : 61 | 53178 : 6204 : 10294 : 3268 |  | Entire test-suite
