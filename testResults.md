@@ -106,7 +106,7 @@ At the end of each file is a pie chart summarizing the results.  The chart is di
 <a href="testResults/Mathematica11.3TestResults/8 Special functions.pdf">Mathematica results</a> &emsp; <a href="testResults/Maple2018.2TestResults/8 Special functions.pdf">Maple results</a> &emsp; on special function integration problems<br>
 
 
-## Test Result Summary
+## Integration Test Result Summary
 
 The following table summarizes the results produced by Rubi, Mathematica and Maple on the integration test-suite.  The first column gives the number of problems for the integrand type specified in the last column.  The column for each integrator provides the following information:
 
