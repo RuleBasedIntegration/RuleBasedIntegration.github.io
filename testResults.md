@@ -122,7 +122,7 @@ Total |     Rubi 4.16.1      |      Mathematica 11.3       |        Maple 2018.2
 965   | 963 : 0 : 0 : 2      | 844 : 50 : 9 : 62           | 618 : 154 : 0 : 193       | Exponentials
 3085  | 3078 : 1 : 0 : 6     | 2387 : 377 : 199 : 122      | 710 : 890 : 0 : 1485      | Logarithms
 22551 | 22515 : 12 : 5 : 19  | 13443 : 3445 : 4436 : 1227  |  | Trig functions
-4585  | 4582 : 1 : 0 : 2     | 3965 : 225 : 193 : 202      |  | Inverse trig functions
+4585  | 4582 : 1 : 0 : 2     | 3965 : 225 : 193 : 202      | 2785 : 950 : 0 : 850      | Inverse trig functions
 5166  | 5164 : 0 : 2 : 0     | 3989 : 503 : 386 : 288      |  | Hyperbolic functions
 6626  | 6624 : 0 : 0 : 2     | 5544 : 158 : 559 : 365      |  | Inverse hyperbolic functions
 1949  | 1947 : 2 : 0 : 0     | 1541 : 71 : 21 : 316        |  | Special functions
