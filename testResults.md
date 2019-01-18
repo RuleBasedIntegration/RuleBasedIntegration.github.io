@@ -108,7 +108,7 @@ At the end of each file is a pie chart summarizing the results.  The chart is di
 
 ## Integration Test Result Summary
 
-The following table summarizes the results produced by Rubi, Mathematica and Maple on the integration test-suite.  The first column gives the total number of problems for the integrand type specified in the last column.  The column for each integrator shows the following numbers separated by colons:
+The following table summarizes the results produced by Rubi, Mathematica and Maple on the integration test-suite.  The first column gives the total number of problems for the integrand type specified in the last column.  The column for each integrator gives the following separated by colons:
 
 * the number of optimal results
 * the number of results more than twice the size of the optimal antiderivative
