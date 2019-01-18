@@ -115,16 +115,88 @@ The following table summarizes the results produced by Rubi, Mathematica and Map
 * the number of results unnecessarily involving higher level functions or complex numbers
 * the number of integrable problems that were not integrated or timed out after 120 seconds:<br><br>
 
-
-Total |     Rubi 4.16.1      |      Mathematica 11.3       |       Maple 2018.2        |   Integrand type
------ | -------------------  | --------------------------  | ------------------------- | --------------
-1892  | 1838 : 28 : 7 : 19   | 1579 : 123 : 149 : 41       | 1481 : 181 : 57 : 173     | Independent test-suites
-26125 | 26092 : 9 : 13 : 11  | 19886 : 1252 : 4342 : 645   | 15613 : 5909 : 221 : 4382 | Algebraic functions
-965   | 963 : 0 : 0 : 2      | 844 : 50 : 9 : 62           | 618 : 154 : 0 : 193       | Exponentials
-3085  | 3078 : 1 : 0 : 6     | 2387 : 377 : 199 : 122      | 710 : 890 : 0 : 1485      | Logarithms
-22551 | 22515 : 12 : 5 : 19  | 13443 : 3445 : 4436 : 1227  |  | Trig functions
-4585  | 4582 : 1 : 0 : 2     | 3965 : 225 : 193 : 202      | 2785 : 950 : 0 : 850      | Inverse trig functions
-5166  | 5164 : 0 : 2 : 0     | 3989 : 503 : 386 : 288      | 2571 : 1462 : 42 : 1091   | Hyperbolic functions
-6626  | 6624 : 0 : 0 : 2     | 5544 : 158 : 559 : 365      | 3809 : 1466 : 6 : 1345    | Inverse hyperbolic functions
-1949  | 1947 : 2 : 0 : 0     | 1541 : 71 : 21 : 316        | 1237 : 145 : 31 : 536     | Special functions
-72944 | 72803 : 53 : 27 : 61 | 53178 : 6204 : 10294 : 3268 |  | Entire test-suite
+<small>
+<table>
+  <thead>
+    <tr>
+      <th>Total</th>
+      <th>Rubi 4.16.1</th>
+      <th>Mathematica 11.3</th>
+      <th>Maple 2018.2</th>
+      <th>Integrand type</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>1892</td>
+      <td>1838 : 28 : 7 : 19</td>
+      <td>1579 : 123 : 149 : 41</td>
+      <td>1481 : 181 : 57 : 173</td>
+      <td>Independent test-suites</td>
+    </tr>
+    <tr>
+      <td>26125</td>
+      <td>26092 : 9 : 13 : 11</td>
+      <td>19886 : 1252 : 4342 : 645</td>
+      <td>15613 : 5909 : 221 : 4382</td>
+      <td>Algebraic functions</td>
+    </tr>
+    <tr>
+      <td>965</td>
+      <td>963 : 0 : 0 : 2</td>
+      <td>844 : 50 : 9 : 62</td>
+      <td>618 : 154 : 0 : 193</td>
+      <td>Exponentials</td>
+    </tr>
+    <tr>
+      <td>3085</td>
+      <td>3078 : 1 : 0 : 6</td>
+      <td>2387 : 377 : 199 : 122</td>
+      <td>710 : 890 : 0 : 1485</td>
+      <td>Logarithms</td>
+    </tr>
+    <tr>
+      <td>22551</td>
+      <td>22515 : 12 : 5 : 19</td>
+      <td>13443 : 3445 : 4436 : 1227</td>
+      <td>&nbsp;</td>
+      <td>Trig functions</td>
+    </tr>
+    <tr>
+      <td>4585</td>
+      <td>4582 : 1 : 0 : 2</td>
+      <td>3965 : 225 : 193 : 202</td>
+      <td>2785 : 950 : 0 : 850</td>
+      <td>Inverse trig functions</td>
+    </tr>
+    <tr>
+      <td>5166</td>
+      <td>5164 : 0 : 2 : 0</td>
+      <td>3989 : 503 : 386 : 288</td>
+      <td>2571 : 1462 : 42 : 1091</td>
+      <td>Hyperbolic functions</td>
+    </tr>
+    <tr>
+      <td>6626</td>
+      <td>6624 : 0 : 0 : 2</td>
+      <td>5544 : 158 : 559 : 365</td>
+      <td>3809 : 1466 : 6 : 1345</td>
+      <td>Inverse hyperbolic functions</td>
+    </tr>
+    <tr>
+      <td>1949</td>
+      <td>1947 : 2 : 0 : 0</td>
+      <td>1541 : 71 : 21 : 316</td>
+      <td>1237 : 145 : 31 : 536</td>
+      <td>Special functions</td>
+    </tr>
+    <tr>
+      <td>72944</td>
+      <td>72803 : 53 : 27 : 61</td>
+      <td>53178 : 6204 : 10294 : 3268</td>
+      <td>&nbsp;</td>
+      <td>Entire test-suite</td>
+    </tr>
+  </tbody>
+</table>
+</small>
