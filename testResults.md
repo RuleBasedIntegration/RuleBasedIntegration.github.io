@@ -116,7 +116,7 @@ The following table summarizes the results produced by Rubi, Mathematica and Map
 * the number of integrable problems that were not integrated or timed out after 120 seconds<br><br>
   
 <small>Total </small>|<small> Rubi 4.16.1 </small>|<small> Mathematica 11.3 </small>|<small> Maple 2018.2 </small>|<small> Integrand type</small>
------ | -------------------  | --------------------------  | ------------------------- | -----------------
+----- | --------------  | --------------  | -------------- | --------------
 <small>1892  |<small> 1838 : 28 : 7 : 19   |<small> 1579 : 123 : 149 : 41       |<small> 1481 : 181 : 57 : 173     |<small> Independent test-suites
 <small>26125 |<small> 26092 : 9 : 13 : 11  |<small> 19886 : 1252 : 4342 : 645   |<small> 15613 : 5909 : 221 : 4382 |<small> Algebraic functions
 <small>965   |<small> 963 : 0 : 0 : 2      |<small> 844 : 50 : 9 : 62           |<small> 618 : 154 : 0 : 193       |<small> Exponentials
