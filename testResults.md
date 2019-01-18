@@ -114,7 +114,9 @@ The following table summarizes the results produced by Rubi, Mathematica and Map
 * the number of results more than twice the size of the optimal antiderivative
 * the number of results unnecessarily involving higher level functions or complex numbers
 * the number of integrable problems that were not integrated or timed out after 120 seconds<br>
-<font size="3"><br>
+
+<small><br><br>
+
   
 Total |     Rubi 4.16.1      |      Mathematica 11.3       |        Maple 2018.2       | Integrand type
 ----- | -------------------  | --------------------------  | ------------------------- | -----------------
@@ -129,5 +131,5 @@ Total |     Rubi 4.16.1      |      Mathematica 11.3       |        Maple 2018.2
 1949  | 1947 : 2 : 0 : 0     | 1541 : 71 : 21 : 316        | 1237 : 145 : 31 : 536     | Special functions
 72944 | 72803 : 53 : 27 : 61 | 53178 : 6204 : 10294 : 3268 |  | Entire test-suite
 
-</font>
+</small>
   
