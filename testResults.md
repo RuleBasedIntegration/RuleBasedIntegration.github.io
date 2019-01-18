@@ -124,6 +124,6 @@ Total |     Rubi 4.16.1      |      Mathematica 11.3       |        Maple 2018.2
 22551 | 22515 : 12 : 5 : 19  | 13443 : 3445 : 4436 : 1227  |  | Trig functions
 4585  | 4582 : 1 : 0 : 2     | 3965 : 225 : 193 : 202      | 2785 : 950 : 0 : 850      | Inverse trig functions
 5166  | 5164 : 0 : 2 : 0     | 3989 : 503 : 386 : 288      | 2571 : 1462 : 42 : 1091   | Hyperbolic functions
-6626  | 6624 : 0 : 0 : 2     | 5544 : 158 : 559 : 365      |  | Inverse hyperbolic functions
+6626  | 6624 : 0 : 0 : 2     | 5544 : 158 : 559 : 365      | 3809 : 1466 : 6 : 1345    | Inverse hyperbolic functions
 1949  | 1947 : 2 : 0 : 0     | 1541 : 71 : 21 : 316        | 1237 : 145 : 31 : 536     | Special functions
 72944 | 72803 : 53 : 27 : 61 | 53178 : 6204 : 10294 : 3268 |  | Entire test-suite
