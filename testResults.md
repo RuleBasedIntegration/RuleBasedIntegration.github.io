@@ -115,7 +115,7 @@ The following table summarizes the results produced by Rubi, Mathematica and Map
 * the number of results unnecessarily involving higher level functions or complex numbers
 * the number of integrable problems that were not integrated or timed out after 120 seconds<br><br>
 
-<div style="font-size:70%">
+<div style="font-size:75%">
 <table>
   <thead>
     <tr>
