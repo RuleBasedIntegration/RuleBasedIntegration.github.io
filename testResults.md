@@ -113,14 +113,11 @@ The following table summarizes the results produced by Rubi, Mathematica and Map
 * the number of optimal results
 * the number of results more than twice the size of the optimal antiderivative
 * the number of results unnecessarily involving higher level functions or complex numbers
-* the number of integrable problems that were not integrated or timed out after 120 seconds.<br>
-
-<small><br><br>
-
+* the number of integrable problems that were not integrated or timed out after 120 seconds<br><br>
   
 Total |     Rubi 4.16.1      |      Mathematica 11.3       |        Maple 2018.2       | Integrand type
 ----- | -------------------  | --------------------------  | ------------------------- | -----------------
-1892  | 1838 : 28 : 7 : 19   | 1579 : 123 : 149 : 41       | 1481 : 181 : 57 : 173     | Independent test-suites 
+<small>1892  | 1838 : 28 : 7 : 19   | 1579 : 123 : 149 : 41       | 1481 : 181 : 57 : 173     | Independent test-suites</small> 
 26125 | 26092 : 9 : 13 : 11  | 19886 : 1252 : 4342 : 645   | 15613 : 5909 : 221 : 4382 | Algebraic functions
 965   | 963 : 0 : 0 : 2      | 844 : 50 : 9 : 62           | 618 : 154 : 0 : 193       | Exponentials
 3085  | 3078 : 1 : 0 : 6     | 2387 : 377 : 199 : 122      | 710 : 890 : 0 : 1485      | Logarithms
@@ -130,6 +127,3 @@ Total |     Rubi 4.16.1      |      Mathematica 11.3       |        Maple 2018.2
 6626  | 6624 : 0 : 0 : 2     | 5544 : 158 : 559 : 365      | 3809 : 1466 : 6 : 1345    | Inverse hyperbolic functions
 1949  | 1947 : 2 : 0 : 0     | 1541 : 71 : 21 : 316        | 1237 : 145 : 31 : 536     | Special functions
 72944 | 72803 : 53 : 27 : 61 | 53178 : 6204 : 10294 : 3268 |  | Entire test-suite
-
-</small>
-  
