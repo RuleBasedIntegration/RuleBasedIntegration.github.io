@@ -115,7 +115,7 @@ The following table summarizes the results produced by Rubi, Mathematica and Map
 * the number of results unnecessarily involving higher level functions or complex numbers
 * the number of integrable problems that were not integrated or timed out after 120 seconds<br><br>
   
-Total |     Rubi 4.16.1      |      Mathematica 11.3       |        Maple 2018.2       | Integrand type
+<small>Total |<small>     Rubi 4.16.1      |<small>      Mathematica 11.3       |<small>        Maple 2018.2       |<small> Integrand type
 ----- | -------------------  | --------------------------  | ------------------------- | -----------------
 <small>1892  |<small> 1838 : 28 : 7 : 19   |<small> 1579 : 123 : 149 : 41       |<small> 1481 : 181 : 57 : 173     |<small> Independent test-suites
 <small>26125 |<small> 26092 : 9 : 13 : 11  |<small> 19886 : 1252 : 4342 : 645   |<small> 15613 : 5909 : 221 : 4382 |<small> Algebraic functions
