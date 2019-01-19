@@ -194,7 +194,7 @@ The following table summarizes the results produced by Rubi, Mathematica and Map
       <td>72944</td>
       <td>72803 : 53 : 27 : 61</td>
       <td>53178 : 6204 : 10294 : 3268</td>
-      <td>&nbsp;</td>
+      <td>39458 : 18930 : 788 : 13768</td>
       <td>Entire test-suite</td>
     </tr>
   </tbody>
