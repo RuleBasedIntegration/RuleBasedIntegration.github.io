@@ -159,7 +159,7 @@ The following table summarizes the results produced by Rubi, Mathematica and Map
       <td>22551</td>
       <td>22515 : 12 : 5 : 19</td>
       <td>13443 : 3445 : 4436 : 1227</td>
-      <td>&nbsp;</td>
+      <td>10634 : 7773 : 431 : 3713</td>
       <td>Trig functions</td>
     </tr>
     <tr>
