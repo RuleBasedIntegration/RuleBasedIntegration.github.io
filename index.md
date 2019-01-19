@@ -20,13 +20,13 @@ Rubi dramatically out-performs other symbolic integrators, including Maple and M
 - **C** - if the result unnecessarily involves higher-level functions or complex numbers. For example, the result involves special functions, but the optimal antiderivative only involves elementary ones.
 - **F** - if the result involves an integral, no result is produced within 120 seconds, or the system hangs or crashes.
 
-The following chart summarizes the grades recent versions of Rubi, Mathematica and Maple made on the integration test-suite:
+The following bar chart summarizes the grades recent versions of Rubi, Mathematica and Maple made on the integration test-suite:
 
 {:refdef: style="text-align: center;"}
 ![integrationTestResultsChart](integrationTestResultsChart.png)
 {:refdef}
 
-Click on the [Test Results](https://rulebasedintegration.org/testResults.html) menu option to see the detailed test results on which these bar charts are based. 
+Click on the [Test Results](https://rulebasedintegration.org/testResults.html) menu option to see the detailed test results on which this bar chart is based.
 
 Also, Nasser M. Abbasi has done extensive testing of the integration capabilities on these and several other computer algebra systems. Detailed test results are available at his [Computer algebra independent integration tests](https://www.12000.org/my_notes/CAS_integration_tests/reports/rubi_4_15_2/) website. 
 
