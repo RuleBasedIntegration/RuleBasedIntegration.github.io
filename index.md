@@ -49,7 +49,8 @@ Below are some of the articles and online posts written about Rubi in reverse ch
 
 - Albert D. Rich and David J. Jeffrey (2010). [Reducing expression size using rule-based integration.](http://www.apmaths.uwo.ca/~djeffrey/Offprints/Calc2010final.pdf) Intelligent Computer Mathematics. Ed: S.Autexier, J.Calmet, D. Delahaye, P.D.F.Ion, L.Rideau, R.Rioboo, A.P.Sexton. LNAI 6167, pp234-246, Springer.
 
-- Albert D. Rich and David J. Jeffrey (2009). [A knowledge repository for indefinite integration based on transformation rules.](http://www.apmaths.uwo.ca/~djeffrey/Offprints/IntegrationRules.pdf) Intelligent Computer Mathematics, LNCS 5625, pp480-485, Springer<br><br>
+- Albert D. Rich and David J. Jeffrey (2009). [A knowledge repository for indefinite integration based on transformation rules.](http://www.apmaths.uwo.ca/~djeffrey/Offprints/IntegrationRules.pdf) Intelligent Computer Mathematics, LNCS 5625, pp480-485, Springer
+
 
 If Rubi is used in your work and you want to cite it appropriately, please reference the article [Rule-based integration: An extensive system of symbolic integration rules](https://doi.org/10.21105/joss.01073) published in the [Journal of Open Source Software](https://joss.theoj.org/). The following entry can be used for bibliographies created using [BibTeX](http://www.bibtex.org/):
 
