@@ -33,23 +33,7 @@ Also, Nasser M. Abbasi has done extensive testing of the integration capabilitie
 
 ## Articles referencing rule-based integration
 
-If Rubi is used in your work and you want to cite it appropriately, please reference the article [Rule-based integration: An extensive system of symbolic integration rules](https://doi.org/10.21105/joss.01073) published in the [Journal of Open Source Software](https://joss.theoj.org/). For bibliographies created using [BibTeX](http://www.bibtex.org/), the following entry can be used:
-
-```bibtex
-@article{Rich2018,
-  title = {Rule-based integration: An extensive system of symbolic integration rules},
-  author = {Albert Rich and Patrick Scheibe and Nasser Abbasi},
-  doi = {10.21105/joss.01073},
-  date  = {2018-12},
-  publisher = {The Open Journal},
-  volume = {3},
-  number = {32},
-  pages = {1073},
-  journal = {Journal of Open Source Software}
-}
-```
-
-Additionally, there are several articles and online posts about Rubi. Below, you find a selection:
+Below are some of the articles and online posts written about Rubi in reverse chronological order:
 
 - Albert Rich, Patrick Scheibe, and Nasser Abbasi (2018). [Rule-based integration: An extensive system of symbolic integration rules.](https://doi.org/10.21105/joss.01073) Journal of Open Source Software. 3.32, p1073 1-3, DOI: 10.21105/joss.
 
@@ -65,7 +49,23 @@ Additionally, there are several articles and online posts about Rubi. Below, you
 
 - Albert D. Rich and David J. Jeffrey (2010). [Reducing expression size using rule-based integration.](http://www.apmaths.uwo.ca/~djeffrey/Offprints/Calc2010final.pdf) Intelligent Computer Mathematics. Ed: S.Autexier, J.Calmet, D. Delahaye, P.D.F.Ion, L.Rideau, R.Rioboo, A.P.Sexton. LNAI 6167, pp234-246, Springer.
 
-- Albert D. Rich and David J. Jeffrey (2009). [A knowledge repository for indefinite integration based on transformation rules.](http://www.apmaths.uwo.ca/~djeffrey/Offprints/IntegrationRules.pdf) Intelligent Computer Mathematics, LNCS 5625, pp480-485, Springer.
+- Albert D. Rich and David J. Jeffrey (2009). [A knowledge repository for indefinite integration based on transformation rules.](http://www.apmaths.uwo.ca/~djeffrey/Offprints/IntegrationRules.pdf) Intelligent Computer Mathematics, LNCS 5625, pp480-485, Springer<br><br>
+
+If Rubi is used in your work and you want to cite it appropriately, please reference the article [Rule-based integration: An extensive system of symbolic integration rules](https://doi.org/10.21105/joss.01073) published in the [Journal of Open Source Software](https://joss.theoj.org/). For bibliographies created using [BibTeX](http://www.bibtex.org/), the following entry can be used:
+
+```bibtex
+@article{Rich2018,
+  title = {Rule-based integration: An extensive system of symbolic integration rules},
+  author = {Albert Rich and Patrick Scheibe and Nasser Abbasi},
+  doi = {10.21105/joss.01073},
+  date  = {2018-12},
+  publisher = {The Open Journal},
+  volume = {3},
+  number = {32},
+  pages = {1073},
+  journal = {Journal of Open Source Software}
+}
+```
 
 
 ## Rule-based integration resources
