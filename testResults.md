@@ -1,6 +1,6 @@
 # Integration Test Results
 
-The results of running Rubi and Mathematica's built-in integrator on the integration test-suite are available for viewing by clicking on the links below.  For each problem on which a system produces a deficient result, the following items are shown:
+The results of running Rubi, Mathematica and Maple's built-in integrators on the integration test-suite are available for viewing by clicking on the links below.  For each problem on which a system produces a deficient result, the following items are shown:
 
 * The problem number followed by a brief explanation why the result is deficient
 * The problem shown as an indefinite integral
