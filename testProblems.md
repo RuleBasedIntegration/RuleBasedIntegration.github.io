@@ -17,7 +17,7 @@ Note that the optimal antiderivatives (i.e. the correct answers) in the test-sui
 
 You can click on the [Test Results](/testResults.html) menu option to see the results of running Rubi, Mathematica and Maple on the integration test-suite.  However, if you have access to Mathematica or Maple and want to run the test-suite yourself, you can download and install the integration test program used to create these test results.
 
-Mathematica version 7 or later is required to run the test program.  However, the installation procedure is a little simpler for more recent versions of Mathematica.  Instructions for installing and uninstalling the test program for the various versions of Mathematica are as follows:
+Mathematica version 7 or later is required to run the test program.  However, the installation procedure is a little simpler for more recent versions of Mathematica.  Instructions for installing and uninstalling the test program for Mathematica and Maple are as follows:
 
 ### Mathematica 11.2 or later
 
@@ -49,14 +49,15 @@ FileNameJoin[{$UserBaseDirectory, "Applications"}]
 ```
 This installs the latest version of the test program on your computer in Mathematica's Applications repository for packages. 
 
-To remove the test program package, delete the **<font face="courier">IntegrationTestProgram</font>** folder from the directory returned by the Mathematica commmand
-```mma
-FileNameJoin[{$UserBaseDirectory, "Applications"}]
-```
+To remove the test program package for Mathematica, just delete the **<font face="courier">IntegrationTestProgram</font>** folder from the "Applications" directory.
 
 ### Maple
 
-Click on [https://rulebasedintegration.org/MapleIntegrationTestProgram.zip](https://rulebasedintegration.org/MapleIntegrationTestProgram.zip) to download the test program zip file for Maple to the Downloads directory on your computer.  Then extract from the zip file the **<font face="courier">IntegrationTestProgram</font>** folder with all its contents into a directory of your choice.  Comments at the beginning of the file **<font face="courier">IntegrationTestProgram.mpl</font>** describe how to run the test program and the effect of the control variables.
+Click on [https://rulebasedintegration.org/MapleIntegrationTestProgram.zip](https://rulebasedintegration.org/MapleIntegrationTestProgram.zip) to download the test program zip file for Maple to the Downloads directory on your computer.  Then extract from the zip file the **<font face="courier">IntegrationTestProgram</font>** folder with all its contents into a directory of your choice.
+
+Comments at the beginning of the file **<font face="courier">IntegrationTestProgram.mpl</font>** describe how to run the test program and the effect of the control variables.
+
+To remove the test program for Maple, just delete the **<font face="courier">IntegrationTestProgram</font>** folder.
 
 
 ## Running the Integration Test Program
