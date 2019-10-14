@@ -17,7 +17,9 @@ or the shorter form
 ```
 to load Rubi into Mathematica.
 
-The first time Rubi is loaded, it will take a minute or two to read in and initialize the system.  However, this initial load also saves a fast loading memory image of Rubi, so all subsequent load commands will be almost instantaneous. 
+The first time Rubi is loaded, it will take a minute or two to read in and initialize the system.  However, this initial load also saves a fast loading memory image of Rubi, so all subsequent load commands will be almost instantaneous.
+
+Options for reducing the amount of memory Rubi requires are described at the end of this page.
 
 
 ## Integrating expressions
