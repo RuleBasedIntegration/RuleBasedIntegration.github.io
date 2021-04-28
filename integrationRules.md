@@ -4,7 +4,7 @@ Rubi systematically applies precisely defined rules to efficiently integrate lar
 
 Zip files of hierarchically organized directory structures containing all the rule files are also available for downloading by clicking on <a href="PdfRuleFiles/Rubi-4.16.1.0.zip">PDF rule files</a> or <a href="NotebookRuleFiles/Rubi-4.16.1.0.zip">Notebook rule files</a>.
 
-When displaying integration steps, the rule number of each rule applied can be shown as described in the *Displaying integration steps* section of [Using Rubi](https://rulebasedintegration.org/usingRubi.html). To see the numbers of the rules defined in each of the rule files, click on <a href="PdfRuleFiles/Rubi 4.16.1 Integration Rule Index.pdf">Rule Number Index</a>. To download the rule number index as a notebook file, click on <a href="NotebookRuleFiles/Rubi 4.16.1 Integration Rule Index.nb">Index File</a>.
+When displaying integration steps, the rule number of each rule applied can be shown as described in the *Displaying integration steps* section of [Using Rubi](https://rulebasedintegration.org/usingRubi.html). To see the numbers of the rules defined in each of the rule files, click on <a href="PdfRuleFiles/Rubi 4.16.1 Integration Rule Index.pdf">Rule Index</a>. To download the rule index as a notebook file, click on <a href="NotebookRuleFiles/Rubi 4.16.1 Integration Rule Index.nb">Rule Index File</a>.
 
 The rules in the files are displayed in standard, 2-dimensional mathematical notation, and followed by the equivalent Mathematica program code. Comments preceding many of the rules document them as follows:
 
