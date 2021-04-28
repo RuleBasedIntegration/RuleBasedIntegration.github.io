@@ -1,4 +1,4 @@
 theme: jekyll-theme-cayman
-title: Rule-based Integration
+title: Rubi - A Rule-based Integrator
 subtitle: Real (not Artificial) Intelligence
-description: Rubi -- A Rule-base Symbolic Integrator
+description: A symbolic integrator based on an extensive system of integration rules
