@@ -1,8 +1,10 @@
-# Rubi's Integration Rules
+# Symbolic Integration Rules
 
 Rubi systematically applies precisely defined rules to efficiently integrate large classes of mathematical expressions. The integration rules, expressed in both human and machine-readable form, are available for viewing as PDF files and for downloading as Mathematica notebook files. The file links below are organized into categories based on the form of the integrand.
 
 Zip files of hierarchically organized directory structures containing all the rule files are also available for downloading by clicking on <a href="PdfRuleFiles/Rubi-4.16.1.0.zip">PDF rule files</a> or <a href="NotebookRuleFiles/Rubi-4.16.1.0.zip">Notebook rule files</a>.
+
+When displaying integration steps, the rule number of each rule applied can be shown as described in the *Displaying integration steps* section of [Using Rubi](https://rulebasedintegration.org/usingRubi.html). To download a file showing the numbers of the rules defined in each of the rule files, click on <a href="PdfRuleFiles/Rubi 4.16.1 Integration Rule Index.pdf">PDF rule index file</a> or <a href="NotebookRuleFiles/Rubi 4.16.1 Integration Rule Index.nb">Notebook rule index file</a>.
 
 The rules in the files are displayed in standard, 2-dimensional mathematical notation, and followed by the equivalent Mathematica program code. Comments preceding many of the rules document them as follows:
 
@@ -15,7 +17,6 @@ The rules in the files are displayed in standard, 2-dimensional mathematical not
    29th edition, William H. Beyer, editor.
   - **<font face="courier">A&S</font>** is the ["Handbook of Mathematical Functions"](https://isbnsearch.org/isbn/9780486612720),
    Milton Abramowitz and Irene A. Stegun, editors.
-
 
 ## 1 Algebraic Function Rules
 
