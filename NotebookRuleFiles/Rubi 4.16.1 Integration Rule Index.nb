@@ -1,0 +1,2970 @@
+(* Content-type: application/vnd.wolfram.mathematica *)
+
+(*** Wolfram Notebook File ***)
+(* http://www.wolfram.com/nb *)
+
+(* CreatedBy='Mathematica 8.0' *)
+
+(*CacheID: 234*)
+(* Internal cache information:
+NotebookFileLineBreakTest
+NotebookFileLineBreakTest
+NotebookDataPosition[       157,          7]
+NotebookDataLength[    109347,       2961]
+NotebookOptionsPosition[     99697,       2687]
+NotebookOutlinePosition[    100997,       2732]
+CellTagsIndexPosition[    100954,       2729]
+WindowFrame->Normal*)
+
+(* Beginning of Notebook Content *)
+Notebook[{
+
+Cell[CellGroupData[{
+Cell["\<\
+Rubi 4.16.1 Integration Rule Index\
+\>", "Title",
+ CellChangeTimes->{{3.828552133690809*^9, 3.82855216134239*^9}},
+ TextAlignment->Center],
+
+Cell[CellGroupData[{
+
+Cell["Algebraic function rules", "Section",
+ CellChangeTimes->{{3.8285522381637845`*^9, 3.828552255413771*^9}}],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ InterpretationBox[
+  RowBox[{"\<\"Rules \"\>", "\[InvisibleSpace]", "1", 
+   "\[InvisibleSpace]", "\<\"-\"\>", "\[InvisibleSpace]", "28", 
+   "\[InvisibleSpace]", "\<\": \\\"9 Miscellaneous\\\\9.1 Integrand \
+simplification rules.nb\\\"\"\>"}],
+  SequenceForm[
+  "Rules ", 1, "-", 28, 
+   ": \"9 Miscellaneous\\9.1 Integrand simplification rules.nb\""],
+  Editable->False]], "Print",
+ CellChangeTimes->{3.8285571480107307`*^9},
+ FontSize->10],
+
+Cell[BoxData[
+ InterpretationBox[
+  RowBox[{"\<\"Rules \"\>", "\[InvisibleSpace]", "29", 
+   "\[InvisibleSpace]", "\<\"-\"\>", "\[InvisibleSpace]", "33", 
+   "\[InvisibleSpace]", "\<\": \\\"1 Algebraic functions\\\\1.1 Binomial \
+products\\\\1.1.1 Linear\\\\1.1.1.1 (a+b x)^m.nb\\\"\"\>"}],
+  SequenceForm[
+  "Rules ", 29, "-", 33, 
+   ": \"1 Algebraic functions\\1.1 Binomial products\\1.1.1 Linear\\1.1.1.1 \
+(a+b x)^m.nb\""],
+  Editable->False]], "Print",
+ CellChangeTimes->{3.828557148011731*^9},
+ FontSize->10],
+
+Cell[BoxData[
+ InterpretationBox[
+  RowBox[{"\<\"Rules \"\>", "\[InvisibleSpace]", "34", 
+   "\[InvisibleSpace]", "\<\"-\"\>", "\[InvisibleSpace]", "73", 
+   "\[InvisibleSpace]", "\<\": \\\"1 Algebraic functions\\\\1.1 Binomial \
+products\\\\1.1.1 Linear\\\\1.1.1.2 (a+b x)^m (c+d x)^n.nb\\\"\"\>"}],
+  SequenceForm[
+  "Rules ", 34, "-", 73, 
+   ": \"1 Algebraic functions\\1.1 Binomial products\\1.1.1 Linear\\1.1.1.2 \
+(a+b x)^m (c+d x)^n.nb\""],
+  Editable->False]], "Print",
+ CellChangeTimes->{3.8285571480457325`*^9},
+ FontSize->10],
+
+Cell[BoxData[
+ InterpretationBox[
+  RowBox[{"\<\"Rules \"\>", "\[InvisibleSpace]", "74", 
+   "\[InvisibleSpace]", "\<\"-\"\>", "\[InvisibleSpace]", "146", 
+   "\[InvisibleSpace]", "\<\": \\\"1 Algebraic functions\\\\1.1 Binomial \
+products\\\\1.1.1 Linear\\\\1.1.1.3 (a+b x)^m (c+d x)^n (e+f \
+x)^p.nb\\\"\"\>"}],
+  SequenceForm[
+  "Rules ", 74, "-", 146, 
+   ": \"1 Algebraic functions\\1.1 Binomial products\\1.1.1 Linear\\1.1.1.3 \
+(a+b x)^m (c+d x)^n (e+f x)^p.nb\""],
+  Editable->False]], "Print",
+ CellChangeTimes->{3.8285571481387377`*^9},
+ FontSize->10],
+
+Cell[BoxData[
+ InterpretationBox[
+  RowBox[{"\<\"Rules \"\>", "\[InvisibleSpace]", "147", 
+   "\[InvisibleSpace]", "\<\"-\"\>", "\[InvisibleSpace]", "194", 
+   "\[InvisibleSpace]", "\<\": \\\"1 Algebraic functions\\\\1.1 Binomial \
+products\\\\1.1.1 Linear\\\\1.1.1.4 (a+b x)^m (c+d x)^n (e+f x)^p (g+h \
+x)^q.nb\\\"\"\>"}],
+  SequenceForm[
+  "Rules ", 147, "-", 194, 
+   ": \"1 Algebraic functions\\1.1 Binomial products\\1.1.1 Linear\\1.1.1.4 \
+(a+b x)^m (c+d x)^n (e+f x)^p (g+h x)^q.nb\""],
+  Editable->False]], "Print",
+ CellChangeTimes->{3.828557148242744*^9},
+ FontSize->10],
+
+Cell[BoxData[
+ InterpretationBox[
+  RowBox[{"\<\"Rules \"\>", "\[InvisibleSpace]", "195", 
+   "\[InvisibleSpace]", "\<\"-\"\>", "\[InvisibleSpace]", "264", 
+   "\[InvisibleSpace]", "\<\": \\\"1 Algebraic functions\\\\1.1 Binomial \
+products\\\\1.1.3 General\\\\1.1.3.1 (a+b x^n)^p.nb\\\"\"\>"}],
+  SequenceForm[
+  "Rules ", 195, "-", 264, 
+   ": \"1 Algebraic functions\\1.1 Binomial products\\1.1.3 General\\1.1.3.1 \
+(a+b x^n)^p.nb\""],
+  Editable->False]], "Print",
+ CellChangeTimes->{3.8285571483587503`*^9},
+ FontSize->10],
+
+Cell[BoxData[
+ InterpretationBox[
+  RowBox[{"\<\"Rules \"\>", "\[InvisibleSpace]", "265", 
+   "\[InvisibleSpace]", "\<\"-\"\>", "\[InvisibleSpace]", "379", 
+   "\[InvisibleSpace]", "\<\": \\\"1 Algebraic functions\\\\1.1 Binomial \
+products\\\\1.1.3 General\\\\1.1.3.2 (c x)^m (a+b x^n)^p.nb\\\"\"\>"}],
+  SequenceForm[
+  "Rules ", 265, "-", 379, 
+   ": \"1 Algebraic functions\\1.1 Binomial products\\1.1.3 General\\1.1.3.2 \
+(c x)^m (a+b x^n)^p.nb\""],
+  Editable->False]], "Print",
+ CellChangeTimes->{3.828557148630766*^9},
+ FontSize->10],
+
+Cell[BoxData[
+ InterpretationBox[
+  RowBox[{"\<\"Rules \"\>", "\[InvisibleSpace]", "380", 
+   "\[InvisibleSpace]", "\<\"-\"\>", "\[InvisibleSpace]", "446", 
+   "\[InvisibleSpace]", "\<\": \\\"1 Algebraic functions\\\\1.1 Binomial \
+products\\\\1.1.3 General\\\\1.1.3.3 (a+b x^n)^p (c+d x^n)^q.nb\\\"\"\>"}],
+  SequenceForm[
+  "Rules ", 380, "-", 446, 
+   ": \"1 Algebraic functions\\1.1 Binomial products\\1.1.3 General\\1.1.3.3 \
+(a+b x^n)^p (c+d x^n)^q.nb\""],
+  Editable->False]], "Print",
+ CellChangeTimes->{3.828557148904782*^9},
+ FontSize->10],
+
+Cell[BoxData[
+ InterpretationBox[
+  RowBox[{"\<\"Rules \"\>", "\[InvisibleSpace]", "447", 
+   "\[InvisibleSpace]", "\<\"-\"\>", "\[InvisibleSpace]", "534", 
+   "\[InvisibleSpace]", "\<\": \\\"1 Algebraic functions\\\\1.1 Binomial \
+products\\\\1.1.3 General\\\\1.1.3.4 (e x)^m (a+b x^n)^p (c+d x^n)^q.nb\\\"\"\
+\>"}],
+  SequenceForm[
+  "Rules ", 447, "-", 534, 
+   ": \"1 Algebraic functions\\1.1 Binomial products\\1.1.3 General\\1.1.3.4 \
+(e x)^m (a+b x^n)^p (c+d x^n)^q.nb\""],
+  Editable->False]], "Print",
+ CellChangeTimes->{3.828557149290804*^9},
+ FontSize->10],
+
+Cell[BoxData[
+ InterpretationBox[
+  RowBox[{"\<\"Rules \"\>", "\[InvisibleSpace]", "535", 
+   "\[InvisibleSpace]", "\<\"-\"\>", "\[InvisibleSpace]", "580", 
+   "\[InvisibleSpace]", "\<\": \\\"1 Algebraic functions\\\\1.1 Binomial \
+products\\\\1.1.3 General\\\\1.1.3.5 (a+b x^n)^p (c+d x^n)^q (e+f x^n)^r.nb\\\
+\"\"\>"}],
+  SequenceForm[
+  "Rules ", 535, "-", 580, 
+   ": \"1 Algebraic functions\\1.1 Binomial products\\1.1.3 General\\1.1.3.5 \
+(a+b x^n)^p (c+d x^n)^q (e+f x^n)^r.nb\""],
+  Editable->False]], "Print",
+ CellChangeTimes->{3.828557149623823*^9},
+ FontSize->10],
+
+Cell[BoxData[
+ InterpretationBox[
+  RowBox[{"\<\"Rules \"\>", "\[InvisibleSpace]", "581", 
+   "\[InvisibleSpace]", "\<\"-\"\>", "\[InvisibleSpace]", "620", 
+   "\[InvisibleSpace]", "\<\": \\\"1 Algebraic functions\\\\1.1 Binomial \
+products\\\\1.1.3 General\\\\1.1.3.6 (g x)^m (a+b x^n)^p (c+d x^n)^q (e+f \
+x^n)^r.nb\\\"\"\>"}],
+  SequenceForm[
+  "Rules ", 581, "-", 620, 
+   ": \"1 Algebraic functions\\1.1 Binomial products\\1.1.3 General\\1.1.3.6 \
+(g x)^m (a+b x^n)^p (c+d x^n)^q (e+f x^n)^r.nb\""],
+  Editable->False]], "Print",
+ CellChangeTimes->{3.828557149884838*^9},
+ FontSize->10],
+
+Cell[BoxData[
+ InterpretationBox[
+  RowBox[{"\<\"Rules \"\>", "\[InvisibleSpace]", "621", 
+   "\[InvisibleSpace]", "\<\"-\"\>", "\[InvisibleSpace]", "639", 
+   "\[InvisibleSpace]", "\<\": \\\"1 Algebraic functions\\\\1.2 Trinomial \
+products\\\\1.2.1 Quadratic\\\\1.2.1.1 (a+b x+c x^2)^p.nb\\\"\"\>"}],
+  SequenceForm[
+  "Rules ", 621, "-", 639, 
+   ": \"1 Algebraic functions\\1.2 Trinomial products\\1.2.1 \
+Quadratic\\1.2.1.1 (a+b x+c x^2)^p.nb\""],
+  Editable->False]], "Print",
+ CellChangeTimes->{3.828557150069848*^9},
+ FontSize->10],
+
+Cell[BoxData[
+ InterpretationBox[
+  RowBox[{"\<\"Rules \"\>", "\[InvisibleSpace]", "640", 
+   "\[InvisibleSpace]", "\<\"-\"\>", "\[InvisibleSpace]", "776", 
+   "\[InvisibleSpace]", "\<\": \\\"1 Algebraic functions\\\\1.2 Trinomial \
+products\\\\1.2.1 Quadratic\\\\1.2.1.2 (d+e x)^m (a+b x+c x^2)^p.nb\\\"\"\>"}],
+  SequenceForm[
+  "Rules ", 640, "-", 776, 
+   ": \"1 Algebraic functions\\1.2 Trinomial products\\1.2.1 \
+Quadratic\\1.2.1.2 (d+e x)^m (a+b x+c x^2)^p.nb\""],
+  Editable->False]], "Print",
+ CellChangeTimes->{3.828557150781889*^9},
+ FontSize->10],
+
+Cell[BoxData[
+ InterpretationBox[
+  RowBox[{"\<\"Rules \"\>", "\[InvisibleSpace]", "777", 
+   "\[InvisibleSpace]", "\<\"-\"\>", "\[InvisibleSpace]", "858", 
+   "\[InvisibleSpace]", "\<\": \\\"1 Algebraic functions\\\\1.2 Trinomial \
+products\\\\1.2.1 Quadratic\\\\1.2.1.3 (d+e x)^m (f+g x) (a+b x+c x^2)^p.nb\\\
+\"\"\>"}],
+  SequenceForm[
+  "Rules ", 777, "-", 858, 
+   ": \"1 Algebraic functions\\1.2 Trinomial products\\1.2.1 \
+Quadratic\\1.2.1.3 (d+e x)^m (f+g x) (a+b x+c x^2)^p.nb\""],
+  Editable->False]], "Print",
+ CellChangeTimes->{3.828557151344921*^9},
+ FontSize->10],
+
+Cell[BoxData[
+ InterpretationBox[
+  RowBox[{"\<\"Rules \"\>", "\[InvisibleSpace]", "859", 
+   "\[InvisibleSpace]", "\<\"-\"\>", "\[InvisibleSpace]", "980", 
+   "\[InvisibleSpace]", "\<\": \\\"1 Algebraic functions\\\\1.2 Trinomial \
+products\\\\1.2.1 Quadratic\\\\1.2.1.4 (d+e x)^m (f+g x)^n (a+b x+c x^2)^p.nb\
+\\\"\"\>"}],
+  SequenceForm[
+  "Rules ", 859, "-", 980, 
+   ": \"1 Algebraic functions\\1.2 Trinomial products\\1.2.1 \
+Quadratic\\1.2.1.4 (d+e x)^m (f+g x)^n (a+b x+c x^2)^p.nb\""],
+  Editable->False]], "Print",
+ CellChangeTimes->{3.828557152348979*^9},
+ FontSize->10],
+
+Cell[BoxData[
+ InterpretationBox[
+  RowBox[{"\<\"Rules \"\>", "\[InvisibleSpace]", "981", 
+   "\[InvisibleSpace]", "\<\"-\"\>", "\[InvisibleSpace]", "1011", 
+   "\[InvisibleSpace]", "\<\": \\\"1 Algebraic functions\\\\1.2 Trinomial \
+products\\\\1.2.1 Quadratic\\\\1.2.1.5 (a+b x+c x^2)^p (d+e x+f x^2)^q.nb\\\"\
+\"\>"}],
+  SequenceForm[
+  "Rules ", 981, "-", 1011, 
+   ": \"1 Algebraic functions\\1.2 Trinomial products\\1.2.1 \
+Quadratic\\1.2.1.5 (a+b x+c x^2)^p (d+e x+f x^2)^q.nb\""],
+  Editable->False]], "Print",
+ CellChangeTimes->{3.828557152790004*^9},
+ FontSize->10],
+
+Cell[BoxData[
+ InterpretationBox[
+  RowBox[{"\<\"Rules \"\>", "\[InvisibleSpace]", "1012", 
+   "\[InvisibleSpace]", "\<\"-\"\>", "\[InvisibleSpace]", "1059", 
+   "\[InvisibleSpace]", "\<\": \\\"1 Algebraic functions\\\\1.2 Trinomial \
+products\\\\1.2.1 Quadratic\\\\1.2.1.6 (g+h x)^m (a+b x+c x^2)^p (d+e x+f \
+x^2)^q.nb\\\"\"\>"}],
+  SequenceForm[
+  "Rules ", 1012, "-", 1059, 
+   ": \"1 Algebraic functions\\1.2 Trinomial products\\1.2.1 \
+Quadratic\\1.2.1.6 (g+h x)^m (a+b x+c x^2)^p (d+e x+f x^2)^q.nb\""],
+  Editable->False]], "Print",
+ CellChangeTimes->{3.828557153341036*^9},
+ FontSize->10],
+
+Cell[BoxData[
+ InterpretationBox[
+  RowBox[{"\<\"Rules \"\>", "\[InvisibleSpace]", "1060", 
+   "\[InvisibleSpace]", "\<\"-\"\>", "\[InvisibleSpace]", "1101", 
+   "\[InvisibleSpace]", "\<\": \\\"1 Algebraic functions\\\\1.2 Trinomial \
+products\\\\1.2.1 Quadratic\\\\1.2.1.7 (a+b x+c x^2)^p (d+e x+f x^2)^q (A+B \
+x+C x^2).nb\\\"\"\>"}],
+  SequenceForm[
+  "Rules ", 1060, "-", 1101, 
+   ": \"1 Algebraic functions\\1.2 Trinomial products\\1.2.1 \
+Quadratic\\1.2.1.7 (a+b x+c x^2)^p (d+e x+f x^2)^q (A+B x+C x^2).nb\""],
+  Editable->False]], "Print",
+ CellChangeTimes->{3.8285571539020677`*^9},
+ FontSize->10],
+
+Cell[BoxData[
+ InterpretationBox[
+  RowBox[{"\<\"Rules \"\>", "\[InvisibleSpace]", "1102", 
+   "\[InvisibleSpace]", "\<\"-\"\>", "\[InvisibleSpace]", "1120", 
+   "\[InvisibleSpace]", "\<\": \\\"1 Algebraic functions\\\\1.2 Trinomial \
+products\\\\1.2.2 Quartic\\\\1.2.2.1 (a+b x^2+c x^4)^p.nb\\\"\"\>"}],
+  SequenceForm[
+  "Rules ", 1102, "-", 1120, 
+   ": \"1 Algebraic functions\\1.2 Trinomial products\\1.2.2 Quartic\\1.2.2.1 \
+(a+b x^2+c x^4)^p.nb\""],
+  Editable->False]], "Print",
+ CellChangeTimes->{3.8285571542570877`*^9},
+ FontSize->10],
+
+Cell[BoxData[
+ InterpretationBox[
+  RowBox[{"\<\"Rules \"\>", "\[InvisibleSpace]", "1121", 
+   "\[InvisibleSpace]", "\<\"-\"\>", "\[InvisibleSpace]", "1156", 
+   "\[InvisibleSpace]", "\<\": \\\"1 Algebraic functions\\\\1.2 Trinomial \
+products\\\\1.2.2 Quartic\\\\1.2.2.2 (d x)^m (a+b x^2+c x^4)^p.nb\\\"\"\>"}],
+  SequenceForm[
+  "Rules ", 1121, "-", 1156, 
+   ": \"1 Algebraic functions\\1.2 Trinomial products\\1.2.2 Quartic\\1.2.2.2 \
+(d x)^m (a+b x^2+c x^4)^p.nb\""],
+  Editable->False]], "Print",
+ CellChangeTimes->{3.828557154749116*^9},
+ FontSize->10],
+
+Cell[BoxData[
+ InterpretationBox[
+  RowBox[{"\<\"Rules \"\>", "\[InvisibleSpace]", "1157", 
+   "\[InvisibleSpace]", "\<\"-\"\>", "\[InvisibleSpace]", "1256", 
+   "\[InvisibleSpace]", "\<\": \\\"1 Algebraic functions\\\\1.2 Trinomial \
+products\\\\1.2.2 Quartic\\\\1.2.2.3 (d+e x^2)^q (a+b x^2+c \
+x^4)^p.nb\\\"\"\>"}],
+  SequenceForm[
+  "Rules ", 1157, "-", 1256, 
+   ": \"1 Algebraic functions\\1.2 Trinomial products\\1.2.2 Quartic\\1.2.2.3 \
+(d+e x^2)^q (a+b x^2+c x^4)^p.nb\""],
+  Editable->False]], "Print",
+ CellChangeTimes->{3.8285571557331724`*^9},
+ FontSize->10],
+
+Cell[BoxData[
+ InterpretationBox[
+  RowBox[{"\<\"Rules \"\>", "\[InvisibleSpace]", "1257", 
+   "\[InvisibleSpace]", "\<\"-\"\>", "\[InvisibleSpace]", "1353", 
+   "\[InvisibleSpace]", "\<\": \\\"1 Algebraic functions\\\\1.2 Trinomial \
+products\\\\1.2.2 Quartic\\\\1.2.2.4 (f x)^m (d+e x^2)^q (a+b x^2+c x^4)^p.nb\
+\\\"\"\>"}],
+  SequenceForm[
+  "Rules ", 1257, "-", 1353, 
+   ": \"1 Algebraic functions\\1.2 Trinomial products\\1.2.2 Quartic\\1.2.2.4 \
+(f x)^m (d+e x^2)^q (a+b x^2+c x^4)^p.nb\""],
+  Editable->False]], "Print",
+ CellChangeTimes->{3.8285571568592367`*^9},
+ FontSize->10],
+
+Cell[BoxData[
+ InterpretationBox[
+  RowBox[{"\<\"Rules \"\>", "\[InvisibleSpace]", "1354", 
+   "\[InvisibleSpace]", "\<\"-\"\>", "\[InvisibleSpace]", "1365", 
+   "\[InvisibleSpace]", "\<\": \\\"1 Algebraic functions\\\\1.2 Trinomial \
+products\\\\1.2.3 General\\\\1.2.3.1 (a+b x^n+c x^(2 n))^p.nb\\\"\"\>"}],
+  SequenceForm[
+  "Rules ", 1354, "-", 1365, 
+   ": \"1 Algebraic functions\\1.2 Trinomial products\\1.2.3 General\\1.2.3.1 \
+(a+b x^n+c x^(2 n))^p.nb\""],
+  Editable->False]], "Print",
+ CellChangeTimes->{3.82855715726126*^9},
+ FontSize->10],
+
+Cell[BoxData[
+ InterpretationBox[
+  RowBox[{"\<\"Rules \"\>", "\[InvisibleSpace]", "1366", 
+   "\[InvisibleSpace]", "\<\"-\"\>", "\[InvisibleSpace]", "1404", 
+   "\[InvisibleSpace]", "\<\": \\\"1 Algebraic functions\\\\1.2 Trinomial \
+products\\\\1.2.3 General\\\\1.2.3.2 (d x)^m (a+b x^n+c x^(2 \
+n))^p.nb\\\"\"\>"}],
+  SequenceForm[
+  "Rules ", 1366, "-", 1404, 
+   ": \"1 Algebraic functions\\1.2 Trinomial products\\1.2.3 General\\1.2.3.2 \
+(d x)^m (a+b x^n+c x^(2 n))^p.nb\""],
+  Editable->False]], "Print",
+ CellChangeTimes->{3.828557157857294*^9},
+ FontSize->10],
+
+Cell[BoxData[
+ InterpretationBox[
+  RowBox[{"\<\"Rules \"\>", "\[InvisibleSpace]", "1405", 
+   "\[InvisibleSpace]", "\<\"-\"\>", "\[InvisibleSpace]", "1475", 
+   "\[InvisibleSpace]", "\<\": \\\"1 Algebraic functions\\\\1.2 Trinomial \
+products\\\\1.2.3 General\\\\1.2.3.3 (d+e x^n)^q (a+b x^n+c x^(2 n))^p.nb\\\"\
+\"\>"}],
+  SequenceForm[
+  "Rules ", 1405, "-", 1475, 
+   ": \"1 Algebraic functions\\1.2 Trinomial products\\1.2.3 General\\1.2.3.3 \
+(d+e x^n)^q (a+b x^n+c x^(2 n))^p.nb\""],
+  Editable->False]], "Print",
+ CellChangeTimes->{3.828557158771346*^9},
+ FontSize->10],
+
+Cell[BoxData[
+ InterpretationBox[
+  RowBox[{"\<\"Rules \"\>", "\[InvisibleSpace]", "1476", 
+   "\[InvisibleSpace]", "\<\"-\"\>", "\[InvisibleSpace]", "1595", 
+   "\[InvisibleSpace]", "\<\": \\\"1 Algebraic functions\\\\1.2 Trinomial \
+products\\\\1.2.3 General\\\\1.2.3.4 (f x)^m (d+e x^n)^q (a+b x^n+c x^(2 \
+n))^p.nb\\\"\"\>"}],
+  SequenceForm[
+  "Rules ", 1476, "-", 1595, 
+   ": \"1 Algebraic functions\\1.2 Trinomial products\\1.2.3 General\\1.2.3.4 \
+(f x)^m (d+e x^n)^q (a+b x^n+c x^(2 n))^p.nb\""],
+  Editable->False]], "Print",
+ CellChangeTimes->{3.8285571602584314`*^9},
+ FontSize->10],
+
+Cell[BoxData[
+ InterpretationBox[
+  RowBox[{"\<\"Rules \"\>", "\[InvisibleSpace]", "1596", 
+   "\[InvisibleSpace]", "\<\"-\"\>", "\[InvisibleSpace]", "1622", 
+   "\[InvisibleSpace]", "\<\": \\\"1 Algebraic functions\\\\1.1 Binomial \
+products\\\\1.1.1 Linear\\\\1.1.1.7 P(x) (a+b x)^m (c+d x)^n (e+f x)^p (g+h \
+x)^q.nb\\\"\"\>"}],
+  SequenceForm[
+  "Rules ", 1596, "-", 1622, 
+   ": \"1 Algebraic functions\\1.1 Binomial products\\1.1.1 Linear\\1.1.1.7 \
+P(x) (a+b x)^m (c+d x)^n (e+f x)^p (g+h x)^q.nb\""],
+  Editable->False]], "Print",
+ CellChangeTimes->{3.8285571608764668`*^9},
+ FontSize->10],
+
+Cell[BoxData[
+ InterpretationBox[
+  RowBox[{"\<\"Rules \"\>", "\[InvisibleSpace]", "1623", 
+   "\[InvisibleSpace]", "\<\"-\"\>", "\[InvisibleSpace]", "1629", 
+   "\[InvisibleSpace]", "\<\": \\\"1 Algebraic functions\\\\1.1 Binomial \
+products\\\\1.1.1 Linear\\\\1.1.1.6 P(x) (a+b x)^m (c+d x)^n (e+f x)^p.nb\\\"\
+\"\>"}],
+  SequenceForm[
+  "Rules ", 1623, "-", 1629, 
+   ": \"1 Algebraic functions\\1.1 Binomial products\\1.1.1 Linear\\1.1.1.6 \
+P(x) (a+b x)^m (c+d x)^n (e+f x)^p.nb\""],
+  Editable->False]], "Print",
+ CellChangeTimes->{3.8285571613654947`*^9},
+ FontSize->10],
+
+Cell[BoxData[
+ InterpretationBox[
+  RowBox[{"\<\"Rules \"\>", "\[InvisibleSpace]", "1630", 
+   "\[InvisibleSpace]", "\<\"-\"\>", "\[InvisibleSpace]", "1637", 
+   "\[InvisibleSpace]", "\<\": \\\"1 Algebraic functions\\\\1.1 Binomial \
+products\\\\1.1.1 Linear\\\\1.1.1.5 P(x) (a+b x)^m (c+d x)^n.nb\\\"\"\>"}],
+  SequenceForm[
+  "Rules ", 1630, "-", 1637, 
+   ": \"1 Algebraic functions\\1.1 Binomial products\\1.1.1 Linear\\1.1.1.5 \
+P(x) (a+b x)^m (c+d x)^n.nb\""],
+  Editable->False]], "Print",
+ CellChangeTimes->{3.8285571618945246`*^9},
+ FontSize->10],
+
+Cell[BoxData[
+ InterpretationBox[
+  RowBox[{"\<\"Rules \"\>", "\[InvisibleSpace]", "1638", 
+   "\[InvisibleSpace]", "\<\"-\"\>", "\[InvisibleSpace]", "1670", 
+   "\[InvisibleSpace]", "\<\": \\\"1 Algebraic functions\\\\1.2 Trinomial \
+products\\\\1.2.1 Quadratic\\\\1.2.1.9 P(x) (d+e x)^m (a+b x+c \
+x^2)^p.nb\\\"\"\>"}],
+  SequenceForm[
+  "Rules ", 1638, "-", 1670, 
+   ": \"1 Algebraic functions\\1.2 Trinomial products\\1.2.1 \
+Quadratic\\1.2.1.9 P(x) (d+e x)^m (a+b x+c x^2)^p.nb\""],
+  Editable->False]], "Print",
+ CellChangeTimes->{3.8285571627125716`*^9},
+ FontSize->10],
+
+Cell[BoxData[
+ InterpretationBox[
+  RowBox[{"\<\"Rules \"\>", "\[InvisibleSpace]", "1671", 
+   "\[InvisibleSpace]", "\<\"-\"\>", "\[InvisibleSpace]", "1675", 
+   "\[InvisibleSpace]", "\<\": \\\"1 Algebraic functions\\\\1.2 Trinomial \
+products\\\\1.2.1 Quadratic\\\\1.2.1.8 P(x) (a+b x+c x^2)^p.nb\\\"\"\>"}],
+  SequenceForm[
+  "Rules ", 1671, "-", 1675, 
+   ": \"1 Algebraic functions\\1.2 Trinomial products\\1.2.1 \
+Quadratic\\1.2.1.8 P(x) (a+b x+c x^2)^p.nb\""],
+  Editable->False]], "Print",
+ CellChangeTimes->{3.8285571632126*^9},
+ FontSize->10],
+
+Cell[BoxData[
+ InterpretationBox[
+  RowBox[{"\<\"Rules \"\>", "\[InvisibleSpace]", "1676", 
+   "\[InvisibleSpace]", "\<\"-\"\>", "\[InvisibleSpace]", "1684", 
+   "\[InvisibleSpace]", "\<\": \\\"1 Algebraic functions\\\\1.2 Trinomial \
+products\\\\1.2.2 Quartic\\\\1.2.2.6 P(x) (d x)^m (a+b x^2+c \
+x^4)^p.nb\\\"\"\>"}],
+  SequenceForm[
+  "Rules ", 1676, "-", 1684, 
+   ": \"1 Algebraic functions\\1.2 Trinomial products\\1.2.2 Quartic\\1.2.2.6 \
+P(x) (d x)^m (a+b x^2+c x^4)^p.nb\""],
+  Editable->False]], "Print",
+ CellChangeTimes->{3.8285571637646317`*^9},
+ FontSize->10],
+
+Cell[BoxData[
+ InterpretationBox[
+  RowBox[{"\<\"Rules \"\>", "\[InvisibleSpace]", "1685", 
+   "\[InvisibleSpace]", "\<\"-\"\>", "\[InvisibleSpace]", "1694", 
+   "\[InvisibleSpace]", "\<\": \\\"1 Algebraic functions\\\\1.2 Trinomial \
+products\\\\1.2.2 Quartic\\\\1.2.2.5 P(x) (a+b x^2+c x^4)^p.nb\\\"\"\>"}],
+  SequenceForm[
+  "Rules ", 1685, "-", 1694, 
+   ": \"1 Algebraic functions\\1.2 Trinomial products\\1.2.2 Quartic\\1.2.2.5 \
+P(x) (a+b x^2+c x^4)^p.nb\""],
+  Editable->False]], "Print",
+ CellChangeTimes->{3.828557164310663*^9},
+ FontSize->10],
+
+Cell[BoxData[
+ InterpretationBox[
+  RowBox[{"\<\"Rules \"\>", "\[InvisibleSpace]", "1695", 
+   "\[InvisibleSpace]", "\<\"-\"\>", "\[InvisibleSpace]", "1737", 
+   "\[InvisibleSpace]", "\<\": \\\"1 Algebraic functions\\\\1.2 Trinomial \
+products\\\\1.2.2 Quartic\\\\1.2.2.7 P(x) (d+e x^2)^q (a+b x^2+c \
+x^4)^p.nb\\\"\"\>"}],
+  SequenceForm[
+  "Rules ", 1695, "-", 1737, 
+   ": \"1 Algebraic functions\\1.2 Trinomial products\\1.2.2 Quartic\\1.2.2.7 \
+P(x) (d+e x^2)^q (a+b x^2+c x^4)^p.nb\""],
+  Editable->False]], "Print",
+ CellChangeTimes->{3.828557165327721*^9},
+ FontSize->10],
+
+Cell[BoxData[
+ InterpretationBox[
+  RowBox[{"\<\"Rules \"\>", "\[InvisibleSpace]", "1738", 
+   "\[InvisibleSpace]", "\<\"-\"\>", "\[InvisibleSpace]", "1758", 
+   "\[InvisibleSpace]", "\<\": \\\"1 Algebraic functions\\\\1.2 Trinomial \
+products\\\\1.2.2 Quartic\\\\1.2.2.8 P(x) (d+e x)^q (a+b x^2+c \
+x^4)^p.nb\\\"\"\>"}],
+  SequenceForm[
+  "Rules ", 1738, "-", 1758, 
+   ": \"1 Algebraic functions\\1.2 Trinomial products\\1.2.2 Quartic\\1.2.2.8 \
+P(x) (d+e x)^q (a+b x^2+c x^4)^p.nb\""],
+  Editable->False]], "Print",
+ CellChangeTimes->{3.828557166062763*^9},
+ FontSize->10],
+
+Cell[BoxData[
+ InterpretationBox[
+  RowBox[{"\<\"Rules \"\>", "\[InvisibleSpace]", "1759", 
+   "\[InvisibleSpace]", "\<\"-\"\>", "\[InvisibleSpace]", "1787", 
+   "\[InvisibleSpace]", "\<\": \\\"1 Algebraic functions\\\\1.2 Trinomial \
+products\\\\1.2.3 General\\\\1.2.3.6 P(x) (d x)^m (a+b x^n+c x^(2 \
+n))^p.nb\\\"\"\>"}],
+  SequenceForm[
+  "Rules ", 1759, "-", 1787, 
+   ": \"1 Algebraic functions\\1.2 Trinomial products\\1.2.3 General\\1.2.3.6 \
+P(x) (d x)^m (a+b x^n+c x^(2 n))^p.nb\""],
+  Editable->False]], "Print",
+ CellChangeTimes->{3.8285571668518085`*^9},
+ FontSize->10],
+
+Cell[BoxData[
+ InterpretationBox[
+  RowBox[{"\<\"Rules \"\>", "\[InvisibleSpace]", "1788", 
+   "\[InvisibleSpace]", "\<\"-\"\>", "\[InvisibleSpace]", "1812", 
+   "\[InvisibleSpace]", "\<\": \\\"1 Algebraic functions\\\\1.2 Trinomial \
+products\\\\1.2.3 General\\\\1.2.3.5 P(x) (a+b x^n+c x^(2 n))^p.nb\\\"\"\>"}],
+  SequenceForm[
+  "Rules ", 1788, "-", 1812, 
+   ": \"1 Algebraic functions\\1.2 Trinomial products\\1.2.3 General\\1.2.3.5 \
+P(x) (a+b x^n+c x^(2 n))^p.nb\""],
+  Editable->False]], "Print",
+ CellChangeTimes->{3.828557167566849*^9},
+ FontSize->10],
+
+Cell[BoxData[
+ InterpretationBox[
+  RowBox[{"\<\"Rules \"\>", "\[InvisibleSpace]", "1813", 
+   "\[InvisibleSpace]", "\<\"-\"\>", "\[InvisibleSpace]", "1823", 
+   "\[InvisibleSpace]", "\<\": \\\"1 Algebraic functions\\\\1.1 Binomial \
+products\\\\1.1.2 Quadratic\\\\1.1.2.y P(x) (c x)^m (a+b x^2)^p.nb\\\"\"\>"}],
+  SequenceForm[
+  "Rules ", 1813, "-", 1823, 
+   ": \"1 Algebraic functions\\1.1 Binomial products\\1.1.2 \
+Quadratic\\1.1.2.y P(x) (c x)^m (a+b x^2)^p.nb\""],
+  Editable->False]], "Print",
+ CellChangeTimes->{3.8285571681948853`*^9},
+ FontSize->10],
+
+Cell[BoxData[
+ InterpretationBox[
+  RowBox[{"\<\"Rules \"\>", "\[InvisibleSpace]", "1824", 
+   "\[InvisibleSpace]", "\<\"-\"\>", "\[InvisibleSpace]", "1829", 
+   "\[InvisibleSpace]", "\<\": \\\"1 Algebraic functions\\\\1.1 Binomial \
+products\\\\1.1.2 Quadratic\\\\1.1.2.x P(x) (a+b x^2)^p.nb\\\"\"\>"}],
+  SequenceForm[
+  "Rules ", 1824, "-", 1829, 
+   ": \"1 Algebraic functions\\1.1 Binomial products\\1.1.2 \
+Quadratic\\1.1.2.x P(x) (a+b x^2)^p.nb\""],
+  Editable->False]], "Print",
+ CellChangeTimes->{3.828557168746917*^9},
+ FontSize->10],
+
+Cell[BoxData[
+ InterpretationBox[
+  RowBox[{"\<\"Rules \"\>", "\[InvisibleSpace]", "1830", 
+   "\[InvisibleSpace]", "\<\"-\"\>", "\[InvisibleSpace]", "1863", 
+   "\[InvisibleSpace]", "\<\": \\\"1 Algebraic functions\\\\1.1 Binomial \
+products\\\\1.1.3 General\\\\1.1.3.8 P(x) (c x)^m (a+b x^n)^p.nb\\\"\"\>"}],
+  SequenceForm[
+  "Rules ", 1830, "-", 1863, 
+   ": \"1 Algebraic functions\\1.1 Binomial products\\1.1.3 General\\1.1.3.8 \
+P(x) (c x)^m (a+b x^n)^p.nb\""],
+  Editable->False]], "Print",
+ CellChangeTimes->{3.8285571696169662`*^9},
+ FontSize->10],
+
+Cell[BoxData[
+ InterpretationBox[
+  RowBox[{"\<\"Rules \"\>", "\[InvisibleSpace]", "1864", 
+   "\[InvisibleSpace]", "\<\"-\"\>", "\[InvisibleSpace]", "1914", 
+   "\[InvisibleSpace]", "\<\": \\\"1 Algebraic functions\\\\1.1 Binomial \
+products\\\\1.1.3 General\\\\1.1.3.7 P(x) (a+b x^n)^p.nb\\\"\"\>"}],
+  SequenceForm[
+  "Rules ", 1864, "-", 1914, 
+   ": \"1 Algebraic functions\\1.1 Binomial products\\1.1.3 General\\1.1.3.7 \
+P(x) (a+b x^n)^p.nb\""],
+  Editable->False]], "Print",
+ CellChangeTimes->{3.828557170623024*^9},
+ FontSize->10],
+
+Cell[BoxData[
+ InterpretationBox[
+  RowBox[{"\<\"Rules \"\>", "\[InvisibleSpace]", "1915", 
+   "\[InvisibleSpace]", "\<\"-\"\>", "\[InvisibleSpace]", "1924", 
+   "\[InvisibleSpace]", "\<\": \\\"1 Algebraic functions\\\\1.2 Trinomial \
+products\\\\1.2.4 Improper\\\\1.2.4.1 (a x^q+b x^n+c x^(2 \
+n-q))^p.nb\\\"\"\>"}],
+  SequenceForm[
+  "Rules ", 1915, "-", 1924, 
+   ": \"1 Algebraic functions\\1.2 Trinomial products\\1.2.4 \
+Improper\\1.2.4.1 (a x^q+b x^n+c x^(2 n-q))^p.nb\""],
+  Editable->False]], "Print",
+ CellChangeTimes->{3.828557171185056*^9},
+ FontSize->10],
+
+Cell[BoxData[
+ InterpretationBox[
+  RowBox[{"\<\"Rules \"\>", "\[InvisibleSpace]", "1925", 
+   "\[InvisibleSpace]", "\<\"-\"\>", "\[InvisibleSpace]", "1945", 
+   "\[InvisibleSpace]", "\<\": \\\"1 Algebraic functions\\\\1.2 Trinomial \
+products\\\\1.2.4 Improper\\\\1.2.4.2 (d x)^m (a x^q+b x^n+c x^(2 \
+n-q))^p.nb\\\"\"\>"}],
+  SequenceForm[
+  "Rules ", 1925, "-", 1945, 
+   ": \"1 Algebraic functions\\1.2 Trinomial products\\1.2.4 \
+Improper\\1.2.4.2 (d x)^m (a x^q+b x^n+c x^(2 n-q))^p.nb\""],
+  Editable->False]], "Print",
+ CellChangeTimes->{3.8285571718960967`*^9},
+ FontSize->10],
+
+Cell[BoxData[
+ InterpretationBox[
+  RowBox[{"\<\"Rules \"\>", "\[InvisibleSpace]", "1946", 
+   "\[InvisibleSpace]", "\<\"-\"\>", "\[InvisibleSpace]", "1953", 
+   "\[InvisibleSpace]", "\<\": \\\"1 Algebraic functions\\\\1.2 Trinomial \
+products\\\\1.2.4 Improper\\\\1.2.4.3 (d+e x^(n-q)) (a x^q+b x^n+c x^(2 \
+n-q))^p.nb\\\"\"\>"}],
+  SequenceForm[
+  "Rules ", 1946, "-", 1953, 
+   ": \"1 Algebraic functions\\1.2 Trinomial products\\1.2.4 \
+Improper\\1.2.4.3 (d+e x^(n-q)) (a x^q+b x^n+c x^(2 n-q))^p.nb\""],
+  Editable->False]], "Print",
+ CellChangeTimes->{3.8285571725071316`*^9},
+ FontSize->10],
+
+Cell[BoxData[
+ InterpretationBox[
+  RowBox[{"\<\"Rules \"\>", "\[InvisibleSpace]", "1954", 
+   "\[InvisibleSpace]", "\<\"-\"\>", "\[InvisibleSpace]", "1969", 
+   "\[InvisibleSpace]", "\<\": \\\"1 Algebraic functions\\\\1.2 Trinomial \
+products\\\\1.2.4 Improper\\\\1.2.4.4 (f x)^m (d+e x^(n-q)) (a x^q+b x^n+c \
+x^(2 n-q))^p.nb\\\"\"\>"}],
+  SequenceForm[
+  "Rules ", 1954, "-", 1969, 
+   ": \"1 Algebraic functions\\1.2 Trinomial products\\1.2.4 \
+Improper\\1.2.4.4 (f x)^m (d+e x^(n-q)) (a x^q+b x^n+c x^(2 n-q))^p.nb\""],
+  Editable->False]], "Print",
+ CellChangeTimes->{3.8285571732311735`*^9},
+ FontSize->10],
+
+Cell[BoxData[
+ InterpretationBox[
+  RowBox[{"\<\"Rules \"\>", "\[InvisibleSpace]", "1970", 
+   "\[InvisibleSpace]", "\<\"-\"\>", "\[InvisibleSpace]", "2024", 
+   "\[InvisibleSpace]", "\<\": \\\"1 Algebraic functions\\\\1.3 Miscellaneous\
+\\\\1.3.4 Normalizing algebraic functions.nb\\\"\"\>"}],
+  SequenceForm[
+  "Rules ", 1970, "-", 2024, 
+   ": \"1 Algebraic functions\\1.3 Miscellaneous\\1.3.4 Normalizing algebraic \
+functions.nb\""],
+  Editable->False]], "Print",
+ CellChangeTimes->{3.8285571742002287`*^9},
+ FontSize->10],
+
+Cell[BoxData[
+ InterpretationBox[
+  RowBox[{"\<\"Rules \"\>", "\[InvisibleSpace]", "2025", 
+   "\[InvisibleSpace]", "\<\"-\"\>", "\[InvisibleSpace]", "2037", 
+   "\[InvisibleSpace]", "\<\": \\\"1 Algebraic functions\\\\1.1 Binomial \
+products\\\\1.1.4 Improper\\\\1.1.4.1 (a x^j+b x^n)^p.nb\\\"\"\>"}],
+  SequenceForm[
+  "Rules ", 2025, "-", 2037, 
+   ": \"1 Algebraic functions\\1.1 Binomial products\\1.1.4 Improper\\1.1.4.1 \
+(a x^j+b x^n)^p.nb\""],
+  Editable->False]], "Print",
+ CellChangeTimes->{3.8285571748052635`*^9},
+ FontSize->10],
+
+Cell[BoxData[
+ InterpretationBox[
+  RowBox[{"\<\"Rules \"\>", "\[InvisibleSpace]", "2038", 
+   "\[InvisibleSpace]", "\<\"-\"\>", "\[InvisibleSpace]", "2058", 
+   "\[InvisibleSpace]", "\<\": \\\"1 Algebraic functions\\\\1.1 Binomial \
+products\\\\1.1.4 Improper\\\\1.1.4.2 (c x)^m (a x^j+b x^n)^p.nb\\\"\"\>"}],
+  SequenceForm[
+  "Rules ", 2038, "-", 2058, 
+   ": \"1 Algebraic functions\\1.1 Binomial products\\1.1.4 Improper\\1.1.4.2 \
+(c x)^m (a x^j+b x^n)^p.nb\""],
+  Editable->False]], "Print",
+ CellChangeTimes->{3.828557175556306*^9},
+ FontSize->10],
+
+Cell[BoxData[
+ InterpretationBox[
+  RowBox[{"\<\"Rules \"\>", "\[InvisibleSpace]", "2059", 
+   "\[InvisibleSpace]", "\<\"-\"\>", "\[InvisibleSpace]", "2067", 
+   "\[InvisibleSpace]", "\<\": \\\"1 Algebraic functions\\\\1.1 Binomial \
+products\\\\1.1.4 Improper\\\\1.1.4.3 (e x)^m (a x^j+b x^k)^p (c+d \
+x^n)^q.nb\\\"\"\>"}],
+  SequenceForm[
+  "Rules ", 2059, "-", 2067, 
+   ": \"1 Algebraic functions\\1.1 Binomial products\\1.1.4 Improper\\1.1.4.3 \
+(e x)^m (a x^j+b x^k)^p (c+d x^n)^q.nb\""],
+  Editable->False]], "Print",
+ CellChangeTimes->{3.828557176229345*^9},
+ FontSize->10],
+
+Cell[BoxData[
+ InterpretationBox[
+  RowBox[{"\<\"Rules \"\>", "\[InvisibleSpace]", "2068", 
+   "\[InvisibleSpace]", "\<\"-\"\>", "\[InvisibleSpace]", "2078", 
+   "\[InvisibleSpace]", "\<\": \\\"1 Algebraic functions\\\\1.1 Binomial \
+products\\\\1.1.4 Improper\\\\1.1.4.4 P(x) (c x)^m (a x^j+b \
+x^n)^p.nb\\\"\"\>"}],
+  SequenceForm[
+  "Rules ", 2068, "-", 2078, 
+   ": \"1 Algebraic functions\\1.1 Binomial products\\1.1.4 Improper\\1.1.4.4 \
+P(x) (c x)^m (a x^j+b x^n)^p.nb\""],
+  Editable->False]], "Print",
+ CellChangeTimes->{3.828557176919384*^9},
+ FontSize->10],
+
+Cell[BoxData[
+ InterpretationBox[
+  RowBox[{"\<\"Rules \"\>", "\[InvisibleSpace]", "2079", 
+   "\[InvisibleSpace]", "\<\"-\"\>", "\[InvisibleSpace]", "2095", 
+   "\[InvisibleSpace]", "\<\": \\\"1 Algebraic functions\\\\1.3 Miscellaneous\
+\\\\1.3.1 P(x)^p.nb\\\"\"\>"}],
+  SequenceForm[
+  "Rules ", 2079, "-", 2095, 
+   ": \"1 Algebraic functions\\1.3 Miscellaneous\\1.3.1 P(x)^p.nb\""],
+  Editable->False]], "Print",
+ CellChangeTimes->{3.8285571775634212`*^9},
+ FontSize->10],
+
+Cell[BoxData[
+ InterpretationBox[
+  RowBox[{"\<\"Rules \"\>", "\[InvisibleSpace]", "2096", 
+   "\[InvisibleSpace]", "\<\"-\"\>", "\[InvisibleSpace]", "2127", 
+   "\[InvisibleSpace]", "\<\": \\\"1 Algebraic functions\\\\1.3 Miscellaneous\
+\\\\1.3.2 P(x) Q(x)^p.nb\\\"\"\>"}],
+  SequenceForm[
+  "Rules ", 2096, "-", 2127, 
+   ": \"1 Algebraic functions\\1.3 Miscellaneous\\1.3.2 P(x) Q(x)^p.nb\""],
+  Editable->False]], "Print",
+ CellChangeTimes->{3.8285571784584723`*^9},
+ FontSize->10],
+
+Cell[BoxData[
+ InterpretationBox[
+  RowBox[{"\<\"Rules \"\>", "\[InvisibleSpace]", "2128", 
+   "\[InvisibleSpace]", "\<\"-\"\>", "\[InvisibleSpace]", "2187", 
+   "\[InvisibleSpace]", "\<\": \\\"1 Algebraic functions\\\\1.3 Miscellaneous\
+\\\\1.3.3 Miscellaneous algebraic functions.nb\\\"\"\>"}],
+  SequenceForm[
+  "Rules ", 2128, "-", 2187, 
+   ": \"1 Algebraic functions\\1.3 Miscellaneous\\1.3.3 Miscellaneous \
+algebraic functions.nb\""],
+  Editable->False]], "Print",
+ CellChangeTimes->{3.8285571797895484`*^9},
+ FontSize->10],
+
+Cell[BoxData[
+ InterpretationBox[
+  RowBox[{"\<\"Rules \"\>", "\[InvisibleSpace]", "2188", 
+   "\[InvisibleSpace]", "\<\"-\"\>", "\[InvisibleSpace]", "2206", 
+   "\[InvisibleSpace]", "\<\": \\\"9 Miscellaneous\\\\9.3 Piecewise linear \
+functions.nb\\\"\"\>"}],
+  SequenceForm[
+  "Rules ", 2188, "-", 2206, 
+   ": \"9 Miscellaneous\\9.3 Piecewise linear functions.nb\""],
+  Editable->False]], "Print",
+ CellChangeTimes->{3.828557180532591*^9},
+ FontSize->10]
+}, Open  ]]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["Exponential function rules", "Section",
+ CellChangeTimes->{{3.8285522381637845`*^9, 3.828552255413771*^9}, {
+  3.828552288160644*^9, 3.8285522913498263`*^9}}],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ InterpretationBox[
+  RowBox[{"\<\"Rules \"\>", "\[InvisibleSpace]", "2207", 
+   "\[InvisibleSpace]", "\<\"-\"\>", "\[InvisibleSpace]", "2220", 
+   "\[InvisibleSpace]", "\<\": \\\"2 Exponentials\\\\2.1 (c+d x)^m (a+b (F^(g \
+(e+f x)))^n)^p.nb\\\"\"\>"}],
+  SequenceForm[
+  "Rules ", 2207, "-", 2220, 
+   ": \"2 Exponentials\\2.1 (c+d x)^m (a+b (F^(g (e+f x)))^n)^p.nb\""],
+  Editable->False]], "Print",
+ CellChangeTimes->{3.8285571812886343`*^9},
+ FontSize->10],
+
+Cell[BoxData[
+ InterpretationBox[
+  RowBox[{"\<\"Rules \"\>", "\[InvisibleSpace]", "2221", 
+   "\[InvisibleSpace]", "\<\"-\"\>", "\[InvisibleSpace]", "2224", 
+   "\[InvisibleSpace]", "\<\": \\\"2 Exponentials\\\\2.2 (c+d x)^m (F^(g (e+f \
+x)))^n (a+b (F^(g (e+f x)))^n)^p.nb\\\"\"\>"}],
+  SequenceForm[
+  "Rules ", 2221, "-", 2224, 
+   ": \"2 Exponentials\\2.2 (c+d x)^m (F^(g (e+f x)))^n (a+b (F^(g (e+f \
+x)))^n)^p.nb\""],
+  Editable->False]], "Print",
+ CellChangeTimes->{3.8285571819416714`*^9},
+ FontSize->10],
+
+Cell[BoxData[
+ InterpretationBox[
+  RowBox[{"\<\"Rules \"\>", "\[InvisibleSpace]", "2225", 
+   "\[InvisibleSpace]", "\<\"-\"\>", "\[InvisibleSpace]", "2331", 
+   "\[InvisibleSpace]", "\<\": \\\"2 Exponentials\\\\2.3 Miscellaneous \
+exponentials.nb\\\"\"\>"}],
+  SequenceForm[
+  "Rules ", 2225, "-", 2331, 
+   ": \"2 Exponentials\\2.3 Miscellaneous exponentials.nb\""],
+  Editable->False]], "Print",
+ CellChangeTimes->{3.8285571837297735`*^9},
+ FontSize->10]
+}, Open  ]]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["Logarithm function rules", "Section",
+ CellChangeTimes->{{3.8285522381637845`*^9, 3.828552255413771*^9}, {
+  3.8285523068687143`*^9, 3.8285523091028423`*^9}}],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ InterpretationBox[
+  RowBox[{"\<\"Rules \"\>", "\[InvisibleSpace]", "2332", 
+   "\[InvisibleSpace]", "\<\"-\"\>", "\[InvisibleSpace]", "2337", 
+   "\[InvisibleSpace]", "\<\": \\\"3 Logarithms\\\\3.1.1 (a+b log(c \
+x^n))^p.nb\\\"\"\>"}],
+  SequenceForm[
+  "Rules ", 2332, "-", 2337, 
+   ": \"3 Logarithms\\3.1.1 (a+b log(c x^n))^p.nb\""],
+  Editable->False]], "Print",
+ CellChangeTimes->{3.828557184390812*^9},
+ FontSize->10],
+
+Cell[BoxData[
+ InterpretationBox[
+  RowBox[{"\<\"Rules \"\>", "\[InvisibleSpace]", "2338", 
+   "\[InvisibleSpace]", "\<\"-\"\>", "\[InvisibleSpace]", "2349", 
+   "\[InvisibleSpace]", "\<\": \\\"3 Logarithms\\\\3.1.2 (d x)^m (a+b log(c \
+x^n))^p.nb\\\"\"\>"}],
+  SequenceForm[
+  "Rules ", 2338, "-", 2349, 
+   ": \"3 Logarithms\\3.1.2 (d x)^m (a+b log(c x^n))^p.nb\""],
+  Editable->False]], "Print",
+ CellChangeTimes->{3.828557185152855*^9},
+ FontSize->10],
+
+Cell[BoxData[
+ InterpretationBox[
+  RowBox[{"\<\"Rules \"\>", "\[InvisibleSpace]", "2350", 
+   "\[InvisibleSpace]", "\<\"-\"\>", "\[InvisibleSpace]", "2369", 
+   "\[InvisibleSpace]", "\<\": \\\"3 Logarithms\\\\3.1.3 (d+e x^r)^q (a+b \
+log(c x^n))^p.nb\\\"\"\>"}],
+  SequenceForm[
+  "Rules ", 2350, "-", 2369, 
+   ": \"3 Logarithms\\3.1.3 (d+e x^r)^q (a+b log(c x^n))^p.nb\""],
+  Editable->False]], "Print",
+ CellChangeTimes->{3.8285571860339055`*^9},
+ FontSize->10],
+
+Cell[BoxData[
+ InterpretationBox[
+  RowBox[{"\<\"Rules \"\>", "\[InvisibleSpace]", "2370", 
+   "\[InvisibleSpace]", "\<\"-\"\>", "\[InvisibleSpace]", "2398", 
+   "\[InvisibleSpace]", "\<\": \\\"3 Logarithms\\\\3.1.4 (f x)^m (d+e x^r)^q \
+(a+b log(c x^n))^p.nb\\\"\"\>"}],
+  SequenceForm[
+  "Rules ", 2370, "-", 2398, 
+   ": \"3 Logarithms\\3.1.4 (f x)^m (d+e x^r)^q (a+b log(c x^n))^p.nb\""],
+  Editable->False]], "Print",
+ CellChangeTimes->{3.8285571870639644`*^9},
+ FontSize->10],
+
+Cell[BoxData[
+ InterpretationBox[
+  RowBox[{"\<\"Rules \"\>", "\[InvisibleSpace]", "2399", 
+   "\[InvisibleSpace]", "\<\"-\"\>", "\[InvisibleSpace]", "2435", 
+   "\[InvisibleSpace]", "\<\": \\\"3 Logarithms\\\\3.1.5 u (a+b log(c \
+x^n))^p.nb\\\"\"\>"}],
+  SequenceForm[
+  "Rules ", 2399, "-", 2435, 
+   ": \"3 Logarithms\\3.1.5 u (a+b log(c x^n))^p.nb\""],
+  Editable->False]], "Print",
+ CellChangeTimes->{3.8285571884800453`*^9},
+ FontSize->10],
+
+Cell[BoxData[
+ InterpretationBox[
+  RowBox[{"\<\"Rules \"\>", "\[InvisibleSpace]", "2436", 
+   "\[InvisibleSpace]", "\<\"-\"\>", "\[InvisibleSpace]", "2496", 
+   "\[InvisibleSpace]", "\<\": \\\"3 Logarithms\\\\3.3 u (a+b log(c (d+e \
+x)^n))^p.nb\\\"\"\>"}],
+  SequenceForm[
+  "Rules ", 2436, "-", 2496, 
+   ": \"3 Logarithms\\3.3 u (a+b log(c (d+e x)^n))^p.nb\""],
+  Editable->False]], "Print",
+ CellChangeTimes->{3.8285571899181275`*^9},
+ FontSize->10],
+
+Cell[BoxData[
+ InterpretationBox[
+  RowBox[{"\<\"Rules \"\>", "\[InvisibleSpace]", "2497", 
+   "\[InvisibleSpace]", "\<\"-\"\>", "\[InvisibleSpace]", "2534", 
+   "\[InvisibleSpace]", "\<\": \\\"3 Logarithms\\\\3.4 u (a+b log(c (d+e \
+x^m)^n))^p.nb\\\"\"\>"}],
+  SequenceForm[
+  "Rules ", 2497, "-", 2534, 
+   ": \"3 Logarithms\\3.4 u (a+b log(c (d+e x^m)^n))^p.nb\""],
+  Editable->False]], "Print",
+ CellChangeTimes->{3.8285571911081953`*^9},
+ FontSize->10],
+
+Cell[BoxData[
+ InterpretationBox[
+  RowBox[{"\<\"Rules \"\>", "\[InvisibleSpace]", "2535", 
+   "\[InvisibleSpace]", "\<\"-\"\>", "\[InvisibleSpace]", "2558", 
+   "\[InvisibleSpace]", "\<\": \\\"3 Logarithms\\\\3.2.1 (f+g x)^m (A+B log(e \
+((a+b x) over (c+d x))^n))^p.nb\\\"\"\>"}],
+  SequenceForm[
+  "Rules ", 2535, "-", 2558, 
+   ": \"3 Logarithms\\3.2.1 (f+g x)^m (A+B log(e ((a+b x) over (c+d \
+x))^n))^p.nb\""],
+  Editable->False]], "Print",
+ CellChangeTimes->{3.8285571921532555`*^9},
+ FontSize->10],
+
+Cell[BoxData[
+ InterpretationBox[
+  RowBox[{"\<\"Rules \"\>", "\[InvisibleSpace]", "2559", 
+   "\[InvisibleSpace]", "\<\"-\"\>", "\[InvisibleSpace]", "2577", 
+   "\[InvisibleSpace]", "\<\": \\\"3 Logarithms\\\\3.2.2 (f+g x)^m (h+i x)^q \
+(A+B log(e ((a+b x) over (c+d x))^n))^p.nb\\\"\"\>"}],
+  SequenceForm[
+  "Rules ", 2559, "-", 2577, 
+   ": \"3 Logarithms\\3.2.2 (f+g x)^m (h+i x)^q (A+B log(e ((a+b x) over (c+d \
+x))^n))^p.nb\""],
+  Editable->False]], "Print",
+ CellChangeTimes->{3.828557193197315*^9},
+ FontSize->10],
+
+Cell[BoxData[
+ InterpretationBox[
+  RowBox[{"\<\"Rules \"\>", "\[InvisibleSpace]", "2578", 
+   "\[InvisibleSpace]", "\<\"-\"\>", "\[InvisibleSpace]", "2597", 
+   "\[InvisibleSpace]", "\<\": \\\"3 Logarithms\\\\3.2.3 u log(e (f (a+b x)^p \
+(c+d x)^q)^r)^s.nb\\\"\"\>"}],
+  SequenceForm[
+  "Rules ", 2578, "-", 2597, 
+   ": \"3 Logarithms\\3.2.3 u log(e (f (a+b x)^p (c+d x)^q)^r)^s.nb\""],
+  Editable->False]], "Print",
+ CellChangeTimes->{3.82855719415237*^9},
+ FontSize->10],
+
+Cell[BoxData[
+ InterpretationBox[
+  RowBox[{"\<\"Rules \"\>", "\[InvisibleSpace]", "2598", 
+   "\[InvisibleSpace]", "\<\"-\"\>", "\[InvisibleSpace]", "2641", 
+   "\[InvisibleSpace]", "\<\": \\\"3 Logarithms\\\\3.5 Miscellaneous \
+logarithms.nb\\\"\"\>"}],
+  SequenceForm[
+  "Rules ", 2598, "-", 2641, 
+   ": \"3 Logarithms\\3.5 Miscellaneous logarithms.nb\""],
+  Editable->False]], "Print",
+ CellChangeTimes->{3.8285571953614388`*^9},
+ FontSize->10]
+}, Open  ]]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["Trig function rules", "Section",
+ CellChangeTimes->{{3.8285522381637845`*^9, 3.828552255413771*^9}, {
+  3.8285523068687143`*^9, 3.8285523264728355`*^9}}],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ InterpretationBox[
+  RowBox[{"\<\"Rules \"\>", "\[InvisibleSpace]", "2642", 
+   "\[InvisibleSpace]", "\<\"-\"\>", "\[InvisibleSpace]", "2668", 
+   "\[InvisibleSpace]", "\<\": \\\"4 Trig functions\\\\4.1 Sine\\\\4.1.0.1 (a \
+sin)^m (b trg)^n.nb\\\"\"\>"}],
+  SequenceForm[
+  "Rules ", 2642, "-", 2668, 
+   ": \"4 Trig functions\\4.1 Sine\\4.1.0.1 (a sin)^m (b trg)^n.nb\""],
+  Editable->False]], "Print",
+ CellChangeTimes->{3.828557196407499*^9},
+ FontSize->10],
+
+Cell[BoxData[
+ InterpretationBox[
+  RowBox[{"\<\"Rules \"\>", "\[InvisibleSpace]", "2669", 
+   "\[InvisibleSpace]", "\<\"-\"\>", "\[InvisibleSpace]", "2698", 
+   "\[InvisibleSpace]", "\<\": \\\"4 Trig functions\\\\4.1 Sine\\\\4.1.0.2 (a \
+trg)^m (b tan)^n.nb\\\"\"\>"}],
+  SequenceForm[
+  "Rules ", 2669, "-", 2698, 
+   ": \"4 Trig functions\\4.1 Sine\\4.1.0.2 (a trg)^m (b tan)^n.nb\""],
+  Editable->False]], "Print",
+ CellChangeTimes->{3.828557197510562*^9},
+ FontSize->10],
+
+Cell[BoxData[
+ InterpretationBox[
+  RowBox[{"\<\"Rules \"\>", "\[InvisibleSpace]", "2699", 
+   "\[InvisibleSpace]", "\<\"-\"\>", "\[InvisibleSpace]", "2712", 
+   "\[InvisibleSpace]", "\<\": \\\"4 Trig functions\\\\4.1 Sine\\\\4.1.0.3 (a \
+csc)^m (b sec)^n.nb\\\"\"\>"}],
+  SequenceForm[
+  "Rules ", 2699, "-", 2712, 
+   ": \"4 Trig functions\\4.1 Sine\\4.1.0.3 (a csc)^m (b sec)^n.nb\""],
+  Editable->False]], "Print",
+ CellChangeTimes->{3.8285571984236145`*^9},
+ FontSize->10],
+
+Cell[BoxData[
+ InterpretationBox[
+  RowBox[{"\<\"Rules \"\>", "\[InvisibleSpace]", "2713", 
+   "\[InvisibleSpace]", "\<\"-\"\>", "\[InvisibleSpace]", "2745", 
+   "\[InvisibleSpace]", "\<\": \\\"4 Trig functions\\\\4.1 Sine\\\\4.1.1.1 \
+(a+b sin)^n.nb\\\"\"\>"}],
+  SequenceForm[
+  "Rules ", 2713, "-", 2745, 
+   ": \"4 Trig functions\\4.1 Sine\\4.1.1.1 (a+b sin)^n.nb\""],
+  Editable->False]], "Print",
+ CellChangeTimes->{3.8285571993656683`*^9},
+ FontSize->10],
+
+Cell[BoxData[
+ InterpretationBox[
+  RowBox[{"\<\"Rules \"\>", "\[InvisibleSpace]", "2746", 
+   "\[InvisibleSpace]", "\<\"-\"\>", "\[InvisibleSpace]", "2784", 
+   "\[InvisibleSpace]", "\<\": \\\"4 Trig functions\\\\4.1 Sine\\\\4.1.1.2 (g \
+cos)^p (a+b sin)^m.nb\\\"\"\>"}],
+  SequenceForm[
+  "Rules ", 2746, "-", 2784, 
+   ": \"4 Trig functions\\4.1 Sine\\4.1.1.2 (g cos)^p (a+b sin)^m.nb\""],
+  Editable->False]], "Print",
+ CellChangeTimes->{3.8285572006517415`*^9},
+ FontSize->10],
+
+Cell[BoxData[
+ InterpretationBox[
+  RowBox[{"\<\"Rules \"\>", "\[InvisibleSpace]", "2785", 
+   "\[InvisibleSpace]", "\<\"-\"\>", "\[InvisibleSpace]", "2812", 
+   "\[InvisibleSpace]", "\<\": \\\"4 Trig functions\\\\4.1 Sine\\\\4.1.1.3 (g \
+tan)^p (a+b sin)^m.nb\\\"\"\>"}],
+  SequenceForm[
+  "Rules ", 2785, "-", 2812, 
+   ": \"4 Trig functions\\4.1 Sine\\4.1.1.3 (g tan)^p (a+b sin)^m.nb\""],
+  Editable->False]], "Print",
+ CellChangeTimes->{3.8285572018428097`*^9},
+ FontSize->10],
+
+Cell[BoxData[
+ InterpretationBox[
+  RowBox[{"\<\"Rules \"\>", "\[InvisibleSpace]", "2813", 
+   "\[InvisibleSpace]", "\<\"-\"\>", "\[InvisibleSpace]", "2911", 
+   "\[InvisibleSpace]", "\<\": \\\"4 Trig functions\\\\4.1 Sine\\\\4.1.2.1 \
+(a+b sin)^m (c+d sin)^n.nb\\\"\"\>"}],
+  SequenceForm[
+  "Rules ", 2813, "-", 2911, 
+   ": \"4 Trig functions\\4.1 Sine\\4.1.2.1 (a+b sin)^m (c+d sin)^n.nb\""],
+  Editable->False]], "Print",
+ CellChangeTimes->{3.828557204609968*^9},
+ FontSize->10],
+
+Cell[BoxData[
+ InterpretationBox[
+  RowBox[{"\<\"Rules \"\>", "\[InvisibleSpace]", "2912", 
+   "\[InvisibleSpace]", "\<\"-\"\>", "\[InvisibleSpace]", "3006", 
+   "\[InvisibleSpace]", "\<\": \\\"4 Trig functions\\\\4.1 Sine\\\\4.1.2.2 (g \
+cos)^p (a+b sin)^m (c+d sin)^n.nb\\\"\"\>"}],
+  SequenceForm[
+  "Rules ", 2912, "-", 3006, 
+   ": \"4 Trig functions\\4.1 Sine\\4.1.2.2 (g cos)^p (a+b sin)^m (c+d \
+sin)^n.nb\""],
+  Editable->False]], "Print",
+ CellChangeTimes->{3.8285572071891155`*^9},
+ FontSize->10],
+
+Cell[BoxData[
+ InterpretationBox[
+  RowBox[{"\<\"Rules \"\>", "\[InvisibleSpace]", "3007", 
+   "\[InvisibleSpace]", "\<\"-\"\>", "\[InvisibleSpace]", "3044", 
+   "\[InvisibleSpace]", "\<\": \\\"4 Trig functions\\\\4.1 Sine\\\\4.1.2.3 (g \
+sin)^p (a+b sin)^m (c+d sin)^n.nb\\\"\"\>"}],
+  SequenceForm[
+  "Rules ", 3007, "-", 3044, 
+   ": \"4 Trig functions\\4.1 Sine\\4.1.2.3 (g sin)^p (a+b sin)^m (c+d \
+sin)^n.nb\""],
+  Editable->False]], "Print",
+ CellChangeTimes->{3.8285572090422215`*^9},
+ FontSize->10],
+
+Cell[BoxData[
+ InterpretationBox[
+  RowBox[{"\<\"Rules \"\>", "\[InvisibleSpace]", "3045", 
+   "\[InvisibleSpace]", "\<\"-\"\>", "\[InvisibleSpace]", "3088", 
+   "\[InvisibleSpace]", "\<\": \\\"4 Trig functions\\\\4.1 Sine\\\\4.1.3.1 \
+(a+b sin)^m (c+d sin)^n (A+B sin).nb\\\"\"\>"}],
+  SequenceForm[
+  "Rules ", 3045, "-", 3088, 
+   ": \"4 Trig functions\\4.1 Sine\\4.1.3.1 (a+b sin)^m (c+d sin)^n (A+B \
+sin).nb\""],
+  Editable->False]], "Print",
+ CellChangeTimes->{3.828557211219346*^9},
+ FontSize->10],
+
+Cell[BoxData[
+ InterpretationBox[
+  RowBox[{"\<\"Rules \"\>", "\[InvisibleSpace]", "3089", 
+   "\[InvisibleSpace]", "\<\"-\"\>", "\[InvisibleSpace]", "3107", 
+   "\[InvisibleSpace]", "\<\": \\\"4 Trig functions\\\\4.1 Sine\\\\4.1.4.1 \
+(a+b sin)^m (A+B sin+C sin^2).nb\\\"\"\>"}],
+  SequenceForm[
+  "Rules ", 3089, "-", 3107, 
+   ": \"4 Trig functions\\4.1 Sine\\4.1.4.1 (a+b sin)^m (A+B sin+C \
+sin^2).nb\""],
+  Editable->False]], "Print",
+ CellChangeTimes->{3.8285572124324155`*^9},
+ FontSize->10],
+
+Cell[BoxData[
+ InterpretationBox[
+  RowBox[{"\<\"Rules \"\>", "\[InvisibleSpace]", "3108", 
+   "\[InvisibleSpace]", "\<\"-\"\>", "\[InvisibleSpace]", "3149", 
+   "\[InvisibleSpace]", "\<\": \\\"4 Trig functions\\\\4.1 Sine\\\\4.1.4.2 \
+(a+b sin)^m (c+d sin)^n (A+B sin+C sin^2).nb\\\"\"\>"}],
+  SequenceForm[
+  "Rules ", 3108, "-", 3149, 
+   ": \"4 Trig functions\\4.1 Sine\\4.1.4.2 (a+b sin)^m (c+d sin)^n (A+B \
+sin+C sin^2).nb\""],
+  Editable->False]], "Print",
+ CellChangeTimes->{3.82855721461054*^9},
+ FontSize->10],
+
+Cell[BoxData[
+ InterpretationBox[
+  RowBox[{"\<\"Rules \"\>", "\[InvisibleSpace]", "3150", 
+   "\[InvisibleSpace]", "\<\"-\"\>", "\[InvisibleSpace]", "3190", 
+   "\[InvisibleSpace]", "\<\": \\\"4 Trig functions\\\\4.1 Sine\\\\4.1.5 \
+trig^m (a cos+b sin)^n.nb\\\"\"\>"}],
+  SequenceForm[
+  "Rules ", 3150, "-", 3190, 
+   ": \"4 Trig functions\\4.1 Sine\\4.1.5 trig^m (a cos+b sin)^n.nb\""],
+  Editable->False]], "Print",
+ CellChangeTimes->{3.828557216200631*^9},
+ FontSize->10],
+
+Cell[BoxData[
+ InterpretationBox[
+  RowBox[{"\<\"Rules \"\>", "\[InvisibleSpace]", "3191", 
+   "\[InvisibleSpace]", "\<\"-\"\>", "\[InvisibleSpace]", "3247", 
+   "\[InvisibleSpace]", "\<\": \\\"4 Trig functions\\\\4.1 Sine\\\\4.1.6 (a+b \
+cos+c sin)^n.nb\\\"\"\>"}],
+  SequenceForm[
+  "Rules ", 3191, "-", 3247, 
+   ": \"4 Trig functions\\4.1 Sine\\4.1.6 (a+b cos+c sin)^n.nb\""],
+  Editable->False]], "Print",
+ CellChangeTimes->{3.8285572180667377`*^9},
+ FontSize->10],
+
+Cell[BoxData[
+ InterpretationBox[
+  RowBox[{"\<\"Rules \"\>", "\[InvisibleSpace]", "3248", 
+   "\[InvisibleSpace]", "\<\"-\"\>", "\[InvisibleSpace]", "3320", 
+   "\[InvisibleSpace]", "\<\": \\\"4 Trig functions\\\\4.1 Sine\\\\4.1.7 (d \
+trig)^m (a+b (c sin)^n)^p.nb\\\"\"\>"}],
+  SequenceForm[
+  "Rules ", 3248, "-", 3320, 
+   ": \"4 Trig functions\\4.1 Sine\\4.1.7 (d trig)^m (a+b (c sin)^n)^p.nb\""],
+  Editable->False]], "Print",
+ CellChangeTimes->{3.8285572202118607`*^9},
+ FontSize->10],
+
+Cell[BoxData[
+ InterpretationBox[
+  RowBox[{"\<\"Rules \"\>", "\[InvisibleSpace]", "3321", 
+   "\[InvisibleSpace]", "\<\"-\"\>", "\[InvisibleSpace]", "3324", 
+   "\[InvisibleSpace]", "\<\": \\\"4 Trig functions\\\\4.1 Sine\\\\4.1.8 \
+trig^m (a+b cos^p+c sin^q)^n.nb\\\"\"\>"}],
+  SequenceForm[
+  "Rules ", 3321, "-", 3324, 
+   ": \"4 Trig functions\\4.1 Sine\\4.1.8 trig^m (a+b cos^p+c sin^q)^n.nb\""],
+  Editable->False]], "Print",
+ CellChangeTimes->{3.828557221370927*^9},
+ FontSize->10],
+
+Cell[BoxData[
+ InterpretationBox[
+  RowBox[{"\<\"Rules \"\>", "\[InvisibleSpace]", "3325", 
+   "\[InvisibleSpace]", "\<\"-\"\>", "\[InvisibleSpace]", "3376", 
+   "\[InvisibleSpace]", "\<\": \\\"4 Trig functions\\\\4.1 Sine\\\\4.1.9 \
+trig^m (a+b sin^n+c sin^(2 n))^p.nb\\\"\"\>"}],
+  SequenceForm[
+  "Rules ", 3325, "-", 3376, 
+   ": \"4 Trig functions\\4.1 Sine\\4.1.9 trig^m (a+b sin^n+c sin^(2 n))^p.nb\
+\""],
+  Editable->False]], "Print",
+ CellChangeTimes->{3.828557223365041*^9},
+ FontSize->10],
+
+Cell[BoxData[
+ InterpretationBox[
+  RowBox[{"\<\"Rules \"\>", "\[InvisibleSpace]", "3377", 
+   "\[InvisibleSpace]", "\<\"-\"\>", "\[InvisibleSpace]", "3409", 
+   "\[InvisibleSpace]", "\<\": \\\"4 Trig functions\\\\4.1 Sine\\\\4.1.10 \
+(c+d x)^m (a+b sin)^n.nb\\\"\"\>"}],
+  SequenceForm[
+  "Rules ", 3377, "-", 3409, 
+   ": \"4 Trig functions\\4.1 Sine\\4.1.10 (c+d x)^m (a+b sin)^n.nb\""],
+  Editable->False]], "Print",
+ CellChangeTimes->{3.828557225014135*^9},
+ FontSize->10],
+
+Cell[BoxData[
+ InterpretationBox[
+  RowBox[{"\<\"Rules \"\>", "\[InvisibleSpace]", "3410", 
+   "\[InvisibleSpace]", "\<\"-\"\>", "\[InvisibleSpace]", "3431", 
+   "\[InvisibleSpace]", "\<\": \\\"4 Trig functions\\\\4.1 Sine\\\\4.1.11 (e \
+x)^m (a+b x^n)^p sin.nb\\\"\"\>"}],
+  SequenceForm[
+  "Rules ", 3410, "-", 3431, 
+   ": \"4 Trig functions\\4.1 Sine\\4.1.11 (e x)^m (a+b x^n)^p sin.nb\""],
+  Editable->False]], "Print",
+ CellChangeTimes->{3.8285572264202156`*^9},
+ FontSize->10],
+
+Cell[BoxData[
+ InterpretationBox[
+  RowBox[{"\<\"Rules \"\>", "\[InvisibleSpace]", "3432", 
+   "\[InvisibleSpace]", "\<\"-\"\>", "\[InvisibleSpace]", "3525", 
+   "\[InvisibleSpace]", "\<\": \\\"4 Trig functions\\\\4.1 Sine\\\\4.1.12 (e \
+x)^m (a+b sin(c+d x^n))^p.nb\\\"\"\>"}],
+  SequenceForm[
+  "Rules ", 3432, "-", 3525, 
+   ": \"4 Trig functions\\4.1 Sine\\4.1.12 (e x)^m (a+b sin(c+d x^n))^p.nb\""],
+  Editable->False]], "Print",
+ CellChangeTimes->{3.8285572288993573`*^9},
+ FontSize->10],
+
+Cell[BoxData[
+ InterpretationBox[
+  RowBox[{"\<\"Rules \"\>", "\[InvisibleSpace]", "3526", 
+   "\[InvisibleSpace]", "\<\"-\"\>", "\[InvisibleSpace]", "3553", 
+   "\[InvisibleSpace]", "\<\": \\\"4 Trig functions\\\\4.1 Sine\\\\4.1.13 \
+(d+e x)^m sin(a+b x+c x^2)^n.nb\\\"\"\>"}],
+  SequenceForm[
+  "Rules ", 3526, "-", 3553, 
+   ": \"4 Trig functions\\4.1 Sine\\4.1.13 (d+e x)^m sin(a+b x+c x^2)^n.nb\""],
+  Editable->False]], "Print",
+ CellChangeTimes->{3.8285572303284388`*^9},
+ FontSize->10],
+
+Cell[BoxData[
+ InterpretationBox[
+  RowBox[{"\<\"Rules \"\>", "\[InvisibleSpace]", "3554", 
+   "\[InvisibleSpace]", "\<\"-\"\>", "\[InvisibleSpace]", "3566", 
+   "\[InvisibleSpace]", "\<\": \\\"4 Trig functions\\\\4.3 Tangent\\\\4.3.1.1 \
+(a+b tan)^n.nb\\\"\"\>"}],
+  SequenceForm[
+  "Rules ", 3554, "-", 3566, 
+   ": \"4 Trig functions\\4.3 Tangent\\4.3.1.1 (a+b tan)^n.nb\""],
+  Editable->False]], "Print",
+ CellChangeTimes->{3.828557231476505*^9},
+ FontSize->10],
+
+Cell[BoxData[
+ InterpretationBox[
+  RowBox[{"\<\"Rules \"\>", "\[InvisibleSpace]", "3567", 
+   "\[InvisibleSpace]", "\<\"-\"\>", "\[InvisibleSpace]", "3596", 
+   "\[InvisibleSpace]", "\<\": \\\"4 Trig functions\\\\4.3 Tangent\\\\4.3.1.2 \
+(d sec)^m (a+b tan)^n.nb\\\"\"\>"}],
+  SequenceForm[
+  "Rules ", 3567, "-", 3596, 
+   ": \"4 Trig functions\\4.3 Tangent\\4.3.1.2 (d sec)^m (a+b tan)^n.nb\""],
+  Editable->False]], "Print",
+ CellChangeTimes->{3.8285572331335993`*^9},
+ FontSize->10],
+
+Cell[BoxData[
+ InterpretationBox[
+  RowBox[{"\<\"Rules \"\>", "\[InvisibleSpace]", "3597", 
+   "\[InvisibleSpace]", "\<\"-\"\>", "\[InvisibleSpace]", "3602", 
+   "\[InvisibleSpace]", "\<\": \\\"4 Trig functions\\\\4.3 Tangent\\\\4.3.1.3 \
+(d sin)^m (a+b tan)^n.nb\\\"\"\>"}],
+  SequenceForm[
+  "Rules ", 3597, "-", 3602, 
+   ": \"4 Trig functions\\4.3 Tangent\\4.3.1.3 (d sin)^m (a+b tan)^n.nb\""],
+  Editable->False]], "Print",
+ CellChangeTimes->{3.8285572343236675`*^9},
+ FontSize->10],
+
+Cell[BoxData[
+ InterpretationBox[
+  RowBox[{"\<\"Rules \"\>", "\[InvisibleSpace]", "3603", 
+   "\[InvisibleSpace]", "\<\"-\"\>", "\[InvisibleSpace]", "3660", 
+   "\[InvisibleSpace]", "\<\": \\\"4 Trig functions\\\\4.3 Tangent\\\\4.3.2.1 \
+(a+b tan)^m (c+d tan)^n.nb\\\"\"\>"}],
+  SequenceForm[
+  "Rules ", 3603, "-", 3660, 
+   ": \"4 Trig functions\\4.3 Tangent\\4.3.2.1 (a+b tan)^m (c+d tan)^n.nb\""],
+  Editable->False]], "Print",
+ CellChangeTimes->{3.828557236943817*^9},
+ FontSize->10],
+
+Cell[BoxData[
+ InterpretationBox[
+  RowBox[{"\<\"Rules \"\>", "\[InvisibleSpace]", "3661", 
+   "\[InvisibleSpace]", "\<\"-\"\>", "\[InvisibleSpace]", "3668", 
+   "\[InvisibleSpace]", "\<\": \\\"4 Trig functions\\\\4.3 Tangent\\\\4.3.2.3 \
+(g tan)^p (a+b tan)^m (c+d tan)^n.nb\\\"\"\>"}],
+  SequenceForm[
+  "Rules ", 3661, "-", 3668, 
+   ": \"4 Trig functions\\4.3 Tangent\\4.3.2.3 (g tan)^p (a+b tan)^m (c+d \
+tan)^n.nb\""],
+  Editable->False]], "Print",
+ CellChangeTimes->{3.8285572382178907`*^9},
+ FontSize->10],
+
+Cell[BoxData[
+ InterpretationBox[
+  RowBox[{"\<\"Rules \"\>", "\[InvisibleSpace]", "3669", 
+   "\[InvisibleSpace]", "\<\"-\"\>", "\[InvisibleSpace]", "3697", 
+   "\[InvisibleSpace]", "\<\": \\\"4 Trig functions\\\\4.3 Tangent\\\\4.3.3.1 \
+(a+b tan)^m (c+d tan)^n (A+B tan).nb\\\"\"\>"}],
+  SequenceForm[
+  "Rules ", 3669, "-", 3697, 
+   ": \"4 Trig functions\\4.3 Tangent\\4.3.3.1 (a+b tan)^m (c+d tan)^n (A+B \
+tan).nb\""],
+  Editable->False]], "Print",
+ CellChangeTimes->{3.828557240468019*^9},
+ FontSize->10],
+
+Cell[BoxData[
+ InterpretationBox[
+  RowBox[{"\<\"Rules \"\>", "\[InvisibleSpace]", "3698", 
+   "\[InvisibleSpace]", "\<\"-\"\>", "\[InvisibleSpace]", "3712", 
+   "\[InvisibleSpace]", "\<\": \\\"4 Trig functions\\\\4.3 Tangent\\\\4.3.4.1 \
+(a+b tan)^m (A+B tan+C tan^2).nb\\\"\"\>"}],
+  SequenceForm[
+  "Rules ", 3698, "-", 3712, 
+   ": \"4 Trig functions\\4.3 Tangent\\4.3.4.1 (a+b tan)^m (A+B tan+C \
+tan^2).nb\""],
+  Editable->False]], "Print",
+ CellChangeTimes->{3.8285572419421034`*^9},
+ FontSize->10],
+
+Cell[BoxData[
+ InterpretationBox[
+  RowBox[{"\<\"Rules \"\>", "\[InvisibleSpace]", "3713", 
+   "\[InvisibleSpace]", "\<\"-\"\>", "\[InvisibleSpace]", "3737", 
+   "\[InvisibleSpace]", "\<\": \\\"4 Trig functions\\\\4.3 Tangent\\\\4.3.4.2 \
+(a+b tan)^m (c+d tan)^n (A+B tan+C tan^2).nb\\\"\"\>"}],
+  SequenceForm[
+  "Rules ", 3713, "-", 3737, 
+   ": \"4 Trig functions\\4.3 Tangent\\4.3.4.2 (a+b tan)^m (c+d tan)^n (A+B \
+tan+C tan^2).nb\""],
+  Editable->False]], "Print",
+ CellChangeTimes->{3.8285572440092216`*^9},
+ FontSize->10],
+
+Cell[BoxData[
+ InterpretationBox[
+  RowBox[{"\<\"Rules \"\>", "\[InvisibleSpace]", "3738", 
+   "\[InvisibleSpace]", "\<\"-\"\>", "\[InvisibleSpace]", "3762", 
+   "\[InvisibleSpace]", "\<\": \\\"4 Trig functions\\\\4.3 Tangent\\\\4.3.7 \
+(d trig)^m (a+b (c tan)^n)^p.nb\\\"\"\>"}],
+  SequenceForm[
+  "Rules ", 3738, "-", 3762, 
+   ": \"4 Trig functions\\4.3 Tangent\\4.3.7 (d trig)^m (a+b (c \
+tan)^n)^p.nb\""],
+  Editable->False]], "Print",
+ CellChangeTimes->{3.8285572456353145`*^9},
+ FontSize->10],
+
+Cell[BoxData[
+ InterpretationBox[
+  RowBox[{"\<\"Rules \"\>", "\[InvisibleSpace]", "3763", 
+   "\[InvisibleSpace]", "\<\"-\"\>", "\[InvisibleSpace]", "3796", 
+   "\[InvisibleSpace]", "\<\": \\\"4 Trig functions\\\\4.3 Tangent\\\\4.3.9 \
+trig^m (a+b tan^n+c tan^(2 n))^p.nb\\\"\"\>"}],
+  SequenceForm[
+  "Rules ", 3763, "-", 3796, 
+   ": \"4 Trig functions\\4.3 Tangent\\4.3.9 trig^m (a+b tan^n+c tan^(2 \
+n))^p.nb\""],
+  Editable->False]], "Print",
+ CellChangeTimes->{3.8285572475424232`*^9},
+ FontSize->10],
+
+Cell[BoxData[
+ InterpretationBox[
+  RowBox[{"\<\"Rules \"\>", "\[InvisibleSpace]", "3797", 
+   "\[InvisibleSpace]", "\<\"-\"\>", "\[InvisibleSpace]", "3823", 
+   "\[InvisibleSpace]", "\<\": \\\"4 Trig functions\\\\4.3 Tangent\\\\4.3.10 \
+(c+d x)^m (a+b tan)^n.nb\\\"\"\>"}],
+  SequenceForm[
+  "Rules ", 3797, "-", 3823, 
+   ": \"4 Trig functions\\4.3 Tangent\\4.3.10 (c+d x)^m (a+b tan)^n.nb\""],
+  Editable->False]], "Print",
+ CellChangeTimes->{3.828557249312525*^9},
+ FontSize->10],
+
+Cell[BoxData[
+ InterpretationBox[
+  RowBox[{"\<\"Rules \"\>", "\[InvisibleSpace]", "3824", 
+   "\[InvisibleSpace]", "\<\"-\"\>", "\[InvisibleSpace]", "3843", 
+   "\[InvisibleSpace]", "\<\": \\\"4 Trig functions\\\\4.3 Tangent\\\\4.3.11 \
+(e x)^m (a+b tan(c+d x^n))^p.nb\\\"\"\>"}],
+  SequenceForm[
+  "Rules ", 3824, "-", 3843, 
+   ": \"4 Trig functions\\4.3 Tangent\\4.3.11 (e x)^m (a+b tan(c+d x^n))^p.nb\
+\""],
+  Editable->False]], "Print",
+ CellChangeTimes->{3.8285572507906094`*^9},
+ FontSize->10],
+
+Cell[BoxData[
+ InterpretationBox[
+  RowBox[{"\<\"Rules \"\>", "\[InvisibleSpace]", "3844", 
+   "\[InvisibleSpace]", "\<\"-\"\>", "\[InvisibleSpace]", "3851", 
+   "\[InvisibleSpace]", "\<\": \\\"4 Trig functions\\\\4.3 Tangent\\\\4.3.12 \
+(d+e x)^m tan(a+b x+c x^2)^n.nb\\\"\"\>"}],
+  SequenceForm[
+  "Rules ", 3844, "-", 3851, 
+   ": \"4 Trig functions\\4.3 Tangent\\4.3.12 (d+e x)^m tan(a+b x+c x^2)^n.nb\
+\""],
+  Editable->False]], "Print",
+ CellChangeTimes->{3.828557252077683*^9},
+ FontSize->10],
+
+Cell[BoxData[
+ InterpretationBox[
+  RowBox[{"\<\"Rules \"\>", "\[InvisibleSpace]", "3852", 
+   "\[InvisibleSpace]", "\<\"-\"\>", "\[InvisibleSpace]", "3871", 
+   "\[InvisibleSpace]", "\<\": \\\"4 Trig functions\\\\4.5 Secant\\\\4.5.1.1 \
+(a+b sec)^n.nb\\\"\"\>"}],
+  SequenceForm[
+  "Rules ", 3852, "-", 3871, 
+   ": \"4 Trig functions\\4.5 Secant\\4.5.1.1 (a+b sec)^n.nb\""],
+  Editable->False]], "Print",
+ CellChangeTimes->{3.828557253401759*^9},
+ FontSize->10],
+
+Cell[BoxData[
+ InterpretationBox[
+  RowBox[{"\<\"Rules \"\>", "\[InvisibleSpace]", "3872", 
+   "\[InvisibleSpace]", "\<\"-\"\>", "\[InvisibleSpace]", "3956", 
+   "\[InvisibleSpace]", "\<\": \\\"4 Trig functions\\\\4.5 Secant\\\\4.5.1.2 \
+(d sec)^n (a+b sec)^m.nb\\\"\"\>"}],
+  SequenceForm[
+  "Rules ", 3872, "-", 3956, 
+   ": \"4 Trig functions\\4.5 Secant\\4.5.1.2 (d sec)^n (a+b sec)^m.nb\""],
+  Editable->False]], "Print",
+ CellChangeTimes->{3.8285572563639283`*^9},
+ FontSize->10],
+
+Cell[BoxData[
+ InterpretationBox[
+  RowBox[{"\<\"Rules \"\>", "\[InvisibleSpace]", "3957", 
+   "\[InvisibleSpace]", "\<\"-\"\>", "\[InvisibleSpace]", "3963", 
+   "\[InvisibleSpace]", "\<\": \\\"4 Trig functions\\\\4.5 Secant\\\\4.5.1.3 \
+(d sin)^n (a+b sec)^m.nb\\\"\"\>"}],
+  SequenceForm[
+  "Rules ", 3957, "-", 3963, 
+   ": \"4 Trig functions\\4.5 Secant\\4.5.1.3 (d sin)^n (a+b sec)^m.nb\""],
+  Editable->False]], "Print",
+ CellChangeTimes->{3.828557257707005*^9},
+ FontSize->10],
+
+Cell[BoxData[
+ InterpretationBox[
+  RowBox[{"\<\"Rules \"\>", "\[InvisibleSpace]", "3964", 
+   "\[InvisibleSpace]", "\<\"-\"\>", "\[InvisibleSpace]", "3987", 
+   "\[InvisibleSpace]", "\<\": \\\"4 Trig functions\\\\4.5 Secant\\\\4.5.1.4 \
+(d tan)^n (a+b sec)^m.nb\\\"\"\>"}],
+  SequenceForm[
+  "Rules ", 3964, "-", 3987, 
+   ": \"4 Trig functions\\4.5 Secant\\4.5.1.4 (d tan)^n (a+b sec)^m.nb\""],
+  Editable->False]], "Print",
+ CellChangeTimes->{3.8285572594141026`*^9},
+ FontSize->10],
+
+Cell[BoxData[
+ InterpretationBox[
+  RowBox[{"\<\"Rules \"\>", "\[InvisibleSpace]", "3988", 
+   "\[InvisibleSpace]", "\<\"-\"\>", "\[InvisibleSpace]", "4034", 
+   "\[InvisibleSpace]", "\<\": \\\"4 Trig functions\\\\4.5 Secant\\\\4.5.2.1 \
+(a+b sec)^m (c+d sec)^n.nb\\\"\"\>"}],
+  SequenceForm[
+  "Rules ", 3988, "-", 4034, 
+   ": \"4 Trig functions\\4.5 Secant\\4.5.2.1 (a+b sec)^m (c+d sec)^n.nb\""],
+  Editable->False]], "Print",
+ CellChangeTimes->{3.828557261765237*^9},
+ FontSize->10],
+
+Cell[BoxData[
+ InterpretationBox[
+  RowBox[{"\<\"Rules \"\>", "\[InvisibleSpace]", "4035", 
+   "\[InvisibleSpace]", "\<\"-\"\>", "\[InvisibleSpace]", "4080", 
+   "\[InvisibleSpace]", "\<\": \\\"4 Trig functions\\\\4.5 Secant\\\\4.5.2.2 \
+(g sec)^p (a+b sec)^m (c+d sec)^n.nb\\\"\"\>"}],
+  SequenceForm[
+  "Rules ", 4035, "-", 4080, 
+   ": \"4 Trig functions\\4.5 Secant\\4.5.2.2 (g sec)^p (a+b sec)^m (c+d \
+sec)^n.nb\""],
+  Editable->False]], "Print",
+ CellChangeTimes->{3.8285572639593625`*^9},
+ FontSize->10],
+
+Cell[BoxData[
+ InterpretationBox[
+  RowBox[{"\<\"Rules \"\>", "\[InvisibleSpace]", "4081", 
+   "\[InvisibleSpace]", "\<\"-\"\>", "\[InvisibleSpace]", "4125", 
+   "\[InvisibleSpace]", "\<\": \\\"4 Trig functions\\\\4.5 Secant\\\\4.5.3.1 \
+(a+b sec)^m (d sec)^n (A+B sec).nb\\\"\"\>"}],
+  SequenceForm[
+  "Rules ", 4081, "-", 4125, 
+   ": \"4 Trig functions\\4.5 Secant\\4.5.3.1 (a+b sec)^m (d sec)^n (A+B \
+sec).nb\""],
+  Editable->False]], "Print",
+ CellChangeTimes->{3.8285572661934905`*^9},
+ FontSize->10],
+
+Cell[BoxData[
+ InterpretationBox[
+  RowBox[{"\<\"Rules \"\>", "\[InvisibleSpace]", "4126", 
+   "\[InvisibleSpace]", "\<\"-\"\>", "\[InvisibleSpace]", "4156", 
+   "\[InvisibleSpace]", "\<\": \\\"4 Trig functions\\\\4.5 Secant\\\\4.5.4.1 \
+(a+b sec)^m (A+B sec+C sec^2).nb\\\"\"\>"}],
+  SequenceForm[
+  "Rules ", 4126, "-", 4156, 
+   ": \"4 Trig functions\\4.5 Secant\\4.5.4.1 (a+b sec)^m (A+B sec+C \
+sec^2).nb\""],
+  Editable->False]], "Print",
+ CellChangeTimes->{3.8285572681536026`*^9},
+ FontSize->10],
+
+Cell[BoxData[
+ InterpretationBox[
+  RowBox[{"\<\"Rules \"\>", "\[InvisibleSpace]", "4157", 
+   "\[InvisibleSpace]", "\<\"-\"\>", "\[InvisibleSpace]", "4204", 
+   "\[InvisibleSpace]", "\<\": \\\"4 Trig functions\\\\4.5 Secant\\\\4.5.4.2 \
+(a+b sec)^m (d sec)^n (A+B sec+C sec^2).nb\\\"\"\>"}],
+  SequenceForm[
+  "Rules ", 4157, "-", 4204, 
+   ": \"4 Trig functions\\4.5 Secant\\4.5.4.2 (a+b sec)^m (d sec)^n (A+B \
+sec+C sec^2).nb\""],
+  Editable->False]], "Print",
+ CellChangeTimes->{3.828557270506737*^9},
+ FontSize->10],
+
+Cell[BoxData[
+ InterpretationBox[
+  RowBox[{"\<\"Rules \"\>", "\[InvisibleSpace]", "4205", 
+   "\[InvisibleSpace]", "\<\"-\"\>", "\[InvisibleSpace]", "4236", 
+   "\[InvisibleSpace]", "\<\": \\\"4 Trig functions\\\\4.5 Secant\\\\4.5.7 (d \
+trig)^m (a+b (c sec)^n)^p.nb\\\"\"\>"}],
+  SequenceForm[
+  "Rules ", 4205, "-", 4236, 
+   ": \"4 Trig functions\\4.5 Secant\\4.5.7 (d trig)^m (a+b (c \
+sec)^n)^p.nb\""],
+  Editable->False]], "Print",
+ CellChangeTimes->{3.828557272465849*^9},
+ FontSize->10],
+
+Cell[BoxData[
+ InterpretationBox[
+  RowBox[{"\<\"Rules \"\>", "\[InvisibleSpace]", "4237", 
+   "\[InvisibleSpace]", "\<\"-\"\>", "\[InvisibleSpace]", "4264", 
+   "\[InvisibleSpace]", "\<\": \\\"4 Trig functions\\\\4.5 Secant\\\\4.5.9 \
+trig^m (a+b sec^n+c sec^(2 n))^p.nb\\\"\"\>"}],
+  SequenceForm[
+  "Rules ", 4237, "-", 4264, 
+   ": \"4 Trig functions\\4.5 Secant\\4.5.9 trig^m (a+b sec^n+c sec^(2 \
+n))^p.nb\""],
+  Editable->False]], "Print",
+ CellChangeTimes->{3.8285572744469624`*^9},
+ FontSize->10],
+
+Cell[BoxData[
+ InterpretationBox[
+  RowBox[{"\<\"Rules \"\>", "\[InvisibleSpace]", "4265", 
+   "\[InvisibleSpace]", "\<\"-\"\>", "\[InvisibleSpace]", "4280", 
+   "\[InvisibleSpace]", "\<\": \\\"4 Trig functions\\\\4.5 Secant\\\\4.5.10 \
+(c+d x)^m (a+b sec)^n.nb\\\"\"\>"}],
+  SequenceForm[
+  "Rules ", 4265, "-", 4280, 
+   ": \"4 Trig functions\\4.5 Secant\\4.5.10 (c+d x)^m (a+b sec)^n.nb\""],
+  Editable->False]], "Print",
+ CellChangeTimes->{3.8285572761470594`*^9},
+ FontSize->10],
+
+Cell[BoxData[
+ InterpretationBox[
+  RowBox[{"\<\"Rules \"\>", "\[InvisibleSpace]", "4281", 
+   "\[InvisibleSpace]", "\<\"-\"\>", "\[InvisibleSpace]", "4298", 
+   "\[InvisibleSpace]", "\<\": \\\"4 Trig functions\\\\4.5 Secant\\\\4.5.11 \
+(e x)^m (a+b sec(c+d x^n))^p.nb\\\"\"\>"}],
+  SequenceForm[
+  "Rules ", 4281, "-", 4298, 
+   ": \"4 Trig functions\\4.5 Secant\\4.5.11 (e x)^m (a+b sec(c+d \
+x^n))^p.nb\""],
+  Editable->False]], "Print",
+ CellChangeTimes->{3.828557277792154*^9},
+ FontSize->10],
+
+Cell[BoxData[
+ InterpretationBox[
+  RowBox[{"\<\"Rules \"\>", "\[InvisibleSpace]", "4299", 
+   "\[InvisibleSpace]", "\<\"-\"\>", "\[InvisibleSpace]", "4323", 
+   "\[InvisibleSpace]", "\<\": \\\"4 Trig functions\\\\4.7 \
+Miscellaneous\\\\4.7.1 Sine normalization rules.nb\\\"\"\>"}],
+  SequenceForm[
+  "Rules ", 4299, "-", 4323, 
+   ": \"4 Trig functions\\4.7 Miscellaneous\\4.7.1 Sine normalization \
+rules.nb\""],
+  Editable->False]], "Print",
+ CellChangeTimes->{3.828557279702263*^9},
+ FontSize->10],
+
+Cell[BoxData[
+ InterpretationBox[
+  RowBox[{"\<\"Rules \"\>", "\[InvisibleSpace]", "4324", 
+   "\[InvisibleSpace]", "\<\"-\"\>", "\[InvisibleSpace]", "4342", 
+   "\[InvisibleSpace]", "\<\": \\\"4 Trig functions\\\\4.7 \
+Miscellaneous\\\\4.7.2 Tangent normalization rules.nb\\\"\"\>"}],
+  SequenceForm[
+  "Rules ", 4324, "-", 4342, 
+   ": \"4 Trig functions\\4.7 Miscellaneous\\4.7.2 Tangent normalization \
+rules.nb\""],
+  Editable->False]], "Print",
+ CellChangeTimes->{3.828557281459364*^9},
+ FontSize->10],
+
+Cell[BoxData[
+ InterpretationBox[
+  RowBox[{"\<\"Rules \"\>", "\[InvisibleSpace]", "4343", 
+   "\[InvisibleSpace]", "\<\"-\"\>", "\[InvisibleSpace]", "4366", 
+   "\[InvisibleSpace]", "\<\": \\\"4 Trig functions\\\\4.7 \
+Miscellaneous\\\\4.7.3 Secant normalization rules.nb\\\"\"\>"}],
+  SequenceForm[
+  "Rules ", 4343, "-", 4366, 
+   ": \"4 Trig functions\\4.7 Miscellaneous\\4.7.3 Secant normalization \
+rules.nb\""],
+  Editable->False]], "Print",
+ CellChangeTimes->{3.8285572833434715`*^9},
+ FontSize->10],
+
+Cell[BoxData[
+ InterpretationBox[
+  RowBox[{"\<\"Rules \"\>", "\[InvisibleSpace]", "4367", 
+   "\[InvisibleSpace]", "\<\"-\"\>", "\[InvisibleSpace]", "4416", 
+   "\[InvisibleSpace]", "\<\": \\\"4 Trig functions\\\\4.7 \
+Miscellaneous\\\\4.7.4 (c trig)^m (d trig)^n.nb\\\"\"\>"}],
+  SequenceForm[
+  "Rules ", 4367, "-", 4416, 
+   ": \"4 Trig functions\\4.7 Miscellaneous\\4.7.4 (c trig)^m (d \
+trig)^n.nb\""],
+  Editable->False]], "Print",
+ CellChangeTimes->{3.828557285873616*^9},
+ FontSize->10],
+
+Cell[BoxData[
+ InterpretationBox[
+  RowBox[{"\<\"Rules \"\>", "\[InvisibleSpace]", "4417", 
+   "\[InvisibleSpace]", "\<\"-\"\>", "\[InvisibleSpace]", "4488", 
+   "\[InvisibleSpace]", "\<\": \\\"4 Trig functions\\\\4.7 \
+Miscellaneous\\\\4.7.5 Inert trig functions.nb\\\"\"\>"}],
+  SequenceForm[
+  "Rules ", 4417, "-", 4488, 
+   ": \"4 Trig functions\\4.7 Miscellaneous\\4.7.5 Inert trig functions.nb\""],
+  Editable->False]], "Print",
+ CellChangeTimes->{3.828557288619773*^9},
+ FontSize->10],
+
+Cell[BoxData[
+ InterpretationBox[
+  RowBox[{"\<\"Rules \"\>", "\[InvisibleSpace]", "4489", 
+   "\[InvisibleSpace]", "\<\"-\"\>", "\[InvisibleSpace]", "4516", 
+   "\[InvisibleSpace]", "\<\": \\\"4 Trig functions\\\\4.7 \
+Miscellaneous\\\\4.7.6 (c+d x)^m trig(a+b x)^n trig(a+b x)^p.nb\\\"\"\>"}],
+  SequenceForm[
+  "Rules ", 4489, "-", 4516, 
+   ": \"4 Trig functions\\4.7 Miscellaneous\\4.7.6 (c+d x)^m trig(a+b x)^n \
+trig(a+b x)^p.nb\""],
+  Editable->False]], "Print",
+ CellChangeTimes->{3.8285572906658897`*^9},
+ FontSize->10],
+
+Cell[BoxData[
+ InterpretationBox[
+  RowBox[{"\<\"Rules \"\>", "\[InvisibleSpace]", "4517", 
+   "\[InvisibleSpace]", "\<\"-\"\>", "\[InvisibleSpace]", "4559", 
+   "\[InvisibleSpace]", "\<\": \\\"4 Trig functions\\\\4.7 \
+Miscellaneous\\\\4.7.7 F^(c (a+b x)) trig(d+e x)^n.nb\\\"\"\>"}],
+  SequenceForm[
+  "Rules ", 4517, "-", 4559, 
+   ": \"4 Trig functions\\4.7 Miscellaneous\\4.7.7 F^(c (a+b x)) trig(d+e \
+x)^n.nb\""],
+  Editable->False]], "Print",
+ CellChangeTimes->{3.828557293065027*^9},
+ FontSize->10],
+
+Cell[BoxData[
+ InterpretationBox[
+  RowBox[{"\<\"Rules \"\>", "\[InvisibleSpace]", "4560", 
+   "\[InvisibleSpace]", "\<\"-\"\>", "\[InvisibleSpace]", "4607", 
+   "\[InvisibleSpace]", "\<\": \\\"4 Trig functions\\\\4.7 \
+Miscellaneous\\\\4.7.8 u trig(a+b log(c x^n))^p.nb\\\"\"\>"}],
+  SequenceForm[
+  "Rules ", 4560, "-", 4607, 
+   ": \"4 Trig functions\\4.7 Miscellaneous\\4.7.8 u trig(a+b log(c \
+x^n))^p.nb\""],
+  Editable->False]], "Print",
+ CellChangeTimes->{3.8285572952951546`*^9},
+ FontSize->10],
+
+Cell[BoxData[
+ InterpretationBox[
+  RowBox[{"\<\"Rules \"\>", "\[InvisibleSpace]", "4608", 
+   "\[InvisibleSpace]", "\<\"-\"\>", "\[InvisibleSpace]", "4711", 
+   "\[InvisibleSpace]", "\<\": \\\"4 Trig functions\\\\4.7 \
+Miscellaneous\\\\4.7.9 Active trig functions.nb\\\"\"\>"}],
+  SequenceForm[
+  "Rules ", 4608, "-", 4711, 
+   ": \"4 Trig functions\\4.7 Miscellaneous\\4.7.9 Active trig \
+functions.nb\""],
+  Editable->False]], "Print",
+ CellChangeTimes->{3.8285572991523757`*^9},
+ FontSize->10]
+}, Open  ]]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["Inverse trig function rules", "Section",
+ CellChangeTimes->{{3.8285522381637845`*^9, 3.828552255413771*^9}, {
+  3.8285523068687143`*^9, 3.8285523091028423`*^9}, {3.8285523401136155`*^9, 
+  3.82855234753404*^9}}],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ InterpretationBox[
+  RowBox[{"\<\"Rules \"\>", "\[InvisibleSpace]", "4712", 
+   "\[InvisibleSpace]", "\<\"-\"\>", "\[InvisibleSpace]", "4717", 
+   "\[InvisibleSpace]", "\<\": \\\"5 Inverse trig functions\\\\5.1 Inverse \
+sine\\\\5.1.1 (a+b arcsin(c x))^n.nb\\\"\"\>"}],
+  SequenceForm[
+  "Rules ", 4712, "-", 4717, 
+   ": \"5 Inverse trig functions\\5.1 Inverse sine\\5.1.1 (a+b arcsin(c \
+x))^n.nb\""],
+  Editable->False]], "Print",
+ CellChangeTimes->{3.8285573006724625`*^9},
+ FontSize->10],
+
+Cell[BoxData[
+ InterpretationBox[
+  RowBox[{"\<\"Rules \"\>", "\[InvisibleSpace]", "4718", 
+   "\[InvisibleSpace]", "\<\"-\"\>", "\[InvisibleSpace]", "4731", 
+   "\[InvisibleSpace]", "\<\": \\\"5 Inverse trig functions\\\\5.1 Inverse \
+sine\\\\5.1.2 (d x)^m (a+b arcsin(c x))^n.nb\\\"\"\>"}],
+  SequenceForm[
+  "Rules ", 4718, "-", 4731, 
+   ": \"5 Inverse trig functions\\5.1 Inverse sine\\5.1.2 (d x)^m (a+b \
+arcsin(c x))^n.nb\""],
+  Editable->False]], "Print",
+ CellChangeTimes->{3.828557302499567*^9},
+ FontSize->10],
+
+Cell[BoxData[
+ InterpretationBox[
+  RowBox[{"\<\"Rules \"\>", "\[InvisibleSpace]", "4732", 
+   "\[InvisibleSpace]", "\<\"-\"\>", "\[InvisibleSpace]", "4761", 
+   "\[InvisibleSpace]", "\<\": \\\"5 Inverse trig functions\\\\5.1 Inverse \
+sine\\\\5.1.3 (d+e x^2)^p (a+b arcsin(c x))^n.nb\\\"\"\>"}],
+  SequenceForm[
+  "Rules ", 4732, "-", 4761, 
+   ": \"5 Inverse trig functions\\5.1 Inverse sine\\5.1.3 (d+e x^2)^p (a+b \
+arcsin(c x))^n.nb\""],
+  Editable->False]], "Print",
+ CellChangeTimes->{3.828557304791698*^9},
+ FontSize->10],
+
+Cell[BoxData[
+ InterpretationBox[
+  RowBox[{"\<\"Rules \"\>", "\[InvisibleSpace]", "4762", 
+   "\[InvisibleSpace]", "\<\"-\"\>", "\[InvisibleSpace]", "4821", 
+   "\[InvisibleSpace]", "\<\": \\\"5 Inverse trig functions\\\\5.1 Inverse \
+sine\\\\5.1.4 (f x)^m (d+e x^2)^p (a+b arcsin(c x))^n.nb\\\"\"\>"}],
+  SequenceForm[
+  "Rules ", 4762, "-", 4821, 
+   ": \"5 Inverse trig functions\\5.1 Inverse sine\\5.1.4 (f x)^m (d+e x^2)^p \
+(a+b arcsin(c x))^n.nb\""],
+  Editable->False]], "Print",
+ CellChangeTimes->{3.8285573078628736`*^9},
+ FontSize->10],
+
+Cell[BoxData[
+ InterpretationBox[
+  RowBox[{"\<\"Rules \"\>", "\[InvisibleSpace]", "4822", 
+   "\[InvisibleSpace]", "\<\"-\"\>", "\[InvisibleSpace]", "4883", 
+   "\[InvisibleSpace]", "\<\": \\\"5 Inverse trig functions\\\\5.1 Inverse \
+sine\\\\5.1.5 u (a+b arcsin(c x))^n.nb\\\"\"\>"}],
+  SequenceForm[
+  "Rules ", 4822, "-", 4883, 
+   ": \"5 Inverse trig functions\\5.1 Inverse sine\\5.1.5 u (a+b arcsin(c \
+x))^n.nb\""],
+  Editable->False]], "Print",
+ CellChangeTimes->{3.8285573110420556`*^9},
+ FontSize->10],
+
+Cell[BoxData[
+ InterpretationBox[
+  RowBox[{"\<\"Rules \"\>", "\[InvisibleSpace]", "4884", 
+   "\[InvisibleSpace]", "\<\"-\"\>", "\[InvisibleSpace]", "4926", 
+   "\[InvisibleSpace]", "\<\": \\\"5 Inverse trig functions\\\\5.1 Inverse \
+sine\\\\5.1.6 Miscellaneous inverse sine.nb\\\"\"\>"}],
+  SequenceForm[
+  "Rules ", 4884, "-", 4926, 
+   ": \"5 Inverse trig functions\\5.1 Inverse sine\\5.1.6 Miscellaneous \
+inverse sine.nb\""],
+  Editable->False]], "Print",
+ CellChangeTimes->{3.8285573132821836`*^9},
+ FontSize->10],
+
+Cell[BoxData[
+ InterpretationBox[
+  RowBox[{"\<\"Rules \"\>", "\[InvisibleSpace]", "4927", 
+   "\[InvisibleSpace]", "\<\"-\"\>", "\[InvisibleSpace]", "4936", 
+   "\[InvisibleSpace]", "\<\": \\\"5 Inverse trig functions\\\\5.3 Inverse \
+tangent\\\\5.3.1 (a+b arctan(c x^n))^p.nb\\\"\"\>"}],
+  SequenceForm[
+  "Rules ", 4927, "-", 4936, 
+   ": \"5 Inverse trig functions\\5.3 Inverse tangent\\5.3.1 (a+b arctan(c \
+x^n))^p.nb\""],
+  Editable->False]], "Print",
+ CellChangeTimes->{3.8285573149122767`*^9},
+ FontSize->10],
+
+Cell[BoxData[
+ InterpretationBox[
+  RowBox[{"\<\"Rules \"\>", "\[InvisibleSpace]", "4937", 
+   "\[InvisibleSpace]", "\<\"-\"\>", "\[InvisibleSpace]", "4960", 
+   "\[InvisibleSpace]", "\<\": \\\"5 Inverse trig functions\\\\5.3 Inverse \
+tangent\\\\5.3.2 (d x)^m (a+b arctan(c x^n))^p.nb\\\"\"\>"}],
+  SequenceForm[
+  "Rules ", 4937, "-", 4960, 
+   ": \"5 Inverse trig functions\\5.3 Inverse tangent\\5.3.2 (d x)^m (a+b \
+arctan(c x^n))^p.nb\""],
+  Editable->False]], "Print",
+ CellChangeTimes->{3.828557317086401*^9},
+ FontSize->10],
+
+Cell[BoxData[
+ InterpretationBox[
+  RowBox[{"\<\"Rules \"\>", "\[InvisibleSpace]", "4961", 
+   "\[InvisibleSpace]", "\<\"-\"\>", "\[InvisibleSpace]", "4982", 
+   "\[InvisibleSpace]", "\<\": \\\"5 Inverse trig functions\\\\5.3 Inverse \
+tangent\\\\5.3.3 (d+e x)^m (a+b arctan(c x^n))^p.nb\\\"\"\>"}],
+  SequenceForm[
+  "Rules ", 4961, "-", 4982, 
+   ": \"5 Inverse trig functions\\5.3 Inverse tangent\\5.3.3 (d+e x)^m (a+b \
+arctan(c x^n))^p.nb\""],
+  Editable->False]], "Print",
+ CellChangeTimes->{3.828557319204522*^9},
+ FontSize->10],
+
+Cell[BoxData[
+ InterpretationBox[
+  RowBox[{"\<\"Rules \"\>", "\[InvisibleSpace]", "4983", 
+   "\[InvisibleSpace]", "\<\"-\"\>", "\[InvisibleSpace]", "5143", 
+   "\[InvisibleSpace]", "\<\": \\\"5 Inverse trig functions\\\\5.3 Inverse \
+tangent\\\\5.3.4 u (a+b arctan(c x))^p.nb\\\"\"\>"}],
+  SequenceForm[
+  "Rules ", 4983, "-", 5143, 
+   ": \"5 Inverse trig functions\\5.3 Inverse tangent\\5.3.4 u (a+b arctan(c \
+x))^p.nb\""],
+  Editable->False]], "Print",
+ CellChangeTimes->{3.8285573252188663`*^9},
+ FontSize->10],
+
+Cell[BoxData[
+ InterpretationBox[
+  RowBox[{"\<\"Rules \"\>", "\[InvisibleSpace]", "5144", 
+   "\[InvisibleSpace]", "\<\"-\"\>", "\[InvisibleSpace]", "5163", 
+   "\[InvisibleSpace]", "\<\": \\\"5 Inverse trig functions\\\\5.3 Inverse \
+tangent\\\\5.3.5 u (a+b arctan(c+d x))^p.nb\\\"\"\>"}],
+  SequenceForm[
+  "Rules ", 5144, "-", 5163, 
+   ": \"5 Inverse trig functions\\5.3 Inverse tangent\\5.3.5 u (a+b \
+arctan(c+d x))^p.nb\""],
+  Editable->False]], "Print",
+ CellChangeTimes->{3.828557327304986*^9},
+ FontSize->10],
+
+Cell[BoxData[
+ InterpretationBox[
+  RowBox[{"\<\"Rules \"\>", "\[InvisibleSpace]", "5164", 
+   "\[InvisibleSpace]", "\<\"-\"\>", "\[InvisibleSpace]", "5239", 
+   "\[InvisibleSpace]", "\<\": \\\"5 Inverse trig functions\\\\5.3 Inverse \
+tangent\\\\5.3.6 Exponentials of inverse tangent.nb\\\"\"\>"}],
+  SequenceForm[
+  "Rules ", 5164, "-", 5239, 
+   ": \"5 Inverse trig functions\\5.3 Inverse tangent\\5.3.6 Exponentials of \
+inverse tangent.nb\""],
+  Editable->False]], "Print",
+ CellChangeTimes->{3.8285573308011856`*^9},
+ FontSize->10],
+
+Cell[BoxData[
+ InterpretationBox[
+  RowBox[{"\<\"Rules \"\>", "\[InvisibleSpace]", "5240", 
+   "\[InvisibleSpace]", "\<\"-\"\>", "\[InvisibleSpace]", "5318", 
+   "\[InvisibleSpace]", "\<\": \\\"5 Inverse trig functions\\\\5.3 Inverse \
+tangent\\\\5.3.7 Miscellaneous inverse tangent.nb\\\"\"\>"}],
+  SequenceForm[
+  "Rules ", 5240, "-", 5318, 
+   ": \"5 Inverse trig functions\\5.3 Inverse tangent\\5.3.7 Miscellaneous \
+inverse tangent.nb\""],
+  Editable->False]], "Print",
+ CellChangeTimes->{3.828557333915364*^9},
+ FontSize->10],
+
+Cell[BoxData[
+ InterpretationBox[
+  RowBox[{"\<\"Rules \"\>", "\[InvisibleSpace]", "5319", 
+   "\[InvisibleSpace]", "\<\"-\"\>", "\[InvisibleSpace]", "5354", 
+   "\[InvisibleSpace]", "\<\": \\\"5 Inverse trig functions\\\\5.5 Inverse \
+secant\\\\5.5.1 u (a+b arcsec(c x))^n.nb\\\"\"\>"}],
+  SequenceForm[
+  "Rules ", 5319, "-", 5354, 
+   ": \"5 Inverse trig functions\\5.5 Inverse secant\\5.5.1 u (a+b arcsec(c \
+x))^n.nb\""],
+  Editable->False]], "Print",
+ CellChangeTimes->{3.828557336525513*^9},
+ FontSize->10],
+
+Cell[BoxData[
+ InterpretationBox[
+  RowBox[{"\<\"Rules \"\>", "\[InvisibleSpace]", "5355", 
+   "\[InvisibleSpace]", "\<\"-\"\>", "\[InvisibleSpace]", "5378", 
+   "\[InvisibleSpace]", "\<\": \\\"5 Inverse trig functions\\\\5.5 Inverse \
+secant\\\\5.5.2 Miscellaneous inverse secant.nb\\\"\"\>"}],
+  SequenceForm[
+  "Rules ", 5355, "-", 5378, 
+   ": \"5 Inverse trig functions\\5.5 Inverse secant\\5.5.2 Miscellaneous \
+inverse secant.nb\""],
+  Editable->False]], "Print",
+ CellChangeTimes->{3.828557338708638*^9},
+ FontSize->10]
+}, Open  ]]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["Hyperbolic function rules", "Section",
+ CellChangeTimes->{{3.8285522381637845`*^9, 3.828552255413771*^9}, {
+  3.8285523068687143`*^9, 3.8285523091028423`*^9}, {3.8285523573796034`*^9, 
+  3.8285523604757805`*^9}}],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ InterpretationBox[
+  RowBox[{"\<\"Rules \"\>", "\[InvisibleSpace]", "5379", 
+   "\[InvisibleSpace]", "\<\"-\"\>", "\[InvisibleSpace]", "5380", 
+   "\[InvisibleSpace]", "\<\": \\\"6 Hyperbolic functions\\\\6.1 Hyperbolic \
+sine\\\\6.1.10 (c+d x)^m (a+b sinh)^n.nb\\\"\"\>"}],
+  SequenceForm[
+  "Rules ", 5379, "-", 5380, 
+   ": \"6 Hyperbolic functions\\6.1 Hyperbolic sine\\6.1.10 (c+d x)^m (a+b \
+sinh)^n.nb\""],
+  Editable->False]], "Print",
+ CellChangeTimes->{3.8285573403997345`*^9},
+ FontSize->10],
+
+Cell[BoxData[
+ InterpretationBox[
+  RowBox[{"\<\"Rules \"\>", "\[InvisibleSpace]", "5381", 
+   "\[InvisibleSpace]", "\<\"-\"\>", "\[InvisibleSpace]", "5402", 
+   "\[InvisibleSpace]", "\<\": \\\"6 Hyperbolic functions\\\\6.1 Hyperbolic \
+sine\\\\6.1.11 (e x)^m (a+b x^n)^p sinh.nb\\\"\"\>"}],
+  SequenceForm[
+  "Rules ", 5381, "-", 5402, 
+   ": \"6 Hyperbolic functions\\6.1 Hyperbolic sine\\6.1.11 (e x)^m (a+b \
+x^n)^p sinh.nb\""],
+  Editable->False]], "Print",
+ CellChangeTimes->{3.8285573426108613`*^9},
+ FontSize->10],
+
+Cell[BoxData[
+ InterpretationBox[
+  RowBox[{"\<\"Rules \"\>", "\[InvisibleSpace]", "5403", 
+   "\[InvisibleSpace]", "\<\"-\"\>", "\[InvisibleSpace]", "5478", 
+   "\[InvisibleSpace]", "\<\": \\\"6 Hyperbolic functions\\\\6.1 Hyperbolic \
+sine\\\\6.1.12 (e x)^m (a+b sinh(c+d x^n))^p.nb\\\"\"\>"}],
+  SequenceForm[
+  "Rules ", 5403, "-", 5478, 
+   ": \"6 Hyperbolic functions\\6.1 Hyperbolic sine\\6.1.12 (e x)^m (a+b \
+sinh(c+d x^n))^p.nb\""],
+  Editable->False]], "Print",
+ CellChangeTimes->{3.8285573460930605`*^9},
+ FontSize->10],
+
+Cell[BoxData[
+ InterpretationBox[
+  RowBox[{"\<\"Rules \"\>", "\[InvisibleSpace]", "5479", 
+   "\[InvisibleSpace]", "\<\"-\"\>", "\[InvisibleSpace]", "5502", 
+   "\[InvisibleSpace]", "\<\": \\\"6 Hyperbolic functions\\\\6.1 Hyperbolic \
+sine\\\\6.1.13 (d+e x)^m sinh(a+b x+c x^2)^n.nb\\\"\"\>"}],
+  SequenceForm[
+  "Rules ", 5479, "-", 5502, 
+   ": \"6 Hyperbolic functions\\6.1 Hyperbolic sine\\6.1.13 (d+e x)^m \
+sinh(a+b x+c x^2)^n.nb\""],
+  Editable->False]], "Print",
+ CellChangeTimes->{3.828557348423194*^9},
+ FontSize->10],
+
+Cell[BoxData[
+ InterpretationBox[
+  RowBox[{"\<\"Rules \"\>", "\[InvisibleSpace]", "5503", 
+   "\[InvisibleSpace]", "\<\"-\"\>", "\[InvisibleSpace]", "5504", 
+   "\[InvisibleSpace]", "\<\": \\\"6 Hyperbolic functions\\\\6.3 Hyperbolic \
+tangent\\\\6.3.10 (c+d x)^m (a+b tanh)^n.nb\\\"\"\>"}],
+  SequenceForm[
+  "Rules ", 5503, "-", 5504, 
+   ": \"6 Hyperbolic functions\\6.3 Hyperbolic tangent\\6.3.10 (c+d x)^m (a+b \
+tanh)^n.nb\""],
+  Editable->False]], "Print",
+ CellChangeTimes->{3.828557350147292*^9},
+ FontSize->10],
+
+Cell[BoxData[
+ InterpretationBox[
+  RowBox[{"\<\"Rules \"\>", "\[InvisibleSpace]", "5505", 
+   "\[InvisibleSpace]", "\<\"-\"\>", "\[InvisibleSpace]", "5524", 
+   "\[InvisibleSpace]", "\<\": \\\"6 Hyperbolic functions\\\\6.3 Hyperbolic \
+tangent\\\\6.3.11 (e x)^m (a+b tanh(c+d x^n))^p.nb\\\"\"\>"}],
+  SequenceForm[
+  "Rules ", 5505, "-", 5524, 
+   ": \"6 Hyperbolic functions\\6.3 Hyperbolic tangent\\6.3.11 (e x)^m (a+b \
+tanh(c+d x^n))^p.nb\""],
+  Editable->False]], "Print",
+ CellChangeTimes->{3.8285573522674136`*^9},
+ FontSize->10],
+
+Cell[BoxData[
+ InterpretationBox[
+  RowBox[{"\<\"Rules \"\>", "\[InvisibleSpace]", "5525", 
+   "\[InvisibleSpace]", "\<\"-\"\>", "\[InvisibleSpace]", "5530", 
+   "\[InvisibleSpace]", "\<\": \\\"6 Hyperbolic functions\\\\6.3 Hyperbolic \
+tangent\\\\6.3.12 (d+e x)^m tanh(a+b x+c x^2)^n.nb\\\"\"\>"}],
+  SequenceForm[
+  "Rules ", 5525, "-", 5530, 
+   ": \"6 Hyperbolic functions\\6.3 Hyperbolic tangent\\6.3.12 (d+e x)^m \
+tanh(a+b x+c x^2)^n.nb\""],
+  Editable->False]], "Print",
+ CellChangeTimes->{3.828557354059516*^9},
+ FontSize->10],
+
+Cell[BoxData[
+ InterpretationBox[
+  RowBox[{"\<\"Rules \"\>", "\[InvisibleSpace]", "5531", 
+   "\[InvisibleSpace]", "\<\"-\"\>", "\[InvisibleSpace]", "5532", 
+   "\[InvisibleSpace]", "\<\": \\\"6 Hyperbolic functions\\\\6.5 Hyperbolic \
+secant\\\\6.5.10 (c+d x)^m (a+b sech)^n.nb\\\"\"\>"}],
+  SequenceForm[
+  "Rules ", 5531, "-", 5532, 
+   ": \"6 Hyperbolic functions\\6.5 Hyperbolic secant\\6.5.10 (c+d x)^m (a+b \
+sech)^n.nb\""],
+  Editable->False]], "Print",
+ CellChangeTimes->{3.828557355771614*^9},
+ FontSize->10],
+
+Cell[BoxData[
+ InterpretationBox[
+  RowBox[{"\<\"Rules \"\>", "\[InvisibleSpace]", "5533", 
+   "\[InvisibleSpace]", "\<\"-\"\>", "\[InvisibleSpace]", "5550", 
+   "\[InvisibleSpace]", "\<\": \\\"6 Hyperbolic functions\\\\6.5 Hyperbolic \
+secant\\\\6.5.11 (e x)^m (a+b sech(c+d x^n))^p.nb\\\"\"\>"}],
+  SequenceForm[
+  "Rules ", 5533, "-", 5550, 
+   ": \"6 Hyperbolic functions\\6.5 Hyperbolic secant\\6.5.11 (e x)^m (a+b \
+sech(c+d x^n))^p.nb\""],
+  Editable->False]], "Print",
+ CellChangeTimes->{3.828557357872734*^9},
+ FontSize->10],
+
+Cell[BoxData[
+ InterpretationBox[
+  RowBox[{"\<\"Rules \"\>", "\[InvisibleSpace]", "5551", 
+   "\[InvisibleSpace]", "\<\"-\"\>", "\[InvisibleSpace]", "5578", 
+   "\[InvisibleSpace]", "\<\": \\\"6 Hyperbolic functions\\\\6.7 \
+Miscellaneous\\\\6.7.6 (c+d x)^m hyper(a+b x)^n hyper(a+b x)^p.nb\\\"\"\>"}],
+  SequenceForm[
+  "Rules ", 5551, "-", 5578, 
+   ": \"6 Hyperbolic functions\\6.7 Miscellaneous\\6.7.6 (c+d x)^m hyper(a+b \
+x)^n hyper(a+b x)^p.nb\""],
+  Editable->False]], "Print",
+ CellChangeTimes->{3.8285573603568764`*^9},
+ FontSize->10],
+
+Cell[BoxData[
+ InterpretationBox[
+  RowBox[{"\<\"Rules \"\>", "\[InvisibleSpace]", "5579", 
+   "\[InvisibleSpace]", "\<\"-\"\>", "\[InvisibleSpace]", "5619", 
+   "\[InvisibleSpace]", "\<\": \\\"6 Hyperbolic functions\\\\6.7 \
+Miscellaneous\\\\6.7.7 F^(c (a+b x)) hyper(d+e x)^n.nb\\\"\"\>"}],
+  SequenceForm[
+  "Rules ", 5579, "-", 5619, 
+   ": \"6 Hyperbolic functions\\6.7 Miscellaneous\\6.7.7 F^(c (a+b x)) \
+hyper(d+e x)^n.nb\""],
+  Editable->False]], "Print",
+ CellChangeTimes->{3.828557363187038*^9},
+ FontSize->10],
+
+Cell[BoxData[
+ InterpretationBox[
+  RowBox[{"\<\"Rules \"\>", "\[InvisibleSpace]", "5620", 
+   "\[InvisibleSpace]", "\<\"-\"\>", "\[InvisibleSpace]", "5669", 
+   "\[InvisibleSpace]", "\<\": \\\"6 Hyperbolic functions\\\\6.7 \
+Miscellaneous\\\\6.7.8 u hyper(a+b log(c x^n))^p.nb\\\"\"\>"}],
+  SequenceForm[
+  "Rules ", 5620, "-", 5669, 
+   ": \"6 Hyperbolic functions\\6.7 Miscellaneous\\6.7.8 u hyper(a+b log(c \
+x^n))^p.nb\""],
+  Editable->False]], "Print",
+ CellChangeTimes->{3.828557365921194*^9},
+ FontSize->10],
+
+Cell[BoxData[
+ InterpretationBox[
+  RowBox[{"\<\"Rules \"\>", "\[InvisibleSpace]", "5670", 
+   "\[InvisibleSpace]", "\<\"-\"\>", "\[InvisibleSpace]", "5765", 
+   "\[InvisibleSpace]", "\<\": \\\"6 Hyperbolic functions\\\\6.7 \
+Miscellaneous\\\\6.7.9 Active hyperbolic functions.nb\\\"\"\>"}],
+  SequenceForm[
+  "Rules ", 5670, "-", 5765, 
+   ": \"6 Hyperbolic functions\\6.7 Miscellaneous\\6.7.9 Active hyperbolic \
+functions.nb\""],
+  Editable->False]], "Print",
+ CellChangeTimes->{3.828557370192439*^9},
+ FontSize->10]
+}, Open  ]]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["\<\
+Inverse Hyperbolic function rules\
+\>", "Section",
+ CellChangeTimes->{{3.8285522381637845`*^9, 3.828552255413771*^9}, {
+  3.8285523068687143`*^9, 3.8285523091028423`*^9}, {3.8285523707233667`*^9, 
+  3.828552380671935*^9}}],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ InterpretationBox[
+  RowBox[{"\<\"Rules \"\>", "\[InvisibleSpace]", "5766", 
+   "\[InvisibleSpace]", "\<\"-\"\>", "\[InvisibleSpace]", "5768", 
+   "\[InvisibleSpace]", "\<\": \\\"7 Inverse hyperbolic functions\\\\7.1 \
+Inverse hyperbolic sine\\\\7.1.1 (a+b arcsinh(c x))^n.nb\\\"\"\>"}],
+  SequenceForm[
+  "Rules ", 5766, "-", 5768, 
+   ": \"7 Inverse hyperbolic functions\\7.1 Inverse hyperbolic sine\\7.1.1 \
+(a+b arcsinh(c x))^n.nb\""],
+  Editable->False]], "Print",
+ CellChangeTimes->{3.82855737196454*^9},
+ FontSize->10],
+
+Cell[BoxData[
+ InterpretationBox[
+  RowBox[{"\<\"Rules \"\>", "\[InvisibleSpace]", "5769", 
+   "\[InvisibleSpace]", "\<\"-\"\>", "\[InvisibleSpace]", "5775", 
+   "\[InvisibleSpace]", "\<\": \\\"7 Inverse hyperbolic functions\\\\7.1 \
+Inverse hyperbolic sine\\\\7.1.2 (d x)^m (a+b arcsinh(c x))^n.nb\\\"\"\>"}],
+  SequenceForm[
+  "Rules ", 5769, "-", 5775, 
+   ": \"7 Inverse hyperbolic functions\\7.1 Inverse hyperbolic sine\\7.1.2 (d \
+x)^m (a+b arcsinh(c x))^n.nb\""],
+  Editable->False]], "Print",
+ CellChangeTimes->{3.828557373929652*^9},
+ FontSize->10],
+
+Cell[BoxData[
+ InterpretationBox[
+  RowBox[{"\<\"Rules \"\>", "\[InvisibleSpace]", "5776", 
+   "\[InvisibleSpace]", "\<\"-\"\>", "\[InvisibleSpace]", "5790", 
+   "\[InvisibleSpace]", "\<\": \\\"7 Inverse hyperbolic functions\\\\7.1 \
+Inverse hyperbolic sine\\\\7.1.3 (d+e x^2)^p (a+b arcsinh(c \
+x))^n.nb\\\"\"\>"}],
+  SequenceForm[
+  "Rules ", 5776, "-", 5790, 
+   ": \"7 Inverse hyperbolic functions\\7.1 Inverse hyperbolic sine\\7.1.3 \
+(d+e x^2)^p (a+b arcsinh(c x))^n.nb\""],
+  Editable->False]], "Print",
+ CellChangeTimes->{3.82855737615478*^9},
+ FontSize->10],
+
+Cell[BoxData[
+ InterpretationBox[
+  RowBox[{"\<\"Rules \"\>", "\[InvisibleSpace]", "5791", 
+   "\[InvisibleSpace]", "\<\"-\"\>", "\[InvisibleSpace]", "5820", 
+   "\[InvisibleSpace]", "\<\": \\\"7 Inverse hyperbolic functions\\\\7.1 \
+Inverse hyperbolic sine\\\\7.1.4 (f x)^m (d+e x^2)^p (a+b arcsinh(c \
+x))^n.nb\\\"\"\>"}],
+  SequenceForm[
+  "Rules ", 5791, "-", 5820, 
+   ": \"7 Inverse hyperbolic functions\\7.1 Inverse hyperbolic sine\\7.1.4 (f \
+x)^m (d+e x^2)^p (a+b arcsinh(c x))^n.nb\""],
+  Editable->False]], "Print",
+ CellChangeTimes->{3.828557378869935*^9},
+ FontSize->10],
+
+Cell[BoxData[
+ InterpretationBox[
+  RowBox[{"\<\"Rules \"\>", "\[InvisibleSpace]", "5821", 
+   "\[InvisibleSpace]", "\<\"-\"\>", "\[InvisibleSpace]", "5851", 
+   "\[InvisibleSpace]", "\<\": \\\"7 Inverse hyperbolic functions\\\\7.1 \
+Inverse hyperbolic sine\\\\7.1.5 u (a+b arcsinh(c x))^n.nb\\\"\"\>"}],
+  SequenceForm[
+  "Rules ", 5821, "-", 5851, 
+   ": \"7 Inverse hyperbolic functions\\7.1 Inverse hyperbolic sine\\7.1.5 u \
+(a+b arcsinh(c x))^n.nb\""],
+  Editable->False]], "Print",
+ CellChangeTimes->{3.8285573816210923`*^9},
+ FontSize->10],
+
+Cell[BoxData[
+ InterpretationBox[
+  RowBox[{"\<\"Rules \"\>", "\[InvisibleSpace]", "5852", 
+   "\[InvisibleSpace]", "\<\"-\"\>", "\[InvisibleSpace]", "5872", 
+   "\[InvisibleSpace]", "\<\": \\\"7 Inverse hyperbolic functions\\\\7.1 \
+Inverse hyperbolic sine\\\\7.1.6 Miscellaneous inverse hyperbolic sine.nb\\\"\
+\"\>"}],
+  SequenceForm[
+  "Rules ", 5852, "-", 5872, 
+   ": \"7 Inverse hyperbolic functions\\7.1 Inverse hyperbolic sine\\7.1.6 \
+Miscellaneous inverse hyperbolic sine.nb\""],
+  Editable->False]], "Print",
+ CellChangeTimes->{3.828557383870221*^9},
+ FontSize->10],
+
+Cell[BoxData[
+ InterpretationBox[
+  RowBox[{"\<\"Rules \"\>", "\[InvisibleSpace]", "5873", 
+   "\[InvisibleSpace]", "\<\"-\"\>", "\[InvisibleSpace]", "5875", 
+   "\[InvisibleSpace]", "\<\": \\\"7 Inverse hyperbolic functions\\\\7.2 \
+Inverse hyperbolic cosine\\\\7.2.1 (a+b arccosh(c x))^n.nb\\\"\"\>"}],
+  SequenceForm[
+  "Rules ", 5873, "-", 5875, 
+   ": \"7 Inverse hyperbolic functions\\7.2 Inverse hyperbolic cosine\\7.2.1 \
+(a+b arccosh(c x))^n.nb\""],
+  Editable->False]], "Print",
+ CellChangeTimes->{3.828557385688325*^9},
+ FontSize->10],
+
+Cell[BoxData[
+ InterpretationBox[
+  RowBox[{"\<\"Rules \"\>", "\[InvisibleSpace]", "5876", 
+   "\[InvisibleSpace]", "\<\"-\"\>", "\[InvisibleSpace]", "5882", 
+   "\[InvisibleSpace]", "\<\": \\\"7 Inverse hyperbolic functions\\\\7.2 \
+Inverse hyperbolic cosine\\\\7.2.2 (d x)^m (a+b arccosh(c x))^n.nb\\\"\"\>"}],
+  SequenceForm[
+  "Rules ", 5876, "-", 5882, 
+   ": \"7 Inverse hyperbolic functions\\7.2 Inverse hyperbolic cosine\\7.2.2 \
+(d x)^m (a+b arccosh(c x))^n.nb\""],
+  Editable->False]], "Print",
+ CellChangeTimes->{3.8285573877124405`*^9},
+ FontSize->10],
+
+Cell[BoxData[
+ InterpretationBox[
+  RowBox[{"\<\"Rules \"\>", "\[InvisibleSpace]", "5883", 
+   "\[InvisibleSpace]", "\<\"-\"\>", "\[InvisibleSpace]", "5905", 
+   "\[InvisibleSpace]", "\<\": \\\"7 Inverse hyperbolic functions\\\\7.2 \
+Inverse hyperbolic cosine\\\\7.2.3 (d+e x^2)^p (a+b arccosh(c \
+x))^n.nb\\\"\"\>"}],
+  SequenceForm[
+  "Rules ", 5883, "-", 5905, 
+   ": \"7 Inverse hyperbolic functions\\7.2 Inverse hyperbolic cosine\\7.2.3 \
+(d+e x^2)^p (a+b arccosh(c x))^n.nb\""],
+  Editable->False]], "Print",
+ CellChangeTimes->{3.8285573902795877`*^9},
+ FontSize->10],
+
+Cell[BoxData[
+ InterpretationBox[
+  RowBox[{"\<\"Rules \"\>", "\[InvisibleSpace]", "5906", 
+   "\[InvisibleSpace]", "\<\"-\"\>", "\[InvisibleSpace]", "5955", 
+   "\[InvisibleSpace]", "\<\": \\\"7 Inverse hyperbolic functions\\\\7.2 \
+Inverse hyperbolic cosine\\\\7.2.4 (f x)^m (d+e x^2)^p (a+b arccosh(c \
+x))^n.nb\\\"\"\>"}],
+  SequenceForm[
+  "Rules ", 5906, "-", 5955, 
+   ": \"7 Inverse hyperbolic functions\\7.2 Inverse hyperbolic cosine\\7.2.4 \
+(f x)^m (d+e x^2)^p (a+b arccosh(c x))^n.nb\""],
+  Editable->False]], "Print",
+ CellChangeTimes->{3.8285573936117783`*^9},
+ FontSize->10],
+
+Cell[BoxData[
+ InterpretationBox[
+  RowBox[{"\<\"Rules \"\>", "\[InvisibleSpace]", "5956", 
+   "\[InvisibleSpace]", "\<\"-\"\>", "\[InvisibleSpace]", "5988", 
+   "\[InvisibleSpace]", "\<\": \\\"7 Inverse hyperbolic functions\\\\7.2 \
+Inverse hyperbolic cosine\\\\7.2.5 u (a+b arccosh(c x))^n.nb\\\"\"\>"}],
+  SequenceForm[
+  "Rules ", 5956, "-", 5988, 
+   ": \"7 Inverse hyperbolic functions\\7.2 Inverse hyperbolic cosine\\7.2.5 \
+u (a+b arccosh(c x))^n.nb\""],
+  Editable->False]], "Print",
+ CellChangeTimes->{3.828557396452941*^9},
+ FontSize->10],
+
+Cell[BoxData[
+ InterpretationBox[
+  RowBox[{"\<\"Rules \"\>", "\[InvisibleSpace]", "5989", 
+   "\[InvisibleSpace]", "\<\"-\"\>", "\[InvisibleSpace]", "6014", 
+   "\[InvisibleSpace]", "\<\": \\\"7 Inverse hyperbolic functions\\\\7.2 \
+Inverse hyperbolic cosine\\\\7.2.6 Miscellaneous inverse hyperbolic cosine.nb\
+\\\"\"\>"}],
+  SequenceForm[
+  "Rules ", 5989, "-", 6014, 
+   ": \"7 Inverse hyperbolic functions\\7.2 Inverse hyperbolic cosine\\7.2.6 \
+Miscellaneous inverse hyperbolic cosine.nb\""],
+  Editable->False]], "Print",
+ CellChangeTimes->{3.8285573988300767`*^9},
+ FontSize->10],
+
+Cell[BoxData[
+ InterpretationBox[
+  RowBox[{"\<\"Rules \"\>", "\[InvisibleSpace]", "6015", 
+   "\[InvisibleSpace]", "\<\"-\"\>", "\[InvisibleSpace]", "6024", 
+   "\[InvisibleSpace]", "\<\": \\\"7 Inverse hyperbolic functions\\\\7.3 \
+Inverse hyperbolic tangent\\\\7.3.1 (a+b arctanh(c x^n))^p.nb\\\"\"\>"}],
+  SequenceForm[
+  "Rules ", 6015, "-", 6024, 
+   ": \"7 Inverse hyperbolic functions\\7.3 Inverse hyperbolic tangent\\7.3.1 \
+(a+b arctanh(c x^n))^p.nb\""],
+  Editable->False]], "Print",
+ CellChangeTimes->{3.828557400797189*^9},
+ FontSize->10],
+
+Cell[BoxData[
+ InterpretationBox[
+  RowBox[{"\<\"Rules \"\>", "\[InvisibleSpace]", "6025", 
+   "\[InvisibleSpace]", "\<\"-\"\>", "\[InvisibleSpace]", "6048", 
+   "\[InvisibleSpace]", "\<\": \\\"7 Inverse hyperbolic functions\\\\7.3 \
+Inverse hyperbolic tangent\\\\7.3.2 (d x)^m (a+b arctanh(c \
+x^n))^p.nb\\\"\"\>"}],
+  SequenceForm[
+  "Rules ", 6025, "-", 6048, 
+   ": \"7 Inverse hyperbolic functions\\7.3 Inverse hyperbolic tangent\\7.3.2 \
+(d x)^m (a+b arctanh(c x^n))^p.nb\""],
+  Editable->False]], "Print",
+ CellChangeTimes->{3.8285574034073386`*^9},
+ FontSize->10],
+
+Cell[BoxData[
+ InterpretationBox[
+  RowBox[{"\<\"Rules \"\>", "\[InvisibleSpace]", "6049", 
+   "\[InvisibleSpace]", "\<\"-\"\>", "\[InvisibleSpace]", "6070", 
+   "\[InvisibleSpace]", "\<\": \\\"7 Inverse hyperbolic functions\\\\7.3 \
+Inverse hyperbolic tangent\\\\7.3.3 (d+e x)^m (a+b arctanh(c x^n))^p.nb\\\"\"\
+\>"}],
+  SequenceForm[
+  "Rules ", 6049, "-", 6070, 
+   ": \"7 Inverse hyperbolic functions\\7.3 Inverse hyperbolic tangent\\7.3.3 \
+(d+e x)^m (a+b arctanh(c x^n))^p.nb\""],
+  Editable->False]], "Print",
+ CellChangeTimes->{3.8285574059724855`*^9},
+ FontSize->10],
+
+Cell[BoxData[
+ InterpretationBox[
+  RowBox[{"\<\"Rules \"\>", "\[InvisibleSpace]", "6071", 
+   "\[InvisibleSpace]", "\<\"-\"\>", "\[InvisibleSpace]", "6231", 
+   "\[InvisibleSpace]", "\<\": \\\"7 Inverse hyperbolic functions\\\\7.3 \
+Inverse hyperbolic tangent\\\\7.3.4 u (a+b arctanh(c x))^p.nb\\\"\"\>"}],
+  SequenceForm[
+  "Rules ", 6071, "-", 6231, 
+   ": \"7 Inverse hyperbolic functions\\7.3 Inverse hyperbolic tangent\\7.3.4 \
+u (a+b arctanh(c x))^p.nb\""],
+  Editable->False]], "Print",
+ CellChangeTimes->{3.8285574132199*^9},
+ FontSize->10],
+
+Cell[BoxData[
+ InterpretationBox[
+  RowBox[{"\<\"Rules \"\>", "\[InvisibleSpace]", "6232", 
+   "\[InvisibleSpace]", "\<\"-\"\>", "\[InvisibleSpace]", "6251", 
+   "\[InvisibleSpace]", "\<\": \\\"7 Inverse hyperbolic functions\\\\7.3 \
+Inverse hyperbolic tangent\\\\7.3.5 u (a+b arctanh(c+d x))^p.nb\\\"\"\>"}],
+  SequenceForm[
+  "Rules ", 6232, "-", 6251, 
+   ": \"7 Inverse hyperbolic functions\\7.3 Inverse hyperbolic tangent\\7.3.5 \
+u (a+b arctanh(c+d x))^p.nb\""],
+  Editable->False]], "Print",
+ CellChangeTimes->{3.8285574157500443`*^9},
+ FontSize->10],
+
+Cell[BoxData[
+ InterpretationBox[
+  RowBox[{"\<\"Rules \"\>", "\[InvisibleSpace]", "6252", 
+   "\[InvisibleSpace]", "\<\"-\"\>", "\[InvisibleSpace]", "6333", 
+   "\[InvisibleSpace]", "\<\": \\\"7 Inverse hyperbolic functions\\\\7.3 \
+Inverse hyperbolic tangent\\\\7.3.6 Exponentials of inverse hyperbolic \
+tangent.nb\\\"\"\>"}],
+  SequenceForm[
+  "Rules ", 6252, "-", 6333, 
+   ": \"7 Inverse hyperbolic functions\\7.3 Inverse hyperbolic tangent\\7.3.6 \
+Exponentials of inverse hyperbolic tangent.nb\""],
+  Editable->False]], "Print",
+ CellChangeTimes->{3.8285574201822977`*^9},
+ FontSize->10],
+
+Cell[BoxData[
+ InterpretationBox[
+  RowBox[{"\<\"Rules \"\>", "\[InvisibleSpace]", "6334", 
+   "\[InvisibleSpace]", "\<\"-\"\>", "\[InvisibleSpace]", "6405", 
+   "\[InvisibleSpace]", "\<\": \\\"7 Inverse hyperbolic functions\\\\7.3 \
+Inverse hyperbolic tangent\\\\7.3.7 Miscellaneous inverse hyperbolic \
+tangent.nb\\\"\"\>"}],
+  SequenceForm[
+  "Rules ", 6334, "-", 6405, 
+   ": \"7 Inverse hyperbolic functions\\7.3 Inverse hyperbolic tangent\\7.3.7 \
+Miscellaneous inverse hyperbolic tangent.nb\""],
+  Editable->False]], "Print",
+ CellChangeTimes->{3.828557423730501*^9},
+ FontSize->10],
+
+Cell[BoxData[
+ InterpretationBox[
+  RowBox[{"\<\"Rules \"\>", "\[InvisibleSpace]", "6406", 
+   "\[InvisibleSpace]", "\<\"-\"\>", "\[InvisibleSpace]", "6441", 
+   "\[InvisibleSpace]", "\<\": \\\"7 Inverse hyperbolic functions\\\\7.5 \
+Inverse hyperbolic secant\\\\7.5.1 u (a+b arcsech(c x))^n.nb\\\"\"\>"}],
+  SequenceForm[
+  "Rules ", 6406, "-", 6441, 
+   ": \"7 Inverse hyperbolic functions\\7.5 Inverse hyperbolic secant\\7.5.1 \
+u (a+b arcsech(c x))^n.nb\""],
+  Editable->False]], "Print",
+ CellChangeTimes->{3.8285574268136773`*^9},
+ FontSize->10],
+
+Cell[BoxData[
+ InterpretationBox[
+  RowBox[{"\<\"Rules \"\>", "\[InvisibleSpace]", "6442", 
+   "\[InvisibleSpace]", "\<\"-\"\>", "\[InvisibleSpace]", "6477", 
+   "\[InvisibleSpace]", "\<\": \\\"7 Inverse hyperbolic functions\\\\7.5 \
+Inverse hyperbolic secant\\\\7.5.2 Miscellaneous inverse hyperbolic secant.nb\
+\\\"\"\>"}],
+  SequenceForm[
+  "Rules ", 6442, "-", 6477, 
+   ": \"7 Inverse hyperbolic functions\\7.5 Inverse hyperbolic secant\\7.5.2 \
+Miscellaneous inverse hyperbolic secant.nb\""],
+  Editable->False]], "Print",
+ CellChangeTimes->{3.828557429672841*^9},
+ FontSize->10]
+}, Open  ]]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["Special function rules", "Section",
+ CellChangeTimes->{{3.8285522381637845`*^9, 3.828552255413771*^9}, {
+  3.8285523068687143`*^9, 3.8285523091028423`*^9}, {3.8285523971978807`*^9, 
+  3.82855240120811*^9}}],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ InterpretationBox[
+  RowBox[{"\<\"Rules \"\>", "\[InvisibleSpace]", "6478", 
+   "\[InvisibleSpace]", "\<\"-\"\>", "\[InvisibleSpace]", "6546", 
+   "\[InvisibleSpace]", "\<\": \\\"8 Special functions\\\\8.1 Error \
+functions.nb\\\"\"\>"}],
+  SequenceForm[
+  "Rules ", 6478, "-", 6546, 
+   ": \"8 Special functions\\8.1 Error functions.nb\""],
+  Editable->False]], "Print",
+ CellChangeTimes->{3.828557433384053*^9},
+ FontSize->10],
+
+Cell[BoxData[
+ InterpretationBox[
+  RowBox[{"\<\"Rules \"\>", "\[InvisibleSpace]", "6547", 
+   "\[InvisibleSpace]", "\<\"-\"\>", "\[InvisibleSpace]", "6601", 
+   "\[InvisibleSpace]", "\<\": \\\"8 Special functions\\\\8.2 Fresnel \
+integral functions.nb\\\"\"\>"}],
+  SequenceForm[
+  "Rules ", 6547, "-", 6601, 
+   ": \"8 Special functions\\8.2 Fresnel integral functions.nb\""],
+  Editable->False]], "Print",
+ CellChangeTimes->{3.8285574367802477`*^9},
+ FontSize->10],
+
+Cell[BoxData[
+ InterpretationBox[
+  RowBox[{"\<\"Rules \"\>", "\[InvisibleSpace]", "6602", 
+   "\[InvisibleSpace]", "\<\"-\"\>", "\[InvisibleSpace]", "6627", 
+   "\[InvisibleSpace]", "\<\": \\\"8 Special functions\\\\8.3 Exponential \
+integral functions.nb\\\"\"\>"}],
+  SequenceForm[
+  "Rules ", 6602, "-", 6627, 
+   ": \"8 Special functions\\8.3 Exponential integral functions.nb\""],
+  Editable->False]], "Print",
+ CellChangeTimes->{3.828557439393397*^9},
+ FontSize->10],
+
+Cell[BoxData[
+ InterpretationBox[
+  RowBox[{"\<\"Rules \"\>", "\[InvisibleSpace]", "6628", 
+   "\[InvisibleSpace]", "\<\"-\"\>", "\[InvisibleSpace]", "6656", 
+   "\[InvisibleSpace]", "\<\": \\\"8 Special functions\\\\8.4 Trig integral \
+functions.nb\\\"\"\>"}],
+  SequenceForm[
+  "Rules ", 6628, "-", 6656, 
+   ": \"8 Special functions\\8.4 Trig integral functions.nb\""],
+  Editable->False]], "Print",
+ CellChangeTimes->{3.8285574421235533`*^9},
+ FontSize->10],
+
+Cell[BoxData[
+ InterpretationBox[
+  RowBox[{"\<\"Rules \"\>", "\[InvisibleSpace]", "6657", 
+   "\[InvisibleSpace]", "\<\"-\"\>", "\[InvisibleSpace]", "6685", 
+   "\[InvisibleSpace]", "\<\": \\\"8 Special functions\\\\8.5 Hyperbolic \
+integral functions.nb\\\"\"\>"}],
+  SequenceForm[
+  "Rules ", 6657, "-", 6685, 
+   ": \"8 Special functions\\8.5 Hyperbolic integral functions.nb\""],
+  Editable->False]], "Print",
+ CellChangeTimes->{3.82855744486971*^9},
+ FontSize->10],
+
+Cell[BoxData[
+ InterpretationBox[
+  RowBox[{"\<\"Rules \"\>", "\[InvisibleSpace]", "6686", 
+   "\[InvisibleSpace]", "\<\"-\"\>", "\[InvisibleSpace]", "6709", 
+   "\[InvisibleSpace]", "\<\": \\\"8 Special functions\\\\8.6 Gamma \
+functions.nb\\\"\"\>"}],
+  SequenceForm[
+  "Rules ", 6686, "-", 6709, 
+   ": \"8 Special functions\\8.6 Gamma functions.nb\""],
+  Editable->False]], "Print",
+ CellChangeTimes->{3.8285574474688587`*^9},
+ FontSize->10],
+
+Cell[BoxData[
+ InterpretationBox[
+  RowBox[{"\<\"Rules \"\>", "\[InvisibleSpace]", "6710", 
+   "\[InvisibleSpace]", "\<\"-\"\>", "\[InvisibleSpace]", "6714", 
+   "\[InvisibleSpace]", "\<\": \\\"8 Special functions\\\\8.7 Zeta \
+function.nb\\\"\"\>"}],
+  SequenceForm[
+  "Rules ", 6710, "-", 6714, 
+   ": \"8 Special functions\\8.7 Zeta function.nb\""],
+  Editable->False]], "Print",
+ CellChangeTimes->{3.828557449568979*^9},
+ FontSize->10],
+
+Cell[BoxData[
+ InterpretationBox[
+  RowBox[{"\<\"Rules \"\>", "\[InvisibleSpace]", "6715", 
+   "\[InvisibleSpace]", "\<\"-\"\>", "\[InvisibleSpace]", "6740", 
+   "\[InvisibleSpace]", "\<\": \\\"8 Special functions\\\\8.8 Polylogarithm \
+function.nb\\\"\"\>"}],
+  SequenceForm[
+  "Rules ", 6715, "-", 6740, 
+   ": \"8 Special functions\\8.8 Polylogarithm function.nb\""],
+  Editable->False]], "Print",
+ CellChangeTimes->{3.8285574522741337`*^9},
+ FontSize->10],
+
+Cell[BoxData[
+ InterpretationBox[
+  RowBox[{"\<\"Rules \"\>", "\[InvisibleSpace]", "6741", 
+   "\[InvisibleSpace]", "\<\"-\"\>", "\[InvisibleSpace]", "6784", 
+   "\[InvisibleSpace]", "\<\": \\\"8 Special functions\\\\8.9 Product \
+logarithm function.nb\\\"\"\>"}],
+  SequenceForm[
+  "Rules ", 6741, "-", 6784, 
+   ": \"8 Special functions\\8.9 Product logarithm function.nb\""],
+  Editable->False]], "Print",
+ CellChangeTimes->{3.8285574556093245`*^9},
+ FontSize->10]
+}, Open  ]]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["Miscellaneous rules", "Section",
+ CellChangeTimes->{{3.8285522381637845`*^9, 3.828552255413771*^9}, {
+  3.8285523068687143`*^9, 3.8285523091028423`*^9}, {3.828552423471383*^9, 
+  3.828552431242828*^9}}],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ InterpretationBox[
+  RowBox[{"\<\"Rules \"\>", "\[InvisibleSpace]", "6785", 
+   "\[InvisibleSpace]", "\<\"-\"\>", "\[InvisibleSpace]", "6805", 
+   "\[InvisibleSpace]", "\<\": \\\"9 Miscellaneous\\\\9.2 Derivative \
+integration rules.nb\\\"\"\>"}],
+  SequenceForm[
+  "Rules ", 6785, "-", 6805, 
+   ": \"9 Miscellaneous\\9.2 Derivative integration rules.nb\""],
+  Editable->False]], "Print",
+ CellChangeTimes->{3.8285574581954727`*^9},
+ FontSize->10],
+
+Cell[BoxData[
+ InterpretationBox[
+  RowBox[{"\<\"Rules \"\>", "\[InvisibleSpace]", "6806", 
+   "\[InvisibleSpace]", "\<\"-\"\>", "\[InvisibleSpace]", "6872", 
+   "\[InvisibleSpace]", "\<\": \\\"9 Miscellaneous\\\\9.4 Miscellaneous \
+integration rules.nb\\\"\"\>"}],
+  SequenceForm[
+  "Rules ", 6806, "-", 6872, 
+   ": \"9 Miscellaneous\\9.4 Miscellaneous integration rules.nb\""],
+  Editable->False]], "Print",
+ CellChangeTimes->{3.828557462200701*^9},
+ FontSize->10]
+}, Open  ]]
+}, Open  ]]
+}, Open  ]]
+},
+WindowSize->{1590, 791},
+WindowMargins->{{0, Automatic}, {Automatic, 0}},
+PrintingCopies->1,
+PrintingStartingPageNumber->1,
+PrintingPageRange->{32000, 32000},
+PageHeaders->{{
+   Cell[
+    TextData[{
+      StyleBox[
+       CounterBox["Page"], "PageNumber"], " ", "|", " ", 
+      StyleBox[
+       ValueBox["FileName"], "Header"]}], "Header", 
+    CellMargins -> {{0, Inherited}, {Inherited, Inherited}}], None, None}, {
+  None, None, 
+   Cell[
+    TextData[{
+      StyleBox[
+       ValueBox["FileName"], "Header"], " ", "|", " ", 
+      StyleBox[
+       CounterBox["Page"], "PageNumber"]}], "Header", 
+    CellMargins -> {{Inherited, 0}, {Inherited, Inherited}}]}},
+PageFooters->{{None, None, None}, {None, None, None}},
+PageHeaderLines->{False, False},
+PageFooterLines->{False, False},
+PrintingOptions->{"FacingPages"->False,
+"FirstPageFace"->Right,
+"FirstPageFooter"->True,
+"FirstPageHeader"->False,
+"Magnification"->1.,
+"PaperOrientation"->"Landscape",
+"PaperSize"->{774, 597},
+"PrintingMargins"->{{28.8, 41.976}, {28.8, 28.8}}},
+FrontEndVersion->"8.0 for Microsoft Windows (64-bit) (October 6, 2011)",
+StyleDefinitions->"Default.nb"
+]
+(* End of Notebook Content *)
+
+(* Internal cache information *)
+(*CellTagsOutline
+CellTagsIndex->{}
+*)
+(*CellTagsIndex
+CellTagsIndex->{}
+*)
+(*NotebookFileOutline
+Notebook[{
+Cell[CellGroupData[{
+Cell[579, 22, 148, 4, 115, "Title"],
+Cell[CellGroupData[{
+Cell[752, 30, 111, 1, 98, "Section"],
+Cell[CellGroupData[{
+Cell[888, 35, 457, 11, 27, "Print"],
+Cell[1348, 48, 515, 12, 27, "Print"],
+Cell[1866, 62, 537, 12, 27, "Print"],
+Cell[2406, 76, 561, 13, 27, "Print"],
+Cell[2970, 91, 581, 13, 27, "Print"],
+Cell[3554, 106, 527, 12, 27, "Print"],
+Cell[4084, 120, 541, 12, 27, "Print"],
+Cell[4628, 134, 549, 12, 27, "Print"],
+Cell[5180, 148, 567, 13, 27, "Print"],
+Cell[5750, 163, 575, 13, 27, "Print"],
+Cell[6328, 178, 591, 13, 27, "Print"],
+Cell[6922, 193, 539, 12, 27, "Print"],
+Cell[7464, 207, 559, 12, 27, "Print"],
+Cell[8026, 221, 577, 13, 27, "Print"],
+Cell[8606, 236, 581, 13, 27, "Print"],
+Cell[9190, 251, 575, 13, 27, "Print"],
+Cell[9768, 266, 597, 13, 27, "Print"],
+Cell[10368, 281, 607, 13, 27, "Print"],
+Cell[10978, 296, 545, 12, 27, "Print"],
+Cell[11526, 310, 559, 12, 27, "Print"],
+Cell[12088, 324, 571, 13, 27, "Print"],
+Cell[12662, 339, 587, 13, 27, "Print"],
+Cell[13252, 354, 550, 12, 27, "Print"],
+Cell[13805, 368, 569, 13, 27, "Print"],
+Cell[14377, 383, 577, 13, 27, "Print"],
+Cell[14957, 398, 595, 13, 27, "Print"],
+Cell[15555, 413, 597, 13, 27, "Print"],
+Cell[16155, 428, 577, 13, 27, "Print"],
+Cell[16735, 443, 555, 12, 27, "Print"],
+Cell[17293, 457, 577, 13, 27, "Print"],
+Cell[17873, 472, 551, 12, 27, "Print"],
+Cell[18427, 486, 573, 13, 27, "Print"],
+Cell[19003, 501, 553, 12, 27, "Print"],
+Cell[19559, 515, 579, 13, 27, "Print"],
+Cell[20141, 530, 575, 13, 27, "Print"],
+Cell[20719, 545, 581, 13, 27, "Print"],
+Cell[21303, 560, 561, 12, 27, "Print"],
+Cell[21867, 574, 561, 12, 27, "Print"],
+Cell[22431, 588, 543, 12, 27, "Print"],
+Cell[22977, 602, 557, 12, 27, "Print"],
+Cell[23537, 616, 539, 12, 27, "Print"],
+Cell[24079, 630, 567, 13, 27, "Print"],
+Cell[24649, 645, 585, 13, 27, "Print"],
+Cell[25237, 660, 597, 13, 27, "Print"],
+Cell[25837, 675, 613, 13, 27, "Print"],
+Cell[26453, 690, 527, 12, 27, "Print"],
+Cell[26983, 704, 541, 12, 27, "Print"],
+Cell[27527, 718, 555, 12, 27, "Print"],
+Cell[28085, 732, 581, 13, 27, "Print"],
+Cell[28669, 747, 567, 13, 27, "Print"],
+Cell[29239, 762, 475, 11, 27, "Print"],
+Cell[29717, 775, 485, 11, 27, "Print"],
+Cell[30205, 788, 531, 12, 27, "Print"],
+Cell[30739, 802, 457, 11, 27, "Print"]
+}, Open  ]]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[31245, 819, 164, 2, 98, "Section"],
+Cell[CellGroupData[{
+Cell[31434, 825, 475, 11, 27, "Print"],
+Cell[31912, 838, 513, 12, 27, "Print"],
+Cell[32428, 852, 457, 11, 27, "Print"]
+}, Open  ]]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[32934, 869, 164, 2, 98, "Section"],
+Cell[CellGroupData[{
+Cell[33123, 875, 439, 11, 27, "Print"],
+Cell[33565, 888, 455, 11, 27, "Print"],
+Cell[34023, 901, 465, 11, 27, "Print"],
+Cell[34491, 914, 481, 11, 27, "Print"],
+Cell[34975, 927, 445, 11, 27, "Print"],
+Cell[35423, 940, 453, 11, 27, "Print"],
+Cell[35879, 953, 457, 11, 27, "Print"],
+Cell[36339, 966, 505, 12, 27, "Print"],
+Cell[36847, 980, 523, 12, 27, "Print"],
+Cell[37373, 994, 474, 11, 27, "Print"],
+Cell[37850, 1007, 449, 11, 27, "Print"]
+}, Open  ]]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[38348, 1024, 159, 2, 98, "Section"],
+Cell[CellGroupData[{
+Cell[38532, 1030, 475, 11, 27, "Print"],
+Cell[39010, 1043, 475, 11, 27, "Print"],
+Cell[39488, 1056, 477, 11, 27, "Print"],
+Cell[39968, 1069, 461, 11, 27, "Print"],
+Cell[40432, 1082, 481, 11, 27, "Print"],
+Cell[40916, 1095, 481, 11, 27, "Print"],
+Cell[41400, 1108, 483, 11, 27, "Print"],
+Cell[41886, 1121, 507, 12, 27, "Print"],
+Cell[42396, 1135, 507, 12, 27, "Print"],
+Cell[42906, 1149, 505, 12, 27, "Print"],
+Cell[43414, 1163, 499, 12, 27, "Print"],
+Cell[43916, 1177, 520, 12, 27, "Print"],
+Cell[44439, 1191, 477, 11, 27, "Print"],
+Cell[44919, 1204, 469, 11, 27, "Print"],
+Cell[45391, 1217, 491, 11, 27, "Print"],
+Cell[45885, 1230, 489, 11, 27, "Print"],
+Cell[46377, 1243, 499, 12, 27, "Print"],
+Cell[46879, 1257, 477, 11, 27, "Print"],
+Cell[47359, 1270, 483, 11, 27, "Print"],
+Cell[47845, 1283, 493, 11, 20, "Print"],
+Cell[48341, 1296, 493, 11, 20, "Print"],
+Cell[48837, 1309, 465, 11, 20, "Print"],
+Cell[49305, 1322, 487, 11, 20, "Print"],
+Cell[49795, 1335, 487, 11, 20, "Print"],
+Cell[50285, 1348, 489, 11, 20, "Print"],
+Cell[50777, 1361, 513, 12, 20, "Print"],
+Cell[51293, 1375, 511, 12, 20, "Print"],
+Cell[51807, 1389, 505, 12, 20, "Print"],
+Cell[52315, 1403, 529, 12, 20, "Print"],
+Cell[52847, 1417, 499, 12, 20, "Print"],
+Cell[53349, 1431, 507, 12, 20, "Print"],
+Cell[53859, 1445, 483, 11, 20, "Print"],
+Cell[54345, 1458, 501, 12, 20, "Print"],
+Cell[54849, 1472, 499, 12, 20, "Print"],
+Cell[55351, 1486, 463, 11, 20, "Print"],
+Cell[55817, 1499, 485, 11, 20, "Print"],
+Cell[56305, 1512, 483, 11, 20, "Print"],
+Cell[56791, 1525, 485, 11, 20, "Print"],
+Cell[57279, 1538, 487, 11, 20, "Print"],
+Cell[57769, 1551, 511, 12, 20, "Print"],
+Cell[58283, 1565, 507, 12, 20, "Print"],
+Cell[58793, 1579, 503, 12, 20, "Print"],
+Cell[59299, 1593, 521, 12, 20, "Print"],
+Cell[59823, 1607, 495, 12, 20, "Print"],
+Cell[60321, 1621, 505, 12, 20, "Print"],
+Cell[60829, 1635, 483, 11, 20, "Print"],
+Cell[61315, 1648, 497, 12, 20, "Print"],
+Cell[61815, 1662, 501, 12, 20, "Print"],
+Cell[62319, 1676, 507, 12, 20, "Print"],
+Cell[62829, 1690, 507, 12, 20, "Print"],
+Cell[63339, 1704, 495, 12, 20, "Print"],
+Cell[63837, 1718, 491, 11, 20, "Print"],
+Cell[64331, 1731, 529, 12, 20, "Print"],
+Cell[64863, 1745, 507, 12, 20, "Print"],
+Cell[65373, 1759, 503, 12, 20, "Print"],
+Cell[65879, 1773, 497, 12, 20, "Print"]
+}, Open  ]]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[66425, 1791, 217, 3, 71, "Section"],
+Cell[CellGroupData[{
+Cell[66667, 1798, 507, 12, 20, "Print"],
+Cell[67177, 1812, 521, 12, 20, "Print"],
+Cell[67701, 1826, 529, 12, 20, "Print"],
+Cell[68233, 1840, 547, 12, 20, "Print"],
+Cell[68783, 1854, 511, 12, 20, "Print"],
+Cell[69297, 1868, 521, 12, 20, "Print"],
+Cell[69821, 1882, 517, 12, 20, "Print"],
+Cell[70341, 1896, 531, 12, 20, "Print"],
+Cell[70875, 1910, 535, 12, 20, "Print"],
+Cell[71413, 1924, 517, 12, 20, "Print"],
+Cell[71933, 1938, 519, 12, 20, "Print"],
+Cell[72455, 1952, 537, 12, 20, "Print"],
+Cell[72995, 1966, 531, 12, 20, "Print"],
+Cell[73529, 1980, 513, 12, 20, "Print"],
+Cell[74045, 1994, 527, 12, 20, "Print"]
+}, Open  ]]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[74621, 2012, 218, 3, 71, "Section"],
+Cell[CellGroupData[{
+Cell[74864, 2019, 517, 12, 20, "Print"],
+Cell[75384, 2033, 521, 12, 20, "Print"],
+Cell[75908, 2047, 531, 12, 20, "Print"],
+Cell[76442, 2061, 529, 12, 20, "Print"],
+Cell[76974, 2075, 521, 12, 20, "Print"],
+Cell[77498, 2089, 537, 12, 20, "Print"],
+Cell[78038, 2103, 535, 12, 20, "Print"],
+Cell[78576, 2117, 519, 12, 20, "Print"],
+Cell[79098, 2131, 533, 12, 20, "Print"],
+Cell[79634, 2145, 545, 12, 20, "Print"],
+Cell[80182, 2159, 521, 12, 20, "Print"],
+Cell[80706, 2173, 515, 12, 20, "Print"],
+Cell[81224, 2187, 519, 12, 20, "Print"]
+}, Open  ]]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[81792, 2205, 232, 5, 71, "Section"],
+Cell[CellGroupData[{
+Cell[82049, 2214, 540, 12, 20, "Print"],
+Cell[82592, 2228, 557, 12, 20, "Print"],
+Cell[83152, 2242, 566, 13, 20, "Print"],
+Cell[83721, 2257, 583, 13, 20, "Print"],
+Cell[84307, 2272, 547, 12, 20, "Print"],
+Cell[84857, 2286, 577, 13, 20, "Print"],
+Cell[85437, 2301, 545, 12, 20, "Print"],
+Cell[85985, 2315, 563, 12, 20, "Print"],
+Cell[86551, 2329, 573, 13, 20, "Print"],
+Cell[87127, 2344, 589, 13, 20, "Print"],
+Cell[87719, 2359, 549, 12, 20, "Print"],
+Cell[88271, 2373, 587, 13, 20, "Print"],
+Cell[88861, 2388, 551, 12, 20, "Print"],
+Cell[89415, 2402, 571, 13, 20, "Print"],
+Cell[89989, 2417, 575, 13, 20, "Print"],
+Cell[90567, 2432, 549, 12, 20, "Print"],
+Cell[91119, 2446, 557, 12, 20, "Print"],
+Cell[91679, 2460, 595, 13, 20, "Print"],
+Cell[92277, 2475, 589, 13, 20, "Print"],
+Cell[92869, 2490, 551, 12, 20, "Print"],
+Cell[93423, 2504, 585, 13, 20, "Print"]
+}, Open  ]]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[94057, 2523, 212, 3, 71, "Section"],
+Cell[CellGroupData[{
+Cell[94294, 2530, 443, 11, 20, "Print"],
+Cell[94740, 2543, 467, 11, 20, "Print"],
+Cell[95210, 2556, 473, 11, 20, "Print"],
+Cell[95686, 2569, 461, 11, 20, "Print"],
+Cell[96150, 2582, 470, 11, 20, "Print"],
+Cell[96623, 2595, 445, 11, 20, "Print"],
+Cell[97071, 2608, 439, 11, 20, "Print"],
+Cell[97513, 2621, 459, 11, 20, "Print"],
+Cell[97975, 2634, 467, 11, 20, "Print"]
+}, Open  ]]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[98491, 2651, 208, 3, 71, "Section"],
+Cell[CellGroupData[{
+Cell[98724, 2658, 463, 11, 20, "Print"],
+Cell[99190, 2671, 467, 11, 20, "Print"]
+}, Open  ]]
+}, Open  ]]
+}, Open  ]]
+}
+]
+*)
+
+(* End of internal cache information *)
