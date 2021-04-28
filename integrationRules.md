@@ -2,7 +2,7 @@
 
 Rubi systematically applies precisely defined rules to efficiently integrate large classes of mathematical expressions. The integration rules, expressed in both human and machine-readable form, are available for viewing as PDF files and for downloading as Mathematica notebook files. The file links below are organized into categories based on the form of the integrand.
 
-Zip files of hierarchically organized directory structures containing all the rule files are also available for downloading by clicking on <a href="PdfRuleFiles/Rubi-4.16.1.0.zip">PDF rule files</a> or <a href="NotebookRuleFiles/Rubi-4.16.1.0.zip">Notebook rule files</a>.
+A zip file containing all the rule files organized in a hierarchical directory structure is also available for downloading by clicking on <a href="PdfRuleFiles/Rubi-4.16.1.0.zip">PDF rule files</a> or <a href="NotebookRuleFiles/Rubi-4.16.1.0.zip">Notebook rule files</a>.
 
 When displaying integration steps, the rule number of each rule applied can be shown as described in the "Displaying integration steps" section of [Using Rubi](https://rulebasedintegration.org/usingRubi.html). To see the numbers of the rules defined in each of the rule files, click on <a href="PdfRuleFiles/Rubi 4.16.1 Integration Rule Index.pdf">Integration Rule Index</a>. To download the rule index as a notebook file, click on <a href="NotebookRuleFiles/Rubi 4.16.1 Integration Rule Index.nb">Integration Rule Index File</a>.
 
