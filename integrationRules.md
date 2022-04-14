@@ -1,12 +1,12 @@
 # Symbolic Integration Rules
 
-Rubi systematically applies precisely defined rules to efficiently integrate large classes of mathematical expressions. The integration rules, expressed in both human and machine-readable form, are available for viewing as PDF files and for downloading as Mathematica notebook files. The file links below are organized into categories based on the form of the integrand.
+Rubi systematically applies precisely defined rules to efficiently integrate large classes of mathematical expressions. The integration rules, expressed in both human and machine-readable form, are available for viewing as PDF files and for downloading as Mathematica notebook files. The links below to these source files are organized into categories based on the form of the integrands handled by each file.
 
-A zip file containing all the rule files organized in a hierarchical directory structure is also available for downloading by clicking on <a href="PdfRuleFiles/Rubi-4.16.1.0.zip">PDF rule files</a> or <a href="NotebookRuleFiles/Rubi-4.16.1.0.zip">Notebook rule files</a>.
+The integration rules are sequentially assigned a rule number as they are loaded into Rubi. Shown below is the range of numbers of the rules defined in each source file. The <a href="PdfRuleFiles/Rubi 4.16.1 Integration Rule Index.pdf">Integration Rule Index</a> also lists the range of rule numbers in each file, but arranged in numerical order. To download the rule index as a Mathematica notebook file, click on <a href="NotebookRuleFiles/Rubi 4.16.1 Integration Rule Index.nb">Integration Rule Index File</a>.  
 
-When displaying integration steps, the rule number of each rule applied can be shown as described in the "Displaying integration steps" section of [Using Rubi](https://rulebasedintegration.org/usingRubi.html). To see the numbers of the rules defined in each of the rule files, click on <a href="PdfRuleFiles/Rubi 4.16.1 Integration Rule Index.pdf">Integration Rule Index</a>. To download the rule index as a notebook file, click on <a href="NotebookRuleFiles/Rubi 4.16.1 Integration Rule Index.nb">Integration Rule Index File</a>.  Once you know the file a rule is in, its definition, application conditions and derivation can be found in the file by a quick text search.
+When displaying integration steps, the rule number of each rule applied can be shown as described in the "Displaying integration steps" section of [Using Rubi](https://rulebasedintegration.org/usingRubi.html). Using the Integration Rule Index you can determine the source file a rule is defined in.  Then you can find the rule's definition in the file by a simple text search.
 
-The rules in the files are displayed in standard, 2-dimensional mathematical notation, and followed by the equivalent Mathematica program code. Comments preceding many of the rules document them as follows:
+The rules defined in the source files are displayed in standard, 2-dimensional mathematical notation, and followed by the equivalent Mathematica program code. Comments preceding many of the rules document them as follows:
 
 * **<font face="courier">Derivation</font>** gives the integration technique used to derive a rule.
 - **<font face="courier">Basis</font>** gives the mathematical identity used to transform the integrand into a form easier to integrate.
@@ -17,6 +17,8 @@ The rules in the files are displayed in standard, 2-dimensional mathematical not
    29th edition, William H. Beyer, editor.
   - **<font face="courier">A&S</font>** is the ["Handbook of Mathematical Functions"](https://isbnsearch.org/isbn/9780486612720),
    Milton Abramowitz and Irene A. Stegun, editors.
+
+A zip file containing all the rule files organized in a hierarchical directory structure is also available for downloading by clicking on <a href="PdfRuleFiles/Rubi-4.16.1.0.zip">PDF rule files</a> or <a href="NotebookRuleFiles/Rubi-4.16.1.0.zip">Notebook rule files</a>.
 
 ## 1 Algebraic Function Rules
 
