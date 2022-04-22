@@ -1,6 +1,6 @@
 # Symbolic Integration Rules
 
-Rubi systematically applies precisely defined rules to efficiently integrate large classes of mathematical expressions. The integration rules, expressed in both human and machine-readable form, are available for viewing as PDF files and for downloading as Mathematica notebook files. The links below to these source files are organized into categories based on the form of the integrands handled by each file.
+Rubi systematically applies precisely defined rules to efficiently integrate large classes of mathematical expressions. The integration rules in the Rubi source files are expressed in both human and machine-readable form. These files are available for viewing as PDF files and for downloading as Mathematica notebook files. The [Rubi Software License](https://github.com/RuleBasedIntegration/RuleBasedIntegration.github.io/blob/master/Rubi%20License.md) grants permission to use the mathematical knowledge in these copyrighted files free of charge. 
 
 The integration rules are sequentially assigned a rule number as they are loaded into Rubi. Shown below is the range of numbers of the rules defined in each source file. The <a href="PdfRuleFiles/Rubi 4.16.1 Integration Rule Index.pdf">Integration Rule Index</a> also lists the range of rule numbers in each file, but arranged in numerical order. To download the rule index as a Mathematica notebook file, click on <a href="NotebookRuleFiles/Rubi 4.16.1 Integration Rule Index.nb">Integration Rule Index File</a>.  
 
@@ -18,7 +18,8 @@ The rules defined in the source files are displayed in standard, 2-dimensional m
   - **<font face="courier">A&S</font>** is the ["Handbook of Mathematical Functions"](https://isbnsearch.org/isbn/9780486612720),
    Milton Abramowitz and Irene A. Stegun, editors.
 
-A zip file containing all the rule files organized in a hierarchical directory structure is also available for downloading by clicking on <a href="PdfRuleFiles/Rubi-4.16.1.0.zip">PDF rule files</a> or <a href="NotebookRuleFiles/Rubi-4.16.1.0.zip">Notebook rule files</a>.
+The links below to the Rubi source files are organized into categories based on the form of the integrands handled by each file. A zip file containing all the rule files organized in a hierarchical directory structure is also available for downloading by clicking on <a href="PdfRuleFiles/Rubi-4.16.1.0.zip">PDF rule files</a> or <a href="NotebookRuleFiles/Rubi-4.16.1.0.zip">Notebook rule files</a>.
+
 
 ## 1 Algebraic Function Rules
 
