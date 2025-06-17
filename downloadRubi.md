@@ -31,7 +31,7 @@ Click on [Using Rubi](https://rulebasedintegration.org/usingRubi.html) for instr
 
 Use the command
 
-```mma
+```mathematica
 First[PacletFind["Rubi"]]["Location"]
 ```
 to see the full path name of the package.
@@ -43,7 +43,7 @@ Click on [https://rulebasedintegration.org/Rubi-4.17.3.0.paclet](https://rulebas
 to download the Rubi paclet file to the Downloads directory on your computer.
 Then start Mathematica and issue the **<font face="courier">PacletInstall</font>** command
 
-```mma
+```mathematica
 PacletInstall[FileNameJoin[{path, "Rubi-4.17.3.0.paclet"}]
 ```
 
@@ -53,7 +53,7 @@ Click on [Using Rubi](https://rulebasedintegration.org/usingRubi.html) for instr
 
 Use the command
 
-```mma
+```mathematica
 First[PacletFind["Rubi"]]["Location"]
 ```
 
@@ -66,7 +66,7 @@ Click on [https://rulebasedintegration.org/Rubi-4.17.3.0.zip](https://rulebasedi
 file to the Downloads directory on your computer.
 Then extract from the zip file the **<font face="courier">Rubi</font>** folder with all its contents into the directory returned by the Mathematica commmand
 
-```mma
+```mathematica
 FileNameJoin[{$UserBaseDirectory, "Applications"}]
 ```
 
@@ -78,12 +78,12 @@ Click on [Using Rubi](https://rulebasedintegration.org/usingRubi.html) for instr
 
 To remove a paclet-based installation of Rubi for Mathematica version 9 or later, issue the Mathematica command
 
-```
+```mathematica
 PacletUninstall["Rubi"]
 ```
 
 To remove the Rubi package for Mathematica 7 or later, delete the **<font face="courier">Rubi</font>** folder from the directory returned by the Mathematica commmand
 
-```mma
+```mathematica
 FileNameJoin[{$UserBaseDirectory, "Applications"}]
 ```
