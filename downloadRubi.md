@@ -23,8 +23,9 @@ So the following provides installation instructions for the various versions of 
 Start Mathematica and issue the **<font face="courier">PacletInstall</font>** command
 
 ```mathematica
-PacletInstall["https://rulebasedintegration.org/Rubi-4.16.1.0.paclet"]
+PacletInstall["https://rulebasedintegration.org/Rubi-4.17.3.0.paclet"]
 ```
+
 This downloads the latest version of Rubi and installs it on your computer as a package in Mathematica's Paclets repository for packages.
 Click on [Using Rubi](https://rulebasedintegration.org/usingRubi.html) for instructions how to load and use Rubi to integrate expressions.
 
@@ -38,27 +39,37 @@ to see the full path name of the package.
 
 ## Instructions for Mathematica 9 or later 
 
-Click on [https://rulebasedintegration.org/Rubi-4.16.1.0.paclet](https://rulebasedintegration.org/Rubi-4.16.1.0.paclet) to download the Rubi paclet file to the Downloads directory on your computer.  Then start Mathematica and issue the **<font face="courier">PacletInstall</font>** command
+Click on [https://rulebasedintegration.org/Rubi-4.17.3.0.paclet](https://rulebasedintegration.org/Rubi-4.17.3.0.paclet)
+to download the Rubi paclet file to the Downloads directory on your computer.
+Then start Mathematica and issue the **<font face="courier">PacletInstall</font>** command
+
 ```mma
-PacletInstall[FileNameJoin[{path, "Rubi-4.16.1.0.paclet"}]
+PacletInstall[FileNameJoin[{path, "Rubi-4.17.3.0.paclet"}]
 ```
+
 where **<font face="courier">path</font>** is the full path name of the Downloads directory on your computer.
 This installs the latest version of Rubi on your computer as a package in Mathematica's Paclets repository for packages.
 Click on [Using Rubi](https://rulebasedintegration.org/usingRubi.html) for instructions how to load and use Rubi to integrate expressions.
 
 Use the command
+
 ```mma
 First[PacletFind["Rubi"]]["Location"]
 ```
+
 to see the full path name of the package.
 
 
 ## Instructions for Mathematica 7 or later
 
-Click on [https://rulebasedintegration.org/Rubi-4.16.1.0.zip](https://rulebasedintegration.org/Rubi-4.16.1.0.zip) to download the Rubi zip file to the Downloads directory on your computer.  Then extract from the zip file the **<font face="courier">Rubi</font>** folder with all its contents into the directory returned by the Mathematica commmand
+Click on [https://rulebasedintegration.org/Rubi-4.17.3.0.zip](https://rulebasedintegration.org/Rubi-4.17.3.0.zip) to download the Rubi zip
+file to the Downloads directory on your computer.
+Then extract from the zip file the **<font face="courier">Rubi</font>** folder with all its contents into the directory returned by the Mathematica commmand
+
 ```mma
 FileNameJoin[{$UserBaseDirectory, "Applications"}]
 ```
+
 This installs the latest version of Rubi on your computer in Mathematica's Applications repository for packages.
 Click on [Using Rubi](https://rulebasedintegration.org/usingRubi.html) for instructions how to load and use Rubi to integrate expressions.
 
